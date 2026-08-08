@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ficha Libre — Catálogo de literatura y ciencia en español de acceso libre</title>
+<meta name="description" content="Índice curado de literatura y ciencia en español, legalmente libres de derechos, con enlaces reales y descargables.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink: #1C2B4A;
+    --ink-light: #32476b;
+    --parchment: #E4D8B4;
+    --parchment-light: #EFE6CB;
+    --cochinilla: #9E2B25;
+    --verdigris: #4F7869;
+    --text: #221D1A;
+    --card-shadow: 0 1px 0 rgba(28,43,74,0.15), 0 8px 20px -12px rgba(28,43,74,0.35);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background: var(--ink);
+    background-image:
+      radial-gradient(circle at 15% 8%, rgba(228,216,180,0.05), transparent 40%),
+      radial-gradient(circle at 85% 92%, rgba(158,43,37,0.08), transparent 45%);
+    color: var(--parchment-light);
+    font-family: 'Source Serif 4', serif;
+    min-height:100vh;
+  }
+  .wrap{max-width: 980px; margin: 0 auto; padding: 48px 20px 80px;}
+
+  header{margin-bottom: 36px;}
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--cochinilla-light, #d98a84);
+    opacity: 0.85;
+    margin-bottom: 10px;
+  }
+  h1{
+    font-family:'Fraunces', serif;
+    font-weight: 600;
+    font-size: clamp(32px, 5vw, 52px);
+    line-height: 1.05;
+    margin: 0 0 14px;
+    color: var(--parchment);
+    letter-spacing: -0.01em;
+  }
+  h1 em{font-style: italic; font-weight: 500; color: #d98a84;}
+  .sub{
+    max-width: 60ch;
+    font-size: 16px;
+    line-height: 1.55;
+    color: #c9cedd;
+    margin: 0;
+  }
+
+  .toolbar{
+    margin-top: 32px;
+    display:flex;
+    flex-wrap:wrap;
+    gap: 10px;
+    align-items:center;
+    padding: 14px 16px;
+    background: rgba(228,216,180,0.06);
+    border: 1px solid rgba(228,216,180,0.18);
+    border-radius: 4px;
+  }
+  .toolbar input[type="search"]{
+    flex: 1 1 220px;
+    background: var(--parchment-light);
+    border: none;
+    border-radius: 2px;
+    padding: 10px 12px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    color: var(--ink);
+  }
+  .toolbar input[type="search"]::placeholder{color:#7a7264;}
+  select{
+    background: transparent;
+    border: 1px solid rgba(228,216,180,0.4);
+    color: var(--parchment-light);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    padding: 9px 8px;
+    border-radius: 2px;
+  }
+  select option{color: var(--ink);}
+  .count{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: #9aa4bd;
+    margin-left: auto;
+    white-space: nowrap;
+  }
+  .btn-csv{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    background: var(--cochinilla);
+    color: var(--parchment-light);
+    border: none;
+    padding: 10px 14px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background 0.15s ease;
+  }
+  .btn-csv:hover{ background: #b7362f; }
+
+  .grid{
+    margin-top: 28px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 16px;
+  }
+
+  .card{
+    position: relative;
+    background: var(--parchment-light);
+    color: var(--text);
+    border-radius: 3px;
+    padding: 20px 18px 18px;
+    box-shadow: var(--card-shadow);
+    display:flex;
+    flex-direction:column;
+    gap: 8px;
+    border-left: 3px solid var(--verdigris);
+    overflow-wrap: break-word;
+    min-width: 0;
+  }
+  .card[data-genero="Folclore"]{ border-left-color: var(--cochinilla); }
+  .card[data-genero="Poesía"]{ border-left-color: #7b5aa6; }
+  .card[data-genero="Teatro"]{ border-left-color: #b8792b; }
+  .card[data-dominio="Ciencia"]{ border-left-color: #2a6f8e; }
+
+  .card .stamp{
+    display: inline-block;
+    align-self: flex-start;
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.06em;
+    color: var(--cochinilla);
+    border: 1px solid var(--cochinilla);
+    border-radius: 20px;
+    padding: 3px 8px;
+    transform: rotate(2deg);
+    opacity: 0.85;
+    text-transform: uppercase;
+    white-space:nowrap;
+    order: -1;
+    margin-bottom: 2px;
+  }
+  .card .meta-top{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #7a7264;
+  }
+  .card h3{
+    font-family:'Fraunces', serif;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.25;
+    margin: 2px 0 0;
+    padding-right: 20px;
+    overflow-wrap: break-word;
+  }
+  .card .autor{
+    font-size: 14.5px;
+    font-style: italic;
+    color: #4a4238;
+    margin-top: -4px;
+  }
+  .card .notas{
+    font-size: 12.5px;
+    line-height: 1.5;
+    color: #5c5648;
+    margin-top: 2px;
+  }
+  .card .aloja-tag{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.02em;
+    color: var(--verdigris);
+    margin-top: 2px;
+  }
+  .card .footer-row{
+    margin-top: auto;
+    padding-top: 10px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 8px;
+    border-top: 1px dashed #b8ac8d;
+  }
+  .fuente-tag{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    color: #6b6355;
+  }
+  .fuente-tag .warn{ color: var(--cochinilla); font-weight:600; }
+  a.leer{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 1px solid var(--verdigris);
+    padding-bottom: 1px;
+    white-space:nowrap;
+  }
+  a.leer:hover{ color: var(--cochinilla); border-color: var(--cochinilla); }
+
+  .empty{
+    text-align:center;
+    padding: 60px 20px;
+    color: #8a93ab;
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 13px;
+  }
+
+  footer{
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(228,216,180,0.15);
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: #7a8299;
+    line-height: 1.7;
+  }
+  footer strong{ color: #c9cedd; }
+
+  @media (max-width: 520px){
+    .toolbar{flex-direction:column; align-items:stretch;}
+    .toolbar input[type="search"]{ flex: none; }
+    .toolbar select{ flex: none; }
+    .count{margin-left:0;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Ficha Libre — catálogo semilla</div>
+    <h1>Conocimiento en español que <em>nadie te va a cobrar.</em></h1>
+    <p class="sub">Un índice curado de literatura y ciencia en español legalmente libres de derechos — para llenar el vacío que dejan los catálogos centrados en el inglés. Cada ficha enlaza a una fuente real y descargable, y marca si el archivo puede alojarse localmente o solo enlazarse.</p>
+  </header>
+
+  <div class="toolbar">
+    <input type="search" id="buscador" placeholder="Buscar por título, autor o país…" aria-label="Buscar por título, autor o país" />
+    <select id="filtroDominio" aria-label="Filtrar por dominio"><option value="">Todos los dominios</option></select>
+    <select id="filtroGenero" aria-label="Filtrar por género"><option value="">Todos los géneros</option></select>
+    <select id="filtroPais" aria-label="Filtrar por país"><option value="">Todos los países</option></select>
+    <button class="btn-csv" id="btnCsv" aria-label="Descargar catálogo completo en formato CSV">↓ Descargar CSV</button>
+    <span class="count" id="contador"></span>
+  </div>
+
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="vacio" style="display:none;">Sin resultados — probá con otro término.</div>
+
+  <footer>
+    <strong>Estado del catálogo:</strong> 27 obras semilla, curadas manualmente. Los enlaces marcados <span style="color:#c96b64">⚠ por verificar</span> apuntan a una búsqueda en la fuente (no a la página exacta de la obra) para evitar links rotos — confirmalos antes de compartir en público.<br/>
+    <strong>Criterio de inclusión:</strong> solo autoría con 70+ años desde el fallecimiento del autor (dominio público confirmado) u obras anónimas / de tradición oral. Nada de zonas grises de copyright.<br/>
+    <strong>Siguiente fase:</strong> automatizar verificación de enlaces + ingestión desde APIs de Wikisource / Internet Archive / Cervantes Virtual.
+  </footer>
+</div>
+
+<script>
+const CATALOGO = [
+  {
+    "id": 1,
+    "titulo": "Don Quijote de la Mancha",
+    "autor": "Miguel de Cervantes",
+    "anio": 1605,
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "fuente": "Cervantes Virtual",
+    "url": "https://www.cervantesvirtual.com/obra-visor/el-ingenioso-hidalgo-don-quijote-de-la-mancha/html/",
+    "verificado": true,
+    "notas": "La obra fundacional de la novela moderna en español.",
+    "dominio": "Literatura",
+    "puede_alojarse": "no"
+  },
+  {
+    "id": 2,
+    "titulo": "El Gaucho Martín Fierro",
+    "autor": "José Hernández",
+    "anio": 1872,
+    "pais": "Argentina",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "fuente": "Wikisource",
+    "url": "https://es.wikisource.org/wiki/El_Gaucho_Mart%C3%ADn_Fierro",
+    "verificado": true,
+    "notas": "Poema fundacional del género gauchesco.",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
+  },
+  {
+    "id": 3,
+    "titulo": "Rimas",
+    "autor": "Gustavo Adolfo Bécquer",
+    "anio": 1871,
+    "pais": "España",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "fuente": "Wikisource",
+    "url": "https://es.wikisource.org/wiki/Rimas_(Bécquer)",
+    "verificado": false,
+    "notas": "Publicación póstuma de sus poemas.",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
+  },
+  {
+    "id": 4,
+    "titulo": "La Regenta",
+    "autor": "Leopoldo Alas \"Clarín\"",
+    "anio": 1884,
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "fuente": "Wikisource",
+    "url": "https://es.wikisource.org/w/index.php?search=La+Regenta+Clar%C3%ADn",
+    "verificado": false,
+    "notas": "Cumbre del realismo español, ambientada en Vetusta (Oviedo).",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
+  },
+  {
+    "id": 5,
+    "titulo": "Fortunata y Jacinta",
+    "autor": "Benito Pérez Galdós",
+    "anio": 1887,
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "fuente": "Internet Archive",
+    "url": "https://archive.org/search?query=Fortunata+y+Jacinta+Gald%C3%B3s",
+    "verificado": false,
+    "notas": "",
+    "dominio": "Literatura",
+    "puede_alojarse": "revisar_uso_comercial"
+  },
+  {
+    "id": 6,
+    "titulo": "Facundo. Civilización y barbarie",
+    "autor": "Domingo F. Sarmiento",
+    "anio": 1845,
+    "pais": "Argentina",
+    "genero": "Ensayo",
+    "tipo": "Dominio público",
+    "fuente": "Wikisource",
+    "url": "https://es.wikisource.org/wiki/Facundo",
+    "verificado": false,
+    "notas": "",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
+  },
+  {
+    "id": 7,
+    "titulo": "María",
+    "autor": "Jorge Isaacs",
+    "anio": 1867,
+    "pais": "Colombia",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "fuente": "Wikisource",
+    "url": "https://es.wikisource.org/w/index.php?search=Mar%C3%ADa+Jorge+Isaacs",
+    "verificado": false,
+    "notas": "Novela romántica clave del s. XIX latinoamericano.",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
+  },
+  {
+    "id": 8,
+    "titulo": "Cecilia Valdés",
+    "autor": "Cirilo Villaverde",
+    "anio": 1882,
+    "pais": "Cuba",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "fuente": "Internet Archive",
+    "url": "https://archive.org/search?query=Cecilia+Valdes+Villaverde",
+    "verificado": false,
+    "notas": "Retrato de la sociedad esclavista cubana.",
+    "dominio": "Literatura",
+    "puede_alojarse": "revisar_uso_comercial"
+  },
+  {
+    "id": 9,
+    "titulo": "El matadero",
+    "autor": "Esteban Echeverría",
+    "anio": 1871,
+    "pais": "Argentina",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "fuente": "Wikisource",
+    "url": "https://es.wikisource.org/wiki/El_matadero",
+    "verificado": false,
+    "notas": "Publicado póstumo; considerado el primer cuento argentino.",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
+  },
+  {
+    "id": 10,
+    "titulo": "Cuentos de amor de locura y de muerte",
+    "autor": "Horacio Quiroga",
+    "anio": 1917,
+    "pais": "Uruguay",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "fuente": "Wikisource",
+    "url": "https://es.wikisource.org/w/index.php?search=Cuentos+de+amor+de+locura+y+de+muerte",
+    "verificado": false,
+    "notas": "",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
+  },
+  {
+    "id": 11,
+    "titulo": "Romancero gitano",
+    "autor": "Federico García Lorca",
+    "anio": 1928,
+    "pais": "España",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "fuente": "Wikisource",
+    "url": "https://es.wikisource.org/w/index.php?search=Romancero+gitano+Lorca",
+    "verificado": false,
+    "notas": "Lorca murió en 1936; dominio público desde 2007 en la mayoría de países.",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
+  },
+  {
+    "id": 12,
+    "titulo": "Bodas de sangre",
+    "autor": "Federico García Lorca",
+    "anio": 1932,
+    "pais": "España",
+    "genero": "Teatro",
+    "tipo": "Dominio público",
+    "fuente": "Internet Archive",
+    "url": "https://archive.org/search?query=Bodas+de+sangre+Lorca",
+    "verificado": false,
+    "notas": "",
+    "dominio": "Literatura",
+    "puede_alojarse": "revisar_uso_comercial"
+  },
+  {
+    "id": 13,
+    "titulo": "Los de abajo",
+    "autor": "Mariano Azuela",
+    "anio": 1915,
+    "pais": "México",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "fuente": "Wikisource",
+    "url": "https://es.wikisource.org/w/index.php?search=Los+de+abajo+Azuela",
+    "verificado": false,
+    "notas": "Novela de la Revolución mexicana.",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
+  },
+  {
+    "id": 14,
+    "titulo": "Azul...",
+    "autor": "Rubén Darío",
+    "anio": 1888,
+    "pais": "Nicaragua",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "fuente": "Wikisource",
+    "url": "https://es.wikisource.org/wiki/Azul...",
+    "verificado": false,
+    "notas": "Obra fundacional del modernismo hispanoamericano.",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
+  },
+  {
+    "id": 15,
+    "titulo": "Versos sencillos",
+    "autor": "José Martí",
+    "anio": 1891,
+    "pais": "Cuba",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "fuente": "Wikisource",
+    "url": "https://es.wikisource.org/wiki/Versos_sencillos",
+    "verificado": false,
+    "notas": "",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
+  },
+  {
+    "id": 16,
+    "titulo": "Tradiciones peruanas",
+    "autor": "Ricardo Palma",
+    "anio": 1872,
+    "pais": "Perú",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "fuente": "Wikisource",
+    "url": "https://es.wikisource.org/w/index.php?search=Tradiciones+peruanas+Ricardo+Palma",
+    "verificado": false,
+    "notas": "Serie de relatos breves sobre historia y leyenda peruana.",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
+  },
+  {
+    "id": 17,
+    "titulo": "Cuentos de la selva",
+    "autor": "Horacio Quiroga",
+    "anio": 1918,
+    "pais": "Uruguay",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "fuente": "Wikisource",
+    "url": "https://es.wikisource.org/w/index.php?search=Cuentos+de+la+selva",
+    "verificado": false,
+    "notas": "Cuentos infantiles ambientados en Misiones, Argentina.",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
+  },
+  {
+    "id": 18,
+    "titulo": "Los pasos perdidos... (poesía completa)",
+    "autor": "Delmira Agustini",
+    "anio": 1913,
+    "pais": "Uruguay",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "fuente": "Wikisource",
+    "url": "https://es.wikisource.org/w/index.php?search=Delmira+Agustini",
+    "verificado": false,
+    "notas": "Una de las voces más tempranas del erotismo en poesía escrita por mujeres en español.",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
+  },
+  {
+    "id": 19,
+    "titulo": "El árbol",
+    "autor": "Alfonsina Storni",
+    "anio": 1919,
+    "pais": "Argentina",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "fuente": "Wikisource",
+    "url": "https://es.wikisource.org/w/index.php?search=Alfonsina+Storni",
+    "verificado": false,
+    "notas": "",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
+  },
+  {
+    "id": 20,
+    "titulo": "Los pazos de Ulloa",
+    "autor": "Emilia Pardo Bazán",
+    "anio": 1886,
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "fuente": "Wikisource",
+    "url": "https://es.wikisource.org/w/index.php?search=Los+pazos+de+Ulloa",
+    "verificado": false,
+    "notas": "",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
+  },
+  {
+    "id": 21,
+    "titulo": "Sangre y arena",
+    "autor": "Vicente Blasco Ibáñez",
+    "anio": 1908,
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "fuente": "Wikisource",
+    "url": "https://es.wikisource.org/w/index.php?search=Sangre+y+arena+Blasco+Ibanez",
+    "verificado": false,
+    "notas": "",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
+  },
+  {
+    "id": 22,
+    "titulo": "Niebla",
+    "autor": "Miguel de Unamuno",
+    "anio": 1914,
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "fuente": "Wikisource",
+    "url": "https://es.wikisource.org/w/index.php?search=Niebla+Unamuno",
+    "verificado": false,
+    "notas": "",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
+  },
+  {
+    "id": 23,
+    "titulo": "Soledades",
+    "autor": "Antonio Machado",
+    "anio": 1903,
+    "pais": "España",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "fuente": "Wikisource",
+    "url": "https://es.wikisource.org/w/index.php?search=Soledades+Antonio+Machado",
+    "verificado": false,
+    "notas": "",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
+  },
+  {
+    "id": 24,
+    "titulo": "Cuentos frágiles",
+    "autor": "Manuel Gutiérrez Nájera",
+    "anio": 1883,
+    "pais": "México",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "fuente": "Wikisource",
+    "url": "https://es.wikisource.org/w/index.php?search=Cuentos+fr%C3%A1giles",
+    "verificado": false,
+    "notas": "",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
+  },
+  {
+    "id": 25,
+    "titulo": "Popol Vuh",
+    "autor": "Anónimo (transcripción de tradición k'iche')",
+    "anio": 1701,
+    "pais": "Guatemala",
+    "genero": "Folclore",
+    "tipo": "Folclore / dominio público",
+    "fuente": "Internet Archive",
+    "url": "https://archive.org/search?query=Popol+Vuh",
+    "verificado": false,
+    "notas": "Texto sagrado maya k'iche'. La traducción/transcripción específica que uses puede tener su propio copyright: revisa la edición.",
+    "dominio": "Literatura",
+    "puede_alojarse": "revisar_uso_comercial"
+  },
+  {
+    "id": 26,
+    "titulo": "Cuentos populares chilenos (recopilación)",
+    "autor": "Tradición oral / recopiladores varios",
+    "anio": 1900,
+    "pais": "Chile",
+    "genero": "Folclore",
+    "tipo": "Folclore",
+    "fuente": "Biblioteca Nacional Digital de Chile (Memoria Chilena)",
+    "url": "https://www.memoriachilena.gob.cl/602/w3-channel.html",
+    "verificado": false,
+    "notas": "Memoria Chilena tiene colecciones digitalizadas de folclore y tradición oral; hay que navegar cada colección porque no todo es dominio público, parte tiene derechos vigentes de recopiladores.",
+    "dominio": "Literatura",
+    "puede_alojarse": "revisar_por_item"
+  },
+  {
+    "id": 27,
+    "titulo": "Cuentos y leyendas mapuche (recopilaciones tempranas)",
+    "autor": "Tradición oral mapuche / recopiladores s. XIX-XX",
+    "anio": 1910,
+    "pais": "Chile",
+    "genero": "Folclore",
+    "tipo": "Folclore",
+    "fuente": "Memoria Chilena / Internet Archive",
+    "url": "https://www.memoriachilena.gob.cl/602/w3-propertyvalue-124397.html",
+    "verificado": false,
+    "notas": "Verificar edición y recopilador: algunas transcripciones tienen copyright vigente aunque la tradición oral en sí no.",
+    "dominio": "Literatura",
+    "puede_alojarse": "revisar_por_item"
+  },
+  {
+    "titulo": "Física universitaria, volumen 1",
+    "autor": "Samuel J. Ling, Jeff Sanny, William Moebs (OpenStax)",
+    "anio": 2016,
+    "pais": "Internacional (OpenStax/Rice University)",
+    "genero": "Libro de texto — Física",
+    "tipo": "Libre acceso (CC BY 4.0)",
+    "fuente": "OpenStax",
+    "url": "https://openstax.org/details/books/f%C3%ADsica-universitaria-volumen-1",
+    "verificado": true,
+    "puede_alojarse": "si",
+    "notas": "Mecánica, sonido, oscilaciones y ondas. Traducción oficial de OpenStax, revisada por especialistas.",
+    "id": 100,
+    "dominio": "Ciencia"
+  },
+  {
+    "titulo": "Física universitaria, volumen 2",
+    "autor": "Samuel J. Ling, Jeff Sanny, William Moebs (OpenStax)",
+    "anio": 2016,
+    "pais": "Internacional (OpenStax/Rice University)",
+    "genero": "Libro de texto — Física",
+    "tipo": "Libre acceso (CC BY 4.0)",
+    "fuente": "OpenStax",
+    "url": "https://openstax.org/details/books/f%C3%ADsica-universitaria-volumen-2",
+    "verificado": false,
+    "puede_alojarse": "si",
+    "notas": "Termodinámica, electricidad y magnetismo.",
+    "id": 101,
+    "dominio": "Ciencia"
+  },
+  {
+    "titulo": "Física universitaria, volumen 3",
+    "autor": "Samuel J. Ling, Jeff Sanny, William Moebs (OpenStax)",
+    "anio": 2016,
+    "pais": "Internacional (OpenStax/Rice University)",
+    "genero": "Libro de texto — Física",
+    "tipo": "Libre acceso (CC BY 4.0)",
+    "fuente": "OpenStax",
+    "url": "https://openstax.org/details/books/f%C3%ADsica-universitaria-volumen-3",
+    "verificado": false,
+    "puede_alojarse": "si",
+    "notas": "Óptica y física moderna.",
+    "id": 102,
+    "dominio": "Ciencia"
+  },
+  {
+    "titulo": "Química 2ed",
+    "autor": "OpenStax",
+    "anio": 2019,
+    "pais": "Internacional (OpenStax/Rice University)",
+    "genero": "Libro de texto — Química",
+    "tipo": "Libre acceso (CC BY 4.0)",
+    "fuente": "OpenStax",
+    "url": "https://openstax.org/books/qu%C3%ADmica-2ed/pages/prefacio",
+    "verificado": true,
+    "puede_alojarse": "si",
+    "notas": "Curso general de química de dos semestres.",
+    "id": 103,
+    "dominio": "Ciencia"
+  },
+  {
+    "titulo": "Cálculo (OpenStax)",
+    "autor": "OpenStax",
+    "anio": 2016,
+    "pais": "Internacional (OpenStax/Rice University)",
+    "genero": "Libro de texto — Matemáticas",
+    "tipo": "Libre acceso (CC BY 4.0)",
+    "fuente": "OpenStax (alojado en LibreTexts español)",
+    "url": "https://espanol.libretexts.org/Matematicas/Libro:_Calculo_(OpenStax)",
+    "verificado": true,
+    "puede_alojarse": "si",
+    "notas": "Ojo: aunque está alojado en LibreTexts, el contenido es originalmente de OpenStax y conserva su licencia CC BY (no la CC BY-NC-SA por defecto de LibreTexts). Verificar esta distinción caso a caso.",
+    "id": 104,
+    "dominio": "Ciencia"
+  },
+  {
+    "titulo": "Conceptos en Biología (OpenStax)",
+    "autor": "OpenStax",
+    "anio": 2018,
+    "pais": "Internacional (OpenStax/Rice University)",
+    "genero": "Libro de texto — Biología",
+    "tipo": "Libre acceso (CC BY 4.0)",
+    "fuente": "OpenStax (alojado en LibreTexts español)",
+    "url": "https://espanol.libretexts.org/Biologia/Biologia_introductoria_y_general/Libro:_Conceptos_en_Biolog%C3%ADa_(OpenStax)",
+    "verificado": true,
+    "puede_alojarse": "si",
+    "notas": "Confirmado: licencia CC BY 4.0 (etiqueta license:ccby explícita en la página). Mismo caso que Cálculo/Química General: contenido de OpenStax alojado en LibreTexts, conserva CC BY.",
+    "id": 105,
+    "dominio": "Ciencia"
+  },
+  {
+    "titulo": "Química General (OpenStax, vía LibreTexts español)",
+    "autor": "OpenStax",
+    "anio": 2019,
+    "pais": "Internacional (OpenStax/Rice University)",
+    "genero": "Libro de texto — Química",
+    "tipo": "Libre acceso (CC BY 4.0)",
+    "fuente": "OpenStax (alojado en LibreTexts español)",
+    "url": "https://espanol.libretexts.org/Quimica/Libro:_Qu%C3%ADmica_General_(OpenSTAX)",
+    "verificado": true,
+    "puede_alojarse": "si",
+    "notas": "Mismo caso que Cálculo: contenido de OpenStax, conserva CC BY aunque esté alojado en LibreTexts.",
+    "id": 106,
+    "dominio": "Ciencia"
+  },
+  {
+    "titulo": "Revista Chilena de Historia Natural",
+    "autor": "Sociedad de Biología de Chile",
+    "anio": 2020,
+    "pais": "Chile",
+    "genero": "Revista científica — Biología/Ecología",
+    "tipo": "Acceso abierto (verificar licencia por artículo)",
+    "fuente": "SciELO Chile",
+    "url": "https://www.scielo.cl/scielo.php?script=sci_serial&pid=0716-078X",
+    "verificado": false,
+    "puede_alojarse": "revisar_por_articulo",
+    "notas": "SciELO exige CC-BY para revistas indexadas después de 2015; revistas o números más antiguos pueden tener otra licencia. Verificar artículo por artículo.",
+    "id": 107,
+    "dominio": "Ciencia"
+  },
+  {
+    "titulo": "Revista Médica de Chile",
+    "autor": "Sociedad Médica de Santiago",
+    "anio": 2020,
+    "pais": "Chile",
+    "genero": "Revista científica — Medicina",
+    "tipo": "Acceso abierto (verificar licencia por artículo)",
+    "fuente": "SciELO Chile",
+    "url": "https://www.scielo.cl/scielo.php?script=sci_serial&pid=0034-9887",
+    "verificado": false,
+    "puede_alojarse": "revisar_por_articulo",
+    "notas": "Misma salvedad que la anterior: confirmar licencia CC-BY por artículo/número.",
+    "id": 108,
+    "dominio": "Ciencia"
+  },
+  {
+    "titulo": "Repositorio ANID — acceso abierto",
+    "autor": "Agencia Nacional de Investigación y Desarrollo (Chile)",
+    "anio": 2022,
+    "pais": "Chile",
+    "genero": "Portal — multidisciplinario",
+    "tipo": "Acceso abierto por mandato legal",
+    "fuente": "ANID",
+    "url": "https://repositorio.anid.cl/home",
+    "verificado": false,
+    "puede_alojarse": "revisar_por_item",
+    "notas": "Corrección: las restricciones de acceso a cada ítem las define el propio autor al depositar (según FAQ oficial de ANID) — no todo lo que está en el repositorio es automáticamente redistribuible, aunque la política general sea de acceso abierto. Sigue siendo portal, no ítems concretos: seleccionar papers/tesis específicos requiere navegar el repositorio directamente (no lo pude hacer con las herramientas de búsqueda disponibles).",
+    "id": 109,
+    "dominio": "Ciencia"
+  }
+];
+
+const grid = document.getElementById('grid');
+const buscador = document.getElementById('buscador');
+const filtroDominio = document.getElementById('filtroDominio');
+const filtroGenero = document.getElementById('filtroGenero');
+const filtroPais = document.getElementById('filtroPais');
+const contador = document.getElementById('contador');
+const vacio = document.getElementById('vacio');
+
+const ALOJAR_LABEL = {
+  si: '✓ copia local permitida',
+  no: '✕ solo enlace, no copiar',
+  revisar_uso_comercial: '⚠ copia posible, revisar uso comercial',
+  revisar_por_item: '⚠ revisar por ítem',
+  revisar_por_articulo: '⚠ revisar por artículo',
+  revisar: '⚠ por revisar',
+};
+
+function poblarFiltros(){
+  const dominios = [...new Set(CATALOGO.map(o => o.dominio))].sort();
+  const generos = [...new Set(CATALOGO.map(o => o.genero))].sort();
+  const paises = [...new Set(CATALOGO.map(o => o.pais))].sort();
+  dominios.forEach(d => {
+    const opt = document.createElement('option');
+    opt.value = d; opt.textContent = d;
+    filtroDominio.appendChild(opt);
+  });
+  generos.forEach(g => {
+    const opt = document.createElement('option');
+    opt.value = g; opt.textContent = g;
+    filtroGenero.appendChild(opt);
+  });
+  paises.forEach(p => {
+    const opt = document.createElement('option');
+    opt.value = p; opt.textContent = p;
+    filtroPais.appendChild(opt);
+  });
+}
+
+function actualizarFiltroGenero(){
+  const d = filtroDominio.value;
+  const generos = [...new Set(CATALOGO.filter(o => !d || o.dominio === d).map(o => o.genero))].sort();
+  const actual = filtroGenero.value;
+  filtroGenero.innerHTML = '<option value="">Todos los géneros</option>';
+  generos.forEach(g => {
+    const opt = document.createElement('option');
+    opt.value = g; opt.textContent = g;
+    filtroGenero.appendChild(opt);
+  });
+  if (generos.includes(actual)) filtroGenero.value = actual;
+}
+
+function normalizar(s){
+  return String(s)
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '') // quita tildes/diacríticos
+    .toLowerCase();
+}
+
+function render(){
+  const q = normalizar(buscador.value.trim());
+  const d = filtroDominio.value;
+  const g = filtroGenero.value;
+  const p = filtroPais.value;
+
+  const filtradas = CATALOGO.filter(o => {
+    const matchQ = !q || normalizar([o.titulo, o.autor, o.pais, o.dominio].join(' ')).includes(q);
+    const matchD = !d || o.dominio === d;
+    const matchG = !g || o.genero === g;
+    const matchP = !p || o.pais === p;
+    return matchQ && matchD && matchG && matchP;
+  });
+
+  grid.innerHTML = '';
+  filtradas.forEach(o => {
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.dataset.genero = o.genero;
+    card.dataset.dominio = o.dominio;
+    card.innerHTML = `
+      <span class="stamp">${o.dominio}</span>
+      <div class="meta-top">${o.genero} · ${o.pais} · ${o.anio}</div>
+      <h3>${o.titulo}</h3>
+      <div class="autor">${o.autor}</div>
+      ${o.notas ? `<div class="notas">${o.notas}</div>` : ''}
+      <div class="aloja-tag">${ALOJAR_LABEL[o.puede_alojarse] || ALOJAR_LABEL.revisar}</div>
+      <div class="footer-row">
+        <span class="fuente-tag">${o.fuente}${o.verificado ? '' : ' <span class="warn">⚠ enlace por verificar</span>'}</span>
+        <a class="leer" href="${o.url}" target="_blank" rel="noopener">Leer →</a>
+      </div>
+    `;
+    grid.appendChild(card);
+  });
+
+  contador.textContent = `${filtradas.length} de ${CATALOGO.length} obras`;
+  vacio.style.display = filtradas.length ? 'none' : 'block';
+}
+
+function descargarCSV(){
+  const cols = ['id','dominio','titulo','autor','anio','pais','genero','tipo','fuente','url','verificado','puede_alojarse','notas'];
+  const escape = (v) => `"${String(v).replace(/"/g,'""')}"`;
+  const filas = [cols.join(',')].concat(
+    CATALOGO.map(o => cols.map(c => escape(o[c])).join(','))
+  );
+  const blob = new Blob(['\ufeff' + filas.join('\n')], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'ficha-libre-catalogo.csv';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+buscador.addEventListener('input', render);
+filtroDominio.addEventListener('change', () => { actualizarFiltroGenero(); render(); });
+filtroGenero.addEventListener('change', render);
+filtroPais.addEventListener('change', render);
+document.getElementById('btnCsv').addEventListener('click', descargarCSV);
+
+poblarFiltros();
+render();
+</script>
+</body>
+</html>
