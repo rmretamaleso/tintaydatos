@@ -3,29 +3,30 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ficha Libre — Catálogo de literatura y ciencia en español de acceso libre</title>
+<title>Tinta y Datos — Catálogo de literatura y ciencia en español de acceso libre</title>
 <meta name="description" content="Índice curado de literatura y ciencia en español, legalmente libres de derechos, con enlaces reales y descargables.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root{
     --ink: #1C2B4A;
-    --ink-light: #32476b;
-    --parchment: #E4D8B4;
-    --parchment-light: #EFE6CB;
+    --ink-soft: #3d4f74;
+    --paper: #F3ECD6;
+    --paper-deep: #E4D8B4;
+    --card: #FBF6E8;
     --cochinilla: #9E2B25;
-    --verdigris: #4F7869;
+    --verdigris: #3d6656;
     --text: #221D1A;
-    --card-shadow: 0 1px 0 rgba(28,43,74,0.15), 0 8px 20px -12px rgba(28,43,74,0.35);
+    --card-shadow: 0 1px 0 rgba(28,43,74,0.08), 0 8px 20px -14px rgba(28,43,74,0.25);
   }
   *{box-sizing:border-box;}
   body{
     margin:0;
-    background: var(--ink);
+    background: var(--paper);
     background-image:
-      radial-gradient(circle at 15% 8%, rgba(228,216,180,0.05), transparent 40%),
-      radial-gradient(circle at 85% 92%, rgba(158,43,37,0.08), transparent 45%);
-    color: var(--parchment-light);
+      radial-gradient(circle at 12% 6%, rgba(158,43,37,0.05), transparent 40%),
+      radial-gradient(circle at 88% 94%, rgba(61,102,86,0.07), transparent 45%);
+    color: var(--text);
     font-family: 'Source Serif 4', serif;
     min-height:100vh;
   }
@@ -37,8 +38,8 @@
     font-size: 11px;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: var(--cochinilla-light, #d98a84);
-    opacity: 0.85;
+    color: var(--cochinilla);
+    opacity: 0.9;
     margin-bottom: 10px;
   }
   h1{
@@ -47,44 +48,86 @@
     font-size: clamp(32px, 5vw, 52px);
     line-height: 1.05;
     margin: 0 0 14px;
-    color: var(--parchment);
+    color: var(--ink);
     letter-spacing: -0.01em;
   }
-  h1 em{font-style: italic; font-weight: 500; color: #d98a84;}
+  h1 em{font-style: italic; font-weight: 500; color: var(--cochinilla);}
   .sub{
     max-width: 60ch;
     font-size: 16px;
     line-height: 1.55;
-    color: #c9cedd;
+    color: var(--ink-soft);
     margin: 0;
   }
 
-  .toolbar{
+  .bloques{
     margin-top: 32px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+  .bloque{
+    display:block;
+    text-align:left;
+    background: var(--card);
+    border: 1px solid rgba(28,43,74,0.15);
+    border-radius: 4px;
+    padding: 18px 16px;
+    cursor:pointer;
+    font-family: inherit;
+    transition: border-color 0.15s ease, transform 0.1s ease;
+  }
+  .bloque:hover{ border-color: var(--cochinilla); transform: translateY(-1px); }
+  .bloque.activo{ border-color: var(--ink); border-width: 2px; padding: 17px 15px; }
+  .bloque .num{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--ink-soft);
+    letter-spacing: 0.04em;
+  }
+  .bloque .nombre{
+    font-family:'Fraunces', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--ink);
+    margin-top: 4px;
+  }
+  .bloque .prox{
+    display:inline-block;
+    margin-top: 6px;
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 9.5px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--cochinilla);
+  }
+
+  .toolbar{
+    margin-top: 16px;
     display:flex;
     flex-wrap:wrap;
     gap: 10px;
     align-items:center;
     padding: 14px 16px;
-    background: rgba(228,216,180,0.06);
-    border: 1px solid rgba(228,216,180,0.18);
+    background: var(--card);
+    border: 1px solid rgba(28,43,74,0.15);
     border-radius: 4px;
   }
   .toolbar input[type="search"]{
     flex: 1 1 220px;
-    background: var(--parchment-light);
-    border: none;
+    background: #fff;
+    border: 1px solid rgba(28,43,74,0.2);
     border-radius: 2px;
     padding: 10px 12px;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 13px;
     color: var(--ink);
   }
-  .toolbar input[type="search"]::placeholder{color:#7a7264;}
+  .toolbar input[type="search"]::placeholder{color:#8a8267;}
   select{
-    background: transparent;
-    border: 1px solid rgba(228,216,180,0.4);
-    color: var(--parchment-light);
+    background: #fff;
+    border: 1px solid rgba(28,43,74,0.25);
+    color: var(--ink);
     font-family: 'IBM Plex Mono', monospace;
     font-size: 12px;
     padding: 9px 8px;
@@ -94,7 +137,7 @@
   .count{
     font-family:'IBM Plex Mono', monospace;
     font-size: 11px;
-    color: #9aa4bd;
+    color: var(--ink-soft);
     margin-left: auto;
     white-space: nowrap;
   }
@@ -103,14 +146,14 @@
     font-size: 12px;
     letter-spacing: 0.03em;
     background: var(--cochinilla);
-    color: var(--parchment-light);
+    color: #fbf6e8;
     border: none;
     padding: 10px 14px;
     border-radius: 2px;
     cursor: pointer;
     transition: background 0.15s ease;
   }
-  .btn-csv:hover{ background: #b7362f; }
+  .btn-csv:hover{ background: #7f231e; }
 
   .grid{
     margin-top: 28px;
@@ -121,7 +164,7 @@
 
   .card{
     position: relative;
-    background: var(--parchment-light);
+    background: var(--card);
     color: var(--text);
     border-radius: 3px;
     padding: 20px 18px 18px;
@@ -130,6 +173,9 @@
     flex-direction:column;
     gap: 8px;
     border-left: 3px solid var(--verdigris);
+    border-top: 1px solid rgba(28,43,74,0.08);
+    border-right: 1px solid rgba(28,43,74,0.08);
+    border-bottom: 1px solid rgba(28,43,74,0.08);
     overflow-wrap: break-word;
     min-width: 0;
   }
@@ -221,7 +267,7 @@
   .empty{
     text-align:center;
     padding: 60px 20px;
-    color: #8a93ab;
+    color: var(--ink-soft);
     font-family:'IBM Plex Mono', monospace;
     font-size: 13px;
   }
@@ -229,14 +275,17 @@
   footer{
     margin-top: 48px;
     padding-top: 20px;
-    border-top: 1px solid rgba(228,216,180,0.15);
+    border-top: 1px solid rgba(28,43,74,0.15);
     font-family:'IBM Plex Mono', monospace;
     font-size: 11px;
-    color: #7a8299;
+    color: var(--ink-soft);
     line-height: 1.7;
   }
-  footer strong{ color: #c9cedd; }
+  footer strong{ color: var(--ink); }
 
+  @media (max-width: 640px){
+    .bloques{ grid-template-columns: 1fr; }
+  }
   @media (max-width: 520px){
     .toolbar{flex-direction:column; align-items:stretch;}
     .toolbar input[type="search"]{ flex: none; }
@@ -248,9 +297,11 @@
 <body>
 <div class="wrap">
   <header>
-    <div class="eyebrow">Ficha Libre — catálogo semilla</div>
+    <div class="eyebrow">Tinta y Datos — catálogo semilla</div>
     <h1>Conocimiento en español que <em>nadie te va a cobrar.</em></h1>
     <p class="sub">Un índice curado de literatura y ciencia en español legalmente libres de derechos — para llenar el vacío que dejan los catálogos centrados en el inglés. Cada ficha enlaza a una fuente real y descargable, y marca si el archivo puede alojarse localmente o solo enlazarse.</p>
+
+    <div class="bloques" id="bloques"></div>
   </header>
 
   <div class="toolbar">
@@ -828,6 +879,36 @@ const CATALOGO = [
     "notas": "Corrección: las restricciones de acceso a cada ítem las define el propio autor al depositar (según FAQ oficial de ANID) — no todo lo que está en el repositorio es automáticamente redistribuible, aunque la política general sea de acceso abierto. Sigue siendo portal, no ítems concretos: seleccionar papers/tesis específicos requiere navegar el repositorio directamente (no lo pude hacer con las herramientas de búsqueda disponibles).",
     "id": 109,
     "dominio": "Ciencia"
+  },
+  {
+    "titulo": "Leo Primero",
+    "autor": "Ministerio de Educación de Chile (MINEDUC)",
+    "anio": 2023,
+    "pais": "Chile",
+    "genero": "Texto escolar — Lectoescritura inicial",
+    "tipo": "Descarga liberada para la ciudadanía",
+    "fuente": "Currículum Nacional (MINEDUC)",
+    "url": "https://www.curriculumnacional.cl/textos_escolares",
+    "verificado": false,
+    "puede_alojarse": "revisar",
+    "notas": "Colección de elaboración interna del MINEDUC (no de editorial privada), descrita como 'de descarga liberada para la ciudadanía'. Enlace al portal general, falta confirmar la ficha específica y los términos exactos de redistribución antes de copiar el archivo.",
+    "id": 200,
+    "dominio": "Libros de Colegio"
+  },
+  {
+    "titulo": "Sumo Primero",
+    "autor": "Ministerio de Educación de Chile (MINEDUC)",
+    "anio": 2023,
+    "pais": "Chile",
+    "genero": "Texto escolar — Matemática inicial",
+    "tipo": "Descarga liberada para la ciudadanía",
+    "fuente": "Currículum Nacional (MINEDUC)",
+    "url": "https://www.curriculumnacional.cl/textos_escolares",
+    "verificado": false,
+    "puede_alojarse": "revisar",
+    "notas": "Mismo caso que Leo Primero: colección propia del MINEDUC, no de editorial privada. Verificar ficha específica y licencia exacta antes de alojar copia.",
+    "id": 201,
+    "dominio": "Libros de Colegio"
   }
 ];
 
@@ -847,6 +928,44 @@ const ALOJAR_LABEL = {
   revisar_por_articulo: '⚠ revisar por artículo',
   revisar: '⚠ por revisar',
 };
+
+const BLOQUES = [
+  { dominio: 'Literatura', nombre: 'Literatura' },
+  { dominio: 'Ciencia', nombre: 'Ciencia' },
+  { dominio: 'Libros de Colegio', nombre: 'Libros de Colegio' },
+];
+
+function poblarBloques(){
+  const cont = document.getElementById('bloques');
+  cont.innerHTML = '';
+  BLOQUES.forEach(b => {
+    const n = CATALOGO.filter(o => o.dominio === b.dominio).length;
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'bloque';
+    btn.dataset.dominio = b.dominio;
+    btn.innerHTML = `
+      <div class="num">${n} ${n === 1 ? 'obra' : 'obras'}</div>
+      <div class="nombre">${b.nombre}</div>
+      ${n === 0 ? '<span class="prox">Próximamente</span>' : ''}
+    `;
+    btn.addEventListener('click', () => {
+      const yaActivo = filtroDominio.value === b.dominio;
+      filtroDominio.value = yaActivo ? '' : b.dominio;
+      actualizarFiltroGenero();
+      marcarBloqueActivo();
+      render();
+      document.getElementById('grid').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+    cont.appendChild(btn);
+  });
+}
+
+function marcarBloqueActivo(){
+  document.querySelectorAll('.bloque').forEach(el => {
+    el.classList.toggle('activo', el.dataset.dominio === filtroDominio.value);
+  });
+}
 
 function poblarFiltros(){
   const dominios = [...new Set(CATALOGO.map(o => o.dominio))].sort();
@@ -944,11 +1063,12 @@ function descargarCSV(){
 }
 
 buscador.addEventListener('input', render);
-filtroDominio.addEventListener('change', () => { actualizarFiltroGenero(); render(); });
+filtroDominio.addEventListener('change', () => { actualizarFiltroGenero(); marcarBloqueActivo(); render(); });
 filtroGenero.addEventListener('change', render);
 filtroPais.addEventListener('change', render);
 document.getElementById('btnCsv').addEventListener('click', descargarCSV);
 
+poblarBloques();
 poblarFiltros();
 render();
 </script>
