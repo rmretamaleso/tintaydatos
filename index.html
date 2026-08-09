@@ -4,17 +4,20 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tinta y Datos — Catálogo de literatura y ciencia en español de acceso libre</title>
-<meta name="description" content="Índice curado de literatura y ciencia en español, legalmente libres de derechos, con enlaces reales y descargables.">
+<meta name="description" content="Índice curado de textos latinoamericanos de literatura y ciencia en español, legalmente libres de derechos, con enlaces reales y descargables.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --ink: #1C2B4A;
     --ink-soft: #3d4f74;
-    --paper: #F3ECD6;
-    --paper-deep: #E4D8B4;
-    --card: #FBF6E8;
-    --cochinilla: #9E2B25;
+    --paper: #B4D870;
+    --paper-deep: #64841F;
+    --card: #F2F7DE;
+    --cochinilla: #7B3FAE;
+    --anil: #5A3FA6;
+    --morado: #7B3FAE;
+    --toolbar-bg: #7FA82A;
     --verdigris: #3d6656;
     --text: #221D1A;
     --card-shadow: 0 1px 0 rgba(28,43,74,0.08), 0 8px 20px -14px rgba(28,43,74,0.25);
@@ -24,8 +27,8 @@
     margin:0;
     background: var(--paper);
     background-image:
-      radial-gradient(circle at 12% 6%, rgba(158,43,37,0.05), transparent 40%),
-      radial-gradient(circle at 88% 94%, rgba(61,102,86,0.07), transparent 45%);
+      radial-gradient(circle at 12% 6%, rgba(59,52,134,0.05), transparent 40%),
+      radial-gradient(circle at 88% 94%, rgba(61,102,86,0.08), transparent 45%);
     color: var(--text);
     font-family: 'Source Serif 4', serif;
     min-height:100vh;
@@ -35,7 +38,8 @@
   header{margin-bottom: 36px;}
   .eyebrow{
     font-family:'IBM Plex Mono', monospace;
-    font-size: 11px;
+    font-size: 13px;
+    font-weight: 700;
     letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--cochinilla);
@@ -51,13 +55,15 @@
     color: var(--ink);
     letter-spacing: -0.01em;
   }
-  h1 em{font-style: italic; font-weight: 500; color: var(--cochinilla);}
+  h1 .intro{ color: var(--ink-soft); font-size: 0.88em; font-weight: 500; }
+  h1 em{font-style: italic; font-weight: 500; color: var(--anil);}
   .sub{
     max-width: 60ch;
     font-size: 16px;
     line-height: 1.55;
     color: var(--ink-soft);
     margin: 0;
+    text-align: justify;
   }
 
   .bloques{
@@ -69,7 +75,7 @@
   .bloque{
     display:block;
     text-align:left;
-    background: var(--card);
+    background: var(--paper-deep);
     border: 1px solid rgba(28,43,74,0.15);
     border-radius: 4px;
     padding: 18px 16px;
@@ -82,14 +88,14 @@
   .bloque .num{
     font-family:'IBM Plex Mono', monospace;
     font-size: 11px;
-    color: var(--ink-soft);
+    color: #fff;
     letter-spacing: 0.04em;
   }
   .bloque .nombre{
     font-family:'Fraunces', serif;
     font-size: 20px;
     font-weight: 600;
-    color: var(--ink);
+    color: #fff;
     margin-top: 4px;
   }
   .bloque .prox{
@@ -99,7 +105,8 @@
     font-size: 9.5px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: var(--cochinilla);
+    color: #fff;
+    opacity: 0.9;
   }
 
   .toolbar{
@@ -109,7 +116,7 @@
     gap: 10px;
     align-items:center;
     padding: 14px 16px;
-    background: var(--card);
+    background: var(--toolbar-bg);
     border: 1px solid rgba(28,43,74,0.15);
     border-radius: 4px;
   }
@@ -137,7 +144,7 @@
   .count{
     font-family:'IBM Plex Mono', monospace;
     font-size: 11px;
-    color: var(--ink-soft);
+    color: #fff;
     margin-left: auto;
     white-space: nowrap;
   }
@@ -145,7 +152,7 @@
     font-family:'IBM Plex Mono', monospace;
     font-size: 12px;
     letter-spacing: 0.03em;
-    background: var(--cochinilla);
+    background: var(--morado);
     color: #fbf6e8;
     border: none;
     padding: 10px 14px;
@@ -153,7 +160,7 @@
     cursor: pointer;
     transition: background 0.15s ease;
   }
-  .btn-csv:hover{ background: #7f231e; }
+  .btn-csv:hover{ background: #632F8C; }
 
   .grid{
     margin-top: 28px;
@@ -228,12 +235,13 @@
     line-height: 1.5;
     color: #5c5648;
     margin-top: 2px;
+    text-align: justify;
   }
   .card .aloja-tag{
     font-family:'IBM Plex Mono', monospace;
     font-size: 10px;
     letter-spacing: 0.02em;
-    color: var(--verdigris);
+    color: var(--paper-deep);
     margin-top: 2px;
   }
   .card .footer-row{
@@ -272,6 +280,37 @@
     font-size: 13px;
   }
 
+  .porque{
+    margin-top: 48px;
+    padding: 24px 26px;
+    background: var(--card);
+    border-left: 3px solid var(--anil);
+    border-radius: 4px;
+    box-shadow: var(--card-shadow);
+  }
+  .porque h2{
+    font-family:'Fraunces', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--ink);
+    margin: 0 0 12px;
+  }
+  .porque p{
+    font-size: 14.5px;
+    line-height: 1.65;
+    color: var(--text);
+    margin: 0 0 12px;
+    text-align: justify;
+  }
+  .porque p:last-of-type{ margin-bottom: 0; }
+  .porque .firma{
+    margin-top: 14px;
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.03em;
+    color: var(--anil);
+  }
+
   footer{
     margin-top: 48px;
     padding-top: 20px;
@@ -280,6 +319,7 @@
     font-size: 11px;
     color: var(--ink-soft);
     line-height: 1.7;
+    text-align: justify;
   }
   footer strong{ color: var(--ink); }
 
@@ -298,8 +338,8 @@
 <div class="wrap">
   <header>
     <div class="eyebrow">Tinta y Datos — catálogo semilla</div>
-    <h1>Conocimiento en español que <em>nadie te va a cobrar.</em></h1>
-    <p class="sub">Un índice curado de literatura y ciencia en español legalmente libres de derechos — para llenar el vacío que dejan los catálogos centrados en el inglés. Cada ficha enlaza a una fuente real y descargable, y marca si el archivo puede alojarse localmente o solo enlazarse.</p>
+    <h1><span class="intro">Conocimiento en español que</span> <em>nadie te va a cobrar.</em></h1>
+    <p class="sub">Un índice curado especializado en textos latinoamericanos relacionados con la literatura y la ciencia en español que están legalmente libres de derechos — para llenar el vacío que dejan los catálogos centrados en el inglés. Cada ficha enlaza a una fuente real, descargable e indica si el archivo puede alojarse localmente o solo enlazarse.</p>
 
     <div class="bloques" id="bloques"></div>
   </header>
@@ -315,6 +355,13 @@
 
   <div class="grid" id="grid"></div>
   <div class="empty" id="vacio" style="display:none;">Sin resultados — probá con otro término.</div>
+
+  <section class="porque">
+    <h2>Por qué existe esto</h2>
+    <p>Empecé este catálogo cuando me enteré de que algunas empresas de inteligencia artificial han comprado y destruido físicamente millones de libros para entrenar sus modelos — y se quedaron con el texto solo para ellas. Eso me hizo pensar en un futuro no muy lejano donde el conocimiento termine privatizado, disponible solo para quien pueda pagarlo.</p>
+    <p>Tinta y Datos es mi forma de ir en la dirección contraria: reunir literatura y ciencia de Latinoamérica y en español que ya son legalmente libres, pero que están dispersas, mal indexadas o en riesgo de perderse — para que sigan siendo de cualquiera, siempre.</p>
+    <div class="firma">— Rocío, creadora de Tinta y Datos</div>
+  </section>
 
   <footer>
     <strong>Estado del catálogo:</strong> 27 obras semilla, curadas manualmente. Los enlaces marcados <span style="color:#c96b64">⚠ por verificar</span> apuntan a una búsqueda en la fuente (no a la página exacta de la obra) para evitar links rotos — confirmalos antes de compartir en público.<br/>
