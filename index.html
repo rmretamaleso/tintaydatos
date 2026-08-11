@@ -814,7 +814,8 @@ const CATALOGO = [
     "puede_alojarse": "si",
     "notas": "Mecánica, sonido, oscilaciones y ondas. Traducción oficial de OpenStax, revisada por especialistas.",
     "id": 100,
-    "dominio": "Ciencia"
+    "dominio": "Ciencia",
+    "tema": "Física"
   },
   {
     "titulo": "Física universitaria, volumen 2",
@@ -829,7 +830,8 @@ const CATALOGO = [
     "puede_alojarse": "si",
     "notas": "Termodinámica, electricidad y magnetismo.",
     "id": 101,
-    "dominio": "Ciencia"
+    "dominio": "Ciencia",
+    "tema": "Física"
   },
   {
     "titulo": "Física universitaria, volumen 3",
@@ -844,7 +846,8 @@ const CATALOGO = [
     "puede_alojarse": "si",
     "notas": "Óptica y física moderna.",
     "id": 102,
-    "dominio": "Ciencia"
+    "dominio": "Ciencia",
+    "tema": "Física"
   },
   {
     "titulo": "Química 2ed",
@@ -859,7 +862,8 @@ const CATALOGO = [
     "puede_alojarse": "si",
     "notas": "Curso general de química de dos semestres.",
     "id": 103,
-    "dominio": "Ciencia"
+    "dominio": "Ciencia",
+    "tema": "Química"
   },
   {
     "titulo": "Cálculo (OpenStax)",
@@ -874,7 +878,8 @@ const CATALOGO = [
     "puede_alojarse": "si",
     "notas": "Ojo: aunque está alojado en LibreTexts, el contenido es originalmente de OpenStax y conserva su licencia CC BY (no la CC BY-NC-SA por defecto de LibreTexts). Verificar esta distinción caso a caso.",
     "id": 104,
-    "dominio": "Ciencia"
+    "dominio": "Ciencia",
+    "tema": "Matemáticas"
   },
   {
     "titulo": "Conceptos en Biología (OpenStax)",
@@ -889,7 +894,8 @@ const CATALOGO = [
     "puede_alojarse": "si",
     "notas": "Confirmado: licencia CC BY 4.0 (etiqueta license:ccby explícita en la página). Mismo caso que Cálculo/Química General: contenido de OpenStax alojado en LibreTexts, conserva CC BY.",
     "id": 105,
-    "dominio": "Ciencia"
+    "dominio": "Ciencia",
+    "tema": "Biología"
   },
   {
     "titulo": "Química General (OpenStax, vía LibreTexts español)",
@@ -904,7 +910,8 @@ const CATALOGO = [
     "puede_alojarse": "si",
     "notas": "Mismo caso que Cálculo: contenido de OpenStax, conserva CC BY aunque esté alojado en LibreTexts.",
     "id": 106,
-    "dominio": "Ciencia"
+    "dominio": "Ciencia",
+    "tema": "Química"
   },
   {
     "titulo": "Revista Chilena de Historia Natural",
@@ -919,7 +926,8 @@ const CATALOGO = [
     "puede_alojarse": "revisar_por_articulo",
     "notas": "SciELO exige CC-BY para revistas indexadas después de 2015; revistas o números más antiguos pueden tener otra licencia. Verificar artículo por artículo.",
     "id": 107,
-    "dominio": "Ciencia"
+    "dominio": "Ciencia",
+    "tema": "Biología"
   },
   {
     "titulo": "Revista Médica de Chile",
@@ -934,7 +942,8 @@ const CATALOGO = [
     "puede_alojarse": "revisar_por_articulo",
     "notas": "Misma salvedad que la anterior: confirmar licencia CC-BY por artículo/número.",
     "id": 108,
-    "dominio": "Ciencia"
+    "dominio": "Ciencia",
+    "tema": "Medicina"
   },
   {
     "titulo": "Repositorio ANID — acceso abierto",
@@ -949,7 +958,8 @@ const CATALOGO = [
     "puede_alojarse": "revisar_por_item",
     "notas": "Corrección: las restricciones de acceso a cada ítem las define el propio autor al depositar (según FAQ oficial de ANID) — no todo lo que está en el repositorio es automáticamente redistribuible, aunque la política general sea de acceso abierto. Sigue siendo portal, no ítems concretos: seleccionar papers/tesis específicos requiere navegar el repositorio directamente (no lo pude hacer con las herramientas de búsqueda disponibles).",
     "id": 109,
-    "dominio": "Ciencia"
+    "dominio": "Ciencia",
+    "tema": "Multidisciplinario"
   },
   {
     "titulo": "Leo Primero",
@@ -964,7 +974,8 @@ const CATALOGO = [
     "puede_alojarse": "revisar",
     "notas": "Colección de elaboración interna del MINEDUC (no de editorial privada), descrita como 'de descarga liberada para la ciudadanía'. Enlace al portal general, falta confirmar la ficha específica y los términos exactos de redistribución antes de copiar el archivo.",
     "id": 200,
-    "dominio": "Libros de Colegio"
+    "dominio": "Libros de Colegio",
+    "tema": "Literatura"
   },
   {
     "titulo": "Sumo Primero",
@@ -979,7 +990,8 @@ const CATALOGO = [
     "puede_alojarse": "revisar",
     "notas": "Mismo caso que Leo Primero: colección propia del MINEDUC, no de editorial privada. Verificar ficha específica y licencia exacta antes de alojar copia.",
     "id": 201,
-    "dominio": "Libros de Colegio"
+    "dominio": "Libros de Colegio",
+    "tema": "Matemáticas"
   }
 ];
 
@@ -1024,6 +1036,7 @@ function poblarBloques(){
       const yaActivo = filtroDominio.value === b.dominio;
       filtroDominio.value = yaActivo ? '' : b.dominio;
       filtroPais.value = ''; // al cambiar de dominio, se resetea el país elegido
+      temaActivo = ''; // y también el tema elegido
       actualizarFiltroGenero();
       marcarBloqueActivo();
       poblarSubBloques();
@@ -1040,37 +1053,54 @@ function marcarBloqueActivo(){
   });
 }
 
+const DIMENSION_SECUNDARIA = {
+  'Literatura': 'pais',
+  'Ciencia': 'tema',
+  'Libros de Colegio': 'tema',
+};
+let temaActivo = ''; // filtro de tema, paralelo a filtroPais pero sin <select> propio
+
 function poblarSubBloques(){
   const cont = document.getElementById('subbloques');
   cont.innerHTML = '';
   const dominioActivo = filtroDominio.value;
-  if (!dominioActivo) return; // sin dominio activo, no mostramos países
+  if (!dominioActivo) return; // sin dominio activo, no mostramos sub-filtros
 
-  const paises = [...new Set(
-    CATALOGO.filter(o => o.dominio === dominioActivo).map(o => o.pais)
+  const campo = DIMENSION_SECUNDARIA[dominioActivo] || 'pais';
+  const valorActivo = campo === 'pais' ? filtroPais.value : temaActivo;
+
+  const valores = [...new Set(
+    CATALOGO.filter(o => o.dominio === dominioActivo).map(o => o[campo])
   )].sort();
 
-  paises.forEach(p => {
-    const n = CATALOGO.filter(o => o.dominio === dominioActivo && o.pais === p).length;
+  valores.forEach(v => {
+    const n = CATALOGO.filter(o => o.dominio === dominioActivo && o[campo] === v).length;
     const pill = document.createElement('button');
     pill.type = 'button';
     pill.className = 'pais-pill';
-    pill.dataset.pais = p;
-    if (filtroPais.value === p) pill.classList.add('activo');
-    pill.textContent = `${p} (${n})`;
+    pill.dataset.valor = v;
+    if (valorActivo === v) pill.classList.add('activo');
+    pill.textContent = `${v} (${n})`;
     pill.addEventListener('click', () => {
-      const yaActivo = filtroPais.value === p;
-      filtroPais.value = yaActivo ? '' : p;
-      marcarPaisPillActivo();
+      if (campo === 'pais') {
+        const yaActivo = filtroPais.value === v;
+        filtroPais.value = yaActivo ? '' : v;
+      } else {
+        const yaActivo = temaActivo === v;
+        temaActivo = yaActivo ? '' : v;
+      }
+      marcarSubPillActiva();
       render();
     });
     cont.appendChild(pill);
   });
 }
 
-function marcarPaisPillActivo(){
+function marcarSubPillActiva(){
+  const campo = DIMENSION_SECUNDARIA[filtroDominio.value] || 'pais';
+  const valorActivo = campo === 'pais' ? filtroPais.value : temaActivo;
   document.querySelectorAll('.pais-pill').forEach(el => {
-    el.classList.toggle('activo', el.dataset.pais === filtroPais.value);
+    el.classList.toggle('activo', el.dataset.valor === valorActivo && valorActivo !== '');
   });
 }
 
@@ -1120,13 +1150,15 @@ function render(){
   const d = filtroDominio.value;
   const g = filtroGenero.value;
   const p = filtroPais.value;
+  const t = temaActivo;
 
   const filtradas = CATALOGO.filter(o => {
     const matchQ = !q || normalizar([o.titulo, o.autor, o.pais, o.dominio].join(' ')).includes(q);
     const matchD = !d || o.dominio === d;
     const matchG = !g || o.genero === g;
     const matchP = !p || o.pais === p;
-    return matchQ && matchD && matchG && matchP;
+    const matchT = !t || o.tema === t;
+    return matchQ && matchD && matchG && matchP && matchT;
   });
 
   grid.innerHTML = '';
@@ -1170,9 +1202,9 @@ function descargarCSV(){
 }
 
 buscador.addEventListener('input', render);
-filtroDominio.addEventListener('change', () => { actualizarFiltroGenero(); marcarBloqueActivo(); poblarSubBloques(); render(); });
+filtroDominio.addEventListener('change', () => { filtroPais.value = ''; temaActivo = ''; actualizarFiltroGenero(); marcarBloqueActivo(); poblarSubBloques(); render(); });
 filtroGenero.addEventListener('change', render);
-filtroPais.addEventListener('change', () => { marcarPaisPillActivo(); render(); });
+filtroPais.addEventListener('change', () => { marcarSubPillActiva(); render(); });
 document.getElementById('btnCsv').addEventListener('click', descargarCSV);
 
 poblarBloques();
