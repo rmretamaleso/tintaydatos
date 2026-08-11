@@ -111,6 +111,28 @@
     opacity: 0.9;
   }
 
+  .subbloques{
+    margin-top: 10px;
+    display:flex;
+    flex-wrap:wrap;
+    gap: 8px;
+  }
+  .subbloques:empty{ margin-top: 0; }
+  .pais-pill{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.02em;
+    background: var(--card);
+    color: var(--ink);
+    border: 1px solid rgba(28,43,74,0.2);
+    border-radius: 20px;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: border-color 0.15s ease, background 0.15s ease;
+  }
+  .pais-pill:hover{ border-color: var(--morado); }
+  .pais-pill.activo{ background: var(--ink); color: #fff; border-color: var(--ink); }
+
   .toolbar{
     margin-top: 16px;
     display:flex;
@@ -343,6 +365,7 @@
     <p class="sub">Un índice curado especializado en textos latinoamericanos relacionados con la literatura y la ciencia en español que están legalmente libres de derechos — para llenar el vacío que dejan los catálogos centrados en el inglés. Cada ficha enlaza a una fuente real, descargable e indica si el archivo puede alojarse localmente o solo enlazarse.</p>
 
     <div class="bloques" id="bloques"></div>
+    <div class="subbloques" id="subbloques"></div>
   </header>
 
   <div class="toolbar">
@@ -1000,8 +1023,10 @@ function poblarBloques(){
     btn.addEventListener('click', () => {
       const yaActivo = filtroDominio.value === b.dominio;
       filtroDominio.value = yaActivo ? '' : b.dominio;
+      filtroPais.value = ''; // al cambiar de dominio, se resetea el país elegido
       actualizarFiltroGenero();
       marcarBloqueActivo();
+      poblarSubBloques();
       render();
       document.getElementById('grid').scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
@@ -1012,6 +1037,40 @@ function poblarBloques(){
 function marcarBloqueActivo(){
   document.querySelectorAll('.bloque').forEach(el => {
     el.classList.toggle('activo', el.dataset.dominio === filtroDominio.value);
+  });
+}
+
+function poblarSubBloques(){
+  const cont = document.getElementById('subbloques');
+  cont.innerHTML = '';
+  const dominioActivo = filtroDominio.value;
+  if (!dominioActivo) return; // sin dominio activo, no mostramos países
+
+  const paises = [...new Set(
+    CATALOGO.filter(o => o.dominio === dominioActivo).map(o => o.pais)
+  )].sort();
+
+  paises.forEach(p => {
+    const n = CATALOGO.filter(o => o.dominio === dominioActivo && o.pais === p).length;
+    const pill = document.createElement('button');
+    pill.type = 'button';
+    pill.className = 'pais-pill';
+    pill.dataset.pais = p;
+    if (filtroPais.value === p) pill.classList.add('activo');
+    pill.textContent = `${p} (${n})`;
+    pill.addEventListener('click', () => {
+      const yaActivo = filtroPais.value === p;
+      filtroPais.value = yaActivo ? '' : p;
+      marcarPaisPillActivo();
+      render();
+    });
+    cont.appendChild(pill);
+  });
+}
+
+function marcarPaisPillActivo(){
+  document.querySelectorAll('.pais-pill').forEach(el => {
+    el.classList.toggle('activo', el.dataset.pais === filtroPais.value);
   });
 }
 
@@ -1111,9 +1170,9 @@ function descargarCSV(){
 }
 
 buscador.addEventListener('input', render);
-filtroDominio.addEventListener('change', () => { actualizarFiltroGenero(); marcarBloqueActivo(); render(); });
+filtroDominio.addEventListener('change', () => { actualizarFiltroGenero(); marcarBloqueActivo(); poblarSubBloques(); render(); });
 filtroGenero.addEventListener('change', render);
-filtroPais.addEventListener('change', render);
+filtroPais.addEventListener('change', () => { marcarPaisPillActivo(); render(); });
 document.getElementById('btnCsv').addEventListener('click', descargarCSV);
 
 poblarBloques();
