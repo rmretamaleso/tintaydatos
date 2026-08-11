@@ -16,7 +16,7 @@
     --card: #F2F7DE;
     --cochinilla: #7B3FAE;
     --anil: #5A3FA6;
-    --morado: #7B3FAE;
+    --morado: #6B4C8C;
     --toolbar-bg: #7FA82A;
     --verdigris: #3d6656;
     --text: #221D1A;
@@ -75,7 +75,7 @@
   .bloque{
     display:block;
     text-align:left;
-    background: var(--paper-deep);
+    background: #2a6f8e;
     border: 1px solid rgba(28,43,74,0.15);
     border-radius: 4px;
     padding: 18px 16px;
@@ -83,7 +83,9 @@
     font-family: inherit;
     transition: border-color 0.15s ease, transform 0.1s ease;
   }
-  .bloque:hover{ border-color: var(--cochinilla); transform: translateY(-1px); }
+  .bloque[data-dominio="Ciencia"]{ background: var(--morado); }
+  .bloque[data-dominio="Libros de Colegio"]{ background: var(--verdigris); }
+  .bloque:hover{ border-color: var(--morado); transform: translateY(-1px); }
   .bloque.activo{ border-color: var(--ink); border-width: 2px; padding: 17px 15px; }
   .bloque .num{
     font-family:'IBM Plex Mono', monospace;
@@ -152,7 +154,7 @@
     font-family:'IBM Plex Mono', monospace;
     font-size: 12px;
     letter-spacing: 0.03em;
-    background: var(--morado);
+    background: #8C4FC7;
     color: #fbf6e8;
     border: none;
     padding: 10px 14px;
@@ -160,7 +162,7 @@
     cursor: pointer;
     transition: background 0.15s ease;
   }
-  .btn-csv:hover{ background: #632F8C; }
+  .btn-csv:hover{ background: #7638A8; }
 
   .grid{
     margin-top: 28px;
@@ -186,10 +188,9 @@
     overflow-wrap: break-word;
     min-width: 0;
   }
-  .card[data-genero="Folclore"]{ border-left-color: var(--cochinilla); }
-  .card[data-genero="Poesía"]{ border-left-color: #7b5aa6; }
-  .card[data-genero="Teatro"]{ border-left-color: #b8792b; }
-  .card[data-dominio="Ciencia"]{ border-left-color: #2a6f8e; }
+  .card[data-dominio="Literatura"]{ border-left-color: #2a6f8e; }
+  .card[data-dominio="Ciencia"]{ border-left-color: var(--morado); }
+  .card[data-dominio="Libros de Colegio"]{ border-left-color: var(--verdigris); }
 
   .card .stamp{
     display: inline-block;
