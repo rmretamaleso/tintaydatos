@@ -389,7 +389,7 @@
 
   <footer>
     <strong>Estado del catálogo:</strong> 27 obras semilla, curadas manualmente. Los enlaces marcados <span style="color:#c96b64">⚠ por verificar</span> apuntan a una búsqueda en la fuente (no a la página exacta de la obra) para evitar links rotos — confirmalos antes de compartir en público.<br/>
-    <strong>Criterio de inclusión:</strong> solo autoría con 70+ años desde el fallecimiento del autor (dominio público confirmado) u obras anónimas / de tradición oral. Nada de zonas grises de copyright.<br/>
+    <strong>Criterio de inclusión:</strong> dominio público confirmado según el plazo real de cada país (70 años en la mayoría — Argentina, Chile, Uruguay, España — pero 80 en Colombia y 100 en México), u obras anónimas / de tradición oral. Nada de zonas grises de copyright.<br/>
     <strong>Siguiente fase:</strong> automatizar verificación de enlaces + ingestión desde APIs de Wikisource / Internet Archive / Cervantes Virtual.
   </footer>
 </div>
@@ -575,21 +575,6 @@ const CATALOGO = [
     "notas": "",
     "dominio": "Literatura",
     "puede_alojarse": "revisar_uso_comercial"
-  },
-  {
-    "id": 13,
-    "titulo": "Los de abajo",
-    "autor": "Mariano Azuela",
-    "anio": 1915,
-    "pais": "México",
-    "genero": "Novela",
-    "tipo": "Dominio público",
-    "fuente": "Wikisource",
-    "url": "https://es.wikisource.org/w/index.php?search=Los+de+abajo+Azuela",
-    "verificado": false,
-    "notas": "Novela de la Revolución mexicana.",
-    "dominio": "Literatura",
-    "puede_alojarse": "si"
   },
   {
     "id": 14,
@@ -1317,6 +1302,84 @@ const CATALOGO = [
     "verificado": true,
     "puede_alojarse": "si",
     "notas": "Ficha confirma explícitamente 'Propiedad intelectual: Patrimonio cultural común'. Primera traducción al español (Madrid, Calpe, 1921), en 3 tomos — este enlace es al tomo I; los tomos II y III están también disponibles en Memoria Chilena con la misma clasificación. Darwin recorrió Chile entre 1832 y 1835 durante el viaje del Beagle, observaciones que alimentaron directamente esta obra."
+  },
+  {
+    "id": 223,
+    "dominio": "Ciencia",
+    "titulo": "Jeolojía de la América Meridional",
+    "autor": "Charles Darwin (1809-1882); traducción de Alfredo Escuti Orrego",
+    "anio": 1906,
+    "pais": "Internacional (visitó Chile 1832-1835)",
+    "genero": "Libro — Geología",
+    "tema": "Geología",
+    "tipo": "Dominio público (Patrimonio Cultural Común)",
+    "fuente": "Memoria Chilena",
+    "url": "https://www.memoriachilena.gob.cl/602/w3-article-65201.html",
+    "verificado": true,
+    "puede_alojarse": "si",
+    "notas": "Ficha confirma explícitamente 'Propiedad intelectual: Patrimonio cultural común'. Traducción al español (1906) de 'Geological observations on South America' (1846), publicada como anexo a los Anales de la Universidad de Chile. Observaciones geológicas de Darwin durante el viaje del Beagle."
+  },
+  {
+    "id": 224,
+    "dominio": "Ciencia",
+    "titulo": "Viaje de un naturalista alrededor del mundo",
+    "autor": "Charles Darwin (1809-1882); traducción de J. Hubert",
+    "anio": 1945,
+    "pais": "Internacional (visitó Chile 1832-1835)",
+    "genero": "Libro — Biología/Relato de viaje científico",
+    "tema": "Biología",
+    "tipo": "Dominio público (Patrimonio Cultural Común)",
+    "fuente": "Memoria Chilena",
+    "url": "https://www.memoriachilena.gob.cl/602/w3-article-8401.html",
+    "verificado": true,
+    "puede_alojarse": "si",
+    "notas": "Ficha confirma explícitamente 'Propiedad intelectual: Patrimonio cultural común'. El diario de viaje del Beagle (publicado originalmente en 1839), con capítulos completos sobre su recorrido por Chile — Valparaíso, Santiago, Chiloé, la cordillera. Probablemente la obra de Darwin más accesible para público general, no especializado."
+  },
+  {
+    "id": 225,
+    "dominio": "Ciencia",
+    "titulo": "Revista Colombiana de Química",
+    "autor": "Universidad Nacional de Colombia, Facultad de Ciencias",
+    "anio": 1971,
+    "pais": "Colombia",
+    "genero": "Revista científica — Química",
+    "tema": "Química",
+    "tipo": "Acceso abierto (CC BY 3.0)",
+    "fuente": "Latindex / SciELO",
+    "url": "http://www.revistas.unal.edu.co/index.php/rcolquim",
+    "verificado": true,
+    "puede_alojarse": "si",
+    "notas": "Licencia confirmada explícitamente: Creative Commons Atribución 3.0 Unported — sin ambigüedad, a diferencia de otras revistas SciELO donde hay que revisar caso a caso. Publica investigación en química analítica, orgánica, inorgánica, bioquímica y fisicoquímica. Indexada en SciELO, Latindex y Scopus."
+  },
+  {
+    "titulo": "Poesía completa (selección en Wikisource)",
+    "autor": "Sor Juana Inés de la Cruz",
+    "anio": 1689,
+    "pais": "México",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "fuente": "Wikisource",
+    "url": "https://es.wikisource.org/wiki/Autor:Sor_Juana_In%C3%A9s_de_la_Cruz",
+    "verificado": true,
+    "puede_alojarse": "si",
+    "notas": "Wikisource confirma explícitamente que todas sus obras originales están en dominio público (murió en 1695). Una de las figuras más importantes del Siglo de Oro y de la literatura colonial hispanoamericana — primera entrada del catálogo del período colonial (s. XVII).",
+    "id": 226,
+    "dominio": "Literatura"
+  },
+  {
+    "titulo": "Los heraldos negros",
+    "autor": "César Vallejo",
+    "anio": 1918,
+    "pais": "Perú",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "fuente": "Wikisource",
+    "url": "https://es.wikisource.org/wiki/Los_heraldos_negros_(1918)",
+    "verificado": true,
+    "puede_alojarse": "si",
+    "notas": "Primer libro de Vallejo, uno de los poetas más influyentes de la lengua española del siglo XX. Murió en 1938, dominio público seguro. Página de Wikisource confirmada con el índice completo de poemas.",
+    "id": 227,
+    "dominio": "Literatura"
   }
 ];
 
