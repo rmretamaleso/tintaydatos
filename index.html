@@ -133,6 +133,21 @@
   .pais-pill:hover{ border-color: var(--morado); }
   .pais-pill.activo{ background: var(--ink); color: #fff; border-color: var(--ink); }
 
+  .autor-pill{
+    font-family:'Source Serif 4', serif;
+    font-style: italic;
+    font-size: 12.5px;
+    background: transparent;
+    color: var(--ink-soft);
+    border: 1px solid rgba(28,43,74,0.15);
+    border-radius: 20px;
+    padding: 5px 11px;
+    cursor: pointer;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+  .autor-pill:hover{ border-color: var(--anil); color: var(--ink); }
+  .autor-pill.activo{ background: var(--anil); color: #fff; border-color: var(--anil); }
+
   .toolbar{
     margin-top: 16px;
     display:flex;
@@ -366,6 +381,7 @@
 
     <div class="bloques" id="bloques"></div>
     <div class="subbloques" id="subbloques"></div>
+    <div class="subbloques" id="autorespills"></div>
   </header>
 
   <div class="toolbar">
@@ -1425,6 +1441,7 @@ function poblarBloques(){
       filtroDominio.value = yaActivo ? '' : b.dominio;
       filtroPais.value = ''; // al cambiar de dominio, se resetea el país elegido
       temaActivo = ''; // y también el tema elegido
+      autorActivo = ''; // y el autor elegido
       actualizarFiltroGenero();
       marcarBloqueActivo();
       poblarSubBloques();
@@ -1447,12 +1464,13 @@ const DIMENSION_SECUNDARIA = {
   'Libros de Colegio': 'tema',
 };
 let temaActivo = ''; // filtro de tema, paralelo a filtroPais pero sin <select> propio
+let autorActivo = ''; // filtro de autor, tercer nivel (dominio -> país/tema -> autor)
 
 function poblarSubBloques(){
   const cont = document.getElementById('subbloques');
   cont.innerHTML = '';
   const dominioActivo = filtroDominio.value;
-  if (!dominioActivo) return; // sin dominio activo, no mostramos sub-filtros
+  if (!dominioActivo) { document.getElementById('autorespills').innerHTML = ''; return; }
 
   const campo = DIMENSION_SECUNDARIA[dominioActivo] || 'pais';
   const valorActivo = campo === 'pais' ? filtroPais.value : temaActivo;
@@ -1477,10 +1495,50 @@ function poblarSubBloques(){
         const yaActivo = temaActivo === v;
         temaActivo = yaActivo ? '' : v;
       }
+      autorActivo = ''; // cambiar de país/tema resetea el autor elegido
       marcarSubPillActiva();
+      poblarAutores();
       render();
     });
     cont.appendChild(pill);
+  });
+
+  poblarAutores();
+}
+
+function poblarAutores(){
+  const cont = document.getElementById('autorespills');
+  cont.innerHTML = '';
+  const dominioActivo = filtroDominio.value;
+  const campo = DIMENSION_SECUNDARIA[dominioActivo] || 'pais';
+  const valorActivo = campo === 'pais' ? filtroPais.value : temaActivo;
+  if (!dominioActivo || !valorActivo) return; // solo mostramos autores una vez elegido país/tema
+
+  const autores = [...new Set(
+    CATALOGO.filter(o => o.dominio === dominioActivo && o[campo] === valorActivo).map(o => o.autor)
+  )].sort();
+
+  autores.forEach(a => {
+    const pill = document.createElement('button');
+    pill.type = 'button';
+    pill.className = 'autor-pill';
+    pill.dataset.valor = a;
+    if (autorActivo === a) pill.classList.add('activo');
+    pill.textContent = a;
+    pill.addEventListener('click', () => {
+      const yaActivo = autorActivo === a;
+      autorActivo = yaActivo ? '' : a;
+      marcarAutorPillActiva();
+      render();
+      document.getElementById('grid').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+    cont.appendChild(pill);
+  });
+}
+
+function marcarAutorPillActiva(){
+  document.querySelectorAll('.autor-pill').forEach(el => {
+    el.classList.toggle('activo', el.dataset.valor === autorActivo && autorActivo !== '');
   });
 }
 
@@ -1539,6 +1597,7 @@ function render(){
   const g = filtroGenero.value;
   const p = filtroPais.value;
   const t = temaActivo;
+  const a = autorActivo;
 
   const filtradas = CATALOGO.filter(o => {
     const matchQ = !q || normalizar([o.titulo, o.autor, o.pais, o.dominio].join(' ')).includes(q);
@@ -1546,7 +1605,8 @@ function render(){
     const matchG = !g || o.genero === g;
     const matchP = !p || o.pais === p;
     const matchT = !t || o.tema === t;
-    return matchQ && matchD && matchG && matchP && matchT;
+    const matchA = !a || o.autor === a;
+    return matchQ && matchD && matchG && matchP && matchT && matchA;
   });
 
   grid.innerHTML = '';
@@ -1590,9 +1650,9 @@ function descargarCSV(){
 }
 
 buscador.addEventListener('input', render);
-filtroDominio.addEventListener('change', () => { filtroPais.value = ''; temaActivo = ''; actualizarFiltroGenero(); marcarBloqueActivo(); poblarSubBloques(); render(); });
+filtroDominio.addEventListener('change', () => { filtroPais.value = ''; temaActivo = ''; autorActivo = ''; actualizarFiltroGenero(); marcarBloqueActivo(); poblarSubBloques(); render(); });
 filtroGenero.addEventListener('change', render);
-filtroPais.addEventListener('change', () => { marcarSubPillActiva(); render(); });
+filtroPais.addEventListener('change', () => { autorActivo = ''; marcarSubPillActiva(); poblarAutores(); render(); });
 document.getElementById('btnCsv').addEventListener('click', descargarCSV);
 
 poblarBloques();
