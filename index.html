@@ -6,7 +6,7 @@
 <title>Tinta y Datos — Catálogo de literatura y ciencia en español de acceso libre</title>
 <meta name="description" content="Índice curado de textos latinoamericanos de literatura y ciencia en español, legalmente libres de derechos, con enlaces reales y descargables.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --ink: #1C2B4A;
@@ -86,7 +86,7 @@
   .bloque[data-dominio="Ciencia"]{ background: var(--morado); }
   .bloque[data-dominio="Libros de Colegio"]{ background: var(--verdigris); }
   .bloque:hover{ border-color: var(--morado); transform: translateY(-1px); }
-  .bloque.activo{ border-color: var(--ink); border-width: 2px; padding: 17px 15px; }
+  .bloque.activo{ border-color: var(--ink); border-width: 3px; padding: 16px 14px; filter: brightness(0.65) saturate(1.3); }
   .bloque .num{
     font-family:'IBM Plex Mono', monospace;
     font-size: 11px;
@@ -115,18 +115,19 @@
     margin-top: 10px;
     display:flex;
     flex-wrap:wrap;
-    gap: 8px;
+    gap: 10px;
   }
   .subbloques:empty{ margin-top: 0; }
   .pais-pill{
     font-family:'IBM Plex Mono', monospace;
-    font-size: 11px;
+    font-size: 13.5px;
+    font-weight: 700;
     letter-spacing: 0.02em;
     background: var(--card);
     color: var(--ink);
     border: 1px solid rgba(28,43,74,0.2);
-    border-radius: 20px;
-    padding: 6px 12px;
+    border-radius: 22px;
+    padding: 9px 16px;
     cursor: pointer;
     transition: border-color 0.15s ease, background 0.15s ease;
   }
@@ -136,17 +137,37 @@
   .autor-pill{
     font-family:'Source Serif 4', serif;
     font-style: italic;
-    font-size: 12.5px;
-    background: transparent;
-    color: var(--ink-soft);
-    border: 1px solid rgba(28,43,74,0.15);
-    border-radius: 20px;
-    padding: 5px 11px;
+    font-weight: 700;
+    font-size: 15px;
+    background: var(--card);
+    color: var(--ink);
+    border: 1px solid rgba(28,43,74,0.3);
+    border-radius: 22px;
+    padding: 8px 15px;
     cursor: pointer;
-    transition: border-color 0.15s ease, color 0.15s ease;
+    transition: border-color 0.15s ease, background 0.15s ease;
   }
-  .autor-pill:hover{ border-color: var(--anil); color: var(--ink); }
+  .autor-pill:hover{ border-color: var(--anil); }
   .autor-pill.activo{ background: var(--anil); color: #fff; border-color: var(--anil); }
+
+  /* Colores por dominio: los pills de país/tema y autor heredan el tono del bloque activo */
+  #subbloques[data-dominio="Literatura"] .pais-pill{ background: #cfe3ea; border-color: #2a6f8e66; color: #1d4f63; }
+  #subbloques[data-dominio="Literatura"] .pais-pill:hover{ border-color: #2a6f8e; }
+  #subbloques[data-dominio="Literatura"] .pais-pill.activo{ background: #2a6f8e; color: #fff; border-color: #2a6f8e; }
+  #autorespills[data-dominio="Literatura"] .autor-pill{ color: #2a6f8e; border-color: #2a6f8e55; }
+  #autorespills[data-dominio="Literatura"] .autor-pill.activo{ background: #2a6f8e; color: #fff; border-color: #2a6f8e; }
+
+  #subbloques[data-dominio="Ciencia"] .pais-pill{ background: #e2d7ec; border-color: #6B4C8C66; color: #573d70; }
+  #subbloques[data-dominio="Ciencia"] .pais-pill:hover{ border-color: #6B4C8C; }
+  #subbloques[data-dominio="Ciencia"] .pais-pill.activo{ background: #6B4C8C; color: #fff; border-color: #6B4C8C; }
+  #autorespills[data-dominio="Ciencia"] .autor-pill{ color: #6B4C8C; border-color: #6B4C8C55; }
+  #autorespills[data-dominio="Ciencia"] .autor-pill.activo{ background: #6B4C8C; color: #fff; border-color: #6B4C8C; }
+
+  #subbloques[data-dominio="Libros de Colegio"] .pais-pill{ background: #d2e2db; border-color: #3d665666; color: #2c4a3e; }
+  #subbloques[data-dominio="Libros de Colegio"] .pais-pill:hover{ border-color: #3d6656; }
+  #subbloques[data-dominio="Libros de Colegio"] .pais-pill.activo{ background: #3d6656; color: #fff; border-color: #3d6656; }
+  #autorespills[data-dominio="Libros de Colegio"] .autor-pill{ color: #3d6656; border-color: #3d665655; }
+  #autorespills[data-dominio="Libros de Colegio"] .autor-pill.activo{ background: #3d6656; color: #fff; border-color: #3d6656; }
 
   .toolbar{
     margin-top: 16px;
@@ -874,10 +895,10 @@ const CATALOGO = [
     "genero": "Libro de texto — Matemáticas",
     "tipo": "Libre acceso (CC BY 4.0)",
     "fuente": "OpenStax (alojado en LibreTexts español)",
-    "url": "https://espanol.libretexts.org/Matematicas/Libro:_Calculo_(OpenStax)",
+    "url": "https://espanol.libretexts.org/Bookshelves/Matematicas/Libro%3A_Calculo_(OpenStax)",
     "verificado": true,
-    "puede_alojarse": "si",
-    "notas": "Ojo: aunque está alojado en LibreTexts, el contenido es originalmente de OpenStax y conserva su licencia CC BY (no la CC BY-NC-SA por defecto de LibreTexts). Verificar esta distinción caso a caso.",
+    "puede_alojarse": "revisar_licencia_nc",
+    "notas": "CORRECCIÓN: URL arreglada (faltaba '/Bookshelves/', estaba rota). Además corrijo la licencia que había anotado antes: verifiqué la página directamente y esta versión específica en LibreTexts está licenciada CC BY-NC-SA 4.0 (no CC BY como asumí originalmente) — la cláusula NoComercial sí aplica acá, a diferencia de Química General y Conceptos en Biología que sí son CC BY limpio.",
     "id": 104,
     "dominio": "Ciencia",
     "tema": "Matemáticas"
@@ -890,10 +911,10 @@ const CATALOGO = [
     "genero": "Libro de texto — Biología",
     "tipo": "Libre acceso (CC BY 4.0)",
     "fuente": "OpenStax (alojado en LibreTexts español)",
-    "url": "https://espanol.libretexts.org/Biologia/Biologia_introductoria_y_general/Libro:_Conceptos_en_Biolog%C3%ADa_(OpenStax)",
+    "url": "https://espanol.libretexts.org/Bookshelves/Biologia/Biologia_introductoria_y_general/Libro%3A_Conceptos_en_Biolog%C3%ADa_(OpenStax)",
     "verificado": true,
     "puede_alojarse": "si",
-    "notas": "Confirmado: licencia CC BY 4.0 (etiqueta license:ccby explícita en la página). Mismo caso que Cálculo/Química General: contenido de OpenStax alojado en LibreTexts, conserva CC BY.",
+    "notas": "Confirmado: licencia CC BY 4.0 (etiqueta license:ccby explícita en la página, re-verificada). URL corregida (faltaba '/Bookshelves/', estaba rota).",
     "id": 105,
     "dominio": "Ciencia",
     "tema": "Biología"
@@ -906,10 +927,10 @@ const CATALOGO = [
     "genero": "Libro de texto — Química",
     "tipo": "Libre acceso (CC BY 4.0)",
     "fuente": "OpenStax (alojado en LibreTexts español)",
-    "url": "https://espanol.libretexts.org/Quimica/Libro:_Qu%C3%ADmica_General_(OpenSTAX)",
+    "url": "https://espanol.libretexts.org/Bookshelves/Quimica/Libro%3A_Qu%C3%ADmica_General_(OpenSTAX)",
     "verificado": true,
     "puede_alojarse": "si",
-    "notas": "Mismo caso que Cálculo: contenido de OpenStax, conserva CC BY aunque esté alojado en LibreTexts.",
+    "notas": "Confirmado: licencia CC BY 4.0 (etiqueta license:ccby explícita en la página, re-verificada). URL corregida (faltaba '/Bookshelves/', estaba rota).",
     "id": 106,
     "dominio": "Ciencia",
     "tema": "Química"
@@ -1413,6 +1434,7 @@ const ALOJAR_LABEL = {
   revisar_uso_comercial: '⚠ copia posible, revisar uso comercial',
   revisar_por_item: '⚠ revisar por ítem',
   revisar_por_articulo: '⚠ revisar por artículo',
+  revisar_licencia_nc: '⚠ licencia no comercial, no copiar',
   revisar: '⚠ por revisar',
 };
 
@@ -1446,7 +1468,6 @@ function poblarBloques(){
       marcarBloqueActivo();
       poblarSubBloques();
       render();
-      document.getElementById('grid').scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
     cont.appendChild(btn);
   });
@@ -1470,6 +1491,7 @@ function poblarSubBloques(){
   const cont = document.getElementById('subbloques');
   cont.innerHTML = '';
   const dominioActivo = filtroDominio.value;
+  cont.dataset.dominio = dominioActivo || '';
   if (!dominioActivo) { document.getElementById('autorespills').innerHTML = ''; return; }
 
   const campo = DIMENSION_SECUNDARIA[dominioActivo] || 'pais';
@@ -1510,6 +1532,7 @@ function poblarAutores(){
   const cont = document.getElementById('autorespills');
   cont.innerHTML = '';
   const dominioActivo = filtroDominio.value;
+  cont.dataset.dominio = dominioActivo || '';
   const campo = DIMENSION_SECUNDARIA[dominioActivo] || 'pais';
   const valorActivo = campo === 'pais' ? filtroPais.value : temaActivo;
   if (!dominioActivo || !valorActivo) return; // solo mostramos autores una vez elegido país/tema
