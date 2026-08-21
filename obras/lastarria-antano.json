@@ -1,0 +1,43 @@
+{
+  "slug": "antano-i-hogano",
+  "titulo": "Antaño i Hogaño",
+  "autor": "José Victorino Lastarria",
+  "anio": 1885,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/jose-victorino-lastarria/antano-i-hogano/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/jose-victorino-lastarria/antano-i-hogano",
+    "nota": "Se conserva la ortografía original, según la reforma de Andrés Bello vigente en Chile hasta 1927, visible ya en el propio título: «i» por «y». Los títulos de los relatos figuran en la fuente en versalitas sin acentuar, según la convención tipográfica de la época; esta edición les restituye la acentuación. El texto no fue alterado."
+  },
+  "catalogo_id": 254,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Antaño i Hogaño",
+    "autor": "José Victorino Lastarria",
+    "anio": "1885",
+    "pais": "Chile",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": "h3",
+  "renombrar_capitulos": {
+    "EL MENDIGO": "El mendigo",
+    "EL ALFEREZ ALONSO DIAZ DE GUZMAN": "El alférez Alonso Díaz de Guzmán",
+    "ROSA.": "Rosa",
+    "DON GUILLERMO": "Don Guillermo",
+    "EL DIARIO DE UNA LOCA": "El diario de una loca",
+    "MERCEDES": "Mercedes",
+    "UNA HIJA": "Una hija"
+  },
+  "esperados": {
+    "capitulos": 7
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

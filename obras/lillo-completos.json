@@ -1,0 +1,34 @@
+{
+  "slug": "cuentos-completos",
+  "titulo": "Cuentos Completos",
+  "autor": "Baldomero Lillo",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/baldomero-lillo/cuentos-completos/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/baldomero-lillo/cuentos-completos",
+    "nota": "Este volumen recopilatorio reúne los relatos de «Sub terra» (1904) y «Sub sole» (1907) junto con otros aparecidos en prensa y en recopilaciones póstumas. Tinta y Datos publica además ambos libros por separado, tal como Lillo los compuso. Se conserva la ortografía de los originales, anterior a la reforma de 1927 en varios de los relatos."
+  },
+  "catalogo_id": 255,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos completos",
+    "autor": "Baldomero Lillo",
+    "pais": "Chile",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si",
+    "anio": "1904-1923"
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": "h3",
+  "patron_seccion": "^(.+)$",
+  "esperados": {
+    "capitulos": 48
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}
