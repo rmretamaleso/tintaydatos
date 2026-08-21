@@ -125,7 +125,9 @@ def parsear(doc, cfg):
       nivel_parte      'h2' o None
       nivel_capitulo   'h3'  (o 'h2' si no hay partes)
       patron_capitulo  regex con 1 o 2 grupos: (numero) y (titulo opcional)
-      nivel_seccion    'h4' si las secciones son encabezados, o None
+      nivel_seccion    'h4', o una lista ['h3','h4'] si hay varios niveles
+      preliminares     título para el texto previo al primer capítulo, o True
+                       para incluirlo sin encabezado
       patron_seccion   regex con 1 grupo para extraer el número de la sección
       seccion_numerica True si un <p> que es solo un número abre sección
       esperados        dict opcional: {'partes':4,'capitulos':31,'secciones':201}
@@ -136,6 +138,7 @@ def parsear(doc, cfg):
     pat = re.compile(cfg["patron_capitulo"]) if cfg.get("patron_capitulo") else None
     secnum = cfg.get("seccion_numerica", False)
     n_sec = cfg.get("nivel_seccion")
+    niveles_sec = ([n_sec] if isinstance(n_sec, str) else list(n_sec or []))
 
     partes, cap, sec = [], None, None
 
@@ -182,7 +185,7 @@ def parsear(doc, cfg):
             sec = None
             continue
 
-        if etiqueta == n_sec and cap is not None:
+        if etiqueta in niveles_sec and cap is not None:
             m = re.match(cfg.get("patron_seccion", r"^\s*(\S+)"), texto)
             nueva_seccion(m.group(1) if m else texto)
             continue
@@ -223,10 +226,12 @@ def parsear(doc, cfg):
     if preliminares:
         titulo_prel = cfg.get("preliminares")
         if titulo_prel:
+            # True significa "incluirlos sin encabezado propio"
+            numero_prel = None if titulo_prel is True else titulo_prel
             if not partes:
                 partes.append({"nombre": None, "capitulos": []})
             partes[0]["capitulos"].insert(0, {
-                "numero": titulo_prel, "titulo": None,
+                "numero": numero_prel, "titulo": None,
                 "secciones": [{"numero": None, "bloques": preliminares}]})
         else:
             print(f"AVISO: {len(preliminares)} párrafo(s) antes del primer capítulo "

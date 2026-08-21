@@ -1,0 +1,34 @@
+{
+  "slug": "recuerdos-de-provincia",
+  "titulo": "Recuerdos de Provincia",
+  "autor": "Domingo Faustino Sarmiento",
+  "anio": 1850,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/domingo-faustino-sarmiento/recuerdos-de-provincia/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/domingo-faustino-sarmiento/recuerdos-de-provincia"
+  },
+  "catalogo_id": 260,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Recuerdos de Provincia",
+    "autor": "Domingo Faustino Sarmiento",
+    "anio": "1850",
+    "pais": "Argentina",
+    "genero": "Memoria/Crónica",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": "h3",
+  "patron_seccion": "^(.+)$",
+  "esperados": {
+    "capitulos": 24
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

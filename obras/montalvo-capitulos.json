@@ -1,0 +1,34 @@
+{
+  "slug": "capitulos-que-se-le-olvidaron-a-cervantes",
+  "titulo": "Capítulos que se le Olvidaron a Cervantes",
+  "autor": "Juan Montalvo",
+  "anio": 1895,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/juan-montalvo/capitulos-que-se-le-olvidaron-a-cervantes/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/juan-montalvo/capitulos-que-se-le-olvidaron-a-cervantes"
+  },
+  "catalogo_id": 261,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Capítulos que se le Olvidaron a Cervantes",
+    "autor": "Juan Montalvo",
+    "anio": "1895",
+    "pais": "Ecuador",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": "h3",
+  "patron_seccion": "^(.+)$",
+  "esperados": {
+    "capitulos": 62
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

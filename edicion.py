@@ -203,6 +203,11 @@ def _cuerpo(partes, obra, est, opciones):
                 enc.append(Paragraph(_esc(cap["titulo"]), est["captitulo"]))
 
             secs = cap["secciones"]
+            if not secs:
+                # Encabezado que solo introduce a los siguientes, sin texto propio
+                if enc:
+                    story.append(KeepTogether(enc))
+                continue
             primeros = _bloques(secs[0]["bloques"], tipo, est, umbral)
             if secs[0].get("numero") is not None:
                 primeros = [Paragraph(str(secs[0]["numero"]), est["seccion"])] + primeros

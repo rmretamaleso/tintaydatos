@@ -1,0 +1,33 @@
+{
+  "slug": "abel-sanchez",
+  "titulo": "Abel Sánchez",
+  "autor": "Miguel de Unamuno",
+  "anio": 1917,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/miguel-de-unamuno/abel-sanchez/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/miguel-de-unamuno/abel-sanchez"
+  },
+  "catalogo_id": 264,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Abel Sánchez",
+    "autor": "Miguel de Unamuno",
+    "anio": "1917",
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "preliminares": true,
+  "esperados": {
+    "capitulos": 0
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

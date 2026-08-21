@@ -1,0 +1,33 @@
+{
+  "slug": "campos-de-castilla",
+  "titulo": "Campos de Castilla",
+  "autor": "Antonio Machado",
+  "anio": 1912,
+  "tipo": "verso",
+  "url": "https://www.textos.info/antonio-machado/campos-de-castilla/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/antonio-machado/campos-de-castilla"
+  },
+  "catalogo_id": 258,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Campos de Castilla",
+    "autor": "Antonio Machado",
+    "anio": "1912",
+    "pais": "España",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": "h3",
+  "patron_seccion": "^(.+)$",
+  "esperados": {
+    "capitulos": 60
+  },
+  "opciones": {
+    "salto_por_capitulo": true
+  }
+}

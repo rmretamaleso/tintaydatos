@@ -1,0 +1,32 @@
+{
+  "slug": "el-tungsteno",
+  "titulo": "El Tungsteno",
+  "autor": "César Vallejo",
+  "anio": 1931,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/cesar-vallejo/el-tungsteno/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/cesar-vallejo/el-tungsteno"
+  },
+  "catalogo_id": 262,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Tungsteno",
+    "autor": "César Vallejo",
+    "anio": "1931",
+    "pais": "Perú",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 3
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

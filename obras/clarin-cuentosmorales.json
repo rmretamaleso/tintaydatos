@@ -1,0 +1,37 @@
+{
+  "slug": "cuentos-morales",
+  "titulo": "Cuentos Morales",
+  "autor": "Leopoldo Alas \"Clarín\"",
+  "anio": 1896,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/leopoldo-alas-clarin/cuentos-morales/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/leopoldo-alas-clarin/cuentos-morales"
+  },
+  "catalogo_id": 265,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos Morales",
+    "autor": "Leopoldo Alas \"Clarín\"",
+    "anio": "1896",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": [
+    "h3",
+    "h4"
+  ],
+  "patron_seccion": "^(.+)$",
+  "esperados": {
+    "capitulos": 29
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}
