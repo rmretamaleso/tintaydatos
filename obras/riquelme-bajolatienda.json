@@ -1,0 +1,38 @@
+{
+  "slug": "bajo-la-tienda",
+  "titulo": "Bajo la Tienda",
+  "autor": "Daniel Riquelme",
+  "anio": 1896,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/daniel-riquelme/bajo-la-tienda/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/daniel-riquelme/bajo-la-tienda",
+    "nota": "Crónicas y relatos de la Guerra del Pacífico, reunidos por el autor en 1896. La fuente publica además dieciséis de estos relatos por separado; esta edición reúne el volumen tal como fue concebido. Se eliminó una llamada a nota al pie que la digitalización dejó adherida al título de una subsección."
+  },
+  "catalogo_id": 252,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Bajo la Tienda",
+    "autor": "Daniel Riquelme",
+    "anio": "1896",
+    "pais": "Chile",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": "h3",
+  "patron_seccion": "^(.+)$",
+  "renombrar_secciones": {
+    "Lo que toleraba el general3": "Lo que toleraba el general"
+  },
+  "esperados": {
+    "capitulos": 16
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

@@ -244,6 +244,20 @@ def parsear(doc, cfg):
             for c in p["capitulos"]:
                 c["numero"] = renombrar.get(c["numero"], c["numero"])
 
+    renombrar_sec = cfg.get("renombrar_secciones") or {}
+    if renombrar_sec:
+        vistas = {s["numero"] for p in partes for c in p["capitulos"]
+                  for s in c["secciones"] if s["numero"] is not None}
+        sobran = [k for k in renombrar_sec if k not in vistas]
+        if sobran:
+            sys.exit(f"'renombrar_secciones' menciona secciones que no existen "
+                     f"en la fuente: {sobran}")
+        for p in partes:
+            for c in p["capitulos"]:
+                for s in c["secciones"]:
+                    if s["numero"] in renombrar_sec:
+                        s["numero"] = renombrar_sec[s["numero"]]
+
     orden = cfg.get("orden_capitulos")
     if orden:
         if len(partes) != 1:
