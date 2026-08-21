@@ -1,0 +1,34 @@
+{
+  "slug": "el-loco-estero",
+  "titulo": "El Loco Estero",
+  "autor": "Alberto Blest Gana",
+  "anio": 1909,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/alberto-blest-gana/el-loco-estero/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/alberto-blest-gana/el-loco-estero",
+    "nota": "Última novela de Blest Gana, escrita en París. Lleva el subtítulo «Recuerdos de la niñez»."
+  },
+  "catalogo_id": 247,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Loco Estero",
+    "autor": "Alberto Blest Gana",
+    "anio": "1909",
+    "pais": "Chile",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 28
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es",
+    "etiqueta_capitulo": "CAPÍTULO"
+  }
+}

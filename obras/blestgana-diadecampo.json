@@ -1,0 +1,33 @@
+{
+  "slug": "un-dia-de-campo",
+  "titulo": "Un Día de Campo",
+  "autor": "Alberto Blest Gana",
+  "anio": 1859,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/alberto-blest-gana/un-dia-de-campo/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/alberto-blest-gana/un-dia-de-campo"
+  },
+  "catalogo_id": 251,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Un Día de Campo",
+    "autor": "Alberto Blest Gana",
+    "anio": "1859",
+    "pais": "Chile",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 10
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es",
+    "etiqueta_capitulo": "CAPÍTULO"
+  }
+}

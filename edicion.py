@@ -24,6 +24,8 @@ Recibe un ÁRBOL (dict), no texto. Quien lo produzca es problema de otro módulo
 
 Un verso o párrafo que empiece por ">> " se compone como acotación (voces, etc.).
 """
+import re
+
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY, TA_LEFT
 from reportlab.lib.pagesizes import A5
@@ -191,7 +193,11 @@ def _cuerpo(partes, obra, est, opciones):
 
             enc = []
             if cap.get("numero") is not None:
-                titulo = f"{etiq} {cap['numero']}".strip() if etiq else str(cap["numero"])
+                num = str(cap["numero"])
+                # La etiqueta ("CAPÍTULO", "RIMA"…) solo tiene sentido delante de
+                # un número. Un encabezado con título propio va tal cual.
+                numerado = bool(re.fullmatch(r"\d+|[IVXLCDM]+", num))
+                titulo = f"{etiq} {num}" if (etiq and numerado) else num
                 enc.append(Paragraph(_esc(titulo), est["capitulo"]))
             if cap.get("titulo"):
                 enc.append(Paragraph(_esc(cap["titulo"]), est["captitulo"]))

@@ -1,0 +1,34 @@
+{
+  "slug": "mariluan",
+  "titulo": "Mariluán",
+  "autor": "Alberto Blest Gana",
+  "anio": 1862,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/alberto-blest-gana/mariluan/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/alberto-blest-gana/mariluan",
+    "nota": "Novela protagonizada por un oficial mapuche, poco frecuentada dentro de la obra del autor."
+  },
+  "catalogo_id": 248,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Mariluán",
+    "autor": "Alberto Blest Gana",
+    "anio": "1862",
+    "pais": "Chile",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 20
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es",
+    "etiqueta_capitulo": "CAPÍTULO"
+  }
+}
