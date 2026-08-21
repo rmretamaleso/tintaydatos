@@ -1,0 +1,36 @@
+# PDF generados: viven en Cloudflare R2, no en el repo
+*.pdf
+
+# Credenciales: NUNCA versionar
+data_account.txt
+.env
+*.secret
+*credential*
+*.key
+
+# Carpeta de subida y material de terceros
+R2_upload/
+fuentes/
+
+# Volcados intermedios del pipeline (se regeneran solos)
+rimas_completo.txt
+rimas_corregido.txt
+*-tinta-y-datos.txt
+
+# Renders de revisión
+pag-*.png
+pg-*.png
+pp-*.png
+gm-*.png
+ct-*.png
+dg-*.png
+dh-*.png
+
+# Bloqueos de LibreOffice
+.~lock.*#
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

@@ -1,0 +1,33 @@
+{
+  "slug": "cuentos-de-la-selva",
+  "titulo": "Cuentos de la Selva",
+  "autor": "Horacio Quiroga",
+  "anio": 1918,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/horacio-quiroga/cuentos-de-la-selva/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/horacio-quiroga/cuentos-de-la-selva",
+    "nota": "La fuente presenta los ocho cuentos en orden alfabético; esta edición restituye el orden del libro de 1918, tal como lo consigna la propia ficha de la fuente."
+  },
+  "nivel_capitulo": "h2",
+  "orden_capitulos": [
+    "La tortuga gigante",
+    "Las medias de los flamencos",
+    "El loro pelado",
+    "La guerra de los yacarés",
+    "La gama ciega",
+    "Historia de dos cachorros de coatí y de dos cachorros de hombre",
+    "El paso del Yabebirí",
+    "La abeja haragana"
+  ],
+  "esperados": {
+    "capitulos": 8
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "catalogo_id": 17
+}

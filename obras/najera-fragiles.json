@@ -1,0 +1,22 @@
+{
+  "slug": "cuentos-fragiles",
+  "titulo": "Cuentos Frágiles",
+  "autor": "Manuel Gutiérrez Nájera",
+  "anio": 1883,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/manuel-gutierrez-najera/cuentos-fragiles/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/manuel-gutierrez-najera/cuentos-fragiles"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 15
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "catalogo_id": 24
+}

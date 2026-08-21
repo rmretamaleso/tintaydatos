@@ -1,0 +1,43 @@
+{
+  "slug": "cuentos-de-amor-de-locura-y-de-muerte",
+  "titulo": "Cuentos de Amor de Locura y de Muerte",
+  "autor": "Horacio Quiroga",
+  "anio": 1917,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/horacio-quiroga/cuentos-de-amor-de-locura-y-de-muerte/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/horacio-quiroga/cuentos-de-amor-de-locura-y-de-muerte",
+    "nota": "Corresponde a la primera edición, que conserva los tres relatos que Quiroga excluyó más tarde: «Los ojos sombríos», «El infierno artificial» y «El perro rabioso». Los títulos de los cuentos figuran en la fuente en versalitas sin acentuar, según la convención de la composición tipográfica en plomo de la época; esta edición les restituye la acentuación, siguiendo la forma en que la obra se cita habitualmente. El texto de los relatos no fue alterado."
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": "h3",
+  "renombrar_capitulos": {
+    "UNA ESTACION DE AMOR": "Una estación de amor",
+    "LOS OJOS SOMBRIOS": "Los ojos sombríos",
+    "EL SOLITARIO": "El solitario",
+    "LA MUERTE DE ISOLDA": "La muerte de Isolda",
+    "EL INFIERNO ARTIFICIAL": "El infierno artificial",
+    "LA GALLINA DEGOLLADA": "La gallina degollada",
+    "LOS BUQUES SUICIDANTES": "Los buques suicidantes",
+    "EL ALMOHADON DE PLUMA": "El almohadón de pluma",
+    "EL PERRO RABIOSO": "El perro rabioso",
+    "A LA DERIVA": "A la deriva",
+    "LA INSOLACION": "La insolación",
+    "EL ALAMBRE DE PUA": "El alambre de púa",
+    "LOS MENSÚ": "Los Mensú",
+    "YAGUAÍ": "Yaguaí",
+    "LOS PESCADORES DE VIGAS": "Los pescadores de vigas",
+    "LA MIEL SILVESTRE": "La miel silvestre",
+    "NUESTRO PRIMER CIGARRO": "Nuestro primer cigarro",
+    "LA MENINGITIS Y SU SOMBRA": "La meningitis y su sombra"
+  },
+  "esperados": {
+    "capitulos": 18
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "rimas",
+  "titulo": "Rimas",
+  "autor": "Gustavo Adolfo Bécquer",
+  "anio": 1871,
+  "tipo": "verso",
+  "url": "https://www.textos.info/gustavo-adolfo-becquer/rimas/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/gustavo-adolfo-becquer/rimas",
+    "nota": "Se cotejaron las lecturas dudosas contra la edición de 1885 y otras ediciones de referencia: se enmendaron nueve lecturas y se restituyeron dos saltos de estrofa perdidos en la digitalización. El registro completo de enmiendas, con su justificación, acompaña a esta obra en el catálogo."
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 76
+  },
+  "opciones": {
+    "etiqueta_capitulo": "RIMA",
+    "salto_por_capitulo": false
+  },
+  "catalogo_id": 3
+}

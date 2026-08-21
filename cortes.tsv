@@ -1,0 +1,15 @@
+# Cortes de estrofa para Rimas, de Gustavo Adolfo Bécquer.
+# Formato: RIMA <TAB> verso que debe INICIAR una estrofa nueva <TAB> justificación
+# textos.info perdió estos saltos; verificados contra segundas fuentes.
+#
+# XXXIV: cinco estrofas de cuatro versos. En textos.info la 1.ª y la 2.ª venían
+# pegadas porque entre ambas estaba incrustado el «ArribaAbajo» de navegación.
+XXXIV	Los ojos entreabre, aquellos ojos	Wikisource ed. 1885, Cervantes Virtual y Badosa: estrofa 2 empieza aquí
+#
+# LXXII: la TERCERA VOZ cierra en «la Libertad»; lo que sigue es el narrador.
+LXXII	Así los barqueros pasaban cantando	el canto de la tercera voz termina en «la Libertad»; aquí vuelve el narrador
+#
+# --- OPCIONAL ---
+# Varias ediciones separan además el diálogo final del remate narrativo.
+# Descoméntalo si quieres esa división (ajusta la puntuación a tu archivo).
+#LXXII	—¿Te embarcas?, gritaban. Y yo, sonriendo,	varias ediciones abren estrofa en el diálogo

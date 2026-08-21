@@ -1,0 +1,27 @@
+# Correcciones documentadas para Rimas, de Gustavo Adolfo Bécquer.
+# Formato: RIMA <TAB> verso tal como está <TAB> verso corregido <TAB> justificación
+#
+# IMPORTANTE: aplícalo sobre rimas_completo.txt (el original), NO sobre
+# rimas_corregido.txt, o las dos ya aplicadas fallarán y el script abortará.
+#
+# --- Verso mutilado por la fuente ---
+LXXVI	luz que temblaba en los pintados	luz que temblaba en los pintados vidrios.	Wikisource ed. 1885, rimasyleyendas, buscapalabra y poemlake coinciden en "vidrios"
+#
+# --- Rima XII: tres erratas en la misma zona ---
+# Ed. 1885: "Purpúrea granada abierta, / Que en el estío convida / A apagar la sed en ella."
+XII	pues no lo eras,	pues no lo creas,	las otras dos repeticiones del estribillo dicen "creas"
+XII	purpúrea granada abierta.	purpúrea granada abierta,	coma, no punto: el verso sigue en "que"
+XII	que en el estío convida a	que en el estío convida	la "a" pertenece al verso siguiente (ed. 1885, Pehuén, mercaba, Poem Lake)
+XII	apagar la sed en ella.	a apagar la sed en ella.	idem
+#
+# --- Erratas ortográficas de la fuente ---
+LXXIII	quedose deserto.	quedose desierto.	errata evidente; ninguna edición trae "deserto"
+LXXIII	veíase a intérvalos	veíase a intervalos	"intervalos" no lleva tilde
+#
+# --- Lectura divergente ---
+# Nueve ediciones (incl. Wikisource ed. 1885) dicen "oigo"; solo la familia de
+# la que deriva textos.info trae "oiga", que además rompe la concordancia.
+LXIV	Mas hoy le llamo en vano, y oiga al tiempo	Mas hoy le llamo en vano, y oigo al tiempo	ed. 1885 y ocho ediciones más
+#
+# --- Puntuación: exclamación abierta sin cerrar ---
+LXXI	que yo quería ha muerto»	que yo quería ha muerto!»	el verso anterior abre "«¡Alguno"; Pehuén cierra "ha muerto!"

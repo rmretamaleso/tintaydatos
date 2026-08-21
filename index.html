@@ -309,6 +309,7 @@
     display:flex;
     align-items:center;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 8px;
     border-top: 1px dashed #b8ac8d;
   }
@@ -318,6 +319,13 @@
     color: #6b6355;
   }
   .fuente-tag .warn{ color: var(--cochinilla); font-weight:600; }
+  .card .enlaces{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
   a.leer{
     font-family:'IBM Plex Mono', monospace;
     font-size: 11px;
@@ -471,10 +479,10 @@ const CATALOGO = [
     "pais": "España",
     "genero": "Poesía",
     "tipo": "Dominio público",
-    "fuente": "Wikisource",
-    "url": "https://es.wikisource.org/wiki/Rimas_(Bécquer)",
-    "verificado": false,
-    "notas": "Publicación póstuma de sus poemas.",
+    "fuente": "textos.info (edición de Edu Robsy, marcada como dominio público)",
+    "url": "https://archivos.tintaydatos.com/ediciones/rimas-tinta-y-datos.pdf",
+    "verificado": true,
+    "notas": "Edición propia Tinta y Datos: 76 rimas, 1.382 versos, tipografiada y alojada en R2. Cotejada contra la edición de 1885 y otras de referencia; se enmendaron nueve lecturas y se restituyeron dos saltos de estrofa perdidos en la digitalización de la fuente.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -501,10 +509,11 @@ const CATALOGO = [
     "pais": "España",
     "genero": "Novela",
     "tipo": "Dominio público",
-    "fuente": "textos.info",
-    "url": "https://www.textos.info/benito-perez-galdos/fortunata-y-jacinta/descargar-pdf",
+    "fuente": "textos.info (edición de Edu Robsy, marcada como dominio público)",
+    "url": "https://archivos.tintaydatos.com/ediciones/fortunata-y-jacinta-parte-1-tinta-y-datos.pdf",
+    "urls": "Parte 1::https://archivos.tintaydatos.com/ediciones/fortunata-y-jacinta-parte-1-tinta-y-datos.pdf|Parte 2::https://archivos.tintaydatos.com/ediciones/fortunata-y-jacinta-parte-2-tinta-y-datos.pdf|Parte 3::https://archivos.tintaydatos.com/ediciones/fortunata-y-jacinta-parte-3-tinta-y-datos.pdf|Parte 4::https://archivos.tintaydatos.com/ediciones/fortunata-y-jacinta-parte-4-tinta-y-datos.pdf",
     "verificado": true,
-    "notas": "Actualizado con link directo (gracias Rocío): textos.info es una biblioteca digital española legítima, activa desde 2016, que solo publica dominio público/CC/autorización expresa. Esta ficha específica declara explícitamente en sus metadatos 'Rights: dominio público'. PDF descargable directo, sin necesidad de búsqueda.",
+    "notas": "Edición propia Tinta y Datos en cuatro volúmenes, uno por parte: 31 capítulos, 198 secciones, 5.863 párrafos.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -576,10 +585,10 @@ const CATALOGO = [
     "pais": "Uruguay",
     "genero": "Cuento",
     "tipo": "Dominio público",
-    "fuente": "textos.info",
-    "url": "https://www.textos.info/horacio-quiroga/cuentos-de-amor-de-locura-y-de-muerte/descargar-pdf",
+    "fuente": "textos.info (edición de Edu Robsy, marcada como dominio público)",
+    "url": "https://archivos.tintaydatos.com/ediciones/cuentos-de-amor-de-locura-y-de-muerte-tinta-y-datos.pdf",
     "verificado": true,
-    "notas": "Actualizado con link de descarga directa en textos.info.",
+    "notas": "Edición propia Tinta y Datos: 18 relatos de la primera edición, incluidos los tres que Quiroga excluyó después. Se restituyó la acentuación de los títulos, que la fuente trae en versalitas sin tildes.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -666,10 +675,10 @@ const CATALOGO = [
     "pais": "Uruguay",
     "genero": "Cuento",
     "tipo": "Dominio público",
-    "fuente": "textos.info",
-    "url": "https://www.textos.info/horacio-quiroga/cuentos-de-la-selva/descargar-pdf",
+    "fuente": "textos.info (edición de Edu Robsy, marcada como dominio público)",
+    "url": "https://archivos.tintaydatos.com/ediciones/cuentos-de-la-selva-tinta-y-datos.pdf",
     "verificado": true,
-    "notas": "Actualizado con link de descarga directa en textos.info.",
+    "notas": "Edición propia Tinta y Datos: 8 cuentos, 620 párrafos. Se restituyó el orden del libro de 1918; la fuente los presenta en orden alfabético.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -741,10 +750,10 @@ const CATALOGO = [
     "pais": "México",
     "genero": "Cuento",
     "tipo": "Dominio público",
-    "fuente": "textos.info",
-    "url": "https://www.textos.info/manuel-gutierrez-najera/cuentos-fragiles/descargar-pdf",
+    "fuente": "textos.info (edición de Edu Robsy, marcada como dominio público)",
+    "url": "https://archivos.tintaydatos.com/ediciones/cuentos-fragiles-tinta-y-datos.pdf",
     "verificado": true,
-    "notas": "Actualizado con link de descarga directa en textos.info.",
+    "notas": "Edición propia Tinta y Datos: 15 cuentos. Conserva como verso las citas poéticas intercaladas en la prosa.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -794,6 +803,7 @@ const CATALOGO = [
     "puede_alojarse": "revisar_por_item"
   },
   {
+    "id": 100,
     "titulo": "Física universitaria, volumen 1",
     "autor": "Samuel J. Ling, Jeff Sanny, William Moebs (OpenStax)",
     "anio": 2016,
@@ -803,13 +813,12 @@ const CATALOGO = [
     "fuente": "OpenStax",
     "url": "https://openstax.org/details/books/f%C3%ADsica-universitaria-volumen-1",
     "verificado": true,
-    "puede_alojarse": "si",
     "notas": "Mecánica, sonido, oscilaciones y ondas. Traducción oficial de OpenStax, revisada por especialistas.",
-    "id": 100,
     "dominio": "Ciencia",
-    "tema": "Física"
+    "puede_alojarse": "si"
   },
   {
+    "id": 101,
     "titulo": "Física universitaria, volumen 2",
     "autor": "Samuel J. Ling, Jeff Sanny, William Moebs (OpenStax)",
     "anio": 2016,
@@ -819,13 +828,12 @@ const CATALOGO = [
     "fuente": "OpenStax",
     "url": "https://openstax.org/details/books/f%C3%ADsica-universitaria-volumen-2",
     "verificado": false,
-    "puede_alojarse": "si",
     "notas": "Termodinámica, electricidad y magnetismo.",
-    "id": 101,
     "dominio": "Ciencia",
-    "tema": "Física"
+    "puede_alojarse": "si"
   },
   {
+    "id": 102,
     "titulo": "Física universitaria, volumen 3",
     "autor": "Samuel J. Ling, Jeff Sanny, William Moebs (OpenStax)",
     "anio": 2016,
@@ -835,13 +843,12 @@ const CATALOGO = [
     "fuente": "OpenStax",
     "url": "https://openstax.org/details/books/f%C3%ADsica-universitaria-volumen-3",
     "verificado": false,
-    "puede_alojarse": "si",
     "notas": "Óptica y física moderna.",
-    "id": 102,
     "dominio": "Ciencia",
-    "tema": "Física"
+    "puede_alojarse": "si"
   },
   {
+    "id": 103,
     "titulo": "Química 2ed",
     "autor": "OpenStax",
     "anio": 2019,
@@ -851,13 +858,12 @@ const CATALOGO = [
     "fuente": "OpenStax",
     "url": "https://openstax.org/books/qu%C3%ADmica-2ed/pages/prefacio",
     "verificado": true,
-    "puede_alojarse": "si",
     "notas": "Curso general de química de dos semestres.",
-    "id": 103,
     "dominio": "Ciencia",
-    "tema": "Química"
+    "puede_alojarse": "si"
   },
   {
+    "id": 104,
     "titulo": "Cálculo (OpenStax)",
     "autor": "OpenStax",
     "anio": 2016,
@@ -867,13 +873,12 @@ const CATALOGO = [
     "fuente": "OpenStax (alojado en LibreTexts español)",
     "url": "https://espanol.libretexts.org/Bookshelves/Matematicas/Libro%3A_Calculo_(OpenStax)",
     "verificado": true,
-    "puede_alojarse": "revisar_licencia_nc",
     "notas": "CORRECCIÓN: URL arreglada (faltaba '/Bookshelves/', estaba rota). Además corrijo la licencia que había anotado antes: verifiqué la página directamente y esta versión específica en LibreTexts está licenciada CC BY-NC-SA 4.0 (no CC BY como asumí originalmente) — la cláusula NoComercial sí aplica acá, a diferencia de Química General y Conceptos en Biología que sí son CC BY limpio.",
-    "id": 104,
     "dominio": "Ciencia",
-    "tema": "Matemáticas"
+    "puede_alojarse": "revisar_licencia_nc"
   },
   {
+    "id": 105,
     "titulo": "Conceptos en Biología (OpenStax)",
     "autor": "OpenStax",
     "anio": 2018,
@@ -883,13 +888,12 @@ const CATALOGO = [
     "fuente": "OpenStax (alojado en LibreTexts español)",
     "url": "https://espanol.libretexts.org/Bookshelves/Biologia/Biologia_introductoria_y_general/Libro%3A_Conceptos_en_Biolog%C3%ADa_(OpenStax)",
     "verificado": true,
-    "puede_alojarse": "si",
     "notas": "Confirmado: licencia CC BY 4.0 (etiqueta license:ccby explícita en la página, re-verificada). URL corregida (faltaba '/Bookshelves/', estaba rota).",
-    "id": 105,
     "dominio": "Ciencia",
-    "tema": "Biología"
+    "puede_alojarse": "si"
   },
   {
+    "id": 106,
     "titulo": "Química General (OpenStax, vía LibreTexts español)",
     "autor": "OpenStax",
     "anio": 2019,
@@ -899,13 +903,12 @@ const CATALOGO = [
     "fuente": "OpenStax (alojado en LibreTexts español)",
     "url": "https://espanol.libretexts.org/Bookshelves/Quimica/Libro%3A_Qu%C3%ADmica_General_(OpenSTAX)",
     "verificado": true,
-    "puede_alojarse": "si",
     "notas": "Confirmado: licencia CC BY 4.0 (etiqueta license:ccby explícita en la página, re-verificada). URL corregida (faltaba '/Bookshelves/', estaba rota).",
-    "id": 106,
     "dominio": "Ciencia",
-    "tema": "Química"
+    "puede_alojarse": "si"
   },
   {
+    "id": 107,
     "titulo": "Revista Chilena de Historia Natural",
     "autor": "Sociedad de Biología de Chile",
     "anio": 2020,
@@ -915,13 +918,12 @@ const CATALOGO = [
     "fuente": "SciELO Chile",
     "url": "https://www.scielo.cl/scielo.php?script=sci_serial&pid=0716-078X",
     "verificado": false,
-    "puede_alojarse": "revisar_por_articulo",
     "notas": "SciELO exige CC-BY para revistas indexadas después de 2015; revistas o números más antiguos pueden tener otra licencia. Verificar artículo por artículo.",
-    "id": 107,
     "dominio": "Ciencia",
-    "tema": "Biología"
+    "puede_alojarse": "revisar_por_articulo"
   },
   {
+    "id": 108,
     "titulo": "Revista Médica de Chile",
     "autor": "Sociedad Médica de Santiago",
     "anio": 2020,
@@ -931,13 +933,12 @@ const CATALOGO = [
     "fuente": "SciELO Chile",
     "url": "https://www.scielo.cl/scielo.php?script=sci_serial&pid=0034-9887",
     "verificado": false,
-    "puede_alojarse": "revisar_por_articulo",
     "notas": "Misma salvedad que la anterior: confirmar licencia CC-BY por artículo/número.",
-    "id": 108,
     "dominio": "Ciencia",
-    "tema": "Medicina"
+    "puede_alojarse": "revisar_por_articulo"
   },
   {
+    "id": 109,
     "titulo": "Repositorio ANID — acceso abierto",
     "autor": "Agencia Nacional de Investigación y Desarrollo (Chile)",
     "anio": 2022,
@@ -947,13 +948,12 @@ const CATALOGO = [
     "fuente": "ANID",
     "url": "https://repositorio.anid.cl/home",
     "verificado": false,
-    "puede_alojarse": "revisar_por_item",
     "notas": "Corrección: las restricciones de acceso a cada ítem las define el propio autor al depositar (según FAQ oficial de ANID) — no todo lo que está en el repositorio es automáticamente redistribuible, aunque la política general sea de acceso abierto. Sigue siendo portal, no ítems concretos: seleccionar papers/tesis específicos requiere navegar el repositorio directamente (no lo pude hacer con las herramientas de búsqueda disponibles).",
-    "id": 109,
     "dominio": "Ciencia",
-    "tema": "Multidisciplinario"
+    "puede_alojarse": "revisar_por_item"
   },
   {
+    "id": 200,
     "titulo": "Leo Primero",
     "autor": "Ministerio de Educación de Chile (MINEDUC)",
     "anio": 2023,
@@ -963,13 +963,12 @@ const CATALOGO = [
     "fuente": "Currículum Nacional (MINEDUC)",
     "url": "https://www.curriculumnacional.cl/textos_escolares",
     "verificado": false,
-    "puede_alojarse": "revisar",
     "notas": "Colección de elaboración interna del MINEDUC (no de editorial privada), descrita como 'de descarga liberada para la ciudadanía'. Enlace al portal general, falta confirmar la ficha específica y los términos exactos de redistribución antes de copiar el archivo.",
-    "id": 200,
     "dominio": "Libros de Colegio",
-    "tema": "Literatura"
+    "puede_alojarse": "revisar"
   },
   {
+    "id": 201,
     "titulo": "Sumo Primero",
     "autor": "Ministerio de Educación de Chile (MINEDUC)",
     "anio": 2023,
@@ -979,43 +978,42 @@ const CATALOGO = [
     "fuente": "Currículum Nacional (MINEDUC)",
     "url": "https://www.curriculumnacional.cl/textos_escolares",
     "verificado": false,
-    "puede_alojarse": "revisar",
     "notas": "Mismo caso que Leo Primero: colección propia del MINEDUC, no de editorial privada. Verificar ficha específica y licencia exacta antes de alojar copia.",
-    "id": 201,
     "dominio": "Libros de Colegio",
-    "tema": "Matemáticas"
+    "puede_alojarse": "revisar"
   },
   {
+    "id": 202,
     "titulo": "Martín Rivas",
     "autor": "Alberto Blest Gana",
     "anio": 1862,
     "pais": "Chile",
     "genero": "Novela",
     "tipo": "Dominio público",
-    "fuente": "Internet Archive (Biblioteca Ayacucho)",
-    "url": "https://archive.org/stream/MartinRivas.AlbertoBlestGana.BibliotecaAyacucho/Martin%20Rivas.%20Alberto%20Blest%20Gana.%20Biblioteca%20Ayacucho_djvu.txt",
+    "fuente": "textos.info (edición de Edu Robsy, marcada como dominio público)",
+    "url": "https://archivos.tintaydatos.com/ediciones/martin-rivas-tinta-y-datos.pdf",
     "verificado": true,
-    "puede_alojarse": "revisar_uso_comercial",
-    "notas": "Considerada la primera novela realista chilena. Wikisource confirma que toda la obra original de Blest Gana es dominio público (murió hace más de 100 años).",
-    "id": 202,
-    "dominio": "Literatura"
+    "notas": "Edición propia Tinta y Datos: 66 capítulos, 4956 párrafos.",
+    "dominio": "Literatura",
+    "puede_alojarse": "revisar_uso_comercial"
   },
   {
+    "id": 203,
     "titulo": "Sub terra",
     "autor": "Baldomero Lillo",
-    "anio": 1904,
+    "anio": 1917,
     "pais": "Chile",
     "genero": "Cuento",
     "tipo": "Dominio público",
-    "fuente": "textos.info",
-    "url": "https://www.textos.info/baldomero-lillo/sub-terra/descargar-pdf",
+    "fuente": "textos.info (edición de Edu Robsy, marcada como dominio público)",
+    "url": "https://archivos.tintaydatos.com/ediciones/sub-terra-tinta-y-datos.pdf",
     "verificado": true,
-    "puede_alojarse": "si",
-    "notas": "Actualizado con link de descarga directa en textos.info (edición ampliada de 1917, 13 cuentos), en vez de Wikisource.",
-    "id": 203,
-    "dominio": "Literatura"
+    "notas": "Edición propia Tinta y Datos: 13 cuentos, 965 párrafos. Corresponde a la segunda edición, de 1917, que amplía a trece los ocho cuentos de 1904.",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
   },
   {
+    "id": 204,
     "titulo": "Altazor",
     "autor": "Vicente Huidobro",
     "anio": 1931,
@@ -1025,12 +1023,12 @@ const CATALOGO = [
     "fuente": "Internet Archive",
     "url": "https://archive.org/details/huidobro-altazor",
     "verificado": true,
-    "puede_alojarse": "revisar_uso_comercial",
     "notas": "Huidobro murió en 1948 (dominio público confirmado por regla de 70+ años). Ojo: la página de Wikisource de esta obra específica muestra un aviso de 'copyright reservado' que contradice la página general del autor — dejo esto marcado para revisar antes de alojar copia propia.",
-    "id": 204,
-    "dominio": "Literatura"
+    "dominio": "Literatura",
+    "puede_alojarse": "revisar_uso_comercial"
   },
   {
+    "id": 205,
     "titulo": "Días de campo",
     "autor": "Federico Gana",
     "anio": 1916,
@@ -1040,12 +1038,12 @@ const CATALOGO = [
     "fuente": "Wikisource",
     "url": "https://es.wikisource.org/w/index.php?search=D%C3%ADas+de+campo+Federico+Gana",
     "verificado": false,
-    "puede_alojarse": "revisar",
     "notas": "Precursor del criollismo rural chileno. Murió en 1926, dominio público seguro. No encontré la página exacta en Wikisource, enlace de búsqueda por ahora.",
-    "id": 205,
-    "dominio": "Literatura"
+    "dominio": "Literatura",
+    "puede_alojarse": "revisar"
   },
   {
+    "id": 206,
     "titulo": "La Araucana",
     "autor": "Alonso de Ercilla y Zúñiga",
     "anio": 1569,
@@ -1055,12 +1053,12 @@ const CATALOGO = [
     "fuente": "textos.info",
     "url": "https://www.textos.info/alonso-de-ercilla/la-araucana/descargar-pdf",
     "verificado": true,
-    "puede_alojarse": "si",
     "notas": "Actualizado con link de descarga directa en textos.info (409 págs., edición completa de las 3 partes), en vez de Wikisource.",
-    "id": 206,
-    "dominio": "Literatura"
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
   },
   {
+    "id": 207,
     "titulo": "Himno Nacional de Chile (letra)",
     "autor": "Eusebio Lillo Robles (versos), Bernardo de Vera y Pintado (coro)",
     "anio": 1847,
@@ -1070,12 +1068,12 @@ const CATALOGO = [
     "fuente": "Wikisource",
     "url": "https://es.wikisource.org/wiki/Himno_Nacional_de_Chile",
     "verificado": true,
-    "puede_alojarse": "si",
     "notas": "Autor de la letra vigente del himno chileno. Murió en 1910, dominio público hace más de un siglo.",
-    "id": 207,
-    "dominio": "Literatura"
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
   },
   {
+    "id": 208,
     "titulo": "Recuerdos del pasado",
     "autor": "Vicente Pérez Rosales",
     "anio": 1886,
@@ -1085,12 +1083,12 @@ const CATALOGO = [
     "fuente": "Memoria Chilena",
     "url": "https://www.memoriachilena.gob.cl/602/w3-article-7973.html",
     "verificado": true,
-    "puede_alojarse": "si",
     "notas": "Actualizado con la ficha específica del documento en Memoria Chilena (antes apuntaba a un link de búsqueda en Wikisource). Autor murió en 1886, dominio público seguro por antigüedad y por el patrón consistente de Memoria Chilena con obras de esta época.",
-    "id": 208,
-    "dominio": "Literatura"
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
   },
   {
+    "id": 209,
     "titulo": "Ifigenia",
     "autor": "Teresa de la Parra",
     "anio": 1924,
@@ -1100,12 +1098,12 @@ const CATALOGO = [
     "fuente": "Internet Archive",
     "url": "https://archive.org/details/ifigenia.teresadelaparra",
     "verificado": true,
-    "puede_alojarse": "revisar_uso_comercial",
     "notas": "Actualizado con link de descarga directa (PDF/EPUB) en Internet Archive, en vez del link de búsqueda de Wikisource.",
-    "id": 209,
-    "dominio": "Literatura"
+    "dominio": "Literatura",
+    "puede_alojarse": "revisar_uso_comercial"
   },
   {
+    "id": 210,
     "titulo": "Cumandá",
     "autor": "Juan León Mera",
     "anio": 1879,
@@ -1115,12 +1113,12 @@ const CATALOGO = [
     "fuente": "Freeditorial",
     "url": "https://freeditorial.com/es/books/cumanda-o-un-drama-entre-salvajes",
     "verificado": true,
-    "puede_alojarse": "revisar_uso_comercial",
     "notas": "Actualizado con link de descarga directa en Freeditorial, en vez del link de búsqueda de Wikisource.",
-    "id": 210,
-    "dominio": "Literatura"
+    "dominio": "Literatura",
+    "puede_alojarse": "revisar_uso_comercial"
   },
   {
+    "id": 211,
     "titulo": "Siete tratados",
     "autor": "Juan Montalvo",
     "anio": 1882,
@@ -1130,12 +1128,12 @@ const CATALOGO = [
     "fuente": "Wikisource",
     "url": "https://es.wikisource.org/wiki/Autor:Juan_Montalvo",
     "verificado": true,
-    "puede_alojarse": "si",
     "notas": "Wikisource confirma que toda la obra original de Montalvo es dominio público (murió hace más de 100 años). Enlace a la página de autor; falta ubicar la ficha específica de esta obra.",
-    "id": 211,
-    "dominio": "Literatura"
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
   },
   {
+    "id": 212,
     "titulo": "English First",
     "autor": "Ministerio de Educación de Chile (MINEDUC)",
     "anio": 2023,
@@ -1145,13 +1143,12 @@ const CATALOGO = [
     "fuente": "Currículum Nacional (MINEDUC)",
     "url": "https://www.curriculumnacional.cl/textos_escolares",
     "verificado": false,
-    "puede_alojarse": "revisar",
     "notas": "Colección propia del MINEDUC (no editorial privada) para enseñanza inicial de inglés mediante juegos y canciones. Portal confirma 'descarga liberada para la ciudadanía'; falta ficha específica.",
-    "id": 212,
     "dominio": "Libros de Colegio",
-    "tema": "Inglés"
+    "puede_alojarse": "revisar"
   },
   {
+    "id": 213,
     "titulo": "Juego Primero",
     "autor": "Ministerio de Educación de Chile (MINEDUC)",
     "anio": 2023,
@@ -1161,79 +1158,72 @@ const CATALOGO = [
     "fuente": "Currículum Nacional (MINEDUC)",
     "url": "https://www.curriculumnacional.cl/textos_escolares",
     "verificado": false,
-    "puede_alojarse": "revisar",
     "notas": "Recursos educativos de exploración y manipulación de materiales concretos, colección propia del MINEDUC. Falta ficha específica.",
-    "id": 213,
     "dominio": "Libros de Colegio",
-    "tema": "Educación inicial"
+    "puede_alojarse": "revisar"
   },
   {
+    "id": 214,
     "titulo": "Narraciones Extraordinarias",
     "autor": "Edgar Allan Poe",
     "anio": 1908,
     "pais": "Chile",
     "genero": "Cuento",
-    "tema": "Literatura",
     "tipo": "Biblioteca de descarga liberada (MINEDUC)",
     "fuente": "Currículum Nacional — Biblioteca de Descarga Liberada",
     "url": "https://www.curriculumnacional.cl/portal/Secciones/Biblioteca-de-Descarga-Liberada-BDL/226628:Narraciones-Extraordinarias",
     "verificado": true,
-    "puede_alojarse": "revisar_por_item",
     "notas": "Recomendado para 7° a 4° medio. Editorial: Freeditorial. La ficha muestra su propio licenciamiento explícito — confirmar esa etiqueta puntual antes de alojar copia.",
-    "id": 214,
-    "dominio": "Libros de Colegio"
+    "dominio": "Libros de Colegio",
+    "puede_alojarse": "revisar_por_item"
   },
   {
+    "id": 215,
     "titulo": "Malena",
     "autor": "Antonella Reveco Spalloni",
     "anio": 2020,
     "pais": "Chile",
     "genero": "Cuento infantil",
-    "tema": "Literatura",
     "tipo": "Biblioteca de descarga liberada (MINEDUC)",
     "fuente": "Currículum Nacional — Biblioteca de Descarga Liberada",
     "url": "https://www.curriculumnacional.cl/portal/Secciones/Biblioteca-de-Descarga-Liberada-BDL/223950:Malena",
     "verificado": true,
-    "puede_alojarse": "revisar_por_item",
     "notas": "Recomendado para Educación Parvularia a 6° básico. Autoría chilena contemporánea; verificar licencia específica antes de alojar copia.",
-    "id": 215,
-    "dominio": "Libros de Colegio"
+    "dominio": "Libros de Colegio",
+    "puede_alojarse": "revisar_por_item"
   },
   {
+    "id": 216,
     "titulo": "Historia de la aviación en Chile",
     "autor": "Enrique Flores Álvarez",
     "anio": 1930,
     "pais": "Chile",
     "genero": "Historia",
-    "tema": "Historia",
     "tipo": "Biblioteca de descarga liberada (MINEDUC)",
     "fuente": "Currículum Nacional — Biblioteca de Descarga Liberada (vía Memoria Chilena)",
     "url": "https://www.curriculumnacional.cl/portal/Secciones/Biblioteca-de-Descarga-Liberada-BDL/308279:Historia-de-la-aviacion-en-Chile",
     "verificado": true,
-    "puede_alojarse": "revisar_por_item",
     "notas": "Viene de la colección de libros de Memoria Chilena — aplica la misma cautela de siempre con esa fuente (revisar 'Patrimonio Cultural Común' vs. protegido).",
-    "id": 216,
-    "dominio": "Libros de Colegio"
+    "dominio": "Libros de Colegio",
+    "puede_alojarse": "revisar_por_item"
   },
   {
+    "id": 217,
     "titulo": "Ensayo de una bibliografía dramática chilena",
     "autor": "Nicolás Anrique R. (1864-1904)",
     "anio": 1899,
     "pais": "Chile",
     "genero": "Historia/Bibliografía",
-    "tema": "Literatura",
     "tipo": "Biblioteca de descarga liberada (MINEDUC)",
     "fuente": "Currículum Nacional — Biblioteca de Descarga Liberada (vía Memoria Chilena)",
     "url": "https://www.curriculumnacional.cl/portal/Secciones/Biblioteca-de-Descarga-Liberada-BDL/307002:Ensayo-de-una-bibliografia-dramatica-chilena",
     "verificado": true,
-    "puede_alojarse": "revisar_por_item",
     "notas": "Autor fallecido 1904, dominio público seguro por antigüedad. Vía Memoria Chilena, misma cautela habitual.",
-    "id": 217,
-    "dominio": "Libros de Colegio"
+    "dominio": "Libros de Colegio",
+    "puede_alojarse": "revisar_por_item"
   },
   {
     "id": 218,
-    "dominio": "Literatura",
     "titulo": "Mis memorias",
     "autor": "Carmen Smith de Espinosa (Smith Canales, Carmen)",
     "anio": 1936,
@@ -1243,122 +1233,117 @@ const CATALOGO = [
     "fuente": "Memoria Chilena",
     "url": "https://www.memoriachilena.gob.cl/602/w3-article-165727.html",
     "verificado": true,
-    "puede_alojarse": "si",
-    "notas": "La ficha del propio documento en Memoria Chilena declara explícitamente 'Propiedad intelectual: Patrimonio cultural común' — confirmación directa, sin necesidad de inferir. Memorias de infancia, juventud y familia, con versos y fotografías."
+    "notas": "La ficha del propio documento en Memoria Chilena declara explícitamente 'Propiedad intelectual: Patrimonio cultural común' — confirmación directa, sin necesidad de inferir. Memorias de infancia, juventud y familia, con versos y fotografías.",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
   },
   {
     "id": 219,
-    "dominio": "Ciencia",
     "titulo": "Clases de astronomía: profesadas en la Universidad de Santiago de Chile",
     "autor": "Friedrich Wilhelm Ristenpart (1868-1913)",
     "anio": 1912,
     "pais": "Chile",
     "genero": "Libro de texto — Astronomía",
-    "tema": "Astronomía",
     "tipo": "Dominio público (Patrimonio Cultural Común)",
     "fuente": "Memoria Chilena",
     "url": "https://www.memoriachilena.gob.cl/602/w3-article-63964.html",
     "verificado": true,
-    "puede_alojarse": "si",
-    "notas": "Ficha confirma explícitamente 'Propiedad intelectual: Patrimonio cultural común'. Curso completo de astronomía dictado en la Universidad de Chile por el astrónomo alemán Ristenpart, director del Observatorio Nacional. Autor murió en 1913, dominio público también por regla de autoría."
+    "notas": "Ficha confirma explícitamente 'Propiedad intelectual: Patrimonio cultural común'. Curso completo de astronomía dictado en la Universidad de Chile por el astrónomo alemán Ristenpart, director del Observatorio Nacional. Autor murió en 1913, dominio público también por regla de autoría.",
+    "dominio": "Ciencia",
+    "puede_alojarse": "si"
   },
   {
     "id": 220,
-    "dominio": "Ciencia",
     "titulo": "Peces nuevos de Chile",
     "autor": "Rodolfo Amando Philippi (1808-1904)",
     "anio": 1896,
     "pais": "Chile",
     "genero": "Artículo científico — Biología",
-    "tema": "Biología",
     "tipo": "Dominio público (Patrimonio Cultural Común)",
     "fuente": "Memoria Chilena",
     "url": "https://www.memoriachilena.gob.cl/602/w3-article-66186.html",
     "verificado": true,
-    "puede_alojarse": "si",
-    "notas": "Ficha confirma explícitamente 'Propiedad intelectual: Patrimonio cultural común'. Publicado originalmente en los Anales de la Universidad de Chile. Philippi fue uno de los naturalistas más influyentes de Chile, director del Museo Nacional de Historia Natural."
+    "notas": "Ficha confirma explícitamente 'Propiedad intelectual: Patrimonio cultural común'. Publicado originalmente en los Anales de la Universidad de Chile. Philippi fue uno de los naturalistas más influyentes de Chile, director del Museo Nacional de Historia Natural.",
+    "dominio": "Ciencia",
+    "puede_alojarse": "si"
   },
   {
     "id": 221,
-    "dominio": "Ciencia",
     "titulo": "Viage al Desierto de Atacama: hecho de orden del gobierno de Chile en el verano 1853-54",
     "autor": "Rodolfo Amando Philippi (1808-1904)",
     "anio": 1860,
     "pais": "Chile",
     "genero": "Libro — Geografía/Ciencias naturales",
-    "tema": "Biología",
     "tipo": "Dominio público (Patrimonio Cultural Común)",
     "fuente": "Memoria Chilena",
     "url": "https://www.memoriachilena.gob.cl/602/w3-article-7825.html",
     "verificado": true,
-    "puede_alojarse": "si",
-    "notas": "Ficha confirma explícitamente 'Propiedad intelectual: Patrimonio cultural común'. Relato de la expedición científica al Desierto de Atacama encargada por el gobierno de Chile, con observaciones botánicas, geológicas y etnográficas."
+    "notas": "Ficha confirma explícitamente 'Propiedad intelectual: Patrimonio cultural común'. Relato de la expedición científica al Desierto de Atacama encargada por el gobierno de Chile, con observaciones botánicas, geológicas y etnográficas.",
+    "dominio": "Ciencia",
+    "puede_alojarse": "si"
   },
   {
     "id": 222,
-    "dominio": "Ciencia",
     "titulo": "El origen de las especies por medio de la selección natural",
     "autor": "Charles Darwin (1809-1882); traducción de Antonio de Zulueta",
     "anio": 1921,
     "pais": "Internacional (visitó Chile 1832-1835)",
     "genero": "Libro — Biología/Historia natural",
-    "tema": "Biología",
     "tipo": "Dominio público (Patrimonio Cultural Común)",
     "fuente": "Memoria Chilena",
     "url": "https://www.memoriachilena.gob.cl/602/w3-article-8085.html",
     "verificado": true,
-    "puede_alojarse": "si",
-    "notas": "Ficha confirma explícitamente 'Propiedad intelectual: Patrimonio cultural común'. Primera traducción al español (Madrid, Calpe, 1921), en 3 tomos — este enlace es al tomo I; los tomos II y III están también disponibles en Memoria Chilena con la misma clasificación. Darwin recorrió Chile entre 1832 y 1835 durante el viaje del Beagle, observaciones que alimentaron directamente esta obra."
+    "notas": "Ficha confirma explícitamente 'Propiedad intelectual: Patrimonio cultural común'. Primera traducción al español (Madrid, Calpe, 1921), en 3 tomos — este enlace es al tomo I; los tomos II y III están también disponibles en Memoria Chilena con la misma clasificación. Darwin recorrió Chile entre 1832 y 1835 durante el viaje del Beagle, observaciones que alimentaron directamente esta obra.",
+    "dominio": "Ciencia",
+    "puede_alojarse": "si"
   },
   {
     "id": 223,
-    "dominio": "Ciencia",
     "titulo": "Jeolojía de la América Meridional",
     "autor": "Charles Darwin (1809-1882); traducción de Alfredo Escuti Orrego",
     "anio": 1906,
     "pais": "Internacional (visitó Chile 1832-1835)",
     "genero": "Libro — Geología",
-    "tema": "Geología",
     "tipo": "Dominio público (Patrimonio Cultural Común)",
     "fuente": "Memoria Chilena",
     "url": "https://www.memoriachilena.gob.cl/602/w3-article-65201.html",
     "verificado": true,
-    "puede_alojarse": "si",
-    "notas": "Ficha confirma explícitamente 'Propiedad intelectual: Patrimonio cultural común'. Traducción al español (1906) de 'Geological observations on South America' (1846), publicada como anexo a los Anales de la Universidad de Chile. Observaciones geológicas de Darwin durante el viaje del Beagle."
+    "notas": "Ficha confirma explícitamente 'Propiedad intelectual: Patrimonio cultural común'. Traducción al español (1906) de 'Geological observations on South America' (1846), publicada como anexo a los Anales de la Universidad de Chile. Observaciones geológicas de Darwin durante el viaje del Beagle.",
+    "dominio": "Ciencia",
+    "puede_alojarse": "si"
   },
   {
     "id": 224,
-    "dominio": "Ciencia",
     "titulo": "Viaje de un naturalista alrededor del mundo",
     "autor": "Charles Darwin (1809-1882); traducción de J. Hubert",
     "anio": 1945,
     "pais": "Internacional (visitó Chile 1832-1835)",
     "genero": "Libro — Biología/Relato de viaje científico",
-    "tema": "Biología",
     "tipo": "Dominio público (Patrimonio Cultural Común)",
     "fuente": "Memoria Chilena",
     "url": "https://www.memoriachilena.gob.cl/602/w3-article-8401.html",
     "verificado": true,
-    "puede_alojarse": "si",
-    "notas": "Ficha confirma explícitamente 'Propiedad intelectual: Patrimonio cultural común'. El diario de viaje del Beagle (publicado originalmente en 1839), con capítulos completos sobre su recorrido por Chile — Valparaíso, Santiago, Chiloé, la cordillera. Probablemente la obra de Darwin más accesible para público general, no especializado."
+    "notas": "Ficha confirma explícitamente 'Propiedad intelectual: Patrimonio cultural común'. El diario de viaje del Beagle (publicado originalmente en 1839), con capítulos completos sobre su recorrido por Chile — Valparaíso, Santiago, Chiloé, la cordillera. Probablemente la obra de Darwin más accesible para público general, no especializado.",
+    "dominio": "Ciencia",
+    "puede_alojarse": "si"
   },
   {
     "id": 225,
-    "dominio": "Ciencia",
     "titulo": "Revista Colombiana de Química",
     "autor": "Universidad Nacional de Colombia, Facultad de Ciencias",
     "anio": 1971,
     "pais": "Colombia",
     "genero": "Revista científica — Química",
-    "tema": "Química",
     "tipo": "Acceso abierto (CC BY 3.0)",
     "fuente": "Latindex / SciELO",
     "url": "http://www.revistas.unal.edu.co/index.php/rcolquim",
     "verificado": true,
-    "puede_alojarse": "si",
-    "notas": "Licencia confirmada explícitamente: Creative Commons Atribución 3.0 Unported — sin ambigüedad, a diferencia de otras revistas SciELO donde hay que revisar caso a caso. Publica investigación en química analítica, orgánica, inorgánica, bioquímica y fisicoquímica. Indexada en SciELO, Latindex y Scopus."
+    "notas": "Licencia confirmada explícitamente: Creative Commons Atribución 3.0 Unported — sin ambigüedad, a diferencia de otras revistas SciELO donde hay que revisar caso a caso. Publica investigación en química analítica, orgánica, inorgánica, bioquímica y fisicoquímica. Indexada en SciELO, Latindex y Scopus.",
+    "dominio": "Ciencia",
+    "puede_alojarse": "si"
   },
   {
+    "id": 226,
     "titulo": "Poesía completa (selección en Wikisource)",
     "autor": "Sor Juana Inés de la Cruz",
     "anio": 1689,
@@ -1368,12 +1353,12 @@ const CATALOGO = [
     "fuente": "Wikisource",
     "url": "https://es.wikisource.org/wiki/Autor:Sor_Juana_In%C3%A9s_de_la_Cruz",
     "verificado": true,
-    "puede_alojarse": "si",
     "notas": "Wikisource confirma explícitamente que todas sus obras originales están en dominio público (murió en 1695). Una de las figuras más importantes del Siglo de Oro y de la literatura colonial hispanoamericana — primera entrada del catálogo del período colonial (s. XVII).",
-    "id": 226,
-    "dominio": "Literatura"
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
   },
   {
+    "id": 227,
     "titulo": "Los heraldos negros",
     "autor": "César Vallejo",
     "anio": 1918,
@@ -1383,12 +1368,12 @@ const CATALOGO = [
     "fuente": "Wikimedia Commons (archivo fijo)",
     "url": "https://commons.wikimedia.org/wiki/File:Los_heraldos_negros.pdf",
     "verificado": true,
-    "puede_alojarse": "si",
     "notas": "Primer libro de Vallejo, uno de los poetas más influyentes de la lengua española del siglo XX. Murió en 1938, dominio público seguro. Página de Wikisource confirmada con el índice completo de poemas. ACTUALIZADO: archivo PDF fijo en Commons (177 págs.) en vez de la página de lectura de Wikisource.",
-    "id": 227,
-    "dominio": "Literatura"
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
   },
   {
+    "id": 228,
     "titulo": "Los Astros del Abismo",
     "autor": "Delmira Agustini",
     "anio": 1924,
@@ -1398,12 +1383,12 @@ const CATALOGO = [
     "fuente": "Internet Archive",
     "url": "https://archive.org/details/DelmiraAgustini1924LosAstrosDelAbismo",
     "verificado": true,
-    "puede_alojarse": "revisar_uso_comercial",
     "notas": "Segundo tomo de sus Obras Completas, publicado póstumamente en 1924, diez años después de su muerte. Considerada su obra culminante. Aportado por Rocío.",
-    "id": 228,
-    "dominio": "Literatura"
+    "dominio": "Literatura",
+    "puede_alojarse": "revisar_uso_comercial"
   },
   {
+    "id": 229,
     "titulo": "Antología",
     "autor": "Delmira Agustini",
     "anio": 1965,
@@ -1413,12 +1398,12 @@ const CATALOGO = [
     "fuente": "Internet Archive",
     "url": "https://archive.org/details/AgustiniDAntologia",
     "verificado": true,
-    "puede_alojarse": "revisar_uso_comercial",
     "notas": "Antología de su obra, con prólogo de Esther de Cáceres, publicada por la Biblioteca Artigas (Colección de Clásicos Uruguayos). Aportado por Rocío.",
-    "id": 229,
-    "dominio": "Literatura"
+    "dominio": "Literatura",
+    "puede_alojarse": "revisar_uso_comercial"
   },
   {
+    "id": 230,
     "titulo": "Languidez: versos",
     "autor": "Alfonsina Storni",
     "anio": 1920,
@@ -1428,12 +1413,12 @@ const CATALOGO = [
     "fuente": "Internet Archive",
     "url": "https://archive.org/details/languidezversos00storuoft",
     "verificado": true,
-    "puede_alojarse": "si",
     "notas": "Confirmado dominio público en Wikimedia Commons (autora murió 1938, más de 80 años). También disponible en Wikisource (es.wikisource.org/wiki/Languidez). Ganó el Primer Premio Municipal y el Segundo Premio Nacional de Literatura en Argentina. Aportado por Rocío.",
-    "id": 230,
-    "dominio": "Literatura"
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
   },
   {
+    "id": 231,
     "titulo": "El dulce daño",
     "autor": "Alfonsina Storni",
     "anio": 1918,
@@ -1443,12 +1428,12 @@ const CATALOGO = [
     "fuente": "Internet Archive",
     "url": "https://archive.org/details/stornieldulcedano",
     "verificado": true,
-    "puede_alojarse": "si",
     "notas": "La propia ficha de Internet Archive trae la etiqueta explícita 'Public Domain Mark 1.0' — confirmación directa, no hay que inferir. Aportado por Rocío.",
-    "id": 231,
-    "dominio": "Literatura"
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
   },
   {
+    "id": 232,
     "titulo": "Poemas de amor",
     "autor": "Alfonsina Storni",
     "anio": 1926,
@@ -1458,12 +1443,12 @@ const CATALOGO = [
     "fuente": "Internet Archive",
     "url": "https://archive.org/details/stornipoemasdeamor",
     "verificado": true,
-    "puede_alojarse": "revisar_uso_comercial",
     "notas": "Confirmado en español (OCR). Aportado por Rocío.",
-    "id": 232,
-    "dominio": "Literatura"
+    "dominio": "Literatura",
+    "puede_alojarse": "revisar_uso_comercial"
   },
   {
+    "id": 233,
     "titulo": "Antología",
     "autor": "Alfonsina Storni",
     "anio": 1938,
@@ -1473,194 +1458,204 @@ const CATALOGO = [
     "fuente": "Internet Archive",
     "url": "https://archive.org/details/alfonsina-storni-antologia_202407",
     "verificado": true,
-    "puede_alojarse": "revisar_uso_comercial",
     "notas": "Confirmado en español (OCR). Aportado por Rocío.",
-    "id": 233,
-    "dominio": "Literatura"
+    "dominio": "Literatura",
+    "puede_alojarse": "revisar_uso_comercial"
   },
   {
-    "titulo": "Sangre y arena",
-    "anio": 1908,
-    "url": "https://archive.org/details/SangreYArenaEbooksee",
-    "puede_alojarse": "si",
-    "notas": "Aportado por Rocío, verificado en Internet Archive. Ficha con etiqueta explícita 'Public Domain Mark 1.0'.",
     "id": 234,
-    "dominio": "Literatura",
+    "titulo": "Sangre y arena",
     "autor": "Vicente Blasco Ibáñez",
+    "anio": 1908,
     "pais": "España",
     "genero": "Novela",
     "tipo": "Dominio público",
     "fuente": "Internet Archive",
-    "verificado": true
+    "url": "https://archive.org/details/SangreYArenaEbooksee",
+    "verificado": true,
+    "notas": "Aportado por Rocío, verificado en Internet Archive. Ficha con etiqueta explícita 'Public Domain Mark 1.0'.",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
   },
   {
-    "titulo": "La reina Calafia",
-    "anio": 1923,
-    "url": "https://www.gutenberg.org/cache/epub/62850/pg62850-images.html",
-    "fuente": "Project Gutenberg",
-    "puede_alojarse": "si",
-    "notas": "Rocío pasó un link a Internet Archive (lareinacalafiano0000blas), pero ese ítem es de préstamo controlado (14 días, no descarga libre). Usé en su lugar Project Gutenberg, que sí es descarga libre sin restricción.",
     "id": 235,
-    "dominio": "Literatura",
+    "titulo": "La reina Calafia",
     "autor": "Vicente Blasco Ibáñez",
+    "anio": 1923,
     "pais": "España",
     "genero": "Novela",
     "tipo": "Dominio público",
-    "verificado": true
+    "fuente": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/62850/pg62850-images.html",
+    "verificado": true,
+    "notas": "Rocío pasó un link a Internet Archive (lareinacalafiano0000blas), pero ese ítem es de préstamo controlado (14 días, no descarga libre). Usé en su lugar Project Gutenberg, que sí es descarga libre sin restricción.",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
   },
   {
-    "titulo": "Los cuatro jinetes del Apocalipsis",
-    "anio": 1919,
-    "url": "https://archive.org/details/loscuatrojinetes00blas_0",
-    "puede_alojarse": "si",
-    "notas": "Aportado por Rocío, verificado en Internet Archive. Ficha marca 'Possible copyright status: NOT_IN_COPYRIGHT'.",
     "id": 236,
-    "dominio": "Literatura",
+    "titulo": "Los cuatro jinetes del Apocalipsis",
     "autor": "Vicente Blasco Ibáñez",
+    "anio": 1919,
     "pais": "España",
     "genero": "Novela",
     "tipo": "Dominio público",
     "fuente": "Internet Archive",
-    "verificado": true
+    "url": "https://archive.org/details/loscuatrojinetes00blas_0",
+    "verificado": true,
+    "notas": "Aportado por Rocío, verificado en Internet Archive. Ficha marca 'Possible copyright status: NOT_IN_COPYRIGHT'.",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
   },
   {
-    "titulo": "Argentina y sus grandezas",
-    "anio": 1910,
-    "url": "https://archive.org/details/argentinaysusgra00blas",
-    "puede_alojarse": "revisar_uso_comercial",
-    "notas": "Aportado por Rocío, verificado en Internet Archive. Crónica de su viaje a Argentina en 1909.",
     "id": 237,
-    "dominio": "Literatura",
+    "titulo": "Argentina y sus grandezas",
     "autor": "Vicente Blasco Ibáñez",
+    "anio": 1910,
     "pais": "España",
     "genero": "Crónica de viaje",
     "tipo": "Dominio público",
     "fuente": "Internet Archive",
-    "verificado": true
+    "url": "https://archive.org/details/argentinaysusgra00blas",
+    "verificado": true,
+    "notas": "Aportado por Rocío, verificado en Internet Archive. Crónica de su viaje a Argentina en 1909.",
+    "dominio": "Literatura",
+    "puede_alojarse": "revisar_uso_comercial"
   },
   {
-    "titulo": "El intruso",
-    "anio": 1924,
-    "url": "https://archive.org/details/intrusonovela00blas",
-    "puede_alojarse": "revisar_uso_comercial",
-    "notas": "Aportado por Rocío, verificado en Internet Archive.",
     "id": 238,
-    "dominio": "Literatura",
+    "titulo": "El intruso",
     "autor": "Vicente Blasco Ibáñez",
+    "anio": 1924,
     "pais": "España",
     "genero": "Novela",
     "tipo": "Dominio público",
     "fuente": "Internet Archive",
-    "verificado": true
-  },
-  {
-    "titulo": "La maja desnuda",
-    "anio": 1906,
-    "url": "https://archive.org/details/lamajadesnudanov00blas_0",
-    "puede_alojarse": "revisar_uso_comercial",
+    "url": "https://archive.org/details/intrusonovela00blas",
+    "verificado": true,
     "notas": "Aportado por Rocío, verificado en Internet Archive.",
-    "id": 239,
     "dominio": "Literatura",
+    "puede_alojarse": "revisar_uso_comercial"
+  },
+  {
+    "id": 239,
+    "titulo": "La maja desnuda",
     "autor": "Vicente Blasco Ibáñez",
+    "anio": 1906,
     "pais": "España",
     "genero": "Novela",
     "tipo": "Dominio público",
     "fuente": "Internet Archive",
-    "verificado": true
+    "url": "https://archive.org/details/lamajadesnudanov00blas_0",
+    "verificado": true,
+    "notas": "Aportado por Rocío, verificado en Internet Archive.",
+    "dominio": "Literatura",
+    "puede_alojarse": "revisar_uso_comercial"
   },
   {
-    "titulo": "El militarismo mejicano",
-    "anio": 1920,
-    "url": "https://archive.org/details/elmilitarismome00ibgoog",
-    "puede_alojarse": "si",
-    "notas": "Aportado por Rocío, verificado en Internet Archive. Ficha marca 'Possible copyright status: NOT_IN_COPYRIGHT'. Ensayo sobre la intervención de EEUU en México.",
     "id": 240,
-    "dominio": "Literatura",
+    "titulo": "El militarismo mejicano",
     "autor": "Vicente Blasco Ibáñez",
+    "anio": 1920,
     "pais": "España",
     "genero": "Ensayo",
     "tipo": "Dominio público",
     "fuente": "Internet Archive",
-    "verificado": true
+    "url": "https://archive.org/details/elmilitarismome00ibgoog",
+    "verificado": true,
+    "notas": "Aportado por Rocío, verificado en Internet Archive. Ficha marca 'Possible copyright status: NOT_IN_COPYRIGHT'. Ensayo sobre la intervención de EEUU en México.",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
   },
   {
-    "titulo": "La catedral",
-    "anio": 1916,
-    "url": "https://archive.org/details/lacatedralnovela00blas",
-    "puede_alojarse": "si",
-    "notas": "Aportado por Rocío, verificado en Internet Archive. Ficha con etiqueta explícita: 'In public domain. Work published prior to 1927.'",
     "id": 241,
-    "dominio": "Literatura",
+    "titulo": "La catedral",
     "autor": "Vicente Blasco Ibáñez",
+    "anio": 1916,
     "pais": "España",
     "genero": "Novela",
     "tipo": "Dominio público",
     "fuente": "Internet Archive",
-    "verificado": true
+    "url": "https://archive.org/details/lacatedralnovela00blas",
+    "verificado": true,
+    "notas": "Aportado por Rocío, verificado en Internet Archive. Ficha con etiqueta explícita: 'In public domain. Work published prior to 1927.'",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
   },
   {
+    "id": 242,
     "titulo": "Cartografía de México y el mundo",
     "autor": "Secretaría de Educación Pública (SEP) / CONALITEG",
     "anio": 2025,
     "pais": "México",
     "genero": "Texto escolar — Geografía (4° Primaria)",
-    "tema": "Geografía",
     "tipo": "Distribución gratuita nacional",
     "fuente": "CONALITEG (gob.mx)",
     "url": "https://libros.conaliteg.gob.mx/2025/P0CMA.htm",
     "verificado": true,
-    "puede_alojarse": "revisar",
     "notas": "Fuente oficial verificada (libros.conaliteg.gob.mx, dominio gob.mx real, no uno de los muchos sitios espejo no oficiales que existen). CONALITEG distribuye estos libros gratis a más de 14 millones de estudiantes cada año en todo México. No encontré una declaración explícita de licencia de reproducción en la página del libro (es un visor JS) — falta confirmar antes de alojar copia propia.",
-    "id": 242,
-    "dominio": "Libros de Colegio"
+    "dominio": "Libros de Colegio",
+    "puede_alojarse": "revisar"
   },
   {
+    "id": 243,
     "titulo": "Historia del pueblo mexicano",
     "autor": "Secretaría de Educación Pública (SEP) / CONALITEG",
     "anio": 2025,
     "pais": "México",
     "genero": "Texto escolar — Historia (1° Secundaria)",
-    "tema": "Historia",
     "tipo": "Distribución gratuita nacional",
     "fuente": "CONALITEG (gob.mx)",
     "url": "https://libros.conaliteg.gob.mx/secundaria.html",
     "verificado": false,
-    "puede_alojarse": "revisar",
     "notas": "Fuente oficial verificada. Falta ubicar la ficha específica del libro (por ahora enlaza al catálogo general de secundaria) y confirmar licencia de reproducción.",
-    "id": 243,
-    "dominio": "Libros de Colegio"
+    "dominio": "Libros de Colegio",
+    "puede_alojarse": "revisar"
   },
   {
+    "id": 244,
     "titulo": "Colección Ximhai: Saberes y pensamiento científico",
     "autor": "Secretaría de Educación Pública (SEP) / CONALITEG",
     "anio": 2025,
     "pais": "México",
     "genero": "Texto escolar — Ciencias (1° Secundaria)",
-    "tema": "Ciencias",
     "tipo": "Distribución gratuita nacional",
     "fuente": "CONALITEG (gob.mx)",
     "url": "https://libros.conaliteg.gob.mx/secundaria.html",
     "verificado": false,
-    "puede_alojarse": "revisar",
     "notas": "Fuente oficial verificada. Falta ubicar la ficha específica del libro y confirmar licencia de reproducción.",
-    "id": 244,
-    "dominio": "Libros de Colegio"
+    "dominio": "Libros de Colegio",
+    "puede_alojarse": "revisar"
   },
   {
     "id": 245,
-    "dominio": "Libros de Colegio",
     "titulo": "Gramática de la lengua castellana destinada al uso de los americanos",
     "autor": "Andrés Bello",
     "anio": 1847,
     "pais": "Internacional (Hispanoamérica)",
     "genero": "Texto escolar — Gramática/Lenguaje",
-    "tema": "Lenguaje",
     "tipo": "Dominio público",
     "fuente": "Wikisource",
     "url": "https://es.wikisource.org/wiki/Gram%C3%A1tica_de_la_lengua_castellana_destinada_al_uso_de_los_americanos",
     "verificado": true,
-    "puede_alojarse": "si",
-    "notas": "Escrita explícitamente para toda Hispanoamérica ('a mis hermanos, los habitantes de Hispanoamérica'), con más de 10 ediciones en distintos países. Fue LA gramática de referencia en la región durante generaciones — equivalente histórico al rol que después tuvo el Álgebra de Baldor en matemática, pero de una época ya segura en dominio público (Bello murió en 1865)."
+    "notas": "Escrita explícitamente para toda Hispanoamérica ('a mis hermanos, los habitantes de Hispanoamérica'), con más de 10 ediciones en distintos países. Fue LA gramática de referencia en la región durante generaciones — equivalente histórico al rol que después tuvo el Álgebra de Baldor en matemática, pero de una época ya segura en dominio público (Bello murió en 1865).",
+    "dominio": "Libros de Colegio",
+    "puede_alojarse": "si"
+  },
+  {
+    "id": 246,
+    "titulo": "Sub sole",
+    "autor": "Baldomero Lillo",
+    "anio": 1907,
+    "pais": "Chile",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "fuente": "textos.info (edición de Edu Robsy, marcada como dominio público)",
+    "url": "https://archivos.tintaydatos.com/ediciones/sub-sole-tinta-y-datos.pdf",
+    "verificado": true,
+    "notas": "Edición propia Tinta y Datos: 13 cuentos. Conserva la ortografía de Bello vigente en Chile hasta 1927. «La barrena» y «Cañuela i Petaca» figuran también en la segunda edición de Sub terra.",
+    "dominio": "Literatura",
+    "puede_alojarse": "si"
   }
 ];
 
@@ -1877,6 +1872,18 @@ function render(){
   });
 
   grid.innerHTML = '';
+  // Una obra puede tener varios archivos (novelas largas repartidas en volúmenes).
+  // Formato de o.urls: "Parte 1::https://...|Parte 2::https://..."
+  // La etiqueta es opcional; sin ella se numera automáticamente.
+  const enlaces = o => {
+    if (!o.urls) return [{ etiqueta: 'Leer →', url: o.url }];
+    return o.urls.split('|').filter(Boolean).map((tramo, i) => {
+      const partes = tramo.split('::');
+      return partes.length > 1
+        ? { etiqueta: partes[0].trim(), url: partes.slice(1).join('::').trim() }
+        : { etiqueta: `Parte ${i + 1}`, url: partes[0].trim() };
+    });
+  };
   filtradas.forEach(o => {
     const card = document.createElement('div');
     card.className = 'card';
@@ -1891,7 +1898,9 @@ function render(){
       <div class="aloja-tag">${ALOJAR_LABEL[o.puede_alojarse] || ALOJAR_LABEL.revisar}</div>
       <div class="footer-row">
         <span class="fuente-tag">${o.fuente}${o.verificado ? '' : ' <span class="warn">⚠ enlace por verificar</span>'}</span>
-        <a class="leer" href="${o.url}" target="_blank" rel="noopener">Leer →</a>
+        <span class="enlaces">${enlaces(o).map(e =>
+          `<a class="leer" href="${e.url}" target="_blank" rel="noopener">${e.etiqueta}</a>`
+        ).join('')}</span>
       </div>
     `;
     grid.appendChild(card);
@@ -1902,7 +1911,7 @@ function render(){
 }
 
 function descargarCSV(){
-  const cols = ['id','dominio','titulo','autor','anio','pais','genero','tipo','fuente','url','verificado','puede_alojarse','notas'];
+  const cols = ['id','dominio','titulo','autor','anio','pais','genero','tipo','fuente','url','urls','verificado','puede_alojarse','notas'];
   const escape = (v) => `"${String(v).replace(/"/g,'""')}"`;
   const filas = [cols.join(',')].concat(
     CATALOGO.map(o => cols.map(c => escape(o[c])).join(','))

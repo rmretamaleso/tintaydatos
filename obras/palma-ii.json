@@ -1,0 +1,21 @@
+{
+  "slug": "tradiciones-peruanas-ii",
+  "titulo": "Tradiciones Peruanas II",
+  "autor": "Ricardo Palma",
+  "anio": 1874,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ricardo-palma/tradiciones-peruanas-ii/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ricardo-palma/tradiciones-peruanas-ii",
+    "nota": "Segunda de las diez series de tradiciones que Ricardo Palma publicó entre 1872 y 1910. Esta edición reúne las tres primeras, que son las disponibles en la fuente."
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": "h3",
+  "patron_seccion": "^(.+)$",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}
