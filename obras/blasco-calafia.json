@@ -1,0 +1,23 @@
+{
+  "slug": "la-reina-calafia",
+  "titulo": "La Reina Calafia",
+  "autor": "Vicente Blasco Ibáñez",
+  "anio": 1923,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/vicente-blasco-ibanez/la-reina-calafia/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/vicente-blasco-ibanez/la-reina-calafia"
+  },
+  "catalogo_id": 235,
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 10
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es",
+    "etiqueta_capitulo": "CAPÍTULO"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "niebla",
+  "titulo": "Niebla",
+  "autor": "Miguel de Unamuno",
+  "anio": 1914,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/miguel-de-unamuno/niebla/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/miguel-de-unamuno/niebla"
+  },
+  "catalogo_id": 22,
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 34
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es",
+    "etiqueta_capitulo": "CAPÍTULO"
+  }
+}

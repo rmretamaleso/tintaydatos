@@ -1,0 +1,23 @@
+{
+  "slug": "la-catedral",
+  "titulo": "La Catedral",
+  "autor": "Vicente Blasco Ibáñez",
+  "anio": 1903,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/vicente-blasco-ibanez/la-catedral/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/vicente-blasco-ibanez/la-catedral"
+  },
+  "catalogo_id": 241,
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 9
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es",
+    "etiqueta_capitulo": "CAPÍTULO"
+  }
+}

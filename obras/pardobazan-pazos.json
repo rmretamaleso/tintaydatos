@@ -1,0 +1,26 @@
+{
+  "slug": "los-pazos-de-ulloa",
+  "titulo": "Los Pazos de Ulloa",
+  "autor": "Emilia Pardo Bazán",
+  "anio": 1886,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/emilia-pardo-bazan/los-pazos-de-ulloa/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/emilia-pardo-bazan/los-pazos-de-ulloa",
+    "nota": "La numeración de la fuente salta del capítulo V al VII; esta edición reproduce esa secuencia sin alterarla."
+  },
+  "catalogo_id": 20,
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "esperados": {
+    "partes": 2,
+    "capitulos": 29
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es",
+    "etiqueta_capitulo": "CAPÍTULO"
+  }
+}

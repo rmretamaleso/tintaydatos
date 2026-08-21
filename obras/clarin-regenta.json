@@ -1,0 +1,23 @@
+{
+  "slug": "la-regenta",
+  "titulo": "La Regenta",
+  "autor": "Leopoldo Alas \"Clarín\"",
+  "anio": 1884,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/leopoldo-alas-clarin/la-regenta/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/leopoldo-alas-clarin/la-regenta"
+  },
+  "catalogo_id": 4,
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 31
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es",
+    "etiqueta_capitulo": "CAPÍTULO"
+  }
+}

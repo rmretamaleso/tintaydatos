@@ -1,0 +1,26 @@
+{
+  "slug": "los-cuatro-jinetes-del-apocalipsis",
+  "titulo": "Los Cuatro Jinetes del Apocalipsis",
+  "autor": "Vicente Blasco Ibáñez",
+  "anio": 1919,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/vicente-blasco-ibanez/los-cuatro-jinetes-del-apocalipsis/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/vicente-blasco-ibanez/los-cuatro-jinetes-del-apocalipsis",
+    "nota": "Se conserva la acentuación original de la edición, anterior a la norma actual: «á», «ó», «fué»."
+  },
+  "catalogo_id": 236,
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "esperados": {
+    "partes": 3,
+    "capitulos": 15
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es",
+    "etiqueta_capitulo": "CAPÍTULO"
+  }
+}
