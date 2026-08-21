@@ -1,0 +1,24 @@
+{
+  "slug": "el-dulce-dano",
+  "titulo": "El Dulce Daño",
+  "autor": "Alfonsina Storni",
+  "anio": 1918,
+  "tipo": "verso",
+  "url": "https://www.textos.info/alfonsina-storni/el-dulce-dano/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/alfonsina-storni/el-dulce-dano"
+  },
+  "catalogo_id": 231,
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "esperados": {
+    "partes": 6,
+    "capitulos": 59
+  },
+  "opciones": {
+    "salto_por_capitulo": true
+  }
+}

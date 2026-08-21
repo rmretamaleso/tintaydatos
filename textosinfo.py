@@ -41,7 +41,7 @@ def limpiar(s):
     s = _html.unescape(s).replace("\u00a0", " ").replace("\u200b", "")
     for pat in ARTEFACTOS:
         s = re.sub(pat, "", s)
-    return re.sub(r"[ \t]+", " ", unicodedata.normalize("NFC", s)).strip()
+    return re.sub(r"\s+", " ", unicodedata.normalize("NFC", s)).strip()
 
 
 def _cuerpo(doc):
@@ -147,10 +147,10 @@ def parsear(doc, cfg):
         sec = {"numero": numero, "bloques": []}
         cap["secciones"].append(sec)
 
-    # El título y el autor suelen venir marcados con el mismo nivel que los
-    # capítulos. No son capítulos.
-    ignorar = {str(cfg.get(k, "")).strip().lower()
-               for k in ("titulo", "autor")} - {""}
+    # El nombre del autor puede venir marcado como encabezado de portada dentro
+    # del contenido. El título NO se descarta: hay obras cuya primera sección se
+    # llama igual que el libro (Azul, El dulce daño).
+    ignorar_autor = {str(cfg.get("autor", "")).strip().lower()} - {""}
 
     ignorados = {}
     preliminares = []
@@ -161,7 +161,7 @@ def parsear(doc, cfg):
         if etiqueta == "p" and any(rx.match(texto) for rx in FIN_CONTENIDO):
             break                      # empezó el pie del sitio
 
-        if etiqueta.startswith("h") and texto.strip().lower() in ignorar:
+        if etiqueta.startswith("h") and texto.strip().lower() in ignorar_autor:
             continue                   # portada, no capítulo
 
         if n_parte and etiqueta == n_parte:
@@ -286,7 +286,10 @@ def parsear(doc, cfg):
 
     obtenidos = {
         "partes": len([p for p in partes if p.get("nombre")]),
-        "capitulos": sum(len(p["capitulos"]) for p in partes),
+        # Solo los que tienen encabezado propio, para que el número coincida
+        # con lo que muestra --inspeccionar. Los implícitos no se cuentan.
+        "capitulos": sum(1 for p in partes for c in p["capitulos"]
+                         if c["numero"] is not None),
         "secciones": sum(len(c["secciones"]) for p in partes for c in p["capitulos"]),
     }
     esp = cfg.get("esperados") or {}

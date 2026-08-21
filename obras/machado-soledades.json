@@ -1,0 +1,21 @@
+{
+  "slug": "soledades",
+  "titulo": "Soledades",
+  "autor": "Antonio Machado",
+  "anio": 1903,
+  "tipo": "verso",
+  "url": "https://www.textos.info/antonio-machado/soledades/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/antonio-machado/soledades"
+  },
+  "catalogo_id": 23,
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 19
+  },
+  "opciones": {
+    "salto_por_capitulo": true
+  }
+}

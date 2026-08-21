@@ -72,18 +72,7 @@ def obras_de(doc, slug):
     return out
 
 
-def paginas_y_licencia(doc, obra):
-    """Busca '123 págs.' y la marca de dominio público cerca del enlace."""
-    i = doc.find(f"/{obra}")
-    if i < 0:
-        return None, None
-    trozo = doc[i:i + 4000]
-    pags = re.search(r"([\d.]+)\s*págs", trozo)
-    dp = "Dominio público" if re.search(r"Dominio p[úu]blico", trozo) else None
-    return (pags.group(1) if pags else None), dp
-
-
-def revisar(nombre, usar_slug):
+def revisar(nombre, usar_slug, filtro=None):
     slugs = [nombre] if usar_slug else variantes(nombre)
     for slug in slugs:
         doc, err = pedir(f"{BASE}/libros/autor/{slug}")
@@ -94,20 +83,43 @@ def revisar(nombre, usar_slug):
         # es el contador en cero.
         if n and n.group(1) == "0":
             continue
+        total = int(n.group(1)) if n else 0
         obras = obras_de(doc, slug)
+
+        # El listado viene paginado: hay que recorrerlo hasta agotarlo.
+        pagina = 1
+        while total and len(obras) < total and pagina < 60:
+            pagina += 1
+            mas, _ = pedir(f"{BASE}/libros/autor/{slug}/pagina/{pagina}")
+            if mas is None:
+                break
+            nuevas = [o for o in obras_de(mas, slug) if o not in obras]
+            if not nuevas:
+                break
+            obras += nuevas
+
         print(f"\n{'='*66}\n{nombre}  ->  /{slug}")
         print(f"{'='*66}")
         if not obras:
-            print(f"  {n.group(1) if n else '?'} obra(s) según el contador, pero no "
-                  f"reconocí los enlaces. Revísala a mano:")
+            print(f"  {total or '?'} obra(s) según el contador, pero no reconocí "
+                  f"los enlaces. Revísala a mano:")
             print(f"  {BASE}/libros/autor/{slug}")
             return True
-        print(f"  {n.group(1) if n else len(obras)} obra(s):\n")
-        print(f"  {'TÍTULO':<44}{'PÁGS':>7}   LICENCIA")
-        for titulo, obra in obras:
-            pags, dp = paginas_y_licencia(doc, obra)
-            print(f"  {titulo[:43]:<44}{pags or '?':>7}   {dp or '¿?'}")
-        print(f"\n  Slugs: {', '.join(o for _, o in obras)}")
+
+        mostrar = obras
+        if filtro:
+            rx = re.compile(filtro, re.I)
+            mostrar = [o for o in obras if rx.search(o[0]) or rx.search(o[1])]
+            print(f"  {len(obras)} obra(s) en total; {len(mostrar)} calzan "
+                  f"con «{filtro}»:\n")
+        else:
+            print(f"  {len(obras)} de {total or len(obras)} obra(s):\n")
+        if not mostrar:
+            print("  (ninguna calza con el filtro)")
+            return True
+        print(f"  {'TÍTULO':<48}SLUG")
+        for titulo, obra in mostrar:
+            print(f"  {titulo[:47]:<48}{obra}")
         return True
 
     print(f"\n{'='*66}\n{nombre}  ->  NO ESTÁ en textos.info")
@@ -123,11 +135,13 @@ if __name__ == "__main__":
     ap.add_argument("nombres", nargs="+")
     ap.add_argument("--slug", action="store_true",
                     help="tratar los argumentos como slugs literales")
+    ap.add_argument("--filtro", help="mostrar solo las obras cuyo título o slug "
+                                     "calce con esta expresión, ej: --filtro regenta")
     a = ap.parse_args()
     try:
         import requests  # noqa: F401
     except ImportError:
         sys.exit("Falta requests:  pip install requests --break-system-packages")
 
-    hallados = sum(revisar(n, a.slug) for n in a.nombres)
+    hallados = sum(revisar(n, a.slug, a.filtro) for n in a.nombres)
     print(f"\n{hallados}/{len(a.nombres)} encontrados.")

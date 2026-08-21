@@ -1,0 +1,25 @@
+{
+  "slug": "azul",
+  "titulo": "Azul",
+  "autor": "Rubén Darío",
+  "anio": 1888,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ruben-dario/azul/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ruben-dario/azul",
+    "nota": "Alterna cuentos en prosa y poemas; la edición conserva ambos registros tal como aparecen en el original."
+  },
+  "catalogo_id": 14,
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "esperados": {
+    "partes": 5,
+    "capitulos": 39
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

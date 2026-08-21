@@ -1,0 +1,22 @@
+{
+  "slug": "maria",
+  "titulo": "María",
+  "autor": "Jorge Isaacs",
+  "anio": 1867,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/jorge-isaacs/maria/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/jorge-isaacs/maria"
+  },
+  "catalogo_id": 7,
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 66
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "facundo",
+  "titulo": "Facundo",
+  "autor": "Domingo Faustino Sarmiento",
+  "anio": 1845,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/domingo-faustino-sarmiento/facundo/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/domingo-faustino-sarmiento/facundo"
+  },
+  "catalogo_id": 6,
+  "nivel_capitulo": "h2",
+  "nivel_seccion": "h3",
+  "patron_seccion": "^(.+)$",
+  "esperados": {
+    "capitulos": 17
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}
