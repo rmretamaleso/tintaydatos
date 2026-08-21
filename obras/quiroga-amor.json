@@ -39,5 +39,6 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  }
+  },
+  "catalogo_id": 10
 }
