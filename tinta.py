@@ -55,9 +55,11 @@ def _clave(s):
     """Clave de comparación insensible a cómo el PDF partió las líneas.
 
     reportlab con partición mete guiones al cortar palabras (sobrevi-/nieron),
-    y pdftotext junta ". . ." en "...". Quitando espacios y guiones, ambos lados
-    quedan comparables sin perder capacidad de detectar texto ausente.
+    y pdftotext junta ". . ." en "...". El prefijo ">> " marca acotaciones y no
+    se imprime, así que tampoco debe contarse. Quitando eso, ambos lados quedan
+    comparables sin perder capacidad de detectar texto ausente.
     """
+    s = s[3:] if s.startswith(">> ") else s
     return re.sub(r"[\s\u00ad\u2010-]+", "", s)
 
 

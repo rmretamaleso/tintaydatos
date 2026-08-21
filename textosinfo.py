@@ -66,7 +66,11 @@ def elementos(doc):
             lineas = [x for x in lineas if x]
             if not lineas:
                 continue
-            voz = bool(re.search(r"<(strong|b)\b", crudo))
+            # Acotación de voz solo si TODO el párrafo va en negrita
+            # (<p><strong>PRIMERA VOZ</strong></p>). Un término destacado dentro
+            # de un texto —una entrada de glosario— no lo es.
+            voz = bool(re.fullmatch(r"\s*<(strong|b)\b[^>]*>.*?</\1>\s*",
+                                    crudo, re.S | re.I))
             out.append((etiqueta, lineas, voz))
         else:
             t = limpiar(crudo)
@@ -184,7 +188,16 @@ def parsear(doc, cfg):
             continue
 
         if etiqueta == "p" and cap is None:
-            # Dedicatorias, prólogos y advertencias van antes del primer capítulo
+            if partes:
+                # Una parte con texto propio y sin capítulos (prólogos, declaraciones
+                # al lector) necesita un capítulo implícito que lo sostenga.
+                cap = {"numero": None, "titulo": None, "secciones": []}
+                partes[-1]["capitulos"].append(cap)
+                nueva_seccion(None)
+                sec["bloques"].append(lineas if len(lineas) > 1 or tipo == "verso"
+                                      else lineas[0])
+                continue
+            # Antes de cualquier parte: dedicatorias, prólogos, advertencias
             preliminares.append(lineas if len(lineas) > 1 else lineas[0])
             continue
 

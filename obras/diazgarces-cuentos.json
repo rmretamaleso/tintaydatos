@@ -1,0 +1,34 @@
+{
+  "slug": "cuentos-diaz-garces",
+  "titulo": "Cuentos",
+  "autor": "Joaquín Díaz Garcés",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/joaquin-diaz-garces/cuentos/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/joaquin-diaz-garces/cuentos",
+    "nota": "Reúne los diecinueve relatos que la fuente publica también por separado. Díaz Garcés firmaba como «Ángel Pino»."
+  },
+  "catalogo_id": 257,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos",
+    "autor": "Joaquín Díaz Garcés",
+    "pais": "Chile",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si",
+    "anio": "1900-1920"
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": "h3",
+  "patron_seccion": "^(.+)$",
+  "esperados": {
+    "capitulos": 19
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}
