@@ -9,14 +9,27 @@
   "fuente": {
     "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
     "url": "https://www.textos.info/ricardo-palma/tradiciones-peruanas-i",
-    "nota": "Primera de las diez series de tradiciones que Ricardo Palma publicó entre 1872 y 1910. Esta edición reúne las tres primeras, que son las disponibles en la fuente."
+    "nota": "Primera de las diez series de tradiciones que Ricardo Palma publicó entre 1872 y 1910. Tinta y Datos edita por separado las tres primeras, que son las disponibles en la fuente."
+  },
+  "catalogo_id": 16,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Tradiciones peruanas (primera serie)",
+    "autor": "Ricardo Palma",
+    "anio": "1872",
+    "pais": "Perú",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
   },
   "nivel_capitulo": "h2",
   "nivel_seccion": "h3",
   "patron_seccion": "^(.+)$",
+  "esperados": {
+    "capitulos": 15
+  },
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "catalogo_id": 16
+  }
 }
