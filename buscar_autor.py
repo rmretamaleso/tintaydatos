@@ -15,6 +15,7 @@ import argparse
 import html as _html
 import re
 import sys
+import time
 import unicodedata
 
 BASE = "https://www.textos.info"
@@ -35,20 +36,27 @@ def variantes(nombre):
     return out
 
 
-def pedir(url):
+def pedir(url, intentos=3, espera=45):
     import requests
-    try:
-        r = requests.get(url, timeout=30,
-                         headers={"User-Agent": "TintaYDatos/1.0"})
-    except requests.RequestException as e:
-        return None, f"error de red: {e}"
-    if r.status_code == 404:
-        return None, "404"
-    if r.status_code != 200:
-        return None, f"HTTP {r.status_code}"
-    if not r.encoding or r.encoding.lower() == "iso-8859-1":
-        r.encoding = "utf-8"
-    return r.text, None
+    ultimo = ""
+    for n in range(intentos):
+        try:
+            r = requests.get(url, timeout=espera,
+                             headers={"User-Agent": "TintaYDatos/1.0"})
+        except requests.RequestException as e:
+            ultimo = f"error de red: {type(e).__name__}"
+            time.sleep(2 * (n + 1))      # el servidor a veces tarda; insistir
+            continue
+        if r.status_code == 404:
+            return None, "404"
+        if r.status_code != 200:
+            ultimo = f"HTTP {r.status_code}"
+            time.sleep(2 * (n + 1))
+            continue
+        if not r.encoding or r.encoding.lower() == "iso-8859-1":
+            r.encoding = "utf-8"
+        return r.text, None
+    return None, ultimo
 
 
 def obras_de(doc, slug):
@@ -86,15 +94,23 @@ def revisar(nombre, usar_slug, filtro=None):
         total = int(n.group(1)) if n else 0
         obras = obras_de(doc, slug)
 
-        # El listado viene paginado: hay que recorrerlo hasta agotarlo.
+        # El listado viene paginado de 24 en 24: hay que recorrerlo hasta agotarlo.
         pagina = 1
-        while total and len(obras) < total and pagina < 60:
+        if total > len(obras):
+            print(f"  recorriendo el listado de {total} obras…", flush=True)
+        while total and len(obras) < total and pagina < 80:
             pagina += 1
-            mas, _ = pedir(f"{BASE}/libros/autor/{slug}/pagina/{pagina}")
+            time.sleep(0.4)                     # no atropellar al servidor
+            mas, err = pedir(f"{BASE}/libros/autor/{slug}/pag/{pagina}")
             if mas is None:
+                print(f"  AVISO: la página {pagina} no respondió ({err}); "
+                      f"quedan {total - len(obras)} obras sin listar.")
+                print(f"  Reintenta, o usa --filtro para acotar la búsqueda.")
                 break
             nuevas = [o for o in obras_de(mas, slug) if o not in obras]
             if not nuevas:
+                print(f"  AVISO: la página {pagina} no aportó obras nuevas; "
+                      f"quedan {total - len(obras)} sin listar.")
                 break
             obras += nuevas
 
