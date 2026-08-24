@@ -1,0 +1,35 @@
+{
+  "slug": "la-cueva-de-salamanca",
+  "titulo": "La Cueva de Salamanca",
+  "autor": "Miguel de Cervantes Saavedra",
+  "anio": 1615,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/miguel-de-cervantes-saavedra/la-cueva-de-salamanca/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/miguel-de-cervantes-saavedra/la-cueva-de-salamanca",
+    "nota": "Entremés."
+  },
+  "catalogo_id": 305,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Cueva de Salamanca",
+    "autor": "Miguel de Cervantes Saavedra",
+    "anio": "1615",
+    "pais": "España",
+    "genero": "Teatro",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "preliminares": true,
+  "esperados": {
+    "capitulos": 0,
+    "unidades": 341
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

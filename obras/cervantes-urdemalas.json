@@ -1,0 +1,33 @@
+{
+  "slug": "pedro-de-urdemalas",
+  "titulo": "Pedro de Urdemalas",
+  "autor": "Miguel de Cervantes Saavedra",
+  "anio": 1615,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/miguel-de-cervantes-saavedra/pedro-de-urdemalas/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/miguel-de-cervantes-saavedra/pedro-de-urdemalas"
+  },
+  "catalogo_id": 306,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Pedro de Urdemalas",
+    "autor": "Miguel de Cervantes Saavedra",
+    "anio": "1615",
+    "pais": "España",
+    "genero": "Teatro",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 1,
+    "unidades": 281
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

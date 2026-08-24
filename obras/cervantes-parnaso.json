@@ -1,0 +1,32 @@
+{
+  "slug": "el-viaje-del-parnaso",
+  "titulo": "El Viaje del Parnaso",
+  "autor": "Miguel de Cervantes Saavedra",
+  "anio": 1614,
+  "tipo": "verso",
+  "url": "https://www.textos.info/miguel-de-cervantes-saavedra/el-viaje-del-parnaso/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/miguel-de-cervantes-saavedra/el-viaje-del-parnaso"
+  },
+  "catalogo_id": 302,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Viaje del Parnaso",
+    "autor": "Miguel de Cervantes Saavedra",
+    "anio": "1614",
+    "pais": "España",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 17,
+    "unidades": 3423
+  },
+  "opciones": {
+    "salto_por_capitulo": true
+  }
+}

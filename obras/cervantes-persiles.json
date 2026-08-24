@@ -1,0 +1,38 @@
+{
+  "slug": "los-trabajos-de-persiles-y-segismunda",
+  "titulo": "Los Trabajos de Persiles y Segismunda",
+  "autor": "Miguel de Cervantes Saavedra",
+  "anio": 1617,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/miguel-de-cervantes-saavedra/los-trabajos-de-persiles-y-segismunda/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/miguel-de-cervantes-saavedra/los-trabajos-de-persiles-y-segismunda",
+    "nota": "Última obra de Cervantes, publicada póstumamente."
+  },
+  "catalogo_id": 301,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Los Trabajos de Persiles y Segismunda",
+    "autor": "Miguel de Cervantes Saavedra",
+    "anio": "1617",
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": [
+    "h3",
+    "h4"
+  ],
+  "esperados": {
+    "partes": 4,
+    "capitulos": 90
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

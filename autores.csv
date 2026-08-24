@@ -1,6 +1,6 @@
 nombre,alias,slug,pais,nacimiento,muerte,fecha_fiable,en_fuente,estado,otra_fuente,notas
 Alonso de Ercilla,,alonso-de-ercilla,España,1533,1594,si,si,disponible,,
-Miguel de Cervantes,Cervantes|Miguel de Cervantes Saavedra,,España,1547,1616,si,no,disponible,Cervantes Virtual; Gutenberg,No está bajo /miguel-de-cervantes
+Miguel de Cervantes,Cervantes|Miguel de Cervantes Saavedra,miguel-de-cervantes-saavedra,España,1547,1616,si,si,disponible,Cervantes Virtual; Gutenberg,21 obras en la fuente; el slug lleva «saavedra»
 Pedro de Oña,,,Chile,1570,1643,revisar,no,disponible,Cervantes Virtual; Memoria Chilena,Primer poeta nacido en Chile
 María de Zayas,,,España,1590,1661,revisar,no,disponible,Cervantes Virtual,
 Sor Juana Inés de la Cruz,,sor-juana-ines-de-la-cruz,México,1648,1695,si,si,disponible,,

@@ -158,6 +158,7 @@ def parsear(doc, cfg):
     tipo = cfg.get("tipo", "prosa")
     n_parte = cfg.get("nivel_parte")
     n_cap = cfg.get("nivel_capitulo", "h2")
+    niveles_cap = [n_cap] if isinstance(n_cap, str) else list(n_cap)
     pat = re.compile(cfg["patron_capitulo"]) if cfg.get("patron_capitulo") else None
     secnum = cfg.get("seccion_numerica", False)
     n_sec = cfg.get("nivel_seccion")
@@ -194,7 +195,7 @@ def parsear(doc, cfg):
             nueva_parte(texto); cap = sec = None
             continue
 
-        if etiqueta == n_cap:
+        if etiqueta in niveles_cap:
             numero, titulo = texto, None
             if pat:
                 m = pat.match(texto)
