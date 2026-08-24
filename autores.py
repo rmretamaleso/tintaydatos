@@ -11,6 +11,7 @@ obra nueva se liberó.
     python3 autores.py --proximos 10       # qué se libera en los próximos 10 años
     python3 autores.py --ano 2028          # qué está libre a esa altura
     python3 autores.py --revisar           # fechas marcadas para comprobar
+    python3 autores.py --fuentes           # dónde buscar a los que faltan
 
 El plazo depende del país. La mayoría de Hispanoamérica aplica 70 años desde
 la muerte del autor; España aplica 80 a quienes murieron antes de 1987, por
@@ -62,6 +63,8 @@ def main():
     ap.add_argument("--ano", type=int, help="qué está libre a esa altura")
     ap.add_argument("--revisar", action="store_true",
                     help="autores con fechas por comprobar")
+    ap.add_argument("--fuentes", action="store_true",
+                    help="agrupa por dónde buscar a los que faltan")
     a = ap.parse_args()
 
     if not Path(a.csv).exists():
@@ -97,6 +100,26 @@ def main():
             print("  (ninguno)")
         return
 
+    if a.fuentes:
+        from collections import defaultdict
+        por_fuente = defaultdict(list)
+        for f in filas:
+            if f["en_fuente"].strip() == "si":
+                continue
+            if not (f["libre_desde"] and f["libre_desde"] <= hoy):
+                continue
+            for nombre in (f.get("otra_fuente") or "sin pista").split(";"):
+                por_fuente[nombre.strip()].append(f["nombre"])
+        print("Autores en dominio público que hoy no podemos publicar,\n"
+              "agrupados por dónde habría que buscarlos:\n")
+        for nombre, quienes in sorted(por_fuente.items(),
+                                      key=lambda x: -len(x[1])):
+            print(f"  {nombre}  ({len(quienes)})")
+            for q in sorted(quienes):
+                print(f"      {q}")
+            print()
+        return
+
     if a.libres:
         libres = [f for f in filas
                   if f["libre_desde"] and f["libre_desde"] <= hoy
@@ -106,10 +129,12 @@ def main():
         print(f"DISPONIBLES Y EN textos.info ({len(en_fuente)}):\n")
         for f in sorted(en_fuente, key=lambda x: x["nombre"]):
             print(linea(f))
-        print(f"\nDISPONIBLES PERO FUERA DE LA FUENTE ({len(fuera)}) "
-              f"— harían falta otras fuentes:\n")
+        print(f"\nDISPONIBLES PERO FUERA DE textos.info ({len(fuera)}) "
+              f"— esperan otra fuente:\n")
         for f in sorted(fuera, key=lambda x: x["nombre"]):
             print(linea(f))
+            if f.get("otra_fuente", "").strip():
+                print(f"{'':<34}   buscar en: {f['otra_fuente']}")
         return
 
     # resumen
