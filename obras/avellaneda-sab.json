@@ -1,0 +1,35 @@
+{
+  "slug": "sab",
+  "titulo": "Sab",
+  "autor": "Gertrudis Gómez de Avellaneda",
+  "anio": 1841,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/gertrudis-gomez-de-avellaneda/sab/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/gertrudis-gomez-de-avellaneda/sab",
+    "nota": "Primera novela antiesclavista en lengua española, anterior a «La cabaña del tío Tom»."
+  },
+  "catalogo_id": 288,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Sab",
+    "autor": "Gertrudis Gómez de Avellaneda",
+    "anio": "1841",
+    "pais": "Cuba",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "esperados": {
+    "partes": 4,
+    "capitulos": 16
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

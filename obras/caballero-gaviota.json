@@ -1,0 +1,35 @@
+{
+  "slug": "la-gaviota",
+  "titulo": "La Gaviota",
+  "autor": "Fernán Caballero",
+  "anio": 1849,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/fernan-caballero/la-gaviota/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/fernan-caballero/la-gaviota",
+    "nota": "Fernán Caballero era el seudónimo de Cecilia Böhl de Faber."
+  },
+  "catalogo_id": 290,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Gaviota",
+    "autor": "Fernán Caballero",
+    "anio": "1849",
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": "h3",
+  "patron_seccion": "^(.+)$",
+  "esperados": {
+    "capitulos": 34
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

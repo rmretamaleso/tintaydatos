@@ -1,0 +1,35 @@
+{
+  "slug": "clemencia",
+  "titulo": "Clemencia",
+  "autor": "Fernán Caballero",
+  "anio": 1852,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/fernan-caballero/clemencia/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/fernan-caballero/clemencia",
+    "nota": "Fernán Caballero era el seudónimo de Cecilia Böhl de Faber."
+  },
+  "catalogo_id": 291,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Clemencia",
+    "autor": "Fernán Caballero",
+    "anio": "1852",
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "esperados": {
+    "partes": 4,
+    "capitulos": 36
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

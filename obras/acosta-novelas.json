@@ -1,0 +1,38 @@
+{
+  "slug": "novelas-y-cuadros-de-la-vida-sur-americana",
+  "titulo": "Novelas y Cuadros de la Vida Sur-Americana",
+  "autor": "Soledad Acosta de Samper",
+  "anio": 1869,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/soledad-acosta-de-samper/novelas-y-cuadros-de-la-vida-sur-americana/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/soledad-acosta-de-samper/novelas-y-cuadros-de-la-vida-sur-americana"
+  },
+  "catalogo_id": 299,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Novelas y Cuadros de la Vida Sur-Americana",
+    "autor": "Soledad Acosta de Samper",
+    "anio": "1869",
+    "pais": "Colombia",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": [
+    "h3",
+    "h4"
+  ],
+  "patron_seccion": "^(.+)$",
+  "preliminares": "Dedicatoria",
+  "esperados": {
+    "capitulos": 11
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

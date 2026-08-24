@@ -1,0 +1,33 @@
+{
+  "slug": "la-educacion-de-la-mujer",
+  "titulo": "La Educación de la Mujer",
+  "autor": "Concepción Arenal",
+  "anio": 1892,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/concepcion-arenal/la-educacion-de-la-mujer/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/concepcion-arenal/la-educacion-de-la-mujer"
+  },
+  "catalogo_id": 294,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Educación de la Mujer",
+    "autor": "Concepción Arenal",
+    "anio": "1892",
+    "pais": "España",
+    "genero": "Ensayo",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 4,
+    "unidades": 73
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

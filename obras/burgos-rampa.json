@@ -1,0 +1,34 @@
+{
+  "slug": "la-rampa",
+  "titulo": "La Rampa",
+  "autor": "Carmen de Burgos",
+  "anio": 1917,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/carmen-de-burgos/la-rampa/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/carmen-de-burgos/la-rampa",
+    "nota": "Firmaba como Colombine."
+  },
+  "catalogo_id": 298,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Rampa",
+    "autor": "Carmen de Burgos",
+    "anio": "1917",
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 28,
+    "unidades": 1723
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

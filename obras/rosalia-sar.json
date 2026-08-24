@@ -1,0 +1,33 @@
+{
+  "slug": "en-las-orillas-del-sar",
+  "titulo": "En las Orillas del Sar",
+  "autor": "Rosalía de Castro",
+  "anio": 1884,
+  "tipo": "verso",
+  "url": "https://www.textos.info/rosalia-de-castro/en-las-orillas-del-sar/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/rosalia-de-castro/en-las-orillas-del-sar"
+  },
+  "catalogo_id": 295,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "En las Orillas del Sar",
+    "autor": "Rosalía de Castro",
+    "anio": "1884",
+    "pais": "España",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": "h3",
+  "patron_seccion": "^(.+)$",
+  "esperados": {
+    "capitulos": 98
+  },
+  "opciones": {
+    "salto_por_capitulo": true
+  }
+}

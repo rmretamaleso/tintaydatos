@@ -1,0 +1,34 @@
+{
+  "slug": "la-mujer-del-porvenir",
+  "titulo": "La Mujer del Porvenir",
+  "autor": "Concepción Arenal",
+  "anio": 1869,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/concepcion-arenal/la-mujer-del-porvenir/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/concepcion-arenal/la-mujer-del-porvenir"
+  },
+  "catalogo_id": 293,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Mujer del Porvenir",
+    "autor": "Concepción Arenal",
+    "anio": "1869",
+    "pais": "España",
+    "genero": "Ensayo",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": "h3",
+  "patron_seccion": "^(.+)$",
+  "esperados": {
+    "capitulos": 13
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

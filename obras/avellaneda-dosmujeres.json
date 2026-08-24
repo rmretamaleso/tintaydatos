@@ -1,0 +1,34 @@
+{
+  "slug": "dos-mujeres",
+  "titulo": "Dos Mujeres",
+  "autor": "Gertrudis Gómez de Avellaneda",
+  "anio": 1842,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/gertrudis-gomez-de-avellaneda/dos-mujeres/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/gertrudis-gomez-de-avellaneda/dos-mujeres"
+  },
+  "catalogo_id": 289,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Dos Mujeres",
+    "autor": "Gertrudis Gómez de Avellaneda",
+    "anio": "1842",
+    "pais": "Cuba",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "esperados": {
+    "partes": 5,
+    "capitulos": 33
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}
