@@ -10,6 +10,7 @@ Uso típico:
 import html as _html
 import re
 import sys
+import time
 import unicodedata
 
 ARTEFACTOS = [r"Arriba\s*Abajo\s*", r"\bArriba\b\s*$"]
@@ -24,16 +25,38 @@ FIN_CONTENIDO = [re.compile(p, re.I) for p in (
 )]
 
 
-def descargar(url):
+ERROR_SITIO = [
+    r"No es posible conectar con el servidor",
+    r"Servicio no disponible",
+    r"Error de conexión",
+]
+
+
+def descargar(url, intentos=3, espera=45):
     try:
         import requests
     except ImportError:
         sys.exit("Falta requests:  pip install requests")
-    r = requests.get(url, timeout=60, headers={"User-Agent": "TintaYDatos/1.0"})
-    r.raise_for_status()
-    if not r.encoding or r.encoding.lower() == "iso-8859-1":
-        r.encoding = "utf-8"
-    return r.text
+    ultimo = ""
+    for n in range(intentos):
+        try:
+            r = requests.get(url, timeout=espera,
+                             headers={"User-Agent": "TintaYDatos/1.0"})
+            r.raise_for_status()
+        except Exception as e:
+            ultimo = f"{type(e).__name__}"
+            time.sleep(2 * (n + 1))
+            continue
+        if not r.encoding or r.encoding.lower() == "iso-8859-1":
+            r.encoding = "utf-8"
+        # El sitio responde 200 con una página de error; sin esto el parser la
+        # tomaría por la obra y produciría una edición hecha de nada.
+        if any(re.search(p, r.text, re.I) for p in ERROR_SITIO):
+            ultimo = "el sitio devolvió una página de error"
+            time.sleep(3 * (n + 1))
+            continue
+        return r.text
+    raise RuntimeError(f"No pude descargar {url} tras {intentos} intentos ({ultimo}).")
 
 
 def limpiar(s):
@@ -298,8 +321,13 @@ def parsear(doc, cfg):
         "secciones": sum(len(c["secciones"]) for p in partes for c in p["capitulos"]),
     }
     esp = cfg.get("esperados") or {}
+    # 'unidades' lo comprueba tinta.py sobre el árbol ya armado, no el parser.
+    desconocidas = set(esp) - set(obtenidos) - {"unidades"}
+    if desconocidas:
+        sys.exit(f"'esperados' tiene claves desconocidas: {sorted(desconocidas)}. "
+                 f"Válidas: {sorted(obtenidos)} y 'unidades'.")
     fallos = [f"{k}: esperaba {v}, encontré {obtenidos[k]}"
-              for k, v in esp.items() if obtenidos.get(k) != v]
+              for k, v in esp.items() if k in obtenidos and obtenidos[k] != v]
     if fallos:
         sys.exit("La estructura no coincide con lo esperado:\n  " + "\n  ".join(fallos)
                  + "\nAborto para no generar una edición incompleta.")

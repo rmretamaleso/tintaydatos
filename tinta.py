@@ -122,7 +122,19 @@ def procesar(ruta_cfg, a):
             ("titulo", "autor", "anio", "tipo", "catalogo", "fuente")}
     obra["partes"] = partes
     unidad = "versos" if cfg.get("tipo") == "verso" else "párrafos"
-    print(f"{totales} | {contar(obra)} {unidad}")
+    n_unidades = contar(obra)
+    print(f"{totales} | {n_unidades} {unidad}")
+
+    # Sin esto, una obra cuyo texto se pierde entero produce un PDF con portada
+    # y colofón que la verificación aprueba: cero unidades esperadas, cero
+    # faltantes. Es el único control que detecta una edición vacía.
+    esperado_u = (cfg.get("esperados") or {}).get("unidades")
+    if esperado_u is not None and n_unidades != esperado_u:
+        raise SystemExit(f"Esperaba {esperado_u} {unidad} y encontré {n_unidades}. "
+                         f"Aborto para no generar una edición incompleta.")
+    if n_unidades == 0:
+        raise SystemExit("La obra quedó sin una sola unidad de texto. "
+                         "Revisa los niveles declarados en el .json.")
 
     if a.txt:
         volcar_txt(obra, f"{slug}.txt")

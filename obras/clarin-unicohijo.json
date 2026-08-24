@@ -1,35 +1,30 @@
 {
-  "slug": "cuentos-morales",
-  "titulo": "Cuentos Morales",
+  "slug": "su-unico-hijo",
+  "titulo": "Su Único Hijo",
   "autor": "Leopoldo Alas \"Clarín\"",
-  "anio": 1896,
+  "anio": 1891,
   "tipo": "prosa",
-  "url": "https://www.textos.info/leopoldo-alas-clarin/cuentos-morales/ebook",
+  "url": "https://www.textos.info/leopoldo-alas-clarin/su-unico-hijo/ebook",
   "catalogo": "un catálogo de literatura en español en dominio público",
   "fuente": {
     "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
-    "url": "https://www.textos.info/leopoldo-alas-clarin/cuentos-morales"
+    "url": "https://www.textos.info/leopoldo-alas-clarin/su-unico-hijo"
   },
-  "catalogo_id": 265,
+  "catalogo_id": 287,
   "catalogo_campos": {
     "dominio": "Literatura",
-    "titulo": "Cuentos Morales",
+    "titulo": "Su Único Hijo",
     "autor": "Leopoldo Alas \"Clarín\"",
-    "anio": "1896",
+    "anio": "1891",
     "pais": "España",
-    "genero": "Cuento",
+    "genero": "Novela",
     "tipo": "Dominio público",
     "puede_alojarse": "si"
   },
   "nivel_capitulo": "h2",
-  "nivel_seccion": [
-    "h3",
-    "h4"
-  ],
-  "patron_seccion": "^(.+)$",
   "esperados": {
-    "capitulos": 29,
-    "unidades": 1349
+    "capitulos": 16,
+    "unidades": 1162
   },
   "opciones": {
     "salto_por_capitulo": true,

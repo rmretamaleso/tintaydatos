@@ -1,0 +1,35 @@
+{
+  "slug": "el-papa-del-mar",
+  "titulo": "El Papa del Mar",
+  "autor": "Vicente Blasco Ibáñez",
+  "anio": 1925,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/vicente-blasco-ibanez/el-papa-del-mar/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/vicente-blasco-ibanez/el-papa-del-mar"
+  },
+  "catalogo_id": 278,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Papa del Mar",
+    "autor": "Vicente Blasco Ibáñez",
+    "anio": "1925",
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "esperados": {
+    "partes": 3,
+    "capitulos": 16,
+    "unidades": 1419
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

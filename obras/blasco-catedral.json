@@ -13,7 +13,8 @@
   "catalogo_id": 241,
   "nivel_capitulo": "h2",
   "esperados": {
-    "capitulos": 9
+    "capitulos": 9,
+    "unidades": 1143
   },
   "opciones": {
     "salto_por_capitulo": true,

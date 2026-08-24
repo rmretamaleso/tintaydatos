@@ -16,7 +16,8 @@
   "nivel_capitulo": "h3",
   "esperados": {
     "partes": 5,
-    "capitulos": 39
+    "capitulos": 39,
+    "unidades": 1193
   },
   "opciones": {
     "salto_por_capitulo": true,

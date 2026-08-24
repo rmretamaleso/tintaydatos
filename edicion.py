@@ -24,6 +24,7 @@ Recibe un ÁRBOL (dict), no texto. Quien lo produzca es problema de otro módulo
 
 Un verso o párrafo que empiece por ">> " se compone como acotación (voces, etc.).
 """
+import os
 import re
 
 from reportlab.lib import colors
@@ -112,9 +113,68 @@ def _estilos(hyphenation=None):
     }
 
 
+_RESPALDO = None
+_CANDIDATAS = [
+    "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf",
+    "/usr/share/fonts/truetype/freefont/FreeSerif.ttf",
+    "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+]
+
+
+def _fuente_respaldo():
+    """Registra, una sola vez, una fuente con cobertura amplia."""
+    global _RESPALDO
+    if _RESPALDO is None:
+        from reportlab.pdfbase import pdfmetrics
+        from reportlab.pdfbase.ttfonts import TTFont
+        _RESPALDO = ""
+        for ruta in _CANDIDATAS:
+            if os.path.exists(ruta):
+                pdfmetrics.registerFont(TTFont("Respaldo", ruta))
+                _RESPALDO = "Respaldo"
+                break
+    return _RESPALDO or None
+
+
 def _esc(t):
-    """reportlab interpreta & y < como marcado; hay que escaparlos."""
-    return t.replace("&", "&amp;").replace("<", "&lt;")
+    """Escapa el marcado y sustituye la fuente donde Times no llega.
+
+    Los tipos base de reportlab solo cubren el juego latino (WinAnsi): un
+    texto en griego, cirílico o con símbolos raros saldría en blanco, y la
+    verificación lo detectaría como texto ausente. Aquí esos tramos se marcan
+    con una fuente de respaldo, sin tocar el resto de la composición.
+    """
+    t = t.replace("&", "&amp;").replace("<", "&lt;")
+    if all(_cabe(c) for c in t):
+        return t
+    respaldo = _fuente_respaldo()
+    if not respaldo:
+        raise SystemExit(
+            "El texto tiene caracteres fuera del juego latino y no encontré una "
+            "fuente de respaldo.\n  sudo apt install fonts-dejavu-core")
+    salida, buf, fuera = [], [], False
+    for c in t:
+        if _cabe(c) == (not fuera):
+            buf.append(c); continue
+        salida.append(_tramo("".join(buf), fuera, respaldo))
+        buf, fuera = [c], not fuera
+    salida.append(_tramo("".join(buf), fuera, respaldo))
+    return "".join(salida)
+
+
+def _cabe(c):
+    try:
+        c.encode("cp1252")
+        return True
+    except UnicodeEncodeError:
+        return False
+
+
+def _tramo(texto, fuera, respaldo):
+    if not texto:
+        return ""
+    return f'<font name="{respaldo}">{texto}</font>' if fuera else texto
 
 
 def _portada(obra, est, subtitulo=None):

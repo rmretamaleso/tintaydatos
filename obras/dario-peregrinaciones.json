@@ -1,23 +1,23 @@
 {
-  "slug": "cuentos-morales",
-  "titulo": "Cuentos Morales",
-  "autor": "Leopoldo Alas \"Clarín\"",
-  "anio": 1896,
+  "slug": "peregrinaciones",
+  "titulo": "Peregrinaciones",
+  "autor": "Rubén Darío",
+  "anio": 1901,
   "tipo": "prosa",
-  "url": "https://www.textos.info/leopoldo-alas-clarin/cuentos-morales/ebook",
+  "url": "https://www.textos.info/ruben-dario/peregrinaciones/ebook",
   "catalogo": "un catálogo de literatura en español en dominio público",
   "fuente": {
     "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
-    "url": "https://www.textos.info/leopoldo-alas-clarin/cuentos-morales"
+    "url": "https://www.textos.info/ruben-dario/peregrinaciones"
   },
-  "catalogo_id": 265,
+  "catalogo_id": 285,
   "catalogo_campos": {
     "dominio": "Literatura",
-    "titulo": "Cuentos Morales",
-    "autor": "Leopoldo Alas \"Clarín\"",
-    "anio": "1896",
-    "pais": "España",
-    "genero": "Cuento",
+    "titulo": "Peregrinaciones",
+    "autor": "Rubén Darío",
+    "anio": "1901",
+    "pais": "Nicaragua",
+    "genero": "Memoria/Crónica",
     "tipo": "Dominio público",
     "puede_alojarse": "si"
   },
@@ -28,8 +28,8 @@
   ],
   "patron_seccion": "^(.+)$",
   "esperados": {
-    "capitulos": 29,
-    "unidades": 1349
+    "capitulos": 2,
+    "unidades": 545
   },
   "opciones": {
     "salto_por_capitulo": true,

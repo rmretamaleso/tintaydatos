@@ -1,35 +1,32 @@
 {
-  "slug": "cuentos-morales",
-  "titulo": "Cuentos Morales",
-  "autor": "Leopoldo Alas \"Clarín\"",
+  "slug": "los-raros",
+  "titulo": "Los Raros",
+  "autor": "Rubén Darío",
   "anio": 1896,
   "tipo": "prosa",
-  "url": "https://www.textos.info/leopoldo-alas-clarin/cuentos-morales/ebook",
+  "url": "https://www.textos.info/ruben-dario/los-raros/ebook",
   "catalogo": "un catálogo de literatura en español en dominio público",
   "fuente": {
     "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
-    "url": "https://www.textos.info/leopoldo-alas-clarin/cuentos-morales"
+    "url": "https://www.textos.info/ruben-dario/los-raros"
   },
-  "catalogo_id": 265,
+  "catalogo_id": 283,
   "catalogo_campos": {
     "dominio": "Literatura",
-    "titulo": "Cuentos Morales",
-    "autor": "Leopoldo Alas \"Clarín\"",
+    "titulo": "Los Raros",
+    "autor": "Rubén Darío",
     "anio": "1896",
-    "pais": "España",
-    "genero": "Cuento",
+    "pais": "Nicaragua",
+    "genero": "Ensayo",
     "tipo": "Dominio público",
     "puede_alojarse": "si"
   },
   "nivel_capitulo": "h2",
-  "nivel_seccion": [
-    "h3",
-    "h4"
-  ],
+  "nivel_seccion": "h3",
   "patron_seccion": "^(.+)$",
   "esperados": {
-    "capitulos": 29,
-    "unidades": 1349
+    "capitulos": 22,
+    "unidades": 1123
   },
   "opciones": {
     "salto_por_capitulo": true,

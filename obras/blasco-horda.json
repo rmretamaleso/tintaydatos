@@ -1,31 +1,30 @@
 {
-  "slug": "abel-sanchez",
-  "titulo": "Abel Sánchez",
-  "autor": "Miguel de Unamuno",
-  "anio": 1917,
+  "slug": "la-horda",
+  "titulo": "La Horda",
+  "autor": "Vicente Blasco Ibáñez",
+  "anio": 1905,
   "tipo": "prosa",
-  "url": "https://www.textos.info/miguel-de-unamuno/abel-sanchez/ebook",
+  "url": "https://www.textos.info/vicente-blasco-ibanez/la-horda/ebook",
   "catalogo": "un catálogo de literatura en español en dominio público",
   "fuente": {
     "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
-    "url": "https://www.textos.info/miguel-de-unamuno/abel-sanchez"
+    "url": "https://www.textos.info/vicente-blasco-ibanez/la-horda"
   },
-  "catalogo_id": 264,
+  "catalogo_id": 275,
   "catalogo_campos": {
     "dominio": "Literatura",
-    "titulo": "Abel Sánchez",
-    "autor": "Miguel de Unamuno",
-    "anio": "1917",
+    "titulo": "La Horda",
+    "autor": "Vicente Blasco Ibáñez",
+    "anio": "1905",
     "pais": "España",
     "genero": "Novela",
     "tipo": "Dominio público",
     "puede_alojarse": "si"
   },
   "nivel_capitulo": "h2",
-  "preliminares": true,
   "esperados": {
-    "capitulos": 0,
-    "unidades": 1309
+    "capitulos": 12,
+    "unidades": 2006
   },
   "opciones": {
     "salto_por_capitulo": true,

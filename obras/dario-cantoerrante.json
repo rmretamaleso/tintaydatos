@@ -1,21 +1,21 @@
 {
-  "slug": "cantos-de-vida-y-esperanza",
-  "titulo": "Cantos de Vida y Esperanza",
+  "slug": "el-canto-errante",
+  "titulo": "El Canto Errante",
   "autor": "Rubén Darío",
-  "anio": 1905,
+  "anio": 1907,
   "tipo": "verso",
-  "url": "https://www.textos.info/ruben-dario/cantos-de-vida-y-esperanza/ebook",
+  "url": "https://www.textos.info/ruben-dario/el-canto-errante/ebook",
   "catalogo": "un catálogo de literatura en español en dominio público",
   "fuente": {
     "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
-    "url": "https://www.textos.info/ruben-dario/cantos-de-vida-y-esperanza"
+    "url": "https://www.textos.info/ruben-dario/el-canto-errante"
   },
-  "catalogo_id": 259,
+  "catalogo_id": 286,
   "catalogo_campos": {
     "dominio": "Literatura",
-    "titulo": "Cantos de Vida y Esperanza",
+    "titulo": "El Canto Errante",
     "autor": "Rubén Darío",
-    "anio": "1905",
+    "anio": "1907",
     "pais": "Nicaragua",
     "genero": "Poesía",
     "tipo": "Dominio público",
@@ -26,9 +26,9 @@
   "nivel_seccion": "h4",
   "preliminares": "Dedicatoria",
   "esperados": {
-    "partes": 3,
-    "capitulos": 60,
-    "unidades": 1831
+    "partes": 7,
+    "capitulos": 48,
+    "unidades": 1608
   },
   "opciones": {
     "salto_por_capitulo": true

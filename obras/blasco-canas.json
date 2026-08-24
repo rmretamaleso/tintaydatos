@@ -1,31 +1,30 @@
 {
-  "slug": "abel-sanchez",
-  "titulo": "Abel Sánchez",
-  "autor": "Miguel de Unamuno",
-  "anio": 1917,
+  "slug": "canas-y-barro",
+  "titulo": "Cañas y Barro",
+  "autor": "Vicente Blasco Ibáñez",
+  "anio": 1902,
   "tipo": "prosa",
-  "url": "https://www.textos.info/miguel-de-unamuno/abel-sanchez/ebook",
+  "url": "https://www.textos.info/vicente-blasco-ibanez/canas-y-barro/ebook",
   "catalogo": "un catálogo de literatura en español en dominio público",
   "fuente": {
     "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
-    "url": "https://www.textos.info/miguel-de-unamuno/abel-sanchez"
+    "url": "https://www.textos.info/vicente-blasco-ibanez/canas-y-barro"
   },
-  "catalogo_id": 264,
+  "catalogo_id": 273,
   "catalogo_campos": {
     "dominio": "Literatura",
-    "titulo": "Abel Sánchez",
-    "autor": "Miguel de Unamuno",
-    "anio": "1917",
+    "titulo": "Cañas y Barro",
+    "autor": "Vicente Blasco Ibáñez",
+    "anio": "1902",
     "pais": "España",
     "genero": "Novela",
     "tipo": "Dominio público",
     "puede_alojarse": "si"
   },
   "nivel_capitulo": "h2",
-  "preliminares": true,
   "esperados": {
-    "capitulos": 0,
-    "unidades": 1309
+    "capitulos": 10,
+    "unidades": 1150
   },
   "opciones": {
     "salto_por_capitulo": true,
