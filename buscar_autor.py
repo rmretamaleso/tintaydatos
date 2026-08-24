@@ -17,6 +17,7 @@ import re
 import sys
 import time
 import unicodedata
+from pathlib import Path
 
 BASE = "https://www.textos.info"
 
@@ -80,6 +81,58 @@ def obras_de(doc, slug):
     return out
 
 
+INDICE = "autores_textosinfo.tsv"
+
+
+def indice(refrescar=False):
+    """Nombre y slug de los 700+ autores del sitio. Se descarga una vez."""
+    ruta = Path(INDICE)
+    if ruta.exists() and not refrescar:
+        return [tuple(l.split("\t")) for l in
+                ruta.read_text(encoding="utf-8").splitlines() if "\t" in l]
+    print("  descargando el índice de autores del sitio…", flush=True)
+    doc, err = pedir(f"{BASE}/autores/alfabetico/pag/todas")
+    if doc is None:
+        print(f"  no pude descargar el índice ({err})")
+        return []
+    vistos, pares = set(), []
+    for m in re.finditer(r'href="(?:\./|/)?([a-z0-9][a-z0-9-]*)"[^>]*>(.*?)</a>',
+                         doc, re.S):
+        slug, nombre = m.group(1), _limpiar_txt(m.group(2))
+        if not nombre or slug in vistos or "/" in slug:
+            continue
+        if slug in ("autores", "libros", "textos", "buscar", "contacto"):
+            continue
+        vistos.add(slug)
+        pares.append((nombre, slug))
+    if pares:
+        ruta.write_text("\n".join(f"{n}\t{s}" for n, s in pares), encoding="utf-8")
+        print(f"  índice guardado en {INDICE} ({len(pares)} autores)")
+    return pares
+
+
+def _limpiar_txt(s):
+    s = re.sub(r"<[^>]+>", "", s)
+    return re.sub(r"\s+", " ", _html.unescape(s)).strip()
+
+
+def buscar_en_indice(nombre):
+    """Devuelve los slugs cuyo nombre contiene todas las palabras buscadas."""
+    palabras = [p for p in re.split(r"\W+", _quitar_tildes(nombre)) if len(p) > 2]
+    if not palabras:
+        return []
+    salida = []
+    for n, s in indice():
+        base = _quitar_tildes(n)
+        if all(p in base for p in palabras):
+            salida.append((n, s))
+    return salida
+
+
+def _quitar_tildes(s):
+    return unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
+
+
 def revisar(nombre, usar_slug, filtro=None):
     slugs = [nombre] if usar_slug else variantes(nombre)
     for slug in slugs:
@@ -138,6 +191,21 @@ def revisar(nombre, usar_slug, filtro=None):
             print(f"  {titulo[:47]:<48}{obra}")
         return True
 
+    if not usar_slug:
+        # El sitio nombra a algunos autores de forma más larga que la habitual
+        # (Cervantes va bajo «miguel-de-cervantes-saavedra», Clarín bajo
+        # «leopoldo-alas-clarin»). Antes de descartarlo, se consulta su índice.
+        candidatos = buscar_en_indice(nombre)
+        nuevos = [(n, s) for n, s in candidatos if s not in slugs]
+        if len(nuevos) == 1:
+            print(f"\n  el sitio lo tiene como «{nuevos[0][0]}» -> /{nuevos[0][1]}")
+            return revisar(nuevos[0][1], True, filtro)
+        if len(nuevos) > 1:
+            print(f"\n{'='*66}\n{nombre}  ->  varias coincidencias en el índice\n{'='*66}")
+            for n, s in nuevos:
+                print(f"  {n[:44]:<46} --slug {s}")
+            return False
+
     print(f"\n{'='*66}\n{nombre}  ->  NO ESTÁ en textos.info")
     print(f"{'='*66}")
     print(f"  Probé: {', '.join('/' + s for s in slugs)}")
@@ -151,6 +219,8 @@ if __name__ == "__main__":
     ap.add_argument("nombres", nargs="+")
     ap.add_argument("--slug", action="store_true",
                     help="tratar los argumentos como slugs literales")
+    ap.add_argument("--refrescar-indice", action="store_true",
+                    help="vuelve a descargar el índice de autores del sitio")
     ap.add_argument("--filtro", help="mostrar solo las obras cuyo título o slug "
                                      "calce con esta expresión, ej: --filtro regenta")
     a = ap.parse_args()
@@ -159,5 +229,7 @@ if __name__ == "__main__":
     except ImportError:
         sys.exit("Falta requests:  pip install requests --break-system-packages")
 
+    if a.refrescar_indice:
+        indice(refrescar=True)
     hallados = sum(revisar(n, a.slug, a.filtro) for n in a.nombres)
     print(f"\n{hallados}/{len(a.nombres)} encontrados.")

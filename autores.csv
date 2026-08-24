@@ -3,6 +3,7 @@ Alonso de Ercilla,,alonso-de-ercilla,España,1533,1594,si,si,disponible,,
 Miguel de Cervantes,Cervantes|Miguel de Cervantes Saavedra,miguel-de-cervantes-saavedra,España,1547,1616,si,si,disponible,Cervantes Virtual; Gutenberg,21 obras en la fuente; el slug lleva «saavedra»
 Pedro de Oña,,,Chile,1570,1643,revisar,no,disponible,Cervantes Virtual; Memoria Chilena,Primer poeta nacido en Chile
 María de Zayas,,,España,1590,1661,revisar,no,disponible,Cervantes Virtual,
+María de Zayas y Sotomayor,María de Zayas,maria-de-zayas-y-sotomayor,España,1590,1661,revisar,si,disponible,,4 obras; el slug lleva «y-sotomayor»
 Sor Juana Inés de la Cruz,,sor-juana-ines-de-la-cruz,México,1648,1695,si,si,disponible,,
 Edgar Allan Poe,,,Estados Unidos,1809,1849,si,no,revisar_edicion,Gutenberg,La obra es libre; las traducciones al español pueden no serlo
 Esteban Echeverría,,esteban-echeverria,Argentina,1805,1851,si,si,disponible,,
@@ -12,15 +13,16 @@ Mercedes Marín del Solar,,,Chile,1804,1866,revisar,no,disponible,Memoria Chilen
 Gustavo Adolfo Bécquer,Bécquer,gustavo-adolfo-becquer,España,1836,1870,si,si,disponible,,
 Gertrudis Gómez de Avellaneda,,gertrudis-gomez-de-avellaneda,Cuba,1814,1873,si,si,disponible,,7 obras en la fuente
 Fernán Caballero,Cecilia Böhl de Faber,fernan-caballero,España,1796,1877,si,si,disponible,,Seudónimo de Cecilia Böhl de Faber; 31 obras en la fuente
-Rosario Orrego,,,Chile,1834,1879,revisar,no,disponible,Memoria Chilena,Primera novelista chilena
+Rosario Orrego,,,Chile,1834,1879,revisar,no,disponible,Memoria Chilena,Primera novelista chilena. Confirmado contra el índice completo de textos.info: no está.
 Charles Darwin,,,Reino Unido,1809,1882,si,no,revisar_edicion,Gutenberg,La obra es libre; las traducciones al español pueden no serlo
 Rosalía de Castro,,rosalia-de-castro,España,1837,1885,si,si,disponible,,11 obras en la fuente
-Vicente Pérez Rosales,,,Chile,1807,1886,si,no,disponible,Memoria Chilena; Wikisource,
-Benjamín Vicuña Mackenna,,,Chile,1831,1886,si,no,disponible,Memoria Chilena; Biblioteca Nacional Digital,
+Vicente Pérez Rosales,,,Chile,1807,1886,si,no,disponible,Memoria Chilena; Wikisource,Confirmado contra el índice completo de textos.info: no está.
+Benjamín Vicuña Mackenna,,,Chile,1831,1886,si,no,disponible,Memoria Chilena; Biblioteca Nacional Digital,Confirmado contra el índice completo de textos.info: no está.
 José Hernández,,jose-hernandez,Argentina,1834,1886,si,si,disponible,,
 Domingo Faustino Sarmiento,Domingo F. Sarmiento,domingo-faustino-sarmiento,Argentina,1811,1888,si,si,disponible,,
 José Victorino Lastarria,,jose-victorino-lastarria,Chile,1817,1888,si,si,disponible,,
 Juan Montalvo,,juan-montalvo,Ecuador,1832,1889,si,si,disponible,,
+Pedro Antonio de Alarcón,,pedro-antonio-de-alarcon,España,1833,1891,si,si,disponible,,50 obras en la fuente
 Juana Manuela Gorriti,,juana-manuela-gorriti,Argentina,1818,1892,si,si,disponible,,28 obras en la fuente
 Concepción Arenal,,concepcion-arenal,España,1820,1893,si,si,disponible,,6 obras en la fuente
 Cirilo Villaverde,,,Cuba,1812,1894,si,no,disponible,Gutenberg,
@@ -28,19 +30,22 @@ Juan León Mera,,,Ecuador,1832,1894,si,no,disponible,Gutenberg,
 Jorge Isaacs,,jorge-isaacs,Colombia,1837,1895,si,si,disponible,,
 Manuel Gutiérrez Nájera,,manuel-gutierrez-najera,México,1859,1895,si,si,disponible,,
 José Martí,,,Cuba,1853,1895,si,no,disponible,Gutenberg; Wikisource,
+José Asunción Silva,,jose-asuncion-silva,Colombia,1865,1896,si,si,disponible,,2 obras en la fuente
 Leopoldo Alas,"Leopoldo Alas ""Clarín""|Clarín|Leopoldo Alas Clarín",leopoldo-alas-clarin,España,1852,1901,si,si,disponible,,El slug lleva «clarin»
 Guillermo Blest Gana,,,Chile,1829,1904,revisar,no,disponible,Memoria Chilena,Hermano de Alberto
 Rodolfo Amando Philippi,,,Chile,1808,1904,si,no,disponible,Memoria Chilena; Biblioteca Nacional Digital,Naturalista alemán radicado en Chile
+Juan Valera,,juan-valera,España,1824,1905,si,si,disponible,,80 obras en la fuente
 Carlos Pezoa Véliz,,,Chile,1879,1908,si,no,revisar_edicion,Memoria Chilena; Wikisource,Nunca publicó libro; las recopilaciones póstumas tienen derechos propios
 Clorinda Matto de Turner,,clorinda-matto-de-turner,Perú,1852,1909,si,si,disponible,,2 obras en la fuente
-Mercedes Cabello de Carbonera,,,Perú,1842,1909,revisar,no,disponible,Biblioteca Nacional del Perú,
+Mercedes Cabello de Carbonera,,,Perú,1842,1909,revisar,no,disponible,Biblioteca Nacional del Perú,Confirmado contra el índice completo de textos.info: no está.
 Eusebio Lillo,Eusebio Lillo Robles,,Chile,1826,1910,si,no,disponible,Memoria Chilena,Autor de la letra del himno nacional
 Daniel Riquelme,,daniel-riquelme,Chile,1857,1912,si,si,disponible,,
 Soledad Acosta de Samper,,soledad-acosta-de-samper,Colombia,1833,1913,si,si,disponible,,17 obras en la fuente
 Friedrich Wilhelm Ristenpart,,,Chile,1868,1913,revisar,no,disponible,Memoria Chilena,"Astrónomo alemán, dirigió el Observatorio Astronómico Nacional"
-Delmira Agustini,,,Uruguay,1886,1914,si,no,disponible,Wikisource,
+Delmira Agustini,,,Uruguay,1886,1914,si,no,disponible,Wikisource,Confirmado contra el índice completo de textos.info: no está.
 Rubén Darío,,ruben-dario,Nicaragua,1867,1916,si,si,disponible,,
 Ricardo Palma,,ricardo-palma,Perú,1833,1919,si,si,disponible,,Diez series; la fuente tiene tres
+Amado Nervo,,amado-nervo,México,1870,1919,si,si,disponible,,6 obras en la fuente
 Alberto Blest Gana,,alberto-blest-gana,Chile,1830,1920,si,si,disponible,,
 Benito Pérez Galdós,Pérez Galdós,benito-perez-galdos,España,1843,1920,si,si,disponible,,
 Emilia Pardo Bazán,Pardo Bazán,emilia-pardo-bazan,España,1851,1921,si,si,disponible,,607 textos en la fuente
@@ -50,24 +55,27 @@ Baldomero Lillo,,baldomero-lillo,Chile,1867,1923,si,si,disponible,,
 Manuel Magallanes Moure,,,Chile,1878,1924,revisar,no,disponible,Memoria Chilena,
 Federico Gana,,federico-gana,Chile,1867,1926,revisar,si,disponible,,
 Vicente Blasco Ibáñez,Blasco Ibáñez,vicente-blasco-ibanez,España,1867,1928,si,si,disponible,,108 textos en la fuente
-José Toribio Medina,,,Chile,1852,1930,revisar,no,disponible,Memoria Chilena,
+José Toribio Medina,,,Chile,1852,1930,revisar,no,disponible,Memoria Chilena,Confirmado contra el índice completo de textos.info: no está.
 Alberto Edwards,,,Chile,1874,1932,revisar,no,disponible,Memoria Chilena,
 Carmen de Burgos,Colombine,carmen-de-burgos,España,1867,1932,si,si,disponible,,Firmaba como Colombine; 43 obras en la fuente
 Miguel de Unamuno,,miguel-de-unamuno,España,1864,1936,si,si,disponible,,142 textos en la fuente
 Federico García Lorca,,,España,1898,1936,si,no,revisar_edicion,Wikisource; Cervantes Virtual,Libre en España; los herederos han litigado en otras jurisdicciones
 Teresa de la Parra,,teresa-de-la-parra,Venezuela,1889,1936,si,si,disponible,,Solo dos piezas menores; sus novelas mayores no están
+Ramón María del Valle-Inclán,Valle-Inclán|Ramón del Valle-Inclán,ramon-maria-del-valle-inclan,España,1866,1936,si,si,disponible,,73 obras; España aplica 80 años a fallecidos antes de 1987
 Horacio Quiroga,,horacio-quiroga,Uruguay,1878,1937,si,si,disponible,,
 Alfonsina Storni,,alfonsina-storni,Argentina,1892,1938,si,si,disponible,,
 César Vallejo,,cesar-vallejo,Perú,1892,1938,si,si,disponible,,
+Leopoldo Lugones,,leopoldo-lugones,Argentina,1874,1938,si,si,disponible,,34 obras en la fuente
 Antonio Machado,,antonio-machado,España,1875,1939,si,si,disponible,,España aplica 80 años a fallecidos antes de 1987
 Jenaro Prieto,,,Chile,1889,1946,revisar,no,disponible,Memoria Chilena,
-Luis Orrego Luco,,,Chile,1866,1948,revisar,no,disponible,Memoria Chilena,
-Vicente Huidobro,,,Chile,1893,1948,si,no,disponible,Memoria Chilena; Biblioteca Nacional Digital,
-Inés Echeverría,Iris,,Chile,1868,1949,revisar,no,disponible,Memoria Chilena,Firmaba como Iris
-Augusto d'Halmar,,,Chile,1882,1950,revisar,no,disponible,Memoria Chilena,
-Pedro Prado,,,Chile,1886,1952,revisar,no,disponible,Memoria Chilena,
-Mariano Latorre,,,Chile,1886,1955,revisar,no,disponible,Memoria Chilena,Liberado en 2026
+Luis Orrego Luco,,,Chile,1866,1948,revisar,no,disponible,Memoria Chilena,Confirmado contra el índice completo de textos.info: no está.
+Vicente Huidobro,,,Chile,1893,1948,si,no,disponible,Memoria Chilena; Biblioteca Nacional Digital,Confirmado contra el índice completo de textos.info: no está.
+Inés Echeverría,Iris,,Chile,1868,1949,revisar,no,disponible,Memoria Chilena,Firmaba como Iris. Confirmado contra el índice completo de textos.info: no está.
+Augusto d'Halmar,,,Chile,1882,1950,revisar,no,disponible,Memoria Chilena,Confirmado contra el índice completo de textos.info: no está.
+Pedro Prado,,,Chile,1886,1952,revisar,no,disponible,Memoria Chilena,Confirmado contra el índice completo de textos.info: no está.
+Mariano Latorre,,,Chile,1886,1955,revisar,no,disponible,Memoria Chilena,Liberado en 2026. Confirmado contra el índice completo de textos.info: no está.
 Gabriela Mistral,,,Chile,1889,1957,si,no,protegido,,Nobel 1945
+Juan Ramón Jiménez,,,España,1881,1958,si,no,protegido,,Nobel 1956
 Víctor Domingo Silva,,,Chile,1882,1960,revisar,no,disponible,Memoria Chilena,
 Joaquín Edwards Bello,,,Chile,1887,1968,revisar,no,protegido,,
 Manuel Rojas,,,Chile,1896,1973,si,no,protegido,,
