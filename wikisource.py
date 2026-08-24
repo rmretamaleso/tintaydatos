@@ -111,8 +111,20 @@ def arbol(pagina, lang="es"):
                                                         else "prosa")
 
 
-def validado(pagina, lang="es"):
-    """True si Wikisource marca el texto como validado (cotejado por dos personas)."""
+ESCALA = [("Textos_validados", "validado"),
+          ("Textos_corregidos", "corregido"),
+          ("Textos_sin_corregir", "sin corregir")]
+
+
+def estado_revision(pagina, lang="es", intentos=3):
+    """Devuelve 'validado', 'corregido', 'sin corregir' o None si no se pudo saber.
+
+    Wikisource usa una escala de tres niveles: corregido significa que una
+    persona cotejó la transcripción contra el facsímil, validado que una
+    segunda lo verificó. Un error de consulta devuelve None, nunca un estado
+    falso: dar por 'sin corregir' lo que no se pudo comprobar descartaría
+    obras publicables.
+    """
     import json
     import urllib.parse
     try:
@@ -122,10 +134,21 @@ def validado(pagina, lang="es"):
     q = urllib.parse.urlencode({"action": "parse", "page": pagina,
                                 "prop": "categories", "format": "json",
                                 "formatversion": "2"})
-    try:
-        r = requests.get(f"{API}?{q}", timeout=60,
-                         headers={"User-Agent": "TintaYDatos/1.0"})
-        cats = [c["category"] for c in json.loads(r.text)["parse"]["categories"]]
-    except Exception:
-        return None
-    return "Textos_validados" in cats
+    for n in range(intentos):
+        try:
+            r = requests.get(f"{API}?{q}", timeout=60,
+                             headers={"User-Agent": "TintaYDatos/1.0"})
+            cats = [c["category"] for c in json.loads(r.text)["parse"]["categories"]]
+        except Exception:
+            time.sleep(1.5 * (n + 1))
+            continue
+        for cat, nombre in ESCALA:
+            if cat in cats:
+                return nombre
+        return "sin marca"
+    return None
+
+
+def validado(pagina, lang="es"):
+    """Compatibilidad: True solo si está validado."""
+    return estado_revision(pagina, lang) == "validado"

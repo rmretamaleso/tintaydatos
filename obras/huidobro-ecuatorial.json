@@ -1,0 +1,28 @@
+{
+  "slug": "ecuatorial",
+  "titulo": "Ecuatorial",
+  "autor": "Vicente Huidobro",
+  "anio": 1918,
+  "tipo": "verso",
+  "wikisource": "Ecuatorial",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "Wikisource en español — transcripción cotejada contra el facsímil",
+    "url": "https://es.wikisource.org/wiki/Ecuatorial",
+    "nota": "Publicado en Madrid, en pleno contacto de Huidobro con la vanguardia europea."
+  },
+  "catalogo_id": 310,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Ecuatorial",
+    "autor": "Vicente Huidobro",
+    "anio": "1918",
+    "pais": "Chile",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "opciones": {
+    "salto_por_capitulo": true
+  }
+}

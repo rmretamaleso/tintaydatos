@@ -116,12 +116,17 @@ def procesar(ruta_cfg, a):
         # Wikisource no se raspa: se usa su exportador oficial, que arma la obra
         # a partir de las páginas transcritas contra el facsímil.
         pagina = cfg["wikisource"]
-        val = W.validado(pagina)
-        print(f"Wikisource: «{pagina}»  "
-              + {True: "texto validado", False: "texto NO validado",
-                 None: "estado de revisión desconocido"}[val])
-        if val is False:
-            print("  Aviso: la transcripción no ha sido cotejada por dos personas.")
+        est = W.estado_revision(pagina)
+        print(f"Wikisource: «{pagina}»  ->  {est or 'estado desconocido'}")
+        if est in ("sin corregir", "sin marca", None):
+            print("  ATENCIÓN: la transcripción no consta como cotejada contra el "
+                  "facsímil. Puede ser OCR sin revisar.")
+        cfg.setdefault("fuente", {})["nota"] = (
+            (cfg.get("fuente", {}).get("nota", "").rstrip() + " ").lstrip()
+            + f"Wikisource marca esta transcripción como «{est}» dentro de su "
+              f"escala de revisión: corregido significa cotejado contra el "
+              f"facsímil por una persona; validado, verificado además por una "
+              f"segunda.").strip()
         partes, tipo = W.arbol(pagina)
         cfg.setdefault("tipo", tipo)
         totales = {"partes": 0, "capitulos": len(partes[0]["capitulos"]),
