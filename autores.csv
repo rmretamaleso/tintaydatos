@@ -1,0 +1,53 @@
+nombre,slug,pais,nacimiento,muerte,fecha_fiable,en_fuente,estado,notas
+Alonso de Ercilla,alonso-de-ercilla,España,1533,1594,si,si,disponible,
+Sor Juana Inés de la Cruz,sor-juana-ines-de-la-cruz,México,1648,1695,si,si,disponible,
+Pedro de Oña,,Chile,1570,1643,revisar,no,disponible,Primer poeta nacido en Chile
+Mercedes Marín del Solar,,Chile,1804,1866,revisar,no,disponible,Primera poeta chilena publicada
+Esteban Echeverría,esteban-echeverria,Argentina,1805,1851,si,si,disponible,
+Vicente Pérez Rosales,,Chile,1807,1886,si,no,disponible,
+José Joaquín Vallejo,,Chile,1811,1858,revisar,no,disponible,Firmaba como Jotabeche
+Domingo Faustino Sarmiento,domingo-faustino-sarmiento,Argentina,1811,1888,si,si,disponible,
+José Victorino Lastarria,jose-victorino-lastarria,Chile,1817,1888,si,si,disponible,
+Guillermo Blest Gana,,Chile,1829,1904,revisar,no,disponible,Hermano de Alberto
+Alberto Blest Gana,alberto-blest-gana,Chile,1830,1920,si,si,disponible,
+Benjamín Vicuña Mackenna,,Chile,1831,1886,si,no,disponible,
+Juan Montalvo,juan-montalvo,Ecuador,1832,1889,si,si,disponible,
+Ricardo Palma,ricardo-palma,Perú,1833,1919,si,si,disponible,Diez series; la fuente tiene tres
+Rosario Orrego,,Chile,1834,1879,revisar,no,disponible,Primera novelista chilena
+José Hernández,jose-hernandez,Argentina,1834,1886,si,si,disponible,
+Gustavo Adolfo Bécquer,gustavo-adolfo-becquer,España,1836,1870,si,si,disponible,
+Jorge Isaacs,jorge-isaacs,Colombia,1837,1895,si,si,disponible,
+Benito Pérez Galdós,benito-perez-galdos,España,1843,1920,si,si,disponible,
+Emilia Pardo Bazán,emilia-pardo-bazan,España,1851,1921,si,si,disponible,607 textos en la fuente
+Leopoldo Alas,leopoldo-alas-clarin,España,1852,1901,si,si,disponible,El slug lleva «clarin»
+José Toribio Medina,,Chile,1852,1930,revisar,no,disponible,
+Daniel Riquelme,daniel-riquelme,Chile,1857,1912,si,si,disponible,
+Manuel Gutiérrez Nájera,manuel-gutierrez-najera,México,1859,1895,si,si,disponible,
+Miguel de Unamuno,miguel-de-unamuno,España,1864,1936,si,si,disponible,142 textos en la fuente
+Luis Orrego Luco,,Chile,1866,1948,revisar,no,disponible,
+Baldomero Lillo,baldomero-lillo,Chile,1867,1923,si,si,disponible,
+Federico Gana,federico-gana,Chile,1867,1926,revisar,si,disponible,
+Vicente Blasco Ibáñez,vicente-blasco-ibanez,España,1867,1928,si,si,disponible,108 textos en la fuente
+Rubén Darío,ruben-dario,Nicaragua,1867,1916,si,si,disponible,
+Inés Echeverría,,Chile,1868,1949,revisar,no,disponible,Firmaba como Iris
+Alberto Edwards,,Chile,1874,1932,revisar,no,disponible,
+Antonio Machado,antonio-machado,España,1875,1939,si,si,disponible,España aplica 80 años a fallecidos antes de 1987
+Joaquín Díaz Garcés,joaquin-diaz-garces,Chile,1877,1921,revisar,si,disponible,Firmaba como Ángel Pino
+Horacio Quiroga,horacio-quiroga,Uruguay,1878,1937,si,si,disponible,
+Manuel Magallanes Moure,,Chile,1878,1924,revisar,no,disponible,
+Carlos Pezoa Véliz,,Chile,1879,1908,si,no,revisar_edicion,Nunca publicó libro; las recopilaciones póstumas tienen derechos propios
+Augusto d'Halmar,,Chile,1882,1950,revisar,no,disponible,
+Víctor Domingo Silva,,Chile,1882,1960,revisar,no,disponible,
+Pedro Prado,,Chile,1886,1952,revisar,no,disponible,
+Mariano Latorre,,Chile,1886,1955,revisar,no,disponible,Liberado en 2026
+Joaquín Edwards Bello,,Chile,1887,1968,revisar,no,protegido,
+Jenaro Prieto,,Chile,1889,1946,revisar,no,disponible,
+Gabriela Mistral,,Chile,1889,1957,si,no,protegido,Nobel 1945
+Victoria Ocampo,,Argentina,1890,1979,si,no,protegido,
+Alfonsina Storni,alfonsina-storni,Argentina,1892,1938,si,si,disponible,
+César Vallejo,cesar-vallejo,Perú,1892,1938,si,si,disponible,
+Vicente Huidobro,,Chile,1893,1948,si,no,disponible,
+Manuel Rojas,,Chile,1896,1973,si,no,protegido,
+Federico García Lorca,,España,1898,1936,si,no,revisar_edicion,Libre en España; los herederos han litigado en otras jurisdicciones
+Pablo Neruda,,Chile,1904,1973,si,no,protegido,Nobel 1971
+María Luisa Bombal,,Chile,1910,1980,si,no,protegido,
