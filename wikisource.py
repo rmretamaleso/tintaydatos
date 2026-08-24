@@ -1,0 +1,131 @@
+"""
+Lee obras de Wikisource y las entrega como árbol para edicion.py.
+
+Wikisource es la mejor fuente que hemos evaluado en cuanto a procedencia: cada
+texto se transcribe página por página contra un facsímil concreto y queda
+marcado como validado cuando dos personas distintas lo cotejaron. A cambio, la
+obra vive repartida en muchas páginas del wiki.
+
+El exportador oficial (ws-export) resuelve ese armado y entrega un ePub con un
+archivo XHTML por pieza, en orden. De ahí sale el texto, con la ventaja de que
+Wikisource marca estrofas y versos de forma explícita.
+"""
+import html as _entidades
+import io
+import re
+import sys
+import time
+import zipfile
+
+EXPORT = "https://ws-export.wmcloud.org/"
+API = "https://es.wikisource.org/w/api.php"
+OMITIR = ("nav.xhtml", "title.xhtml", "about.xhtml", "cover.xhtml")
+
+
+def descargar_epub(pagina, lang="es", intentos=3, espera=120):
+    """El exportador rechaza algunos clientes; conviene identificarse."""
+    try:
+        import requests
+    except ImportError:
+        sys.exit("Falta requests:  pip install requests --break-system-packages")
+    ultimo = ""
+    for n in range(intentos):
+        try:
+            r = requests.get(EXPORT, timeout=espera,
+                             params={"lang": lang, "format": "epub",
+                                     "page": pagina.replace(" ", "_")},
+                             headers={"User-Agent": "TintaYDatos/1.0"})
+        except Exception as e:
+            ultimo = type(e).__name__
+            time.sleep(3 * (n + 1)); continue
+        if r.status_code == 404:
+            raise RuntimeError(f"Wikisource no tiene la página «{pagina}».")
+        if r.status_code != 200 or r.content[:4] != b"PK\x03\x04":
+            ultimo = f"HTTP {r.status_code}"
+            time.sleep(3 * (n + 1)); continue
+        return r.content
+    raise RuntimeError(f"No pude exportar «{pagina}» ({ultimo}).")
+
+
+def _texto(html):
+    html = re.sub(r"<[^>]+>", "", html)
+    html = _entidades.unescape(html)
+    # el espacio de cuadratín marca la sangría del verso, no es texto
+    html = html.replace("\u2003", " ").replace("\u00a0", " ").replace("\u2002", " ")
+    return re.sub(r"\s+", " ", html).strip()
+
+
+def _titulo(doc):
+    m = re.search(r'<h[1-6][^>]*class="[^"]*ws-h[^"]*"[^>]*>(.*?)</h[1-6]>', doc, re.S)
+    if not m:
+        m = re.search(r"<h[1-6][^>]*>(.*?)</h[1-6]>", doc, re.S)
+    return _texto(m.group(1)) if m else None
+
+
+def _bloques(doc):
+    """Devuelve (tipo, bloques). Verso si la pieza trae marcas de poema."""
+    estrofas = []
+    for est in re.findall(r'<div class="[^"]*ws-poema-estrofa[^"]*".*?>(.*?)</div>',
+                          doc, re.S):
+        versos = [_texto(v) for v in
+                  re.findall(r'<span class="ws-poema-line">(.*?)</span>\s*(?=<span class="ws-poema-line">|$)',
+                             est, re.S)]
+        versos = [v for v in versos if v]
+        if versos:
+            estrofas.append(versos)
+    if estrofas:
+        return "verso", estrofas
+
+    parrafos = []
+    for p in re.findall(r"<p[^>]*>(.*?)</p>", doc, re.S):
+        t = _texto(p)
+        if t:
+            parrafos.append(t)
+    return "prosa", parrafos
+
+
+def arbol(pagina, lang="es"):
+    """Devuelve (partes, tipo_predominante) listo para edicion.generar."""
+    z = zipfile.ZipFile(io.BytesIO(descargar_epub(pagina, lang)))
+    nombres = [n for n in z.namelist()
+               if n.endswith((".xhtml", ".html"))
+               and not any(n.endswith(o) for o in OMITIR)]
+    nombres.sort(key=lambda n: (int(m.group(1)) if (m := re.search(r"/c(\d+)_", n))
+                                else 9999, n))
+    capitulos, versos, prosa = [], 0, 0
+    for n in nombres:
+        doc = z.read(n).decode("utf-8", "replace")
+        cuerpo = doc[doc.find("<body"):]
+        tipo, bloques = _bloques(cuerpo)
+        if not bloques:
+            continue
+        if tipo == "verso":
+            versos += sum(len(e) for e in bloques)
+        else:
+            prosa += len(bloques)
+        capitulos.append({"numero": _titulo(cuerpo) or n, "titulo": None,
+                          "secciones": [{"numero": None, "bloques": bloques}]})
+    if not capitulos:
+        raise RuntimeError(f"No reconocí contenido en el ePub de «{pagina}».")
+    return [{"nombre": None, "capitulos": capitulos}], ("verso" if versos > prosa
+                                                        else "prosa")
+
+
+def validado(pagina, lang="es"):
+    """True si Wikisource marca el texto como validado (cotejado por dos personas)."""
+    import json
+    import urllib.parse
+    try:
+        import requests
+    except ImportError:
+        return None
+    q = urllib.parse.urlencode({"action": "parse", "page": pagina,
+                                "prop": "categories", "format": "json",
+                                "formatversion": "2"})
+    try:
+        r = requests.get(f"{API}?{q}", timeout=60,
+                         headers={"User-Agent": "TintaYDatos/1.0"})
+        cats = [c["category"] for c in json.loads(r.text)["parse"]["categories"]]
+    except Exception:
+        return None
+    return "Textos_validados" in cats

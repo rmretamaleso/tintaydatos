@@ -20,6 +20,7 @@ from pathlib import Path
 import edicion
 import publicar
 import textosinfo as T
+import wikisource as W
 
 
 def volcar_txt(obra, ruta):
@@ -111,13 +112,32 @@ def _ap():
 def procesar(ruta_cfg, a):
     cfg = json.loads(Path(ruta_cfg).read_text(encoding="utf-8"))
     slug = cfg.get("slug") or Path(ruta_cfg).stem
-    doc = Path(a.html).read_text(encoding="utf-8") if a.html else T.descargar(cfg["url"])
-
-    if a.inspeccionar:
-        T.inspeccionar(doc)
-        return True
-
-    partes, totales = T.parsear(doc, cfg)
+    if cfg.get("wikisource"):
+        # Wikisource no se raspa: se usa su exportador oficial, que arma la obra
+        # a partir de las páginas transcritas contra el facsímil.
+        pagina = cfg["wikisource"]
+        val = W.validado(pagina)
+        print(f"Wikisource: «{pagina}»  "
+              + {True: "texto validado", False: "texto NO validado",
+                 None: "estado de revisión desconocido"}[val])
+        if val is False:
+            print("  Aviso: la transcripción no ha sido cotejada por dos personas.")
+        partes, tipo = W.arbol(pagina)
+        cfg.setdefault("tipo", tipo)
+        totales = {"partes": 0, "capitulos": len(partes[0]["capitulos"]),
+                   "secciones": len(partes[0]["capitulos"])}
+        esp = cfg.get("esperados") or {}
+        for k in ("partes", "capitulos"):
+            if k in esp and esp[k] != totales[k]:
+                raise SystemExit(f"{k}: esperaba {esp[k]}, encontré {totales[k]}. "
+                                 f"Aborto para no generar una edición incompleta.")
+    else:
+        doc = (Path(a.html).read_text(encoding="utf-8") if a.html
+               else T.descargar(cfg["url"]))
+        if a.inspeccionar:
+            T.inspeccionar(doc)
+            return True
+        partes, totales = T.parsear(doc, cfg)
     obra = {k: cfg.get(k) for k in
             ("titulo", "autor", "anio", "tipo", "catalogo", "fuente")}
     obra["partes"] = partes
