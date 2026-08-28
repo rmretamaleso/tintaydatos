@@ -64,7 +64,7 @@ def _clave(s):
     return re.sub(r"[\s\u00ad\u2010-]+", "", s)
 
 
-def verificar(pdf, partes):
+def verificar(pdf, partes, tipo="prosa"):
     """Comprueba que cada unidad de texto del árbol aparece en el PDF."""
     r = subprocess.run(["pdftotext", "-layout", pdf, "-"],
                        capture_output=True, text=True)
@@ -84,9 +84,32 @@ def verificar(pdf, partes):
     faltan = [u for u in unidades if _clave(u) not in plano]
     faltan_t = [t for t in titulos if _clave(t) not in plano]
 
+    # La verificación mira si el texto está, no cómo quedó compuesto: Altazor
+    # tenía el mismo texto roto en una letra por línea y pasaba limpio. Se mide
+    # en caracteres por página porque una "unidad" es un verso en poesía y un
+    # párrafo entero en prosa, que ocupan espacios muy distintos.
+    paginas = max(r.stdout.count("\f"), r.stdout.count("\x0c"), 1)
+    if paginas == 1:
+        info = subprocess.run(["pdfinfo", pdf], capture_output=True, text=True)
+        m = re.search(r"^Pages:\s+(\d+)", info.stdout, re.M)
+        paginas = int(m.group(1)) if m else 1
+    caracteres = sum(len(u) for u in unidades)
+    por_pagina = caracteres / paginas
+    # Un libro de poemas breves con salto de página por pieza deja mucho blanco
+    # sin que nada esté mal: Rimas da 400 y está bien revisada. La prosa no
+    # tiene excusa para bajar de 500.
+    minimo = 150 if tipo == "verso" else 500
+    aviso_densidad = ""
+    if caracteres >= 5000 and por_pagina < minimo:
+        aviso_densidad = (f"ATENCIÓN: {paginas} páginas para {caracteres:,} caracteres "
+                          f"({por_pagina:.0f} por página; en {tipo} lo normal supera "
+                          f"{minimo}). Revisa el PDF: suele indicar texto mal compuesto.")
+
     print(f"\n{pdf}")
     print(f"  unidades de texto  {len(unidades):>7}   faltan {len(faltan):>5}")
     print(f"  títulos de capítulo{len(titulos):>7}   faltan {len(faltan_t):>5}")
+    if aviso_densidad:
+        print("  " + aviso_densidad)
     for u in (faltan + faltan_t)[:10]:
         print(f"    AUSENTE «{u[:70]}»")
     if len(faltan) + len(faltan_t) > 10:
@@ -176,7 +199,9 @@ def procesar(ruta_cfg, a):
     if a.verificar or a.publicar:
         grupos = ([[p] for p in obra["partes"]] if cfg.get("volumenes") == "por_parte"
                   else [obra["partes"]])
-        if not all(verificar(pdf, trozo) for pdf, trozo in zip(salidas, grupos)):
+        tipo_obra = cfg.get("tipo", "prosa")
+        if not all(verificar(pdf, trozo, tipo_obra)
+                   for pdf, trozo in zip(salidas, grupos)):
             print("  Verificación fallida: no publico.", file=sys.stderr)
             return False
 
@@ -200,6 +225,14 @@ def procesar(ruta_cfg, a):
 
 def main():
     a = _ap()
+    if a.publicar and not a.dry_run:
+        faltan = publicar.credenciales_listas()
+        if faltan:
+            raise SystemExit(
+                "Faltan credenciales de R2: " + ", ".join(faltan) + "\n"
+                "  source ~/.config/tintaydatos/data_account.txt\n"
+                "Sin esto se generarían los PDF, fallaría la subida y el catálogo "
+                "quedaría marcado sobre archivos viejos.")
     resultados = {}
     for ruta in a.config:
         if len(a.config) > 1:

@@ -16,6 +16,15 @@ from pathlib import Path
 R2_BASE = "https://archivos.tintaydatos.com/ediciones"
 
 
+def credenciales_listas():
+    """Faltantes de R2. Se comprueba antes de generar: descubrirlo después de
+    producir veinte PDF, y con el catálogo a medio escribir, sale caro."""
+    import os
+    return [n for n in ("R2_ACCOUNT_ID", "R2_ACCESS_KEY_ID",
+                        "R2_SECRET_ACCESS_KEY", "R2_BUCKET_NAME")
+            if not os.environ.get(n)]
+
+
 def subir(pdfs, script="subir_a_r2.py", prefix="ediciones/", dry_run=False):
     """Sube los PDF a R2. Devuelve True si todos salieron bien."""
     ok = True
