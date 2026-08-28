@@ -1,0 +1,34 @@
+{
+  "slug": "en-la-diestra-de-dios-padre",
+  "titulo": "En la Diestra de Dios Padre",
+  "autor": "Tomás Carrasquilla",
+  "anio": 1897,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/tomas-carrasquilla/en-la-diestra-de-dios-padre/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/tomas-carrasquilla/en-la-diestra-de-dios-padre"
+  },
+  "catalogo_id": 324,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "En la Diestra de Dios Padre",
+    "autor": "Tomás Carrasquilla",
+    "anio": "1897",
+    "pais": "Colombia",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "preliminares": true,
+  "esperados": {
+    "capitulos": 0,
+    "unidades": 54
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

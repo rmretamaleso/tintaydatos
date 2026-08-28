@@ -1,0 +1,34 @@
+{
+  "slug": "don-segundo-sombra",
+  "titulo": "Don Segundo Sombra",
+  "autor": "Ricardo Güiraldes",
+  "anio": 1926,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ricardo-guiraldes/don-segundo-sombra/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ricardo-guiraldes/don-segundo-sombra",
+    "nota": "Novela mayor del ciclo gauchesco, publicada el año de la muerte del autor."
+  },
+  "catalogo_id": 313,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Don Segundo Sombra",
+    "autor": "Ricardo Güiraldes",
+    "anio": "1926",
+    "pais": "Argentina",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 27,
+    "unidades": 2260
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

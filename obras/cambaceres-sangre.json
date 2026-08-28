@@ -1,0 +1,33 @@
+{
+  "slug": "en-la-sangre",
+  "titulo": "En la Sangre",
+  "autor": "Eugenio Cambaceres",
+  "anio": 1887,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/eugenio-cambaceres/en-la-sangre/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/eugenio-cambaceres/en-la-sangre"
+  },
+  "catalogo_id": 328,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "En la Sangre",
+    "autor": "Eugenio Cambaceres",
+    "anio": "1887",
+    "pais": "Argentina",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 41,
+    "unidades": 1049
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

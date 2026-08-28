@@ -1,0 +1,34 @@
+{
+  "slug": "el-zarco",
+  "titulo": "El Zarco",
+  "autor": "Ignacio Manuel Altamirano",
+  "anio": 1901,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ignacio-manuel-altamirano/el-zarco/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ignacio-manuel-altamirano/el-zarco",
+    "nota": "Publicada póstumamente; el autor murió en 1893."
+  },
+  "catalogo_id": 321,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Zarco",
+    "autor": "Ignacio Manuel Altamirano",
+    "anio": "1901",
+    "pais": "México",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 25,
+    "unidades": 998
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

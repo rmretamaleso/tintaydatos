@@ -1,0 +1,35 @@
+{
+  "slug": "los-motivos-de-proteo",
+  "titulo": "Los Motivos de Proteo",
+  "autor": "José Enrique Rodó",
+  "anio": 1909,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/jose-enrique-rodo/los-motivos-de-proteo/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/jose-enrique-rodo/los-motivos-de-proteo"
+  },
+  "catalogo_id": 330,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Los Motivos de Proteo",
+    "autor": "José Enrique Rodó",
+    "anio": "1909",
+    "pais": "Uruguay",
+    "genero": "Ensayo",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": "h3",
+  "patron_seccion": "^(.+)$",
+  "esperados": {
+    "capitulos": 159,
+    "unidades": 638
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

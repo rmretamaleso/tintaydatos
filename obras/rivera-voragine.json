@@ -1,0 +1,34 @@
+{
+  "slug": "la-voragine",
+  "titulo": "La Vorágine",
+  "autor": "José Eustasio Rivera",
+  "anio": 1924,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/jose-eustasio-rivera/la-voragine/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/jose-eustasio-rivera/la-voragine",
+    "nota": "Novela de la selva, obra central de la narrativa colombiana del siglo XX."
+  },
+  "catalogo_id": 326,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Vorágine",
+    "autor": "José Eustasio Rivera",
+    "anio": "1924",
+    "pais": "Colombia",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 7,
+    "unidades": 2791
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

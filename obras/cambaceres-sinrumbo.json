@@ -1,0 +1,35 @@
+{
+  "slug": "sin-rumbo",
+  "titulo": "Sin Rumbo",
+  "autor": "Eugenio Cambaceres",
+  "anio": 1885,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/eugenio-cambaceres/sin-rumbo/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/eugenio-cambaceres/sin-rumbo"
+  },
+  "catalogo_id": 327,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Sin Rumbo",
+    "autor": "Eugenio Cambaceres",
+    "anio": "1885",
+    "pais": "Argentina",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "esperados": {
+    "partes": 2,
+    "capitulos": 65,
+    "unidades": 2076
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

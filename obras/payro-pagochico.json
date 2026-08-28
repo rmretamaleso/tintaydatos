@@ -1,0 +1,35 @@
+{
+  "slug": "pago-chico",
+  "titulo": "Pago Chico",
+  "autor": "Roberto Payró",
+  "anio": 1908,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/roberto-payro/pago-chico/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/roberto-payro/pago-chico"
+  },
+  "catalogo_id": 317,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Pago Chico",
+    "autor": "Roberto Payró",
+    "anio": "1908",
+    "pais": "Argentina",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": "h3",
+  "patron_seccion": "^(.+)$",
+  "esperados": {
+    "capitulos": 22,
+    "unidades": 1392
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

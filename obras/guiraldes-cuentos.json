@@ -1,0 +1,31 @@
+{
+  "slug": "cuentos-de-muerte-y-de-sangre",
+  "titulo": "Cuentos de Muerte y de Sangre",
+  "autor": "Ricardo Güiraldes",
+  "anio": 1915,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ricardo-guiraldes/cuentos-de-muerte-y-de-sangre/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ricardo-guiraldes/cuentos-de-muerte-y-de-sangre"
+  },
+  "catalogo_id": 314,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos de Muerte y de Sangre",
+    "autor": "Ricardo Güiraldes",
+    "anio": "1915",
+    "pais": "Argentina",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": "h3",
+  "patron_seccion": "^(.+)$",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

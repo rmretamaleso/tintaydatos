@@ -1,0 +1,35 @@
+{
+  "slug": "divertidas-aventuras-del-nieto-de-juan-moreira",
+  "titulo": "Divertidas Aventuras del Nieto de Juan Moreira",
+  "autor": "Roberto Payró",
+  "anio": 1910,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/roberto-payro/divertidas-aventuras-del-nieto-de-juan-moreira/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/roberto-payro/divertidas-aventuras-del-nieto-de-juan-moreira"
+  },
+  "catalogo_id": 318,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Divertidas Aventuras del Nieto de Juan Moreira",
+    "autor": "Roberto Payró",
+    "anio": "1910",
+    "pais": "Argentina",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "esperados": {
+    "partes": 3,
+    "capitulos": 46,
+    "unidades": 1999
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

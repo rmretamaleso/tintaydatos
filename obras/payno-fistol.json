@@ -1,0 +1,35 @@
+{
+  "slug": "el-fistol-del-diablo",
+  "titulo": "El Fistol del Diablo",
+  "autor": "Manuel Payno",
+  "anio": 1845,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/manuel-payno/el-fistol-del-diablo/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/manuel-payno/el-fistol-del-diablo"
+  },
+  "catalogo_id": 320,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Fistol del Diablo",
+    "autor": "Manuel Payno",
+    "anio": "1845",
+    "pais": "México",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "esperados": {
+    "partes": 6,
+    "capitulos": 113,
+    "unidades": 11508
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

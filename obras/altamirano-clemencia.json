@@ -1,0 +1,33 @@
+{
+  "slug": "clemencia",
+  "titulo": "Clemencia",
+  "autor": "Ignacio Manuel Altamirano",
+  "anio": 1869,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ignacio-manuel-altamirano/clemencia/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ignacio-manuel-altamirano/clemencia"
+  },
+  "catalogo_id": 322,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Clemencia",
+    "autor": "Ignacio Manuel Altamirano",
+    "anio": "1869",
+    "pais": "México",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 39,
+    "unidades": 1285
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}
