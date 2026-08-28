@@ -78,6 +78,14 @@ def actualizar_catalogo(cfg, pdfs, ruta_csv="catalogo.csv", notas=None):
         sitio, detalle = fuente.split(" — ", 1)
         fuente = f"{sitio} ({detalle})"
     destino["fuente"] = fuente
+
+    # Las decisiones editoriales de cada edición viven en el colofón del PDF.
+    # Aquí se llevan también a la ficha del sitio, porque son lo que distingue
+    # una edición propia de un simple enlace. Si la fila ya trae una versión
+    # escrita a mano, esa manda: suele ser más breve y mejor para leer en web.
+    if "nota_editorial" in campos and not (destino.get("nota_editorial") or "").strip():
+        destino["nota_editorial"] = cfg.get("fuente", {}).get("nota", "").strip()
+
     destino["verificado"] = "True"
     if notas:
         destino["notas"] = notas

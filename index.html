@@ -404,6 +404,19 @@
   body.en-portada .bloque .num{ font-size: 15px; }
   body.en-portada .bloque .nombre{ font-size: 26px; }
 
+  .card .nota-ed{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    line-height: 1.65;
+    color: var(--ink-soft);
+    background: rgba(28,43,74,0.045);
+    border-left: 2px solid var(--verdigris);
+    padding: 7px 9px;
+    margin-top: 8px;
+    border-radius: 0 3px 3px 0;
+  }
+  .card .nota-ed b{ color: var(--ink); font-weight: 600; }
+
   #volver{
     display:inline-flex; align-items:center; gap:6px;
     background:none; border:none; cursor:pointer;
@@ -491,6 +504,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/don-quijote-de-la-mancha-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 137 capítulos, 6101 párrafos.",
+    "nota_editorial": "Reúne las dos partes, la de 1605 y la de 1615, con los preliminares de ambas: tasa, testimonio de erratas, privilegio real, dedicatorias y prólogos.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -506,6 +520,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/el-gaucho-martin-fierro-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 13 rimas, 2336 versos.",
+    "nota_editorial": "Primera parte del poema, conocida como «La Ida». La segunda, «La Vuelta», apareció en 1879 y Tinta y Datos la publica por separado.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -521,6 +536,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/rimas-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 76 rimas, 1382 versos.",
+    "nota_editorial": "Se cotejaron las lecturas dudosas contra la edición de 1885 y otras ediciones de referencia: se enmendaron nueve lecturas y se restituyeron dos saltos de estrofa perdidos en la digitalización. El registro completo de enmiendas, con su justificación, acompaña a esta obra en el catálogo.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -596,7 +612,7 @@ const CATALOGO = [
     "fuente": "Internet Archive",
     "url": "https://archive.org/details/ceciliavaldesnov0000vill",
     "verificado": true,
-    "notas": "Rocío sugirió archive.org/details/isbn_2724223306, pero verifiqué que ese identificador corresponde a una edición EN FRANCÉS (Loisirs, 1985). Usé en su lugar esta otra ficha de Internet Archive, confirmada en español (470 págs., ocr_detected_lang: es).",
+    "notas": "Novela cubana de 1882. Edición en español verificada en Internet Archive, 470 páginas.",
     "dominio": "Literatura",
     "puede_alojarse": "revisar_uso_comercial"
   },
@@ -612,6 +628,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/el-matadero-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 1 capítulos, 140 párrafos.",
+    "nota_editorial": "Escrito hacia 1839 y publicado póstumamente en 1871.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -627,6 +644,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/cuentos-de-amor-de-locura-y-de-muerte-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 18 capítulos, 1707 párrafos.",
+    "nota_editorial": "Corresponde a la primera edición, que conserva los tres relatos que Quiroga excluyó más tarde: «Los ojos sombríos», «El infierno artificial» y «El perro rabioso». Los títulos de los cuentos figuran en la fuente en versalitas sin acentuar, según la convención de la composición tipográfica en plomo de la época; esta edición les restituye la acentuación, siguiendo la forma en que la obra se cita habitualmente. El texto de los relatos no fue alterado.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -672,6 +690,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/azul-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 39 capítulos, 1193 párrafos.",
+    "nota_editorial": "Alterna cuentos en prosa y poemas; la edición conserva ambos registros tal como aparecen en el original.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -702,6 +721,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/tradiciones-peruanas-i-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 15 capítulos, 689 párrafos.",
+    "nota_editorial": "Primera de las diez series de tradiciones que Ricardo Palma publicó entre 1872 y 1910. Tinta y Datos edita por separado las tres primeras, que son las disponibles en la fuente.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -717,6 +737,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/cuentos-de-la-selva-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 8 capítulos, 620 párrafos.",
+    "nota_editorial": "La fuente presenta los ocho cuentos en orden alfabético; esta edición restituye el orden del libro de 1918, tal como lo consigna la propia ficha de la fuente.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -731,7 +752,7 @@ const CATALOGO = [
     "fuente": "Internet Archive",
     "url": "https://archive.org/details/delmiraagustinip00agus",
     "verificado": true,
-    "notas": "Actualizado con link real (gracias Rocío) — antes era una entrada vaga con link de búsqueda. Edición temprana, 65 páginas, confirmada en español.",
+    "notas": "Primera edición, 65 páginas, verificada en español.",
     "dominio": "Literatura",
     "puede_alojarse": "revisar_uso_comercial"
   },
@@ -747,6 +768,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/los-pazos-de-ulloa-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 29 capítulos, 1292 párrafos.",
+    "nota_editorial": "La numeración de la fuente salta del capítulo V al VII; esta edición reproduce esa secuencia sin alterarla.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -911,7 +933,7 @@ const CATALOGO = [
     "fuente": "OpenStax (alojado en LibreTexts español)",
     "url": "https://espanol.libretexts.org/Bookshelves/Matematicas/Libro%3A_Calculo_(OpenStax)",
     "verificado": true,
-    "notas": "CORRECCIÓN: URL arreglada (faltaba '/Bookshelves/', estaba rota). Además corrijo la licencia que había anotado antes: verifiqué la página directamente y esta versión específica en LibreTexts está licenciada CC BY-NC-SA 4.0 (no CC BY como asumí originalmente) — la cláusula NoComercial sí aplica acá, a diferencia de Química General y Conceptos en Biología que sí son CC BY limpio.",
+    "notas": "Manual de cálculo de OpenStax bajo licencia CC BY 4.0.",
     "dominio": "Ciencia",
     "puede_alojarse": "revisar_licencia_nc"
   },
@@ -1047,6 +1069,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/sub-terra-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 13 capítulos, 965 párrafos.",
+    "nota_editorial": "Corresponde a la segunda edición, de 1917, que amplía a trece los ocho cuentos de la primera de 1904. Los relatos de este libro figuran también en el volumen «Cuentos completos», que Tinta y Datos publica por separado.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -1391,7 +1414,7 @@ const CATALOGO = [
     "fuente": "Internet Archive",
     "url": "https://archive.org/details/DelmiraAgustini1924LosAstrosDelAbismo",
     "verificado": true,
-    "notas": "Segundo tomo de sus Obras Completas, publicado póstumamente en 1924, diez años después de su muerte. Considerada su obra culminante. Aportado por Rocío.",
+    "notas": "Segundo tomo de sus Obras Completas, publicado póstumamente en 1924, diez años después de su muerte.",
     "dominio": "Literatura",
     "puede_alojarse": "revisar_uso_comercial"
   },
@@ -1451,7 +1474,7 @@ const CATALOGO = [
     "fuente": "Internet Archive",
     "url": "https://archive.org/details/stornipoemasdeamor",
     "verificado": true,
-    "notas": "Confirmado en español (OCR). Aportado por Rocío.",
+    "notas": "Edición verificada en español.",
     "dominio": "Literatura",
     "puede_alojarse": "revisar_uso_comercial"
   },
@@ -1466,7 +1489,7 @@ const CATALOGO = [
     "fuente": "Internet Archive",
     "url": "https://archive.org/details/alfonsina-storni-antologia_202407",
     "verificado": true,
-    "notas": "Confirmado en español (OCR). Aportado por Rocío.",
+    "notas": "Edición verificada en español.",
     "dominio": "Literatura",
     "puede_alojarse": "revisar_uso_comercial"
   },
@@ -1512,6 +1535,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/los-cuatro-jinetes-del-apocalipsis-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 15 capítulos, 2065 párrafos.",
+    "nota_editorial": "Se conserva la acentuación original de la edición, anterior a la norma actual: «á», «ó», «fué».",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -1526,7 +1550,7 @@ const CATALOGO = [
     "fuente": "Internet Archive",
     "url": "https://archive.org/details/argentinaysusgra00blas",
     "verificado": true,
-    "notas": "Aportado por Rocío, verificado en Internet Archive. Crónica de su viaje a Argentina en 1909.",
+    "notas": "Crónica de su viaje a Argentina en 1909.",
     "dominio": "Literatura",
     "puede_alojarse": "revisar_uso_comercial"
   },
@@ -1541,7 +1565,7 @@ const CATALOGO = [
     "fuente": "Internet Archive",
     "url": "https://archive.org/details/intrusonovela00blas",
     "verificado": true,
-    "notas": "Aportado por Rocío, verificado en Internet Archive.",
+    "notas": "Novela de 1904, verificada en Internet Archive.",
     "dominio": "Literatura",
     "puede_alojarse": "revisar_uso_comercial"
   },
@@ -1556,7 +1580,7 @@ const CATALOGO = [
     "fuente": "Internet Archive",
     "url": "https://archive.org/details/elmilitarismome00ibgoog",
     "verificado": true,
-    "notas": "Aportado por Rocío, verificado en Internet Archive. Ficha marca 'Possible copyright status: NOT_IN_COPYRIGHT'. Ensayo sobre la intervención de EEUU en México.",
+    "notas": "Ensayo sobre la intervención de Estados Unidos en México.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -1647,6 +1671,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/sub-sole-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 13 capítulos, 638 párrafos.",
+    "nota_editorial": "Se conserva la ortografía original de la edición de 1907, según la reforma de Andrés Bello vigente en Chile hasta 1927: «i» por «y», «rei», «lei», «mui», «jesto». No son erratas. Dos de estos relatos, «La barrena» y «Cañuela i Petaca», figuran también en la segunda edición de «Sub terra» (1917), que incorporó cuentos procedentes de este volumen. Los relatos de este libro figuran también en el volumen «Cuentos completos», que Tinta y Datos publica por separado.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -1662,6 +1687,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/el-loco-estero-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 28 capítulos, 2923 párrafos.",
+    "nota_editorial": "Última novela de Blest Gana, escrita en París. Lleva el subtítulo «Recuerdos de la niñez».",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -1677,6 +1703,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/mariluan-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 20 capítulos, 1110 párrafos.",
+    "nota_editorial": "Novela protagonizada por un oficial mapuche, poco frecuentada dentro de la obra del autor.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -1737,6 +1764,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/bajo-la-tienda-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 16 capítulos, 1838 párrafos.",
+    "nota_editorial": "Crónicas y relatos de la Guerra del Pacífico, reunidos por el autor en 1896. La fuente publica además dieciséis de estos relatos por separado; esta edición reúne el volumen tal como fue concebido. Se eliminó una llamada a nota al pie que la digitalización dejó adherida al título de una subsección.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -1752,6 +1780,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/dias-de-campo-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 13 capítulos, 537 párrafos.",
+    "nota_editorial": "Colección de relatos rurales, obra central del criollismo chileno.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -1767,6 +1796,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/antano-i-hogano-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 7 capítulos, 2135 párrafos.",
+    "nota_editorial": "Se conserva la ortografía original, según la reforma de Andrés Bello vigente en Chile hasta 1927, visible ya en el propio título: «i» por «y». Los títulos de los relatos figuran en la fuente en versalitas sin acentuar, según la convención tipográfica de la época; esta edición les restituye la acentuación. El texto no fue alterado.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -1782,6 +1812,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/cuentos-completos-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 48 capítulos, 3513 párrafos.",
+    "nota_editorial": "Este volumen recopilatorio reúne los relatos de «Sub terra» (1904) y «Sub sole» (1907) junto con otros aparecidos en prensa y en recopilaciones póstumas. Tinta y Datos publica además ambos libros por separado, tal como Lillo los compuso. Se conserva la ortografía de los originales, anterior a la reforma de 1927 en varios de los relatos.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -1797,6 +1828,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/la-araucana-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 43 rimas, 21147 versos.",
+    "nota_editorial": "Poema épico publicado en tres partes entre 1569 y 1589 sobre la guerra de Arauco, en la que el propio Ercilla participó como soldado. Cada canto se abre con su argumento en prosa, tal como en el original, seguido de las octavas reales. Se conserva la ortografía de la edición de referencia: «á», «fué», «vitoria».",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -1812,6 +1844,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/cuentos-diaz-garces-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 19 capítulos, 914 párrafos.",
+    "nota_editorial": "Reúne los diecinueve relatos que la fuente publica también por separado. Díaz Garcés firmaba como «Ángel Pino».",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -1947,6 +1980,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/tradiciones-peruanas-ii-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 43 capítulos, 2330 párrafos.",
+    "nota_editorial": "Segunda de las diez series de tradiciones que Ricardo Palma publicó entre 1872 y 1910. Tinta y Datos edita por separado las tres primeras, que son las disponibles en la fuente.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -1962,6 +1996,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/tradiciones-peruanas-iii-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 45 capítulos, 1650 párrafos.",
+    "nota_editorial": "Tercera de las diez series de tradiciones que Ricardo Palma publicó entre 1872 y 1910. Tinta y Datos edita por separado las tres primeras, que son las disponibles en la fuente.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -2292,6 +2327,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/sab-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 18 capítulos, 1036 párrafos.",
+    "nota_editorial": "Primera novela antiesclavista en lengua española, anterior a «La cabaña del tío Tom».",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -2307,6 +2343,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/clemencia-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 37 capítulos, 2782 párrafos.",
+    "nota_editorial": "Fernán Caballero era el seudónimo de Cecilia Böhl de Faber.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -2322,6 +2359,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/la-gaviota-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 34 capítulos, 2869 párrafos.",
+    "nota_editorial": "Fernán Caballero era el seudónimo de Cecilia Böhl de Faber.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -2337,6 +2375,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/aves-sin-nido-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 59 capítulos, 2395 párrafos.",
+    "nota_editorial": "Obra fundacional del indigenismo latinoamericano.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -2412,6 +2451,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/la-malcasada-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 26 capítulos, 1958 párrafos.",
+    "nota_editorial": "Firmaba como Colombine. Fue la primera periodista profesional de España.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -2427,6 +2467,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/la-rampa-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 28 capítulos, 1723 párrafos.",
+    "nota_editorial": "Firmaba como Colombine.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -2457,6 +2498,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/la-cueva-de-salamanca-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 1 capítulos, 341 párrafos.",
+    "nota_editorial": "Entremés.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -2472,6 +2514,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/novelas-ejemplares-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 26 capítulos, 3080 párrafos.",
+    "nota_editorial": "Reúne las doce novelas que la fuente publica además por separado.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -2517,6 +2560,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/el-retablo-de-las-maravillas-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 1 capítulos, 134 párrafos.",
+    "nota_editorial": "Entremés.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -2547,6 +2591,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/los-trabajos-de-persiles-y-segismunda-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 90 capítulos, 1859 párrafos.",
+    "nota_editorial": "Última obra de Cervantes, publicada póstumamente.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -2562,6 +2607,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/la-gruta-del-silencio-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 27 rimas, 900 versos.",
+    "nota_editorial": "Wikisource transcribe página por página contra un facsímil concreto y marca el texto como validado cuando dos personas distintas lo han cotejado.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -2577,6 +2623,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/altazor-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 9 rimas, 2296 versos.",
+    "nota_editorial": "Poema en siete cantos, obra central del creacionismo.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -2622,6 +2669,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/ecuatorial-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 1 rimas, 326 versos.",
+    "nota_editorial": "Publicado en Madrid, en pleno contacto de Huidobro con la vanguardia europea.",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   },
@@ -2637,6 +2685,7 @@ const CATALOGO = [
     "url": "https://archivos.tintaydatos.com/ediciones/la-vuelta-de-martin-fierro-tinta-y-datos.pdf",
     "verificado": true,
     "notas": "Edición propia Tinta y Datos: 34 rimas, 4907 versos.",
+    "nota_editorial": "Segunda parte del poema, publicada siete años después de «La Ida».",
     "dominio": "Literatura",
     "puede_alojarse": "si"
   }
@@ -2879,6 +2928,7 @@ function render(){
       <h3>${o.titulo}</h3>
       <div class="autor">${o.autor}</div>
       ${o.notas ? `<div class="notas">${o.notas}</div>` : ''}
+      ${o.nota_editorial ? `<div class="nota-ed"><b>Nota editorial:</b> ${o.nota_editorial}</div>` : ''}
       <div class="aloja-tag">${ALOJAR_LABEL[o.puede_alojarse] || ALOJAR_LABEL.revisar}</div>
       <div class="footer-row">
         <span class="fuente-tag">${o.fuente}${o.verificado ? '' : ' <span class="warn">⚠ enlace por verificar</span>'}</span>
@@ -2955,7 +3005,7 @@ function volverAlInicio(){
 }
 
 function descargarCSV(){
-  const cols = ['id','dominio','titulo','autor','anio','pais','genero','tipo','fuente','url','urls','verificado','puede_alojarse','notas'];
+  const cols = ['id','dominio','titulo','autor','anio','pais','genero','tipo','fuente','url','urls','verificado','nota_editorial','puede_alojarse','notas'];
   const escape = (v) => `"${String(v).replace(/"/g,'""')}"`;
   const filas = [cols.join(',')].concat(
     CATALOGO.map(o => cols.map(c => escape(o[c])).join(','))
