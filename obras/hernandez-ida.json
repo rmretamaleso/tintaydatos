@@ -1,0 +1,34 @@
+{
+  "slug": "el-gaucho-martin-fierro",
+  "titulo": "El Gaucho Martín Fierro",
+  "autor": "José Hernández",
+  "anio": 1872,
+  "tipo": "verso",
+  "url": "https://www.textos.info/jose-hernandez/el-gaucho-martin-fierro/ebook",
+  "catalogo": "un catálogo de literatura en español en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/jose-hernandez/el-gaucho-martin-fierro",
+    "nota": "Primera parte del poema, conocida como «La Ida». La segunda, «La Vuelta», apareció en 1879 y Tinta y Datos la publica por separado."
+  },
+  "catalogo_id": 2,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Gaucho Martín Fierro",
+    "autor": "José Hernández",
+    "anio": "1872",
+    "pais": "Argentina",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 13,
+    "unidades": 403
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "etiqueta_capitulo": "CANTO"
+  }
+}
