@@ -13,9 +13,20 @@
   },
   "catalogo_id": 307,
   "catalogo_campos": {
-    "dominio": "Literatura", "titulo": "La gruta del silencio",
-    "autor": "Vicente Huidobro", "anio": "1913", "pais": "Chile",
-    "genero": "Poesía", "tipo": "Dominio público", "puede_alojarse": "si"
+    "dominio": "Literatura",
+    "titulo": "La gruta del silencio",
+    "autor": "Vicente Huidobro",
+    "anio": "1913",
+    "pais": "Chile",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
   },
-  "opciones": {"salto_por_capitulo": true}
+  "esperados": {
+    "capitulos": 27,
+    "unidades": 900
+  },
+  "opciones": {
+    "salto_por_capitulo": true
+  }
 }

@@ -21,6 +21,10 @@
     "tipo": "Dominio público",
     "puede_alojarse": "si"
   },
+  "esperados": {
+    "capitulos": 27,
+    "unidades": 785
+  },
   "opciones": {
     "salto_por_capitulo": true
   }
