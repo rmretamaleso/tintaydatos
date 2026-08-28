@@ -207,6 +207,13 @@ def _bloques(bloques, tipo, est, umbral):
     fs = []
     if tipo == "verso":
         for estrofa in bloques:
+            # Una obra en verso puede traer bloques en prosa (portadillas,
+            # dedicatorias, argumentos). Sin esto se recorrerían carácter a
+            # carácter y cada letra saldría como un verso.
+            if isinstance(estrofa, str):
+                if estrofa.strip():
+                    fs.append(Paragraph(_esc(estrofa), est["parrafo"]))
+                continue
             grupo = []
             for v in estrofa:
                 if v.startswith(">> "):

@@ -62,26 +62,43 @@ def _titulo(doc):
     return _texto(m.group(1)) if m else None
 
 
+def _decorativo(estrofa):
+    """¿Es una portadilla del facsímil compuesta letra por letra?
+
+    Las ediciones de vanguardia traen portadas con el título en vertical, una
+    letra por línea. Wikisource las transcribe así y sin esto cada letra
+    entraría como un verso: en «Altazor» eran 7.293 de 9.553 líneas.
+    """
+    if len(estrofa) < 4:
+        return False
+    sueltas = sum(1 for v in estrofa if len(v.strip()) == 1)
+    return sueltas / len(estrofa) >= 0.7
+
+
 def _bloques(doc):
     """Devuelve (tipo, bloques). Verso si la pieza trae marcas de poema."""
-    estrofas = []
+    estrofas, descartadas = [], 0
     for est in re.findall(r'<div class="[^"]*ws-poema-estrofa[^"]*".*?>(.*?)</div>',
                           doc, re.S):
         versos = [_texto(v) for v in
                   re.findall(r'<span class="ws-poema-line">(.*?)</span>\s*(?=<span class="ws-poema-line">|$)',
                              est, re.S)]
         versos = [v for v in versos if v]
-        if versos:
-            estrofas.append(versos)
+        if not versos:
+            continue
+        if _decorativo(versos):
+            descartadas += len(versos)
+            continue
+        estrofas.append(versos)
     if estrofas:
-        return "verso", estrofas
+        return "verso", estrofas, descartadas
 
     parrafos = []
     for p in re.findall(r"<p[^>]*>(.*?)</p>", doc, re.S):
         t = _texto(p)
         if t:
             parrafos.append(t)
-    return "prosa", parrafos
+    return "prosa", parrafos, descartadas
 
 
 def arbol(pagina, lang="es"):
@@ -92,11 +109,12 @@ def arbol(pagina, lang="es"):
                and not any(n.endswith(o) for o in OMITIR)]
     nombres.sort(key=lambda n: (int(m.group(1)) if (m := re.search(r"/c(\d+)_", n))
                                 else 9999, n))
-    capitulos, versos, prosa = [], 0, 0
+    capitulos, versos, prosa, sueltas = [], 0, 0, 0
     for n in nombres:
         doc = z.read(n).decode("utf-8", "replace")
         cuerpo = doc[doc.find("<body"):]
-        tipo, bloques = _bloques(cuerpo)
+        tipo, bloques, descartadas = _bloques(cuerpo)
+        sueltas += descartadas
         if not bloques:
             continue
         if tipo == "verso":
@@ -105,6 +123,9 @@ def arbol(pagina, lang="es"):
             prosa += len(bloques)
         capitulos.append({"numero": _titulo(cuerpo) or n, "titulo": None,
                           "secciones": [{"numero": None, "bloques": bloques}]})
+    if sueltas:
+        print(f"  se descartaron {sueltas} líneas de portadillas del facsímil "
+              f"compuestas letra por letra")
     if not capitulos:
         raise RuntimeError(f"No reconocí contenido en el ePub de «{pagina}».")
     return [{"nombre": None, "capitulos": capitulos}], ("verso" if versos > prosa
