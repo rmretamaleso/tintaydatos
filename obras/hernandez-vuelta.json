@@ -5,7 +5,7 @@
   "anio": 1879,
   "tipo": "verso",
   "url": "https://www.textos.info/jose-hernandez/la-vuelta-de-martin-fierro/ebook",
-  "catalogo": "un catálogo de literatura en español en dominio público",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
   "fuente": {
     "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
     "url": "https://www.textos.info/jose-hernandez/la-vuelta-de-martin-fierro",
@@ -25,7 +25,7 @@
   "nivel_capitulo": "h2",
   "esperados": {
     "capitulos": 34,
-    "unidades": 866
+    "unidades": 4907
   },
   "opciones": {
     "salto_por_capitulo": true,

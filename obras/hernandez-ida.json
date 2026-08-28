@@ -5,7 +5,7 @@
   "anio": 1872,
   "tipo": "verso",
   "url": "https://www.textos.info/jose-hernandez/el-gaucho-martin-fierro/ebook",
-  "catalogo": "un catálogo de literatura en español en dominio público",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
   "fuente": {
     "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
     "url": "https://www.textos.info/jose-hernandez/el-gaucho-martin-fierro",
@@ -25,7 +25,7 @@
   "nivel_capitulo": "h2",
   "esperados": {
     "capitulos": 13,
-    "unidades": 403
+    "unidades": 2336
   },
   "opciones": {
     "salto_por_capitulo": true,
