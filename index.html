@@ -390,6 +390,41 @@
   }
   footer strong{ color: var(--ink); }
 
+  /* Vista en dos niveles: la portada no muestra las fichas, para no ser
+     una página infinita con 144 entradas. */
+  body.en-listado header .sub,
+  body.en-listado .porque{ display:none; }
+  body.en-portada .grid,
+  body.en-portada .toolbar select,
+  body.en-portada .toolbar .btn-csv,
+  body.en-portada .toolbar .count,
+  body.en-portada #paginacion,
+  body.en-portada #volver{ display:none; }
+  body.en-portada .bloque{ padding: 34px 24px; }
+  body.en-portada .bloque .num{ font-size: 15px; }
+  body.en-portada .bloque .nombre{ font-size: 26px; }
+
+  #volver{
+    display:inline-flex; align-items:center; gap:6px;
+    background:none; border:none; cursor:pointer;
+    font-family:'IBM Plex Mono', monospace; font-size:12px;
+    color: var(--ink); text-transform:uppercase; letter-spacing:.05em;
+    padding:0; margin-bottom:14px;
+  }
+  #volver:hover{ text-decoration:underline; }
+
+  #paginacion{
+    display:flex; gap:8px; align-items:center; justify-content:center;
+    margin-top:28px; font-family:'IBM Plex Mono', monospace; font-size:12px;
+  }
+  #paginacion button{
+    background:#fff; border:1px solid rgba(28,43,74,0.25); border-radius:4px;
+    padding:6px 12px; cursor:pointer; font-family:inherit; font-size:inherit;
+    color: var(--ink);
+  }
+  #paginacion button[disabled]{ opacity:.35; cursor:default; }
+  #paginacion .pag-info{ color: var(--ink-soft); padding:0 6px; }
+
   @media (max-width: 640px){
     .bloques{ grid-template-columns: 1fr; }
   }
@@ -406,12 +441,14 @@
   <header>
     <div class="eyebrow">Tinta y Datos — catálogo semilla</div>
     <h1><span class="intro">Conocimiento en español que</span> <em>nadie te va a cobrar.</em></h1>
-    <p class="sub">Un índice curado especializado en textos latinoamericanos relacionados con la literatura y la ciencia en español que están legalmente libres de derechos — para llenar el vacío que dejan los catálogos centrados en el inglés. Cada ficha enlaza a una fuente real, descargable e indica si el archivo puede alojarse localmente o solo enlazarse.</p>
+    <p class="sub">Un índice curado de literatura y ciencia latinoamericana y española que ya es legalmente libre — para llenar el vacío que dejan los catálogos centrados en el inglés. Muchas fichas enlazan a ediciones propias, tipografiadas de nuevo a partir de textos verificados; el resto apunta a la fuente original.</p>
 
     <div class="bloques" id="bloques"></div>
     <div class="subbloques" id="subbloques"></div>
     <div class="subbloques" id="autorespills"></div>
   </header>
+
+  <button type="button" id="volver">← Volver al inicio</button>
 
   <div class="toolbar">
     <input type="search" id="buscador" placeholder="Buscar por título, autor o país…" aria-label="Buscar por título, autor o país" />
@@ -423,6 +460,7 @@
   </div>
 
   <div class="grid" id="grid"></div>
+  <div id="paginacion"></div>
   <div class="empty" id="vacio" style="display:none;">Sin resultados — probá con otro término.</div>
 
   <section class="porque">
@@ -433,9 +471,9 @@
   </section>
 
   <footer>
-    <strong>Estado del catálogo:</strong> 27 obras semilla, curadas manualmente. Los enlaces marcados <span style="color:#c96b64">⚠ por verificar</span> apuntan a una búsqueda en la fuente (no a la página exacta de la obra) para evitar links rotos — confirmalos antes de compartir en público.<br/>
-    <strong>Criterio de inclusión:</strong> dominio público confirmado según el plazo real de cada país (70 años en la mayoría — Argentina, Chile, Uruguay, España — pero 80 en Colombia y 100 en México), u obras anónimas / de tradición oral. Nada de zonas grises de copyright.<br/>
-    <strong>Siguiente fase:</strong> automatizar verificación de enlaces + ingestión desde APIs de Wikisource / Internet Archive / Cervantes Virtual.
+    <strong>Estado del catálogo:</strong> <span id="pieObras">—</span> fichas curadas manualmente, de las cuales <span id="piePropias">—</span> son ediciones propias de Tinta y Datos: tipografiadas de nuevo a partir del texto verificado, con su procedencia declarada en el colofón. Los enlaces marcados <span style="color:#c96b64">⚠ por verificar</span> apuntan a la fuente pero no han sido confirmados uno a uno.<br/>
+    <strong>Criterio de inclusión:</strong> dominio público confirmado según el plazo real de cada país (70 años en la mayoría — Argentina, Chile, Uruguay, Perú — 80 en España para autores fallecidos antes de 1987, 100 en México), u obras anónimas y de tradición oral. Cuando el texto es libre pero la edición no —traducciones o antologías con derechos propios—, la ficha solo enlaza y no aloja copia.<br/>
+    <strong>Fuentes:</strong> textos.info, Wikisource, Internet Archive y repositorios institucionales. De Wikisource se indica además su nivel de revisión: corregido significa cotejado contra el facsímil por una persona; validado, verificado por una segunda.
   </footer>
 </div>
 
@@ -2816,6 +2854,7 @@ function render(){
     return matchQ && matchD && matchG && matchP && matchT && matchA;
   });
 
+  aplicarVista();
   grid.innerHTML = '';
   // Una obra puede tener varios archivos (novelas largas repartidas en volúmenes).
   // Formato de o.urls: "Parte 1::https://...|Parte 2::https://..."
@@ -2829,7 +2868,7 @@ function render(){
         : { etiqueta: `Parte ${i + 1}`, url: partes[0].trim() };
     });
   };
-  filtradas.forEach(o => {
+  paginar(filtradas).forEach(o => {
     const card = document.createElement('div');
     card.className = 'card';
     card.dataset.genero = o.genero;
@@ -2855,6 +2894,66 @@ function render(){
   vacio.style.display = filtradas.length ? 'none' : 'block';
 }
 
+// ─── Vista en dos niveles ────────────────────────────────────────────────
+// La portada muestra los tres bloques y el buscador; las fichas aparecen solo
+// al elegir un dominio o buscar algo. Con 144 entradas, mostrarlas todas de
+// una vez hacía una página interminable.
+const POR_PAGINA = 24;
+let pagina = 1;
+
+function hayFiltro(){
+  return !!(filtroDominio.value || buscador.value.trim() || filtroGenero.value
+            || filtroPais.value || temaActivo || autorActivo);
+}
+
+function aplicarVista(){
+  const listado = hayFiltro();
+  document.body.classList.toggle('en-listado', listado);
+  document.body.classList.toggle('en-portada', !listado);
+  const slug = filtroDominio.value
+    ? filtroDominio.value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\s+/g,'-')
+    : '';
+  const hash = listado ? '#' + (slug || 'buscar') : '';
+  if (location.hash !== hash) history.replaceState(null, '', hash || location.pathname);
+}
+
+function paginar(lista){
+  const total = Math.max(1, Math.ceil(lista.length / POR_PAGINA));
+  if (pagina > total) pagina = total;
+  const cont = document.getElementById('paginacion');
+  cont.innerHTML = '';
+  if (lista.length > POR_PAGINA){
+    const anterior = document.createElement('button');
+    anterior.textContent = '← Anterior';
+    anterior.disabled = pagina === 1;
+    anterior.addEventListener('click', () => { pagina--; render(); window.scrollTo({top:0}); });
+    const info = document.createElement('span');
+    info.className = 'pag-info';
+    info.textContent = `página ${pagina} de ${total}`;
+    const siguiente = document.createElement('button');
+    siguiente.textContent = 'Siguiente →';
+    siguiente.disabled = pagina === total;
+    siguiente.addEventListener('click', () => { pagina++; render(); window.scrollTo({top:0}); });
+    cont.append(anterior, info, siguiente);
+  }
+  return lista.slice((pagina - 1) * POR_PAGINA, pagina * POR_PAGINA);
+}
+
+function volverAlInicio(){
+  buscador.value = '';
+  filtroDominio.value = '';
+  filtroGenero.value = '';
+  filtroPais.value = '';
+  temaActivo = '';
+  autorActivo = '';
+  pagina = 1;
+  actualizarFiltroGenero();
+  marcarBloqueActivo();
+  poblarSubBloques();
+  render();
+  window.scrollTo({top:0});
+}
+
 function descargarCSV(){
   const cols = ['id','dominio','titulo','autor','anio','pais','genero','tipo','fuente','url','urls','verificado','puede_alojarse','notas'];
   const escape = (v) => `"${String(v).replace(/"/g,'""')}"`;
@@ -2870,11 +2969,18 @@ function descargarCSV(){
   URL.revokeObjectURL(url);
 }
 
-buscador.addEventListener('input', render);
-filtroDominio.addEventListener('change', () => { filtroPais.value = ''; temaActivo = ''; autorActivo = ''; actualizarFiltroGenero(); marcarBloqueActivo(); poblarSubBloques(); render(); });
-filtroGenero.addEventListener('change', render);
-filtroPais.addEventListener('change', () => { autorActivo = ''; marcarSubPillActiva(); poblarAutores(); render(); });
+buscador.addEventListener('input', () => { pagina = 1; render(); });
+filtroDominio.addEventListener('change', () => { pagina = 1; filtroPais.value = ''; temaActivo = ''; autorActivo = ''; actualizarFiltroGenero(); marcarBloqueActivo(); poblarSubBloques(); render(); });
+filtroGenero.addEventListener('change', () => { pagina = 1; render(); });
+filtroPais.addEventListener('change', () => { pagina = 1; autorActivo = ''; marcarSubPillActiva(); poblarAutores(); render(); });
 document.getElementById('btnCsv').addEventListener('click', descargarCSV);
+document.getElementById('volver').addEventListener('click', volverAlInicio);
+
+// El pie declara cifras reales: se calculan del catálogo, no se escriben a mano.
+const R2 = 'archivos.tintaydatos.com';
+document.getElementById('pieObras').textContent = CATALOGO.length;
+document.getElementById('piePropias').textContent =
+  CATALOGO.filter(o => (o.url || '').includes(R2) || (o.urls || '').includes(R2)).length;
 
 poblarBloques();
 poblarFiltros();

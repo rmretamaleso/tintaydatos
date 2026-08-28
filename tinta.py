@@ -217,7 +217,7 @@ def procesar(ruta_cfg, a):
     n_cap = sum(len(pa["capitulos"]) for pa in obra["partes"])
     notas = cfg.get("catalogo_notas") or (
         f"Edición propia Tinta y Datos: {n_cap} "
-        f"{'rimas' if cfg.get('tipo') == 'verso' else 'capítulos'}, "
+        f"{'poemas' if cfg.get('tipo') == 'verso' else 'capítulos'}, "
         f"{contar(obra)} {unidad}.")
     publicar.actualizar_catalogo(cfg, salidas, a.catalogo, notas)
     return True
