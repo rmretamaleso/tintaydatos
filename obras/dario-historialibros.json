@@ -23,6 +23,10 @@
     "puede_alojarse": "si"
   },
   "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 3,
+    "unidades": 60
+  },
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"

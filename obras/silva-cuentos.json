@@ -24,6 +24,10 @@
   "nivel_capitulo": "h2",
   "nivel_seccion": "h3",
   "patron_seccion": "^(.+)$",
+  "esperados": {
+    "capitulos": 4,
+    "unidades": 51
+  },
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
