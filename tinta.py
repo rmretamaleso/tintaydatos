@@ -135,7 +135,23 @@ def _ap():
 def procesar(ruta_cfg, a):
     cfg = json.loads(Path(ruta_cfg).read_text(encoding="utf-8"))
     slug = cfg.get("slug") or Path(ruta_cfg).stem
-    if cfg.get("wikisource"):
+    if cfg.get("piezas_fuente"):
+        # Volumen compuesto por Tinta y Datos a partir de textos que la fuente
+        # publica sueltos. No es un libro del autor: el colofón lo declara.
+        print(f"Recopilación de {len(cfg['piezas_fuente'])} piezas sueltas")
+        partes = T.recopilar(cfg, cfg.get("orden"))
+        n_cap = len(partes[0]["capitulos"])
+        totales = {"partes": 0, "capitulos": n_cap, "secciones": n_cap}
+        esp = cfg.get("esperados") or {}
+        if "capitulos" in esp and esp["capitulos"] != n_cap:
+            raise SystemExit(f"capitulos: esperaba {esp['capitulos']}, encontré {n_cap}.")
+        nota = cfg.setdefault("fuente", {}).get("nota", "").rstrip()
+        marca = ("Esta no es una edición de un libro del autor: es una recopilación "
+                 "hecha por Tinta y Datos a partir de textos que la fuente publica "
+                 "por separado, reunidos aquí para que dejen de estar dispersos.")
+        if marca not in nota:
+            cfg["fuente"]["nota"] = (nota + " " + marca).strip()
+    elif cfg.get("wikisource"):
         # Wikisource no se raspa: se usa su exportador oficial, que arma la obra
         # a partir de las páginas transcritas contra el facsímil.
         pagina = cfg["wikisource"]
@@ -219,7 +235,8 @@ def procesar(ruta_cfg, a):
         f"Edición propia Tinta y Datos: {n_cap} "
         f"{'poemas' if cfg.get('tipo') == 'verso' else 'capítulos'}, "
         f"{contar(obra)} {unidad}.")
-    publicar.actualizar_catalogo(cfg, salidas, a.catalogo, notas)
+    publicar.actualizar_catalogo(cfg, salidas, a.catalogo, notas,
+                                 edicion.piezas_con_titulo(obra["partes"]))
     return True
 
 

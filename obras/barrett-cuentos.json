@@ -1,0 +1,72 @@
+{
+  "slug": "cuentos-rafael-barrett",
+  "titulo": "Cuentos",
+  "autor": "Rafael Barrett",
+  "anio": 1910,
+  "tipo": "prosa",
+  "autor_slug": "rafael-barrett",
+  "piezas_fuente": [
+    "a-bordo::A Bordo",
+    "ajenjo::Ajenjo",
+    "baccarat::Baccarat",
+    "casus-belli::Casus Belli",
+    "de-cuerpo-presente::De Cuerpo Presente",
+    "del-natural::Del Natural",
+    "el-amante::El Amante",
+    "el-bohemio::El Bohemio",
+    "el-hijo::El Hijo",
+    "el-leproso::El Leproso",
+    "el-maestro::El Maestro",
+    "el-nino-y-el-rey::El Niño y el Rey",
+    "el-perro::El Perro",
+    "el-pozo::El Pozo",
+    "la-cartera::La Cartera",
+    "la-enamorada::La Enamorada",
+    "la-gran-cuestion::La Gran Cuestión",
+    "la-huelga::La Huelga",
+    "la-madre::La Madre",
+    "la-muneca::La Muñeca",
+    "la-oracion-del-huerto::La Oración del Huerto",
+    "la-puerta::La Puerta",
+    "la-risa::La Risa",
+    "la-rosa::La Rosa",
+    "la-tempestad::La Tempestad",
+    "la-ultima-primavera::La Última Primavera",
+    "la-visita::La Visita",
+    "los-domingos-de-noche::Los Domingos de Noche",
+    "margarita::Margarita",
+    "mi-zoo::Mi Zoo",
+    "recuerdas::¿Recuerdas?",
+    "regalo-de-ano-nuevo::Regalo de Año Nuevo",
+    "smart::Smart",
+    "sobre-el-cesped::Sobre el Césped",
+    "sonando::Soñando",
+    "un-fallecimiento::Un Fallecimiento"
+  ],
+  "orden": "alfabetico",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/rafael-barrett",
+    "nota": "Reúne los relatos de Barrett que la fuente publica sueltos. Barrett murió en 1910 y no dejó un volumen de cuentos cerrado; los textos van en orden alfabético. Se excluye «Al margen», que la fuente publica como libro y Tinta y Datos edita por separado."
+  },
+  "catalogo_id": 346,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos",
+    "autor": "Rafael Barrett",
+    "anio": "1910",
+    "pais": "Paraguay",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 36
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

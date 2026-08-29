@@ -13,6 +13,8 @@ import sys
 import time
 import unicodedata
 
+BASE = "https://www.textos.info"
+
 ARTEFACTOS = [r"Arriba\s*Abajo\s*", r"\bArriba\b\s*$"]
 
 # Pie del sitio: a partir de aquí ya no es texto de la obra.
@@ -139,6 +141,83 @@ def inspeccionar(doc, muestras=4):
 
     print("\nPega esta salida para fijar la configuración de la obra.")
     return els
+
+
+MENORES = {"de", "del", "la", "las", "el", "los", "un", "una", "y", "o", "en",
+           "al", "a", "con", "por", "para", "sobre", "que", "lo"}
+
+
+def _titulo_de_slug(slug):
+    """«la-oracion-del-huerto» -> «La oración del huerto».
+
+    Se usa cuando la pieza no trae encabezado. Capitalizar cada palabra daría
+    «La Oracion Del Huerto», que no es como se escribe un título en español:
+    solo va en mayúscula la primera.
+    """
+    palabras = slug.split("-")
+    salida = [palabras[0].capitalize()]
+    salida += [p if p in MENORES else p for p in palabras[1:]]
+    return " ".join(salida)
+
+
+def recopilar(cfg, orden=None):
+    """Compone un volumen a partir de piezas publicadas por separado.
+
+    Algunos autores solo están en la fuente como textos sueltos, sin ningún
+    libro que los reúna. Esto arma ese volumen: cada pieza pasa a ser un
+    capítulo, con su título tomado de la propia fuente. No es un libro del
+    autor sino una recopilación editorial, y así debe declararse en el colofón.
+    """
+    piezas = cfg["piezas_fuente"]
+    autor_slug = cfg["autor_slug"]
+    capitulos, fallos = [], []
+    for i, entrada in enumerate(piezas, 1):
+        # Cada entrada puede ser «slug» o «slug::Título real». Lo segundo es
+        # preferible: el slug pierde los acentos, y «la-oracion-del-huerto»
+        # daría «La oracion del huerto».
+        slug, _, titulo_dado = entrada.partition("::")
+        slug, titulo_dado = slug.strip(), titulo_dado.strip()
+        url = f"{BASE}/{autor_slug}/{slug}/ebook"
+        try:
+            doc = descargar(url)
+        except Exception as e:
+            fallos.append((slug, str(e)[:60]))
+            continue
+        sub = dict(cfg)
+        sub.pop("esperados", None)
+        sub["nivel_capitulo"] = cfg.get("nivel_capitulo", "h2")
+        # Las piezas sueltas suelen venir sin encabezado: son solo párrafos.
+        # Sin esto el texto se descartaría por no haber ningún capítulo abierto.
+        sub["preliminares"] = True
+        partes, _ = parsear(doc, sub)
+        bloques = [b for p in partes for c in p["capitulos"]
+                   for s in c["secciones"] for b in s["bloques"]]
+        titulo = (titulo_dado
+                  or next((str(c["numero"]) for p in partes for c in p["capitulos"]
+                           if c.get("numero")), None)
+                  or _titulo_de_slug(slug))
+        if not bloques:
+            fallos.append((slug, "sin texto"))
+            continue
+        capitulos.append({"numero": titulo, "titulo": None,
+                          "secciones": [{"numero": None, "bloques": bloques}]})
+        print(f"  {i:>3}/{len(piezas)}  {titulo[:44]:<46} {len(bloques)} bloque(s)")
+        time.sleep(0.3)
+
+    if fallos:
+        print(f"\n{len(fallos)} pieza(s) no se pudieron incorporar:")
+        for slug, motivo in fallos:
+            print(f"    {slug}: {motivo}")
+        raise SystemExit("Aborto: una recopilación incompleta no debe publicarse "
+                         "sin que quede constancia de qué falta.")
+    if orden == "alfabetico":
+        capitulos.sort(key=lambda c: _clave_orden(c["numero"]))
+    return [{"nombre": None, "capitulos": capitulos}]
+
+
+def _clave_orden(t):
+    t = unicodedata.normalize("NFKD", t).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"^(el|la|los|las|un|una)\s+", "", t)
 
 
 def parsear(doc, cfg):

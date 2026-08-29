@@ -102,6 +102,9 @@ def _estilos(hyphenation=None):
         "parrafo": ParagraphStyle('Pr', parent=s['Normal'], fontName='Times-Roman',
             fontSize=11, leading=15.5, alignment=TA_JUSTIFY,
             firstLineIndent=14, spaceAfter=6, **extra),
+        "indice": ParagraphStyle('Ix', parent=s['Normal'], fontName='Times-Roman',
+            fontSize=10.5, leading=15, alignment=TA_LEFT, leftIndent=18,
+            firstLineIndent=-12, spaceAfter=2, textColor=TINTA),
         "cita": ParagraphStyle('Ci', parent=s['Normal'], fontName='Times-Roman',
             fontSize=10, leading=14, alignment=TA_LEFT, leftIndent=30,
             firstLineIndent=0, spaceAfter=0),
@@ -293,7 +296,35 @@ def _cuerpo(partes, obra, est, opciones):
 
 
 OPCIONES_VALIDAS = {"etiqueta_capitulo", "salto_por_capitulo",
-                    "umbral_estrofa_entera", "hyphenation", "subtitulo"}
+                    "umbral_estrofa_entera", "hyphenation", "subtitulo",
+                    "indice"}
+
+
+def piezas_con_titulo(partes):
+    """Títulos de los capítulos, si la obra es una colección de piezas nombradas.
+
+    Un índice tiene sentido en un libro de cuentos o poemas, donde cada pieza
+    se busca por su nombre. En una novela con capítulos I a XXX sería una lista
+    de números: por eso solo se considera cuando los encabezados no son meros
+    numerales.
+    """
+    titulos = [str(c["numero"]) for p in partes for c in p["capitulos"]
+               if c.get("numero") is not None]
+    if len(titulos) < 3:
+        return []
+    numerales = sum(1 for t in titulos
+                    if re.fullmatch(r"\d+|[IVXLCDM]+|\d+\.?\s*", t.strip()))
+    return [] if numerales > len(titulos) / 2 else titulos
+
+
+def _indice(titulos, est):
+    if not titulos:
+        return []
+    fs = [Paragraph("ÍNDICE", est["capitulo"]), Spacer(1, 10)]
+    for t in titulos:
+        fs.append(Paragraph(_esc(t), est["indice"]))
+    fs.append(PageBreak())
+    return fs
 
 
 def generar(obra, salida, **opciones):
@@ -309,6 +340,8 @@ def generar(obra, salida, **opciones):
                             title=obra["titulo"], author=obra["autor"])
     story = _portada(obra, est, opciones.get("subtitulo"))
     story += _colofon(obra, est)
+    if opciones.get("indice", True):
+        story += _indice(piezas_con_titulo(obra["partes"]), est)
     story += _cuerpo(obra["partes"], obra, est, opciones)
     doc.build(story)
     print(f"Generado: {salida}")

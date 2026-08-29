@@ -46,7 +46,8 @@ def _fila_nueva(campos, cid):
     return f
 
 
-def actualizar_catalogo(cfg, pdfs, ruta_csv="catalogo.csv", notas=None):
+def actualizar_catalogo(cfg, pdfs, ruta_csv="catalogo.csv", notas=None,
+                        piezas=None):
     """Escribe url/urls/fuente/verificado/notas en la fila indicada por catalogo_id."""
     cid = cfg.get("catalogo_id")
     if cid is None:
@@ -85,6 +86,11 @@ def actualizar_catalogo(cfg, pdfs, ruta_csv="catalogo.csv", notas=None):
     # escrita a mano, esa manda: suele ser más breve y mejor para leer en web.
     if "nota_editorial" in campos and not (destino.get("nota_editorial") or "").strip():
         destino["nota_editorial"] = cfg.get("fuente", {}).get("nota", "").strip()
+
+    # Los títulos de las piezas contenidas, para que el buscador del sitio
+    # encuentre un cuento aunque se publique dentro de su volumen.
+    if "piezas" in campos:
+        destino["piezas"] = " | ".join(piezas or [])
 
     destino["verificado"] = "True"
     if notas:

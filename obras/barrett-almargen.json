@@ -1,0 +1,30 @@
+{
+  "slug": "al-margen",
+  "titulo": "Al Margen",
+  "autor": "Rafael Barrett",
+  "anio": 1912,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/rafael-barrett/al-margen/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/rafael-barrett/al-margen",
+    "nota": "Recopilación de sus artículos y crónicas, publicada póstumamente."
+  },
+  "catalogo_id": 347,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Al margen",
+    "autor": "Rafael Barrett",
+    "anio": "1912",
+    "pais": "Paraguay",
+    "genero": "Ensayo",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}
