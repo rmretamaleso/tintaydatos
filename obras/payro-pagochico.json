@@ -31,5 +31,6 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  }
+  },
+  "piezas_independientes": true
 }

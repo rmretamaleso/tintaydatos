@@ -236,7 +236,8 @@ def procesar(ruta_cfg, a):
         f"{'poemas' if cfg.get('tipo') == 'verso' else 'capítulos'}, "
         f"{contar(obra)} {unidad}.")
     publicar.actualizar_catalogo(cfg, salidas, a.catalogo, notas,
-                                 edicion.piezas_con_titulo(obra["partes"]))
+                                 edicion.piezas_independientes(
+                                     obra["partes"], cfg.get("piezas_independientes")))
     return True
 
 

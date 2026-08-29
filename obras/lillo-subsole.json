@@ -5,7 +5,7 @@
   "anio": 1907,
   "tipo": "prosa",
   "url": "https://www.textos.info/baldomero-lillo/sub-sole/ebook",
-  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "catalogo": "un catálogo de literatura en español en dominio público",
   "fuente": {
     "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
     "url": "https://www.textos.info/baldomero-lillo/sub-sole",
@@ -19,5 +19,6 @@
     "salto_por_capitulo": true,
     "hyphenation": "es"
   },
-  "catalogo_id": 246
+  "catalogo_id": 246,
+  "piezas_independientes": true
 }

@@ -32,7 +32,8 @@ from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY, TA_LEFT
 from reportlab.lib.pagesizes import A5
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import cm
-from reportlab.platypus import (KeepTogether, PageBreak, Paragraph,
+from reportlab.platypus import (KeepTogether, PageBreak, Paragraph, Table,
+                                TableStyle,
                                 SimpleDocTemplate, Spacer)
 
 TINTA = colors.HexColor('#1C2B4A')
@@ -300,6 +301,36 @@ OPCIONES_VALIDAS = {"etiqueta_capitulo", "salto_por_capitulo",
                     "indice"}
 
 
+def piezas_independientes(partes, forzar=None):
+    """Títulos que corresponden a textos con vida propia, no a capítulos.
+
+    `forzar` permite que el .json decida cuando la forma no basta: «1. El rapto
+    del sol» (cuento de Sub Sole) y «I. Santa María de la Ladrillera» (capítulo
+    de Los bandidos de Río Frío) son indistinguibles por su forma, y solo quien
+    conoce la obra sabe cuál es cuál.
+
+    Sirve para el catálogo y el buscador: interesa que alguien encuentre «El
+    fardo» dentro de «Azul», no que se listen los 137 capítulos del Quijote.
+    Un cuento se titula «El fardo»; un capítulo de novela, «Que trata de la
+    condición y ejercicio del famoso hidalgo». El largo los separa, y la
+    palabra «capítulo» al principio lo confirma.
+    """
+    titulos = piezas_con_titulo(partes)
+    if not titulos or forzar is False:
+        return []
+    if forzar is True:
+        return titulos
+    capitulados = sum(1 for t in titulos
+                      if re.match(r"(cap[íi]tulo|canto|jornada|acto|libro|parte)\b"
+                                  r"|^[IVXLCDM]+\s*[.\-—]"      # «I. Santa María…»
+                                  r"|^\d+\s*[.\-—]",            # «1. El rapto del sol»
+                                  t.strip(), re.I))
+    if capitulados > len(titulos) / 3:
+        return []
+    medio = sum(len(t) for t in titulos) / len(titulos)
+    return [] if medio > 40 else titulos
+
+
 def piezas_con_titulo(partes):
     """Títulos de los capítulos, si la obra es una colección de piezas nombradas.
 
@@ -318,13 +349,30 @@ def piezas_con_titulo(partes):
 
 
 def _indice(titulos, est):
+    """Índice a dos columnas que puede ocupar varias páginas.
+
+    No se fija cuántas entradas caben por página: eso depende del largo de cada
+    título, y adivinarlo hacía fallar la composición con títulos de dos líneas.
+    Se arma una fila por par de entradas y reportlab reparte donde corresponde.
+    """
     if not titulos:
         return []
-    fs = [Paragraph("ÍNDICE", est["capitulo"]), Spacer(1, 10)]
-    for t in titulos:
-        fs.append(Paragraph(_esc(t), est["indice"]))
-    fs.append(PageBreak())
-    return fs
+    mitad = (len(titulos) + 1) // 2
+    filas = []
+    for i in range(mitad):
+        izq = Paragraph(_esc(titulos[i]), est["indice"])
+        der = (Paragraph(_esc(titulos[i + mitad]), est["indice"])
+               if i + mitad < len(titulos) else "")
+        filas.append([izq, der])
+    tabla = Table(filas, colWidths=[6.1 * cm, 6.1 * cm])
+    tabla.setStyle(TableStyle([
+        ("VALIGN", (0, 0), (-1, -1), "TOP"),
+        ("LEFTPADDING", (0, 0), (-1, -1), 0),
+        ("RIGHTPADDING", (0, 0), (0, 0), 10),
+        ("TOPPADDING", (0, 0), (-1, -1), 0),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 2),
+    ]))
+    return [Paragraph("ÍNDICE", est["capitulo"]), Spacer(1, 12), tabla, PageBreak()]
 
 
 def generar(obra, salida, **opciones):
