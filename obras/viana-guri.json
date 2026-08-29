@@ -1,0 +1,30 @@
+{
+  "slug": "guri-y-otras-novelas",
+  "titulo": "Gurí y Otras Novelas",
+  "autor": "Javier de Viana",
+  "anio": 1901,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/javier-de-viana/guri-y-otras-novelas/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/javier-de-viana/guri-y-otras-novelas",
+    "nota": "Uno de los pocos volúmenes de Viana disponibles como libro; la fuente publica además más de trescientos de sus relatos por separado."
+  },
+  "catalogo_id": 345,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Gurí y Otras Novelas",
+    "autor": "Javier de Viana",
+    "anio": "1901",
+    "pais": "Uruguay",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

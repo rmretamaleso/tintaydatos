@@ -1,0 +1,29 @@
+{
+  "slug": "viaje-a-nicaragua",
+  "titulo": "Viaje a Nicaragua",
+  "autor": "Rubén Darío",
+  "anio": 1909,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ruben-dario/viaje-a-nicaragua/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ruben-dario/viaje-a-nicaragua"
+  },
+  "catalogo_id": 333,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Viaje a Nicaragua",
+    "autor": "Rubén Darío",
+    "anio": "1909",
+    "pais": "Nicaragua",
+    "genero": "Memoria/Crónica",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

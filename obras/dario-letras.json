@@ -1,0 +1,29 @@
+{
+  "slug": "letras",
+  "titulo": "Letras",
+  "autor": "Rubén Darío",
+  "anio": 1911,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ruben-dario/letras/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ruben-dario/letras"
+  },
+  "catalogo_id": 334,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Letras",
+    "autor": "Rubén Darío",
+    "anio": "1911",
+    "pais": "Nicaragua",
+    "genero": "Ensayo",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

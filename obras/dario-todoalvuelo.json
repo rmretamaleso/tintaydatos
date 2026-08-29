@@ -1,0 +1,32 @@
+{
+  "slug": "todo-al-vuelo",
+  "titulo": "Todo al Vuelo",
+  "autor": "Rubén Darío",
+  "anio": 1912,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ruben-dario/todo-al-vuelo/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ruben-dario/todo-al-vuelo"
+  },
+  "catalogo_id": 335,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Todo al Vuelo",
+    "autor": "Rubén Darío",
+    "anio": "1912",
+    "pais": "Nicaragua",
+    "genero": "Ensayo",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "patron_seccion": "^(.+)$",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "el-oro-de-mallorca",
+  "titulo": "El Oro de Mallorca",
+  "autor": "Rubén Darío",
+  "anio": 1913,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ruben-dario/el-oro-de-mallorca/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ruben-dario/el-oro-de-mallorca",
+    "nota": "Novela inconclusa, publicada por entregas y nunca terminada por el autor."
+  },
+  "catalogo_id": 339,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Oro de Mallorca",
+    "autor": "Rubén Darío",
+    "anio": "1913",
+    "pais": "Nicaragua",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

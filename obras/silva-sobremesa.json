@@ -1,0 +1,30 @@
+{
+  "slug": "de-sobremesa",
+  "titulo": "De Sobremesa",
+  "autor": "José Asunción Silva",
+  "anio": 1896,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/jose-asuncion-silva/de-sobremesa/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/jose-asuncion-silva/de-sobremesa",
+    "nota": "Escrita en 1896, el año de la muerte del autor; publicada en 1925."
+  },
+  "catalogo_id": 343,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "De Sobremesa",
+    "autor": "José Asunción Silva",
+    "anio": "1896",
+    "pais": "Colombia",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

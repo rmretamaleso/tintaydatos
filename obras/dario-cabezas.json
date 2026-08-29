@@ -1,0 +1,30 @@
+{
+  "slug": "cabezas",
+  "titulo": "Cabezas",
+  "autor": "Rubén Darío",
+  "anio": 1916,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ruben-dario/cabezas/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ruben-dario/cabezas",
+    "nota": "Semblanzas de figuras de su tiempo."
+  },
+  "catalogo_id": 338,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cabezas",
+    "autor": "Rubén Darío",
+    "anio": "1916",
+    "pais": "Nicaragua",
+    "genero": "Ensayo",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}
