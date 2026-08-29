@@ -1,22 +1,21 @@
 {
-  "slug": "guri-y-otras-novelas",
-  "titulo": "Gurí y Otras Novelas",
+  "slug": "lena-seca",
+  "titulo": "Leña Seca",
   "autor": "Javier de Viana",
-  "anio": 1901,
+  "anio": 1911,
   "tipo": "prosa",
-  "url": "https://www.textos.info/javier-de-viana/guri-y-otras-novelas/ebook",
+  "url": "https://www.textos.info/javier-de-viana/lena-seca/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
   "fuente": {
     "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
-    "url": "https://www.textos.info/javier-de-viana/guri-y-otras-novelas",
-    "nota": "Uno de los pocos volúmenes de Viana disponibles como libro; la fuente publica además más de trescientos de sus relatos por separado."
+    "url": "https://www.textos.info/javier-de-viana/lena-seca"
   },
-  "catalogo_id": 345,
+  "catalogo_id": 349,
   "catalogo_campos": {
     "dominio": "Literatura",
-    "titulo": "Gurí y Otras Novelas",
+    "titulo": "Leña Seca",
     "autor": "Javier de Viana",
-    "anio": "1901",
+    "anio": "1911",
     "pais": "Uruguay",
     "genero": "Cuento",
     "tipo": "Dominio público",
@@ -24,10 +23,6 @@
   },
   "nivel_capitulo": "h2",
   "nivel_seccion": "h3",
-  "esperados": {
-    "capitulos": 8,
-    "unidades": 1139
-  },
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"

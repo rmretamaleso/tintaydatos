@@ -1,0 +1,29 @@
+{
+  "slug": "la-biblia-gaucha",
+  "titulo": "La Biblia Gaucha",
+  "autor": "Javier de Viana",
+  "anio": 1925,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/javier-de-viana/la-biblia-gaucha/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/javier-de-viana/la-biblia-gaucha"
+  },
+  "catalogo_id": 351,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Biblia Gaucha",
+    "autor": "Javier de Viana",
+    "anio": "1925",
+    "pais": "Uruguay",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

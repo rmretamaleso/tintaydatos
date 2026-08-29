@@ -11,7 +11,10 @@ Con --html archivo.html usa una copia local en vez de descargar.
 El .json de la obra manda; este script no decide nada por su cuenta.
 """
 import argparse
+import contextlib
+import datetime
 import json
+import os
 import re
 import subprocess
 import sys
@@ -241,8 +244,46 @@ def procesar(ruta_cfg, a):
     return True
 
 
+CERROJO = ".tinta-publicando"
+
+
+@contextlib.contextmanager
+def cerrojo_publicacion():
+    """Impide que dos publicaciones corran a la vez.
+
+    Ambas escriben catalogo.csv fila por fila, así que la segunda pisaría lo
+    que va escribiendo la primera: el catálogo quedaría a medias sin que nada
+    avise. El cerrojo se borra al terminar, incluso si algo falla.
+    """
+    p = Path(CERROJO)
+    if p.exists():
+        try:
+            info = p.read_text(encoding="utf-8").strip()
+        except OSError:
+            info = "otro proceso"
+        raise SystemExit(
+            f"Ya hay una publicación en curso ({info}).\n"
+            f"Espera a que termine: si dos escriben el catálogo a la vez, una "
+            f"pisa a la otra.\n"
+            f"Si estás seguro de que no hay ninguna, borra {CERROJO} y reintenta.")
+    p.write_text(f"pid {os.getpid()}, desde {datetime.datetime.now():%H:%M:%S}",
+                 encoding="utf-8")
+    try:
+        yield
+    finally:
+        p.unlink(missing_ok=True)
+
+
 def main():
     a = _ap()
+    if a.publicar and not a.dry_run:
+        with cerrojo_publicacion():
+            _correr(a)
+    else:
+        _correr(a)
+
+
+def _correr(a):
     if a.publicar and not a.dry_run:
         faltan = publicar.credenciales_listas()
         if faltan:

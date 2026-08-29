@@ -1,0 +1,29 @@
+{
+  "slug": "ranchos-costumbres-del-campo",
+  "titulo": "Ranchos",
+  "autor": "Javier de Viana",
+  "anio": 1920,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/javier-de-viana/ranchos-costumbres-del-campo/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/javier-de-viana/ranchos-costumbres-del-campo"
+  },
+  "catalogo_id": 357,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Ranchos",
+    "autor": "Javier de Viana",
+    "anio": "1920",
+    "pais": "Uruguay",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

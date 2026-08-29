@@ -1,0 +1,29 @@
+{
+  "slug": "tardes-del-fogon",
+  "titulo": "Tardes del Fogón",
+  "autor": "Javier de Viana",
+  "anio": 1925,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/javier-de-viana/tardes-del-fogon/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/javier-de-viana/tardes-del-fogon"
+  },
+  "catalogo_id": 348,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Tardes del Fogón",
+    "autor": "Javier de Viana",
+    "anio": "1925",
+    "pais": "Uruguay",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

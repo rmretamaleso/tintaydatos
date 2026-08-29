@@ -35,3 +35,6 @@ __pycache__/
 .venv/
 venv/
 *.zip
+
+# Cerrojo de publicación (se borra solo al terminar)
+.tinta-publicando

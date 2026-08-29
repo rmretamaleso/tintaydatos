@@ -1,0 +1,48 @@
+{
+  "slug": "cuentos-dispersos-viana",
+  "titulo": "Cuentos Dispersos",
+  "autor": "Javier de Viana",
+  "anio": 1926,
+  "tipo": "prosa",
+  "autor_slug": "javier-de-viana",
+  "piezas_fuente": [
+    "bichito::Bichito",
+    "e-un-chancho::E'un Chancho!",
+    "el-consejo-del-tio::El Consejo del Tío",
+    "isto-e-uma-porquera::Isto e uma porquera!",
+    "la-arurera-y-el-ombu::La Arurera y el Ombú",
+    "p-hacerlo-rabiar-al-otro::P'Hacerlo Rabiar al Otro",
+    "por-ver-a-la-novia::Por Ver a la Novia",
+    "salga-san-pedro::¡Salga San Pedro!",
+    "tiento-de-alambre::Tiento de Alambre",
+    "un-santo-varon::Un Santo Varón",
+    "y-a-mi-el-rabicano::Y a Mí el Rabicano",
+    "yo-siempre-fui-asi::Yo Siempre Fui Así"
+  ],
+  "orden": "alfabetico",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/javier-de-viana",
+    "nota": "Reúne los doce relatos de Viana que la fuente publica sueltos y que no figuran en ninguno de sus libros. Se comprobó uno a uno contra el contenido de los trece volúmenes disponibles."
+  },
+  "catalogo_id": 360,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos dispersos",
+    "autor": "Javier de Viana",
+    "anio": "1926",
+    "pais": "Uruguay",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 12
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

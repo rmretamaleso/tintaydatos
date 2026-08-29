@@ -64,6 +64,9 @@ def descargar(url, intentos=3, espera=45):
 def limpiar(s):
     s = re.sub(r"<[^>]+>", "", s)
     s = _html.unescape(s).replace("\u00a0", " ").replace("\u200b", "")
+    # La fuente deja a veces una marca de orden de bytes al inicio del archivo.
+    # Es invisible, pero entra en el texto y luego no calza contra el PDF.
+    s = s.replace("\ufeff", "").replace("\u200e", "").replace("\u200f", "")
     for pat in ARTEFACTOS:
         s = re.sub(pat, "", s)
     return re.sub(r"\s+", " ", unicodedata.normalize("NFC", s)).strip()

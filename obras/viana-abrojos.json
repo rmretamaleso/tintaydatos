@@ -1,0 +1,29 @@
+{
+  "slug": "abrojos",
+  "titulo": "Abrojos",
+  "autor": "Javier de Viana",
+  "anio": 1919,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/javier-de-viana/abrojos/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/javier-de-viana/abrojos"
+  },
+  "catalogo_id": 354,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Abrojos",
+    "autor": "Javier de Viana",
+    "anio": "1919",
+    "pais": "Uruguay",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}
