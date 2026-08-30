@@ -1,0 +1,55 @@
+{
+  "slug": "cuentos-dispersos-go",
+  "titulo": "Cuentos Dispersos",
+  "autor": "Juana Manuela Gorriti",
+  "tipo": "prosa",
+  "autor_slug": "juana-manuela-gorriti",
+  "piezas_fuente": [
+    "belzu::Belzu",
+    "caer-de-las-nubes::Caer de las Nubes",
+    "camila-o-gorman::Camila O'Gorman",
+    "el-dia-de-difuntos::El Día de Difuntos",
+    "el-emparedado::El Emparedado",
+    "el-fantasma-de-un-rencor::El Fantasma de un Rencor",
+    "el-postrer-mandato::El Postrer Mandato",
+    "gethsemani::Gethsemaní",
+    "impresiones-del-2-de-mayo::Impresiones del 2 de Mayo",
+    "la-ciudad-de-los-contrastes::La Ciudad de los Contrastes",
+    "los-mellizos-del-illimani::Los Mellizos del Illimani",
+    "nuestra-senora-de-los-desamparados::Nuestra Señora de los Desamparados",
+    "quien-escucha-su-mal-oye::Quien Escucha Su Mal Oye",
+    "un-drama-de-15-minutos::Un Drama de 15 Minutos",
+    "un-viaje-aciago::Un Viaje Aciago",
+    "un-viaje-al-pais-del-oro::Un Viaje al País del Oro",
+    "una-apuesta::Una Apuesta",
+    "una-querella::Una Querella",
+    "una-visita-infernal::Una Visita Infernal",
+    "yerbas-y-alfileres::Yerbas y Alfileres"
+  ],
+  "orden": "alfabetico",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/juana-manuela-gorriti",
+    "nota": "Reúne los 20 relatos que la fuente publica sueltos y que no figuran en ninguno de los libros de la autora disponibles allí. Recopilación de Tinta y Datos."
+  },
+  "catalogo_id": 431,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos dispersos",
+    "autor": "Juana Manuela Gorriti",
+    "anio": "",
+    "pais": "Argentina",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 20
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

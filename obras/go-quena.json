@@ -1,0 +1,29 @@
+{
+  "slug": "la-quena",
+  "titulo": "La Quena",
+  "autor": "Juana Manuela Gorriti",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/juana-manuela-gorriti/la-quena/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/juana-manuela-gorriti/la-quena"
+  },
+  "catalogo_id": 425,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Quena",
+    "autor": "Juana Manuela Gorriti",
+    "anio": "1845",
+    "pais": "Argentina",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1845
+}

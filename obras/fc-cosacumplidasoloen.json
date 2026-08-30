@@ -1,0 +1,28 @@
+{
+  "slug": "cosa-cumplida-solo-en-la-otra-vida",
+  "titulo": "Cosa Cumplida... Sólo en la Otra Vida",
+  "autor": "Fernán Caballero",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/fernan-caballero/cosa-cumplida-solo-en-la-otra-vida/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/fernan-caballero/cosa-cumplida-solo-en-la-otra-vida"
+  },
+  "catalogo_id": 417,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cosa Cumplida... Sólo en la Otra Vida",
+    "autor": "Fernán Caballero",
+    "anio": "",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "alucinacion",
+  "titulo": "Alucinación",
+  "autor": "Carmen de Burgos",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/carmen-de-burgos/alucinacion/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/carmen-de-burgos/alucinacion"
+  },
+  "catalogo_id": 397,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Alucinación",
+    "autor": "Carmen de Burgos",
+    "anio": "",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

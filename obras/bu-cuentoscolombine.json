@@ -1,0 +1,29 @@
+{
+  "slug": "cuentos-de-colombine",
+  "titulo": "Cuentos de Colombine",
+  "autor": "Carmen de Burgos",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/carmen-de-burgos/cuentos-de-colombine/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/carmen-de-burgos/cuentos-de-colombine"
+  },
+  "catalogo_id": 392,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos de Colombine",
+    "autor": "Carmen de Burgos",
+    "anio": "",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": "h3",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

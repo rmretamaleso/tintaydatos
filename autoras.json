@@ -1,0 +1,752 @@
+{
+ "carmen-de-burgos": {
+  "libros": [
+   [
+    "Alucinación",
+    "alucinacion",
+    8
+   ],
+   [
+    "Amadís",
+    "amadis",
+    35
+   ],
+   [
+    "Confidencias",
+    "confidencias",
+    52
+   ],
+   [
+    "Cuentos de Colombine",
+    "cuentos-de-colombine",
+    29
+   ],
+   [
+    "El Perseguidor",
+    "el-perseguidor",
+    7
+   ],
+   [
+    "El Último Deseo",
+    "el-ultimo-deseo",
+    4
+   ],
+   [
+    "La Ciudad Encantada",
+    "la-ciudad-encantada",
+    8
+   ],
+   [
+    "La Justicia del Mar",
+    "la-justicia-del-mar",
+    7
+   ],
+   [
+    "La Malcasada",
+    "la-malcasada",
+    26
+   ],
+   [
+    "La Mujer Fantástica",
+    "la-mujer-fantastica",
+    24
+   ],
+   [
+    "La Mujer Fría",
+    "la-mujer-fria",
+    8
+   ],
+   [
+    "La Rampa",
+    "la-rampa",
+    28
+   ],
+   [
+    "Los Anticuarios",
+    "los-anticuarios",
+    23
+   ],
+   [
+    "Los Espirituados",
+    "los-espirituados",
+    22
+   ],
+   [
+    "Los Inadaptados",
+    "los-inadaptados",
+    17
+   ],
+   [
+    "Los Míseros",
+    "los-miseros",
+    7
+   ],
+   [
+    "Puñal de Claveles",
+    "punal-de-claveles",
+    5
+   ],
+   [
+    "Quiero Vivir mi Vida",
+    "quiero-vivir-mi-vida",
+    51
+   ]
+  ],
+  "piezas": [
+   [
+    "Alma de Artista",
+    "alma-de-artista",
+    2
+   ],
+   [
+    "¿Alucinación o Telepatía?",
+    "alucinacion-o-telepatia",
+    0
+   ],
+   [
+    "Aroma de Pecado",
+    "aroma-de-pecado",
+    0
+   ],
+   [
+    "¡Ay del Solo!",
+    "ay-del-solo",
+    0
+   ],
+   [
+    "Como Flor de Almendro",
+    "como-flor-de-almendro",
+    0
+   ],
+   [
+    "El Fiscal",
+    "el-fiscal",
+    0
+   ],
+   [
+    "El Tesoro",
+    "el-tesoro",
+    3
+   ],
+   [
+    "El Último Encargo",
+    "el-ultimo-encargo",
+    0
+   ],
+   [
+    "El Viejo Ídolo",
+    "el-viejo-idolo",
+    0
+   ],
+   [
+    "En la Sima",
+    "en-la-sima",
+    3
+   ],
+   [
+    "En Pos del Ensueño",
+    "en-pos-del-ensueno",
+    0
+   ],
+   [
+    "Historia de Carnaval",
+    "historia-de-carnaval",
+    0
+   ],
+   [
+    "¡Imposible!",
+    "imposible",
+    0
+   ],
+   [
+    "La Flor de Brezo",
+    "la-flor-de-brezo",
+    0
+   ],
+   [
+    "La Incomprensible",
+    "la-incomprensible",
+    0
+   ],
+   [
+    "La Indecisa",
+    "la-indecisa",
+    0
+   ],
+   [
+    "La Muerte del Recuerdo",
+    "la-muerte-del-recuerdo",
+    0
+   ],
+   [
+    "Los Negociantes de la Puerta del Sol",
+    "los-negociantes-de-la-puerta-del-sol",
+    0
+   ],
+   [
+    "Los Que No Vivieron",
+    "los-que-no-vivieron",
+    0
+   ],
+   [
+    "Madre por Hija",
+    "madre-por-hija",
+    0
+   ],
+   [
+    "Por las Ánimas",
+    "por-las-animas",
+    0
+   ],
+   [
+    "Puñaladas Morales",
+    "punaladas-morales",
+    0
+   ],
+   [
+    "¡Sacrificio!",
+    "sacrificio",
+    0
+   ],
+   [
+    "¡Triunfante!",
+    "triunfante",
+    0
+   ],
+   [
+    "Una Tiple",
+    "una-tiple",
+    0
+   ]
+  ],
+  "huerfanos": [
+   [
+    "La Indecisa",
+    "la-indecisa"
+   ],
+   [
+    "Los Negociantes de la Puerta del Sol",
+    "los-negociantes-de-la-puerta-del-sol"
+   ]
+  ]
+ },
+ "fernan-caballero": {
+  "libros": [
+   [
+    "Callar en Vida y Perdonar en Muerte",
+    "callar-en-vida-y-perdonar-en-muerte",
+    7
+   ],
+   [
+    "Clemencia",
+    "clemencia",
+    40
+   ],
+   [
+    "Cosa Cumplida... Sólo en la Otra Vida",
+    "cosa-cumplida-solo-en-la-otra-vida",
+    7
+   ],
+   [
+    "Justa y Rufina",
+    "justa-y-rufina",
+    6
+   ],
+   [
+    "La Corruptora y la Buena Maestra",
+    "la-corruptora-y-la-buena-maestra",
+    4
+   ],
+   [
+    "La Estrella de Vandalia",
+    "la-estrella-de-vandalia",
+    18
+   ],
+   [
+    "La Familia de Alvareda",
+    "la-familia-de-alvareda",
+    33
+   ],
+   [
+    "La Farisea",
+    "la-farisea",
+    12
+   ],
+   [
+    "La Flor de las Ruinas",
+    "la-flor-de-las-ruinas",
+    5
+   ],
+   [
+    "La Gaviota",
+    "la-gaviota",
+    36
+   ],
+   [
+    "La Mitología Contada a los Niños e Historia de los Grandes Hombres de la Grecia",
+    "la-mitologia-contada-a-los-ninos-e-historia-de-los-grandes-hombres-de-la-grecia",
+    120
+   ],
+   [
+    "Lágrimas",
+    "lagrimas",
+    31
+   ],
+   [
+    "Las Dos Gracias",
+    "las-dos-gracias",
+    20
+   ],
+   [
+    "No Transige la Conciencia",
+    "no-transige-la-conciencia",
+    7
+   ],
+   [
+    "¡Pobre Dolores!",
+    "pobre-dolores",
+    16
+   ],
+   [
+    "Relaciones",
+    "relaciones",
+    37
+   ],
+   [
+    "Un Servilón y un Liberalito",
+    "un-servilon-y-un-liberalito",
+    10
+   ],
+   [
+    "Una en Otra",
+    "una-en-otra",
+    24
+   ],
+   [
+    "Vulgaridad y Nobleza",
+    "vulgaridad-y-nobleza",
+    16
+   ]
+  ],
+  "piezas": [
+   [
+    "El Vendedor de Tagarninas",
+    "el-vendedor-de-tagarninas",
+    0
+   ],
+   [
+    "La Hija del Sol",
+    "la-hija-del-sol",
+    0
+   ],
+   [
+    "La Maldición Materna",
+    "la-maldicion-materna",
+    0
+   ],
+   [
+    "La Viuda del Cesante",
+    "la-viuda-del-cesante",
+    0
+   ],
+   [
+    "Las Mujeres Cristianas",
+    "las-mujeres-cristianas",
+    0
+   ],
+   [
+    "Leonor",
+    "leonor",
+    2
+   ],
+   [
+    "Los Dos Amigos",
+    "los-dos-amigos",
+    0
+   ],
+   [
+    "Los Dos Memoriales",
+    "los-dos-memoriales",
+    0
+   ],
+   [
+    "Los Pobres Perros Abandonados",
+    "los-pobres-perros-abandonados",
+    0
+   ],
+   [
+    "Más Largo es el Tiempo que la Fortuna",
+    "mas-largo-es-el-tiempo-que-la-fortuna",
+    0
+   ],
+   [
+    "Promesa de un Soldado a la Virgen del Carmen",
+    "promesa-de-un-soldado-a-la-virgen-del-carmen",
+    0
+   ],
+   [
+    "Un Vestido",
+    "un-vestido",
+    0
+   ]
+  ],
+  "huerfanos": [
+   [
+    "El Vendedor de Tagarninas",
+    "el-vendedor-de-tagarninas"
+   ],
+   [
+    "La Maldición Materna",
+    "la-maldicion-materna"
+   ],
+   [
+    "La Viuda del Cesante",
+    "la-viuda-del-cesante"
+   ],
+   [
+    "Las Mujeres Cristianas",
+    "las-mujeres-cristianas"
+   ],
+   [
+    "Leonor",
+    "leonor"
+   ],
+   [
+    "Los Dos Memoriales",
+    "los-dos-memoriales"
+   ],
+   [
+    "Los Pobres Perros Abandonados",
+    "los-pobres-perros-abandonados"
+   ],
+   [
+    "Promesa de un Soldado a la Virgen del Carmen",
+    "promesa-de-un-soldado-a-la-virgen-del-carmen"
+   ],
+   [
+    "Un Vestido",
+    "un-vestido"
+   ]
+  ]
+ },
+ "juana-manuela-gorriti": {
+  "libros": [
+   [
+    "El Guante Negro",
+    "el-guante-negro",
+    6
+   ],
+   [
+    "El Pozo del Yocci",
+    "el-pozo-del-yocci",
+    18
+   ],
+   [
+    "Escenas de Lima",
+    "escenas-de-lima",
+    7
+   ],
+   [
+    "Feliza",
+    "feliza",
+    4
+   ],
+   [
+    "La Hija del Mashorquero",
+    "la-hija-del-mashorquero",
+    4
+   ],
+   [
+    "La Quena",
+    "la-quena",
+    13
+   ],
+   [
+    "Oasis en la Vida",
+    "oasis-en-la-vida",
+    32
+   ],
+   [
+    "Una Visita al Manicomio",
+    "una-visita-al-manicomio",
+    6
+   ]
+  ],
+  "piezas": [
+   [
+    "Belzu",
+    "belzu",
+    2
+   ],
+   [
+    "Caer de las Nubes",
+    "caer-de-las-nubes",
+    0
+   ],
+   [
+    "Camila O'Gorman",
+    "camila-o-gorman",
+    0
+   ],
+   [
+    "El Día de Difuntos",
+    "el-dia-de-difuntos",
+    0
+   ],
+   [
+    "El Emparedado",
+    "el-emparedado",
+    0
+   ],
+   [
+    "El Fantasma de un Rencor",
+    "el-fantasma-de-un-rencor",
+    0
+   ],
+   [
+    "El Postrer Mandato",
+    "el-postrer-mandato",
+    0
+   ],
+   [
+    "Gethsemaní",
+    "gethsemani",
+    0
+   ],
+   [
+    "Impresiones del 2 de Mayo",
+    "impresiones-del-2-de-mayo",
+    0
+   ],
+   [
+    "La Ciudad de los Contrastes",
+    "la-ciudad-de-los-contrastes",
+    0
+   ],
+   [
+    "Los Mellizos del Illimani",
+    "los-mellizos-del-illimani",
+    0
+   ],
+   [
+    "Nuestra Señora de los Desamparados",
+    "nuestra-senora-de-los-desamparados",
+    0
+   ],
+   [
+    "Quien Escucha Su Mal Oye",
+    "quien-escucha-su-mal-oye",
+    2
+   ],
+   [
+    "Un Drama de 15 Minutos",
+    "un-drama-de-15-minutos",
+    0
+   ],
+   [
+    "Un Viaje Aciago",
+    "un-viaje-aciago",
+    0
+   ],
+   [
+    "Un Viaje al País del Oro",
+    "un-viaje-al-pais-del-oro",
+    1
+   ],
+   [
+    "Una Apuesta",
+    "una-apuesta",
+    2
+   ],
+   [
+    "Una Querella",
+    "una-querella",
+    0
+   ],
+   [
+    "Una Visita Infernal",
+    "una-visita-infernal",
+    0
+   ],
+   [
+    "Yerbas y Alfileres",
+    "yerbas-y-alfileres",
+    0
+   ]
+  ],
+  "huerfanos": [
+   [
+    "Belzu",
+    "belzu"
+   ],
+   [
+    "Caer de las Nubes",
+    "caer-de-las-nubes"
+   ],
+   [
+    "Camila O'Gorman",
+    "camila-o-gorman"
+   ],
+   [
+    "El Día de Difuntos",
+    "el-dia-de-difuntos"
+   ],
+   [
+    "El Emparedado",
+    "el-emparedado"
+   ],
+   [
+    "El Fantasma de un Rencor",
+    "el-fantasma-de-un-rencor"
+   ],
+   [
+    "El Postrer Mandato",
+    "el-postrer-mandato"
+   ],
+   [
+    "Gethsemaní",
+    "gethsemani"
+   ],
+   [
+    "Impresiones del 2 de Mayo",
+    "impresiones-del-2-de-mayo"
+   ],
+   [
+    "La Ciudad de los Contrastes",
+    "la-ciudad-de-los-contrastes"
+   ],
+   [
+    "Los Mellizos del Illimani",
+    "los-mellizos-del-illimani"
+   ],
+   [
+    "Nuestra Señora de los Desamparados",
+    "nuestra-senora-de-los-desamparados"
+   ],
+   [
+    "Quien Escucha Su Mal Oye",
+    "quien-escucha-su-mal-oye"
+   ],
+   [
+    "Un Drama de 15 Minutos",
+    "un-drama-de-15-minutos"
+   ],
+   [
+    "Un Viaje Aciago",
+    "un-viaje-aciago"
+   ],
+   [
+    "Un Viaje al País del Oro",
+    "un-viaje-al-pais-del-oro"
+   ],
+   [
+    "Una Apuesta",
+    "una-apuesta"
+   ],
+   [
+    "Una Querella",
+    "una-querella"
+   ],
+   [
+    "Una Visita Infernal",
+    "una-visita-infernal"
+   ],
+   [
+    "Yerbas y Alfileres",
+    "yerbas-y-alfileres"
+   ]
+  ]
+ },
+ "soledad-acosta-de-samper": {
+  "libros": [
+   [
+    "El Corazón de la Mujer",
+    "el-corazon-de-la-mujer",
+    14
+   ],
+   [
+    "Los Piratas en Cartagena",
+    "los-piratas-en-cartagena",
+    36
+   ],
+   [
+    "Mercedes",
+    "mercedes",
+    4
+   ],
+   [
+    "Novelas y Cuadros de la Vida Sur-Americana",
+    "novelas-y-cuadros-de-la-vida-sur-americana",
+    59
+   ],
+   [
+    "Teresa la Limeña",
+    "teresa-la-limena",
+    21
+   ],
+   [
+    "Un Crimen",
+    "un-crimen",
+    4
+   ]
+  ],
+  "piezas": [
+   [
+    "Dolores",
+    "dolores",
+    3
+   ],
+   [
+    "Ilusión y Realidad",
+    "ilusion-y-realidad",
+    3
+   ],
+   [
+    "Isabel",
+    "isabel",
+    0
+   ],
+   [
+    "Juanita",
+    "juanita",
+    0
+   ],
+   [
+    "La Perla del Valle",
+    "la-perla-del-valle",
+    2
+   ],
+   [
+    "Luz y Sombra",
+    "luz-y-sombra",
+    2
+   ],
+   [
+    "Manuelita",
+    "manuelita",
+    0
+   ],
+   [
+    "Margarita",
+    "margarita",
+    3
+   ],
+   [
+    "Matilde",
+    "matilde",
+    0
+   ],
+   [
+    "Mi Madrina",
+    "mi-madrina",
+    0
+   ],
+   [
+    "Tipos Sociales: la Monja",
+    "tipos-sociales-la-monja",
+    0
+   ]
+  ],
+  "huerfanos": []
+ }
+}

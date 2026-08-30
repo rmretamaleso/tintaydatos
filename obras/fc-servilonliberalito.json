@@ -1,0 +1,29 @@
+{
+  "slug": "un-servilon-y-un-liberalito",
+  "titulo": "Un Servilón y un Liberalito",
+  "autor": "Fernán Caballero",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/fernan-caballero/un-servilon-y-un-liberalito/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/fernan-caballero/un-servilon-y-un-liberalito"
+  },
+  "catalogo_id": 415,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Un Servilón y un Liberalito",
+    "autor": "Fernán Caballero",
+    "anio": "1857",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1857
+}

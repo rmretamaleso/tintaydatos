@@ -1,0 +1,29 @@
+{
+  "slug": "teresa-la-limena",
+  "titulo": "Teresa la Limeña",
+  "autor": "Soledad Acosta de Samper",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/soledad-acosta-de-samper/teresa-la-limena/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/soledad-acosta-de-samper/teresa-la-limena"
+  },
+  "catalogo_id": 433,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Teresa la Limeña",
+    "autor": "Soledad Acosta de Samper",
+    "anio": "1869",
+    "pais": "Colombia",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1869
+}

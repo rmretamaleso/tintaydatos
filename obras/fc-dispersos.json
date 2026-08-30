@@ -1,0 +1,44 @@
+{
+  "slug": "cuentos-dispersos-fc",
+  "titulo": "Cuentos Dispersos",
+  "autor": "Fernán Caballero",
+  "tipo": "prosa",
+  "autor_slug": "fernan-caballero",
+  "piezas_fuente": [
+    "el-vendedor-de-tagarninas::El Vendedor de Tagarninas",
+    "la-maldicion-materna::La Maldición Materna",
+    "la-viuda-del-cesante::La Viuda del Cesante",
+    "las-mujeres-cristianas::Las Mujeres Cristianas",
+    "leonor::Leonor",
+    "los-dos-memoriales::Los Dos Memoriales",
+    "los-pobres-perros-abandonados::Los Pobres Perros Abandonados",
+    "promesa-de-un-soldado-a-la-virgen-del-carmen::Promesa de un Soldado a la Virgen del Carmen",
+    "un-vestido::Un Vestido"
+  ],
+  "orden": "alfabetico",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/fernan-caballero",
+    "nota": "Reúne los 9 relatos que la fuente publica sueltos y que no figuran en ninguno de los libros de la autora disponibles allí. Recopilación de Tinta y Datos."
+  },
+  "catalogo_id": 422,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos dispersos",
+    "autor": "Fernán Caballero",
+    "anio": "",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 9
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

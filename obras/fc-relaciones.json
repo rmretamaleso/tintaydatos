@@ -1,0 +1,31 @@
+{
+  "slug": "relaciones",
+  "titulo": "Relaciones",
+  "autor": "Fernán Caballero",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/fernan-caballero/relaciones/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/fernan-caballero/relaciones"
+  },
+  "catalogo_id": 406,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Relaciones",
+    "autor": "Fernán Caballero",
+    "anio": "",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "patron_seccion": "^(.+)$",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

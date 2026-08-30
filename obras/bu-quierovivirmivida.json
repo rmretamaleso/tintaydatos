@@ -1,0 +1,30 @@
+{
+  "slug": "quiero-vivir-mi-vida",
+  "titulo": "Quiero Vivir mi Vida",
+  "autor": "Carmen de Burgos",
+  "anio": 1931,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/carmen-de-burgos/quiero-vivir-mi-vida/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/carmen-de-burgos/quiero-vivir-mi-vida"
+  },
+  "catalogo_id": 390,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Quiero Vivir mi Vida",
+    "autor": "Carmen de Burgos",
+    "anio": "1931",
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": "h3",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

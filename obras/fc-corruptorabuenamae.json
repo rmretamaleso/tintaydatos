@@ -1,0 +1,28 @@
+{
+  "slug": "la-corruptora-y-la-buena-maestra",
+  "titulo": "La Corruptora y la Buena Maestra",
+  "autor": "Fernán Caballero",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/fernan-caballero/la-corruptora-y-la-buena-maestra/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/fernan-caballero/la-corruptora-y-la-buena-maestra"
+  },
+  "catalogo_id": 421,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Corruptora y la Buena Maestra",
+    "autor": "Fernán Caballero",
+    "anio": "",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

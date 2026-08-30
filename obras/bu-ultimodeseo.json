@@ -1,0 +1,29 @@
+{
+  "slug": "el-ultimo-deseo",
+  "titulo": "El Último Deseo",
+  "autor": "Carmen de Burgos",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/carmen-de-burgos/el-ultimo-deseo/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/carmen-de-burgos/el-ultimo-deseo"
+  },
+  "catalogo_id": 404,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Último Deseo",
+    "autor": "Carmen de Burgos",
+    "anio": "1916",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1916
+}

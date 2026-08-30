@@ -1,0 +1,29 @@
+{
+  "slug": "la-flor-de-las-ruinas",
+  "titulo": "La Flor de las Ruinas",
+  "autor": "Fernán Caballero",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/fernan-caballero/la-flor-de-las-ruinas/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/fernan-caballero/la-flor-de-las-ruinas",
+    "nota": "Este relato figura también en «Relaciones», el volumen que Fernán Caballero publicó reuniendo varias de sus narraciones breves, que Tinta y Datos edita por separado."
+  },
+  "catalogo_id": 420,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Flor de las Ruinas",
+    "autor": "Fernán Caballero",
+    "anio": "",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

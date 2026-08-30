@@ -1,0 +1,30 @@
+{
+  "slug": "la-familia-de-alvareda",
+  "titulo": "La Familia de Alvareda",
+  "autor": "Fernán Caballero",
+  "anio": 1856,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/fernan-caballero/la-familia-de-alvareda/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/fernan-caballero/la-familia-de-alvareda"
+  },
+  "catalogo_id": 407,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Familia de Alvareda",
+    "autor": "Fernán Caballero",
+    "anio": "1856",
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

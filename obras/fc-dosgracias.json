@@ -1,0 +1,28 @@
+{
+  "slug": "las-dos-gracias",
+  "titulo": "Las Dos Gracias",
+  "autor": "Fernán Caballero",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/fernan-caballero/las-dos-gracias/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/fernan-caballero/las-dos-gracias"
+  },
+  "catalogo_id": 410,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Las Dos Gracias",
+    "autor": "Fernán Caballero",
+    "anio": "",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}
