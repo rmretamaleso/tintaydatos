@@ -1,0 +1,2027 @@
+{
+ "libros": [
+  [
+   "Anaconda",
+   "anaconda",
+   11
+  ],
+  [
+   "Anaconda y Otros Cuentos",
+   "anaconda-y-otros-cuentos",
+   31
+  ],
+  [
+   "Artículos de Artes, Cine Y Teatro Dispersos",
+   "articulos-de-artes-cine-y-teatro-dispersos",
+   20
+  ],
+  [
+   "Artículos de Deportes Y Venturas Dispersos",
+   "articulos-de-deportes-y-venturas-dispersos",
+   8
+  ],
+  [
+   "Artículos de Literatura, Crítica Y Escritura Dispersos",
+   "articulos-de-literatura-critica-y-escritura-dispersos",
+   30
+  ],
+  [
+   "Artículos de Naturaleza Y Fauna Dispersos",
+   "articulos-de-naturaleza-y-fauna-dispersos",
+   21
+  ],
+  [
+   "Artículos de Política Y Sociedad Dispersos",
+   "articulos-de-politica-y-sociedad-dispersos",
+   14
+  ],
+  [
+   "Artículos Misceláneos Dispersos",
+   "articulos-miscelaneos-dispersos",
+   16
+  ],
+  [
+   "Biografías Ejemplares",
+   "biografias-ejemplares",
+   20
+  ],
+  [
+   "Cartas de un Cazador",
+   "cartas-de-un-cazador",
+   11
+  ],
+  [
+   "Corto poema de María Angélica",
+   "corto-poema-de-maria-angelica",
+   18
+  ],
+  [
+   "Cuadrivio Laico",
+   "cuadrivio-laico",
+   4
+  ],
+  [
+   "Cuentos de Amor de Locura y de Muerte",
+   "cuentos-de-amor-de-locura-y-de-muerte",
+   22
+  ],
+  [
+   "Cuentos de la Selva",
+   "cuentos-de-la-selva",
+   8
+  ],
+  [
+   "Cuentos Dispersos",
+   "cuentos-dispersos",
+   36
+  ],
+  [
+   "De La Vida De Nuestros Animales",
+   "de-la-vida-de-nuestros-animales",
+   34
+  ],
+  [
+   "Diario De Viaje A París",
+   "diario-de-viaje-a-paris",
+   4
+  ],
+  [
+   "El Crimen del Otro y Otros Cuentos",
+   "el-crimen-del-otro-y-otros-cuentos",
+   30
+  ],
+  [
+   "El Desierto y Otros Cuentos",
+   "el-desierto-y-otros-cuentos",
+   11
+  ],
+  [
+   "El Salvaje",
+   "el-salvaje",
+   14
+  ],
+  [
+   "El Salvaje y Otros Cuentos",
+   "el-salvaje-y-otros-cuentos",
+   45
+  ],
+  [
+   "El Soldado",
+   "el-soldado",
+   4
+  ],
+  [
+   "Historia de un Amor Turbio",
+   "historia-de-un-amor-turbio",
+   25
+  ],
+  [
+   "Las Sacrificadas",
+   "las-sacrificadas",
+   45
+  ],
+  [
+   "Los Arrecifes De Coral",
+   "los-arrecifes-de-coral",
+   77
+  ],
+  [
+   "Los Desterrados y Otros Cuentos",
+   "los-desterrados-y-otros-cuentos",
+   8
+  ],
+  [
+   "Los Estrenos Cinematográficos",
+   "los-estrenos-cinematograficos",
+   32
+  ],
+  [
+   "Más Allá y Otros Cuentos",
+   "mas-alla-y-otros-cuentos",
+   11
+  ],
+  [
+   "Pasado Amor",
+   "pasado-amor",
+   42
+  ],
+  [
+   "Sobre el Arte de Contar Historias",
+   "sobre-el-arte-de-contar-historias",
+   7
+  ],
+  [
+   "Suelo Natal",
+   "suelo-natal",
+   57
+  ],
+  [
+   "Textos Fronterizos",
+   "textos-fronterizos",
+   9
+  ],
+  [
+   "Un Idilio",
+   "un-idilio",
+   9
+  ],
+  [
+   "Una Estación de Amor",
+   "una-estacion-de-amor",
+   4
+  ],
+  [
+   "Venida del Primogénito",
+   "venida-del-primogenito",
+   4
+  ]
+ ],
+ "piezas": [
+  [
+   "A la Deriva",
+   "a-la-deriva",
+   0
+  ],
+  [
+   "Agosto De 1868",
+   "agosto-de-1868",
+   0
+  ],
+  [
+   "Al Margen De La Pintura",
+   "al-margen-de-la-pintura",
+   0
+  ],
+  [
+   "Almas Cándidas",
+   "almas-candidas",
+   0
+  ],
+  [
+   "Ante el Tribunal",
+   "ante-el-tribunal",
+   0
+  ],
+  [
+   "Ante La Hora Presente",
+   "ante-la-hora-presente",
+   0
+  ],
+  [
+   "Aquella Noche…",
+   "aquella-noche",
+   0
+  ],
+  [
+   "Argumento Para una Novela",
+   "argumento-para-una-novela",
+   0
+  ],
+  [
+   "Asesino",
+   "asesino",
+   0
+  ],
+  [
+   "Aspectos Del Modernismo",
+   "aspectos-del-modernismo",
+   0
+  ],
+  [
+   "Bajo El Terror De La Grafología",
+   "bajo-el-terror-de-la-grafologia",
+   0
+  ],
+  [
+   "Bernardo Palissy",
+   "bernardo-palissy",
+   0
+  ],
+  [
+   "Cacería de la Víbora de Cascabel",
+   "caceria-de-la-vibora-de-cascabel",
+   0
+  ],
+  [
+   "Cacería del Hombre por las Hormigas",
+   "caceria-del-hombre-por-las-hormigas",
+   0
+  ],
+  [
+   "Cacería del Yacaré",
+   "caceria-del-yacare",
+   0
+  ],
+  [
+   "Cacería del Zorrino",
+   "caceria-del-zorrino",
+   0
+  ],
+  [
+   "Cadáveres Frescos",
+   "cadaveres-frescos",
+   0
+  ],
+  [
+   "Cántico Nacional",
+   "cantico-nacional",
+   0
+  ],
+  [
+   "Carta Abierta Al Señor Benito Lynch",
+   "carta-abierta-al-senor-benito-lynch",
+   0
+  ],
+  [
+   "Caza del Tigre",
+   "caza-del-tigre",
+   0
+  ],
+  [
+   "Charlábamos de Sobremesa",
+   "charlabamos-de-sobremesa",
+   0
+  ],
+  [
+   "Cinematógrafo Infantil",
+   "cinematografo-infantil",
+   0
+  ],
+  [
+   "Condorcet",
+   "condorcet",
+   0
+  ],
+  [
+   "Confusa Historia De Una Mordedura De Víbora",
+   "confusa-historia-de-una-mordedura-de-vibora",
+   0
+  ],
+  [
+   "Cuadro Final",
+   "cuadro-final",
+   0
+  ],
+  [
+   "Cuadros",
+   "cuadros",
+   0
+  ],
+  [
+   "Cuatro Literatos",
+   "cuatro-literatos",
+   0
+  ],
+  [
+   "Cuento",
+   "cuento",
+   0
+  ],
+  [
+   "Cuento para Estudiantes",
+   "cuento-para-estudiantes",
+   0
+  ],
+  [
+   "Cuentos para Novios",
+   "cuentos-para-novios",
+   0
+  ],
+  [
+   "De Caza",
+   "de-caza",
+   0
+  ],
+  [
+   "De Sport",
+   "de-sport",
+   0
+  ],
+  [
+   "De una Mujer a un Hombre",
+   "de-una-mujer-a-un-hombre",
+   0
+  ],
+  [
+   "Decálogo del Perfecto Cuentista",
+   "decalogo-del-perfecto-cuentista",
+   0
+  ],
+  [
+   "Desde París",
+   "desde-paris",
+   0
+  ],
+  [
+   "Desde París II",
+   "desde-paris-ii",
+   2
+  ],
+  [
+   "Dieta de Amor",
+   "dieta-de-amor",
+   0
+  ],
+  [
+   "Dos Historias de Pájaros",
+   "dos-historias-de-pajaros",
+   0
+  ],
+  [
+   "El Aguará-Guazú",
+   "el-aguara-guazu",
+   0
+  ],
+  [
+   "El Agutí y el Ciervo",
+   "el-aguti-y-el-ciervo",
+   0
+  ],
+  [
+   "El Alambre de Púa",
+   "el-alambre-de-pua",
+   0
+  ],
+  [
+   "El Alcohol",
+   "el-alcohol",
+   0
+  ],
+  [
+   "El Almohadón de Pluma",
+   "el-almohadon-de-pluma",
+   0
+  ],
+  [
+   "El Arte De Cazar En Los Bosques De Misiones",
+   "el-arte-de-cazar-en-los-bosques-de-misiones",
+   0
+  ],
+  [
+   "El Arte Salvaje",
+   "el-arte-salvaje",
+   0
+  ],
+  [
+   "El Balde",
+   "el-balde",
+   0
+  ],
+  [
+   "El Beso: Su Uso Y Abuso",
+   "el-beso-su-uso-y-abuso",
+   0
+  ],
+  [
+   "El Boa",
+   "el-boa",
+   0
+  ],
+  [
+   "El Cadáver De La Libertad",
+   "el-cadaver-de-la-libertad",
+   0
+  ],
+  [
+   "El Caguaré",
+   "el-caguare",
+   0
+  ],
+  [
+   "El Canto del Cisne",
+   "el-canto-del-cisne",
+   0
+  ],
+  [
+   "El Capitán Invisible",
+   "el-capitan-invisible",
+   0
+  ],
+  [
+   "El Cascarudo-Tanque",
+   "el-cascarudo-tanque",
+   0
+  ],
+  [
+   "El Caso Lugones-Herrera Y Reissig",
+   "el-caso-lugones-herrera-y-reissig",
+   0
+  ],
+  [
+   "El Cazador De Monte",
+   "el-cazador-de-monte",
+   0
+  ],
+  [
+   "El Cine Nacional",
+   "el-cine-nacional",
+   0
+  ],
+  [
+   "El Coatí",
+   "el-coati",
+   0
+  ],
+  [
+   "El Compañero Iván",
+   "el-companero-ivan",
+   0
+  ],
+  [
+   "El Cóndor",
+   "el-condor",
+   0
+  ],
+  [
+   "El Conductor del Rápido",
+   "el-conductor-del-rapido",
+   0
+  ],
+  [
+   "El Crimen del Otro",
+   "el-crimen-del-otro",
+   0
+  ],
+  [
+   "El Crisol",
+   "el-crisol",
+   0
+  ],
+  [
+   "El Cuento Norteamericano",
+   "el-cuento-norteamericano",
+   0
+  ],
+  [
+   "El Culto Colonial",
+   "el-culto-colonial",
+   0
+  ],
+  [
+   "El Desierto",
+   "el-desierto",
+   0
+  ],
+  [
+   "El Despertar",
+   "el-despertar",
+   0
+  ],
+  [
+   "El Día De Las Esperanzas",
+   "el-dia-de-las-esperanzas",
+   0
+  ],
+  [
+   "El Diablito Colorado",
+   "el-diablito-colorado",
+   0
+  ],
+  [
+   "El Diablo de un Solo Cuerno",
+   "el-diablo-de-un-solo-cuerno",
+   0
+  ],
+  [
+   "El Divino",
+   "el-divino",
+   0
+  ],
+  [
+   "El Espectro",
+   "el-espectro",
+   0
+  ],
+  [
+   "El Espectro Del Oro",
+   "el-espectro-del-oro",
+   0
+  ],
+  [
+   "El Eterno Traidor",
+   "el-eterno-traidor",
+   0
+  ],
+  [
+   "El Galpón",
+   "el-galpon",
+   0
+  ],
+  [
+   "El Gerente",
+   "el-gerente",
+   0
+  ],
+  [
+   "El Globo de Fuego",
+   "el-globo-de-fuego",
+   0
+  ],
+  [
+   "El Guardabosque Comediante",
+   "el-guardabosque-comediante",
+   0
+  ],
+  [
+   "El Haschich",
+   "el-haschich",
+   0
+  ],
+  [
+   "El Hijo",
+   "el-hijo",
+   0
+  ],
+  [
+   "El Hipnotismo Al Alcance De Todos",
+   "el-hipnotismo-al-alcance-de-todos",
+   0
+  ],
+  [
+   "El Hombre Muerto",
+   "el-hombre-muerto",
+   0
+  ],
+  [
+   "El Hombre Sitiado por los Tigres",
+   "el-hombre-sitiado-por-los-tigres",
+   0
+  ],
+  [
+   "El Impudor Literario Nacional",
+   "el-impudor-literario-nacional",
+   0
+  ],
+  [
+   "El Infierno Artificial",
+   "el-infierno-artificial",
+   0
+  ],
+  [
+   "El Invitado",
+   "el-invitado",
+   0
+  ],
+  [
+   "El León",
+   "el-leon",
+   0
+  ],
+  [
+   "El Llamado",
+   "el-llamado",
+   0
+  ],
+  [
+   "El Llamado Nocturno",
+   "el-llamado-nocturno",
+   0
+  ],
+  [
+   "El Lobisón",
+   "el-lobison",
+   0
+  ],
+  [
+   "El Lobo de Esopo",
+   "el-lobo-de-esopo",
+   0
+  ],
+  [
+   "El Loro Pelado",
+   "el-loro-pelado",
+   0
+  ],
+  [
+   "El Machito",
+   "el-machito",
+   0
+  ],
+  [
+   "El Maestro De Territorios",
+   "el-maestro-de-territorios",
+   0
+  ],
+  [
+   "El Manual del Perfecto Cuentista",
+   "el-manual-del-perfecto-cuentista",
+   0
+  ],
+  [
+   "El Mármol Inútil",
+   "el-marmol-inutil",
+   0
+  ],
+  [
+   "El Ministro De Instrucción Y Los Poetas",
+   "el-ministro-de-instruccion-y-los-poetas",
+   0
+  ],
+  [
+   "El Mono Ahorcado",
+   "el-mono-ahorcado",
+   0
+  ],
+  [
+   "El Monstruo",
+   "el-monstruo",
+   0
+  ],
+  [
+   "El Monte Negro",
+   "el-monte-negro",
+   0
+  ],
+  [
+   "El Ocaso",
+   "el-ocaso",
+   0
+  ],
+  [
+   "El Oro Vegetal",
+   "el-oro-vegetal",
+   0
+  ],
+  [
+   "El Pan Intertropical",
+   "el-pan-intertropical",
+   0
+  ],
+  [
+   "El Paso del Yabebirí",
+   "el-paso-del-yabebiri",
+   0
+  ],
+  [
+   "El Perro Rabioso",
+   "el-perro-rabioso",
+   0
+  ],
+  [
+   "El Pique",
+   "el-pique",
+   0
+  ],
+  [
+   "El Potro Salvaje",
+   "el-potro-salvaje",
+   0
+  ],
+  [
+   "El Puma",
+   "el-puma",
+   0
+  ],
+  [
+   "El Puritano",
+   "el-puritano",
+   0
+  ],
+  [
+   "El Regreso A La Selva",
+   "el-regreso-a-la-selva",
+   0
+  ],
+  [
+   "El Regreso de Anaconda",
+   "el-regreso-de-anaconda",
+   0
+  ],
+  [
+   "El Retrato",
+   "el-retrato",
+   0
+  ],
+  [
+   "El Segundo y el Octavo Número",
+   "el-segundo-y-el-octavo-numero",
+   0
+  ],
+  [
+   "El Sentimiento de la Catarata",
+   "el-sentimiento-de-la-catarata",
+   0
+  ],
+  [
+   "El Siete y Medio",
+   "el-siete-y-medio",
+   0
+  ],
+  [
+   "El Simún",
+   "el-simun",
+   0
+  ],
+  [
+   "El Síncope Blanco",
+   "el-sincope-blanco",
+   0
+  ],
+  [
+   "El Solitario",
+   "el-solitario",
+   0
+  ],
+  [
+   "El Surucuá",
+   "el-surucua",
+   0
+  ],
+  [
+   "El Teatro Mudo",
+   "el-teatro-mudo",
+   0
+  ],
+  [
+   "El Techo de Incienso",
+   "el-techo-de-incienso",
+   0
+  ],
+  [
+   "El Tigre",
+   "el-tigre",
+   0
+  ],
+  [
+   "El Tonel de Amontillado",
+   "el-tonel-de-amontillado",
+   0
+  ],
+  [
+   "El Triple Robo de Bellamore",
+   "el-triple-robo-de-bellamore",
+   0
+  ],
+  [
+   "El Urutaú",
+   "el-urutau",
+   0
+  ],
+  [
+   "El Vampiro",
+   "el-vampiro",
+   0
+  ],
+  [
+   "El Vampiro",
+   "el-vampiro-2",
+   0
+  ],
+  [
+   "El Vampiro",
+   "el-vampiro-3",
+   0
+  ],
+  [
+   "El Yaciyateré",
+   "el-yaciyatere",
+   0
+  ],
+  [
+   "El Yaciyateré",
+   "el-yaciyatere-2",
+   0
+  ],
+  [
+   "En el Yabebirí",
+   "en-el-yabebiri",
+   0
+  ],
+  [
+   "En la Noche",
+   "en-la-noche",
+   0
+  ],
+  [
+   "En un Litoral Remoto",
+   "en-un-litoral-remoto",
+   0
+  ],
+  [
+   "Episodio",
+   "episodio",
+   0
+  ],
+  [
+   "Episodio",
+   "episodio-2",
+   0
+  ],
+  [
+   "Escenarios En Blanco",
+   "escenarios-en-blanco",
+   0
+  ],
+  [
+   "Escuela Normal De Cinematógrafo",
+   "escuela-normal-de-cinematografo",
+   0
+  ],
+  [
+   "Esgrima Criolla",
+   "esgrima-criolla",
+   0
+  ],
+  [
+   "Espectros Que Hablan",
+   "espectros-que-hablan",
+   0
+  ],
+  [
+   "Estefanía",
+   "estefania",
+   0
+  ],
+  [
+   "Europa y América",
+   "europa-y-america",
+   0
+  ],
+  [
+   "Fanny",
+   "fanny",
+   0
+  ],
+  [
+   "Fantasía Nerviosa",
+   "fantasia-nerviosa",
+   0
+  ],
+  [
+   "Flor de Imperio",
+   "flor-de-imperio",
+   0
+  ],
+  [
+   "Frangipane",
+   "frangipane",
+   0
+  ],
+  [
+   "Fulton",
+   "fulton",
+   0
+  ],
+  [
+   "Gentes Que Viajan",
+   "gentes-que-viajan",
+   0
+  ],
+  [
+   "Gloria Tropical",
+   "gloria-tropical",
+   0
+  ],
+  [
+   "Hazañas Trágicas Y Ridículas De Los Pensionistas Del Zoo",
+   "hazanas-tragicas-y-ridiculas-de-los-pensionistas-del-zoo",
+   0
+  ],
+  [
+   "Historia de dos cachorros de coatí y de dos cachorros de hombre",
+   "historia-de-dos-cachorros-de-coati-y-de-dos-cachorros-de-hombre",
+   0
+  ],
+  [
+   "Historia de Estilicón",
+   "historia-de-estilicon",
+   0
+  ],
+  [
+   "Hombres De Sport",
+   "hombres-de-sport",
+   0
+  ],
+  [
+   "Homenaje A Mariátegui",
+   "homenaje-a-mariategui",
+   0
+  ],
+  [
+   "Horacio Wells",
+   "horacio-wells",
+   0
+  ],
+  [
+   "Idilio",
+   "idilio",
+   0
+  ],
+  [
+   "Ilusoria Más Enferma",
+   "ilusoria-mas-enferma",
+   1
+  ],
+  [
+   "Inyecciones Mortales",
+   "inyecciones-mortales",
+   0
+  ],
+  [
+   "Jazmines Y Langostas",
+   "jazmines-y-langostas",
+   0
+  ],
+  [
+   "“Jazz-Band” Latina",
+   "jazz-band-latina",
+   0
+  ],
+  [
+   "Jesucristo",
+   "jesucristo",
+   0
+  ],
+  [
+   "Jorge Walsh",
+   "jorge-walsh",
+   0
+  ],
+  [
+   "Jóvenes Bellos",
+   "jovenes-bellos",
+   0
+  ],
+  [
+   "Juan Darién",
+   "juan-darien",
+   0
+  ],
+  [
+   "Juan Poltí, Half-back",
+   "juan-polti-half-back",
+   0
+  ],
+  [
+   "Junto a la Madre Muerta",
+   "junto-a-la-madre-muerta",
+   0
+  ],
+  [
+   "La Abeja Haragana",
+   "la-abeja-haragana",
+   0
+  ],
+  [
+   "La Altura De Las Estrellas",
+   "la-altura-de-las-estrellas",
+   0
+  ],
+  [
+   "La Araña Pollito",
+   "la-arana-pollito",
+   0
+  ],
+  [
+   "La Ausencia de Mercedes",
+   "la-ausencia-de-mercedes",
+   0
+  ],
+  [
+   "La Avispa Colorada",
+   "la-avispa-colorada",
+   0
+  ],
+  [
+   "La Bella y la Bestia",
+   "la-bella-y-la-bestia",
+   0
+  ],
+  [
+   "La Bolsa De Valores Literarios",
+   "la-bolsa-de-valores-literarios",
+   0
+  ],
+  [
+   "La Cámara Oscura",
+   "la-camara-oscura",
+   0
+  ],
+  [
+   "La Capa Escarlata",
+   "la-capa-escarlata",
+   0
+  ],
+  [
+   "La Caza del Tatú Carreta",
+   "la-caza-del-tatu-carreta",
+   0
+  ],
+  [
+   "La Cena De Los Espíritus",
+   "la-cena-de-los-espiritus",
+   0
+  ],
+  [
+   "La Chusma",
+   "la-chusma",
+   0
+  ],
+  [
+   "La Compasión",
+   "la-compasion",
+   0
+  ],
+  [
+   "La Corrección",
+   "la-correccion",
+   0
+  ],
+  [
+   "La Crema de Chocolate",
+   "la-crema-de-chocolate",
+   0
+  ],
+  [
+   "La Crisis Del Cuento Nacional",
+   "la-crisis-del-cuento-nacional",
+   0
+  ],
+  [
+   "La Defensa Contra La Hormiga",
+   "la-defensa-contra-la-hormiga",
+   2
+  ],
+  [
+   "La Defensa de la Patria",
+   "la-defensa-de-la-patria",
+   0
+  ],
+  [
+   "La Dirección En El Cine",
+   "la-direccion-en-el-cine",
+   0
+  ],
+  [
+   "La Enredadera De Flor Escarlata",
+   "la-enredadera-de-flor-escarlata",
+   0
+  ],
+  [
+   "La Fe",
+   "la-fe",
+   0
+  ],
+  [
+   "La Gallina Degollada",
+   "la-gallina-degollada",
+   0
+  ],
+  [
+   "La Gama Ciega",
+   "la-gama-ciega",
+   0
+  ],
+  [
+   "La Guardia Nocturna",
+   "la-guardia-nocturna",
+   0
+  ],
+  [
+   "La Guerra de los Yacarés",
+   "la-guerra-de-los-yacares",
+   0
+  ],
+  [
+   "La Honestidad Artística",
+   "la-honestidad-artistica",
+   0
+  ],
+  [
+   "La Hormiga León",
+   "la-hormiga-leon",
+   0
+  ],
+  [
+   "La Hormiga Minera",
+   "la-hormiga-minera",
+   0
+  ],
+  [
+   "La Hormiga Minera",
+   "la-hormiga-minera-2",
+   0
+  ],
+  [
+   "La Igualdad en Tres Actos",
+   "la-igualdad-en-tres-actos",
+   0
+  ],
+  [
+   "La Industria Azucarera Del Bosque",
+   "la-industria-azucarera-del-bosque",
+   0
+  ],
+  [
+   "La Inicua Ley De Propiedad Literaria",
+   "la-inicua-ley-de-propiedad-literaria",
+   0
+  ],
+  [
+   "La Inmoralidad De \"La Garçonne\"",
+   "la-inmoralidad-de-la-garconne",
+   0
+  ],
+  [
+   "La Insolación",
+   "la-insolacion",
+   0
+  ],
+  [
+   "La Intervención De Los Espíritus Y La Caja De Fósforos",
+   "la-intervencion-de-los-espiritus-y-la-caja-de-fosforos",
+   0
+  ],
+  [
+   "La Jornada Del Marañon",
+   "la-jornada-del-maranon",
+   0
+  ],
+  [
+   "La Joven Obesa Que Quería Vivir Su Vida",
+   "la-joven-obesa-que-queria-vivir-su-vida",
+   1
+  ],
+  [
+   "La Joya Actual",
+   "la-joya-actual",
+   0
+  ],
+  [
+   "La Justa Proporción de las Cosas",
+   "la-justa-proporcion-de-las-cosas",
+   0
+  ],
+  [
+   "La Lata De Nafta",
+   "la-lata-de-nafta",
+   0
+  ],
+  [
+   "La Lengua",
+   "la-lengua",
+   0
+  ],
+  [
+   "La Llama",
+   "la-llama",
+   0
+  ],
+  [
+   "La Madre de Costa",
+   "la-madre-de-costa",
+   0
+  ],
+  [
+   "La Mancha Hiptálmica",
+   "la-mancha-hiptalmica",
+   0
+  ],
+  [
+   "La Meningitis y su Sombra",
+   "la-meningitis-y-su-sombra",
+   0
+  ],
+  [
+   "La Miel Silvestre",
+   "la-miel-silvestre",
+   0
+  ],
+  [
+   "La Moral Del Ford",
+   "la-moral-del-ford",
+   0
+  ],
+  [
+   "La Muerte de Isolda",
+   "la-muerte-de-isolda",
+   0
+  ],
+  [
+   "La Muerte del Canario",
+   "la-muerte-del-canario",
+   0
+  ],
+  [
+   "La Ñacaniná",
+   "la-nacanina",
+   0
+  ],
+  [
+   "La Ñandurihé",
+   "la-nandurihe",
+   0
+  ],
+  [
+   "La Novela Trunca De Un Espíritu",
+   "la-novela-trunca-de-un-espiritu",
+   0
+  ],
+  [
+   "La Novela Y El Público",
+   "la-novela-y-el-publico",
+   0
+  ],
+  [
+   "La Oligarquía Poética",
+   "la-oligarquia-poetica",
+   0
+  ],
+  [
+   "La Palmera",
+   "la-palmera",
+   0
+  ],
+  [
+   "La Patria",
+   "la-patria",
+   0
+  ],
+  [
+   "La Princesa Bizantina",
+   "la-princesa-bizantina",
+   0
+  ],
+  [
+   "La Propaganda Literaria",
+   "la-propaganda-literaria",
+   0
+  ],
+  [
+   "La Propaganda Post-Guerra",
+   "la-propaganda-post-guerra",
+   0
+  ],
+  [
+   "La Reina Italiana",
+   "la-reina-italiana",
+   3
+  ],
+  [
+   "La Retórica del Cuento",
+   "la-retorica-del-cuento",
+   0
+  ],
+  [
+   "La Santa Democracia",
+   "la-santa-democracia",
+   0
+  ],
+  [
+   "La Señorita Leona",
+   "la-senorita-leona",
+   0
+  ],
+  [
+   "La Serpiente de Cascabel",
+   "la-serpiente-de-cascabel",
+   0
+  ],
+  [
+   "La Sonrisa",
+   "la-sonrisa",
+   0
+  ],
+  [
+   "La Tierra Purpúrea",
+   "la-tierra-purpurea",
+   0
+  ],
+  [
+   "La Tortuga Gigante",
+   "la-tortuga-gigante",
+   0
+  ],
+  [
+   "La Tragedia De Los Ananás",
+   "la-tragedia-de-los-ananas",
+   0
+  ],
+  [
+   "La Ura",
+   "la-ura",
+   0
+  ],
+  [
+   "La Vida En El Cine",
+   "la-vida-en-el-cine",
+   0
+  ],
+  [
+   "La Vida Intensa",
+   "la-vida-intensa",
+   0
+  ],
+  [
+   "La Vitalidad De Las Víboras",
+   "la-vitalidad-de-las-viboras",
+   0
+  ],
+  [
+   "La Voluntad",
+   "la-voluntad",
+   0
+  ],
+  [
+   "La Yarará Newiedi",
+   "la-yarara-newiedi",
+   0
+  ],
+  [
+   "La Yararacusú",
+   "la-yararacusu",
+   0
+  ],
+  [
+   "Laplace Y Biot",
+   "laplace-y-biot",
+   0
+  ],
+  [
+   "Las Actitudes Heroicas",
+   "las-actitudes-heroicas",
+   0
+  ],
+  [
+   "Las Amazonas",
+   "las-amazonas",
+   0
+  ],
+  [
+   "Las Hormigas Carnívoras De Misiones",
+   "las-hormigas-carnivoras-de-misiones",
+   0
+  ],
+  [
+   "Las Julietas",
+   "las-julietas",
+   0
+  ],
+  [
+   "Las Medias de los Flamencos",
+   "las-medias-de-los-flamencos",
+   0
+  ],
+  [
+   "Las Moscas",
+   "las-moscas",
+   0
+  ],
+  [
+   "Las Mujercitas",
+   "las-mujercitas",
+   0
+  ],
+  [
+   "Las Pequeñas Molestias Del Monte",
+   "las-pequenas-molestias-del-monte",
+   0
+  ],
+  [
+   "Las Rayas",
+   "las-rayas",
+   0
+  ],
+  [
+   "Las Siete Palabras",
+   "las-siete-palabras",
+   0
+  ],
+  [
+   "Las Viboras Venenosas Del Norte",
+   "las-viboras-venenosas-del-norte",
+   0
+  ],
+  [
+   "Las Voces Queridas que se Han Callado",
+   "las-voces-queridas-que-se-han-callado",
+   0
+  ],
+  [
+   "Leopoldo Lugones",
+   "leopoldo-lugones",
+   0
+  ],
+  [
+   "Lo Que No Puede Decirse",
+   "lo-que-no-puede-decirse",
+   0
+  ],
+  [
+   "Lógica al Revés",
+   "logica-al-reves",
+   0
+  ],
+  [
+   "Los Amores de Dos Personas Exaltadas",
+   "los-amores-de-dos-personas-exaltadas",
+   0
+  ],
+  [
+   "Los Bebedores de Sangre",
+   "los-bebedores-de-sangre",
+   0
+  ],
+  [
+   "Los Buques Suicidantes",
+   "los-buques-suicidantes",
+   0
+  ],
+  [
+   "Los Cachorros de Aguará-Guazú",
+   "los-cachorros-de-aguara-guazu",
+   0
+  ],
+  [
+   "Los Cartagineses De Eldorado",
+   "los-cartagineses-de-eldorado",
+   0
+  ],
+  [
+   "Los Cascarudos",
+   "los-cascarudos",
+   0
+  ],
+  [
+   "Los Catorce Millones De Víboras Del Señor Casado",
+   "los-catorce-millones-de-viboras-del-senor-casado",
+   0
+  ],
+  [
+   "Los Cazadores de Ratas",
+   "los-cazadores-de-ratas",
+   0
+  ],
+  [
+   "Los Cementerios Belgas",
+   "los-cementerios-belgas",
+   0
+  ],
+  [
+   "Los Chanchos Salvajes",
+   "los-chanchos-salvajes",
+   0
+  ],
+  [
+   "Los Corderos Helados",
+   "los-corderos-helados",
+   0
+  ],
+  [
+   "Los Crepúsculos Del Jardín",
+   "los-crepusculos-del-jardin",
+   0
+  ],
+  [
+   "Los Cuervos",
+   "los-cuervos",
+   0
+  ],
+  [
+   "Los Desterrados",
+   "los-desterrados",
+   0
+  ],
+  [
+   "Los Destiladores de Naranja",
+   "los-destiladores-de-naranja",
+   0
+  ],
+  [
+   "Los Estranguladores",
+   "los-estranguladores",
+   0
+  ],
+  [
+   "Los Fabricantes de Carbón",
+   "los-fabricantes-de-carbon",
+   0
+  ],
+  [
+   "Los Guantes de Goma",
+   "los-guantes-de-goma",
+   0
+  ],
+  [
+   "Los Heroísmos",
+   "los-heroismos",
+   0
+  ],
+  [
+   "Los Hombres Hambrientos",
+   "los-hombres-hambrientos",
+   0
+  ],
+  [
+   "Los Inmigrantes",
+   "los-inmigrantes",
+   0
+  ],
+  [
+   "Los Mensú",
+   "los-mensu",
+   0
+  ],
+  [
+   "Los Ojos Sombríos",
+   "los-ojos-sombrios",
+   0
+  ],
+  [
+   "Los Perseguidos",
+   "los-perseguidos",
+   0
+  ],
+  [
+   "Los Pescadores de Vigas",
+   "los-pescadores-de-vigas",
+   0
+  ],
+  [
+   "Los Pollitos",
+   "los-pollitos",
+   0
+  ],
+  [
+   "Los Precursores",
+   "los-precursores",
+   0
+  ],
+  [
+   "Los Remos de La Gaviota",
+   "los-remos-de-la-gaviota",
+   0
+  ],
+  [
+   "Los Robinsones Del Bosque",
+   "los-robinsones-del-bosque",
+   0
+  ],
+  [
+   "Los Tatetos",
+   "los-tatetos",
+   0
+  ],
+  [
+   "Los Tres Besos",
+   "los-tres-besos",
+   0
+  ],
+  [
+   "Los Tres Fetiches",
+   "los-tres-fetiches",
+   0
+  ],
+  [
+   "Los \"Trucs\" del Perfecto Cuentista",
+   "los-trucs-del-perfecto-cuentista",
+   0
+  ],
+  [
+   "Los Vencedores",
+   "los-vencedores",
+   0
+  ],
+  [
+   "Lucila Strinberg",
+   "lucila-strinberg",
+   0
+  ],
+  [
+   "Más Allá",
+   "mas-alla",
+   0
+  ],
+  [
+   "Matías Calandrelli - Crítica De Libros",
+   "matias-calandrelli-critica-de-libros",
+   0
+  ],
+  [
+   "Mi Cuarta Septicemia",
+   "mi-cuarta-septicemia",
+   0
+  ],
+  [
+   "Misiones",
+   "misiones",
+   2
+  ],
+  [
+   "Miss Dorothy Phillips, mi Esposa",
+   "miss-dorothy-phillips-mi-esposa",
+   0
+  ],
+  [
+   "Muy Caro: Dos Pesos",
+   "muy-caro-dos-pesos",
+   0
+  ],
+  [
+   "Nacionalismo Imperial",
+   "nacionalismo-imperial",
+   0
+  ],
+  [
+   "Nuestra Industria Del Carbón",
+   "nuestra-industria-del-carbon",
+   0
+  ],
+  [
+   "Nuestro Primer Cigarro",
+   "nuestro-primer-cigarro",
+   0
+  ],
+  [
+   "O Uno u Otro",
+   "o-uno-u-otro",
+   0
+  ],
+  [
+   "Para Estudiar el Asunto",
+   "para-estudiar-el-asunto",
+   0
+  ],
+  [
+   "Para Los Ciclistas",
+   "para-los-ciclistas",
+   0
+  ],
+  [
+   "Para Los Niños",
+   "para-los-ninos",
+   1
+  ],
+  [
+   "Para Noche de Insomnio",
+   "para-noche-de-insomnio",
+   0
+  ],
+  [
+   "Pasteur",
+   "pasteur",
+   0
+  ],
+  [
+   "Paz",
+   "paz",
+   0
+  ],
+  [
+   "Pequeñísima Contribución Al Estudio De La Fauna Nacional",
+   "pequenisima-contribucion-al-estudio-de-la-fauna-nacional",
+   0
+  ],
+  [
+   "Perros De Monte",
+   "perros-de-monte",
+   0
+  ],
+  [
+   "Pluma Alta (Incidencias De La Clasificación)",
+   "pluma-alta-incidencias-de-la-clasificacion",
+   0
+  ],
+  [
+   "Poesía En El Cine",
+   "poesia-en-el-cine",
+   0
+  ],
+  [
+   "Polea Loca",
+   "polea-loca",
+   0
+  ],
+  [
+   "Por Qué No Sale Más La Revista Del Salto",
+   "por-que-no-sale-mas-la-revista-del-salto",
+   0
+  ],
+  [
+   "Ratas De Campo",
+   "ratas-de-campo",
+   0
+  ],
+  [
+   "Rea Silvia",
+   "rea-silvia",
+   0
+  ],
+  [
+   "Recuerdos de un Sapo",
+   "recuerdos-de-un-sapo",
+   0
+  ],
+  [
+   "Religiosa",
+   "religiosa",
+   1
+  ],
+  [
+   "Renato Caillé",
+   "renato-caille",
+   0
+  ],
+  [
+   "Reproducción",
+   "reproduccion",
+   0
+  ],
+  [
+   "Revisión De Valores",
+   "revision-de-valores",
+   0
+  ],
+  [
+   "Revista Del Salto",
+   "revista-del-salto",
+   0
+  ],
+  [
+   "Ricardo Lander",
+   "ricardo-lander",
+   0
+  ],
+  [
+   "Ricardo Wagner",
+   "ricardo-wagner",
+   0
+  ],
+  [
+   "Roberto J. Payró",
+   "roberto-j-payro",
+   0
+  ],
+  [
+   "Satisfacciones De La Profesión De Escritor",
+   "satisfacciones-de-la-profesion-de-escritor",
+   0
+  ],
+  [
+   "Scott",
+   "scott",
+   0
+  ],
+  [
+   "Seda Y Vino De Naranja En Misiones",
+   "seda-y-vino-de-naranja-en-misiones",
+   0
+  ],
+  [
+   "Semmelweis",
+   "semmelweis",
+   0
+  ],
+  [
+   "Sensaciones De Acrobacia Aérea",
+   "sensaciones-de-acrobacia-aerea",
+   0
+  ],
+  [
+   "Silvina y Montt",
+   "silvina-y-montt",
+   0
+  ],
+  [
+   "Sin Salida",
+   "sin-salida",
+   0
+  ],
+  [
+   "Sinfonía Heroica",
+   "sinfonia-heroica",
+   0
+  ],
+  [
+   "Sobre “El Ombú” de Hudson",
+   "sobre-el-ombu-de-hudson",
+   0
+  ],
+  [
+   "Su Ausencia",
+   "su-ausencia",
+   0
+  ],
+  [
+   "Su Chauffeur",
+   "su-chauffeur",
+   0
+  ],
+  [
+   "Su Olor A Dinosaurio",
+   "su-olor-a-dinosaurio",
+   0
+  ],
+  [
+   "Suicidio de Amor",
+   "suicidio-de-amor",
+   0
+  ],
+  [
+   "Tacuara-Mansión",
+   "tacuara-mansion",
+   0
+  ],
+  [
+   "Tangos Redentores",
+   "tangos-redentores",
+   0
+  ],
+  [
+   "Teatro",
+   "teatro",
+   0
+  ],
+  [
+   "Teatro II",
+   "teatro-ii",
+   0
+  ],
+  [
+   "Teatro Y Cine I",
+   "teatro-y-cine-i",
+   0
+  ],
+  [
+   "Teatro Y Cine II",
+   "teatro-y-cine-ii",
+   0
+  ],
+  [
+   "Teatro Y Cine III",
+   "teatro-y-cine-iii",
+   0
+  ],
+  [
+   "Tempestad En El Vacío",
+   "tempestad-en-el-vacio",
+   0
+  ],
+  [
+   "Textos Originales",
+   "textos-originales",
+   0
+  ],
+  [
+   "Tierra Elegida",
+   "tierra-elegida",
+   0
+  ],
+  [
+   "To Scalp",
+   "to-scalp",
+   0
+  ],
+  [
+   "Toda La Noche",
+   "toda-la-noche",
+   0
+  ],
+  [
+   "Tomás De Quincey",
+   "tomas-de-quincey",
+   0
+  ],
+  [
+   "Tres Cartas y un Pie",
+   "tres-cartas-y-un-pie",
+   0
+  ],
+  [
+   "Tres Impresiones Sobre El Cultivo De La Yerba Mate",
+   "tres-impresiones-sobre-el-cultivo-de-la-yerba-mate",
+   0
+  ],
+  [
+   "Un Caso de Visión a Distancia",
+   "un-caso-de-vision-a-distancia",
+   0
+  ],
+  [
+   "Un Chantaje",
+   "un-chantaje",
+   0
+  ],
+  [
+   "Un Hecho Desnudo",
+   "un-hecho-desnudo",
+   0
+  ],
+  [
+   "Un Novio Difícil",
+   "un-novio-dificil",
+   0
+  ],
+  [
+   "Un Peón",
+   "un-peon",
+   0
+  ],
+  [
+   "Un Poeta Del Alma Infantil",
+   "un-poeta-del-alma-infantil",
+   0
+  ],
+  [
+   "Un Recuerdo",
+   "un-recuerdo",
+   0
+  ],
+  [
+   "Un Simple Antojo",
+   "un-simple-antojo",
+   0
+  ],
+  [
+   "Una Bofetada",
+   "una-bofetada",
+   0
+  ],
+  [
+   "Una Cacería",
+   "una-caceria",
+   0
+  ],
+  [
+   "Una Carta De Amor",
+   "una-carta-de-amor",
+   0
+  ],
+  [
+   "Una Conquista",
+   "una-conquista",
+   2
+  ],
+  [
+   "Una Historia Inmoral",
+   "una-historia-inmoral",
+   0
+  ],
+  [
+   "Una Noche de Edén",
+   "una-noche-de-eden",
+   0
+  ],
+  [
+   "Una Serpiente De Cascabel",
+   "una-serpiente-de-cascabel",
+   0
+  ],
+  [
+   "Una Taza De Té",
+   "una-taza-de-te",
+   0
+  ],
+  [
+   "Van-Houten",
+   "van-houten",
+   0
+  ],
+  [
+   "Yaguaí",
+   "yaguai",
+   0
+  ]
+ ],
+ "fallos": []
+}

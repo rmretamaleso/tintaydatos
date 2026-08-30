@@ -1,0 +1,34 @@
+{
+  "slug": "el-salvaje-y-otros-cuentos",
+  "titulo": "El Salvaje y Otros Cuentos",
+  "autor": "Horacio Quiroga",
+  "anio": 1920,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/horacio-quiroga/el-salvaje-y-otros-cuentos/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/horacio-quiroga/el-salvaje-y-otros-cuentos"
+  },
+  "catalogo_id": 363,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Salvaje y Otros Cuentos",
+    "autor": "Horacio Quiroga",
+    "anio": "1920",
+    "pais": "Uruguay",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": [
+    "h3",
+    "h4"
+  ],
+  "patron_seccion": "^(.+)$",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

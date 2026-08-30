@@ -1,0 +1,30 @@
+{
+  "slug": "los-arrecifes-de-coral",
+  "titulo": "Los Arrecifes De Coral",
+  "autor": "Horacio Quiroga",
+  "anio": 1901,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/horacio-quiroga/los-arrecifes-de-coral/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/horacio-quiroga/los-arrecifes-de-coral"
+  },
+  "catalogo_id": 361,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Los Arrecifes De Coral",
+    "autor": "Horacio Quiroga",
+    "anio": "1901",
+    "pais": "Uruguay",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": "h3",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

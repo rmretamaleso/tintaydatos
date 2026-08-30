@@ -1,0 +1,29 @@
+{
+  "slug": "historia-de-un-amor-turbio",
+  "titulo": "Historia de un Amor Turbio",
+  "autor": "Horacio Quiroga",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/horacio-quiroga/historia-de-un-amor-turbio/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/horacio-quiroga/historia-de-un-amor-turbio"
+  },
+  "catalogo_id": 370,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Historia de un Amor Turbio",
+    "autor": "Horacio Quiroga",
+    "anio": "1908",
+    "pais": "Uruguay",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1908
+}

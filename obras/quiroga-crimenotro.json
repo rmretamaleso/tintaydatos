@@ -1,0 +1,30 @@
+{
+  "slug": "el-crimen-del-otro-y-otros-cuentos",
+  "titulo": "El Crimen del Otro y Otros Cuentos",
+  "autor": "Horacio Quiroga",
+  "anio": 1904,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/horacio-quiroga/el-crimen-del-otro-y-otros-cuentos/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/horacio-quiroga/el-crimen-del-otro-y-otros-cuentos"
+  },
+  "catalogo_id": 369,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Crimen del Otro y Otros Cuentos",
+    "autor": "Horacio Quiroga",
+    "anio": "1904",
+    "pais": "Uruguay",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": "h3",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}
