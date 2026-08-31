@@ -1,20 +1,20 @@
 {
-  "slug": "punal-de-claveles",
-  "titulo": "Puñal de Claveles",
-  "autor": "Carmen de Burgos",
+  "slug": "una-tertulia-de-antano",
+  "titulo": "Una Tertulia de Antaño",
+  "autor": "Ramón María del Valle-Inclán",
   "tipo": "prosa",
-  "url": "https://www.textos.info/carmen-de-burgos/punal-de-claveles/ebook",
+  "url": "https://www.textos.info/ramon-maria-del-valle-inclan/una-tertulia-de-antano/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
   "fuente": {
     "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
-    "url": "https://www.textos.info/carmen-de-burgos/punal-de-claveles"
+    "url": "https://www.textos.info/ramon-maria-del-valle-inclan/una-tertulia-de-antano"
   },
-  "catalogo_id": 403,
+  "catalogo_id": 487,
   "catalogo_campos": {
     "dominio": "Literatura",
-    "titulo": "Puñal de Claveles",
-    "autor": "Carmen de Burgos",
-    "anio": "1931",
+    "titulo": "Una Tertulia de Antaño",
+    "autor": "Ramón María del Valle-Inclán",
+    "anio": "",
     "pais": "España",
     "genero": "Cuento",
     "tipo": "Dominio público",
@@ -24,6 +24,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1931
+  }
 }

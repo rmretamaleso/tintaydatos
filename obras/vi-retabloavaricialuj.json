@@ -1,0 +1,29 @@
+{
+  "slug": "retablo-de-la-avaricia-la-lujuria-y-la-muerte",
+  "titulo": "Retablo de la Avaricia, la Lujuria y la Muerte",
+  "autor": "Ramón María del Valle-Inclán",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ramon-maria-del-valle-inclan/retablo-de-la-avaricia-la-lujuria-y-la-muerte/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ramon-maria-del-valle-inclan/retablo-de-la-avaricia-la-lujuria-y-la-muerte"
+  },
+  "catalogo_id": 482,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Retablo de la Avaricia, la Lujuria y la Muerte",
+    "autor": "Ramón María del Valle-Inclán",
+    "anio": "",
+    "pais": "España",
+    "genero": "Teatro",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "corte-de-amor",
+  "titulo": "Corte de Amor",
+  "autor": "Ramón María del Valle-Inclán",
+  "anio": 1903,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ramon-maria-del-valle-inclan/corte-de-amor/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ramon-maria-del-valle-inclan/corte-de-amor"
+  },
+  "catalogo_id": 467,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Corte de Amor",
+    "autor": "Ramón María del Valle-Inclán",
+    "anio": "1903",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "preliminares": "Dedicatoria",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

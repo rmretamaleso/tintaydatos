@@ -1,29 +1,30 @@
 {
-  "slug": "punal-de-claveles",
-  "titulo": "Puñal de Claveles",
-  "autor": "Carmen de Burgos",
+  "slug": "novelas-cortas",
+  "titulo": "Novelas Cortas",
+  "autor": "Pedro Antonio de Alarcón",
+  "anio": 1881,
   "tipo": "prosa",
-  "url": "https://www.textos.info/carmen-de-burgos/punal-de-claveles/ebook",
+  "url": "https://www.textos.info/pedro-antonio-de-alarcon/novelas-cortas/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
   "fuente": {
     "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
-    "url": "https://www.textos.info/carmen-de-burgos/punal-de-claveles"
+    "url": "https://www.textos.info/pedro-antonio-de-alarcon/novelas-cortas"
   },
-  "catalogo_id": 403,
+  "catalogo_id": 494,
   "catalogo_campos": {
     "dominio": "Literatura",
-    "titulo": "Puñal de Claveles",
-    "autor": "Carmen de Burgos",
-    "anio": "1931",
+    "titulo": "Novelas Cortas",
+    "autor": "Pedro Antonio de Alarcón",
+    "anio": "1881",
     "pais": "España",
     "genero": "Cuento",
     "tipo": "Dominio público",
     "puede_alojarse": "si"
   },
-  "nivel_capitulo": "h2",
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1931
+  }
 }

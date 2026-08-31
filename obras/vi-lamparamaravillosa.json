@@ -1,0 +1,31 @@
+{
+  "slug": "la-lampara-maravillosa",
+  "titulo": "La Lámpara Maravillosa",
+  "autor": "Ramón María del Valle-Inclán",
+  "anio": 1916,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ramon-maria-del-valle-inclan/la-lampara-maravillosa/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ramon-maria-del-valle-inclan/la-lampara-maravillosa"
+  },
+  "catalogo_id": 464,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Lámpara Maravillosa",
+    "autor": "Ramón María del Valle-Inclán",
+    "anio": "1916",
+    "pais": "España",
+    "genero": "Memoria/Crónica",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "preliminares": "Dedicatoria",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

@@ -1,20 +1,20 @@
 {
-  "slug": "confidencias",
-  "titulo": "Confidencias",
-  "autor": "Carmen de Burgos",
+  "slug": "los-cruzados-de-la-causa",
+  "titulo": "Los Cruzados de la Causa",
+  "autor": "Ramón María del Valle-Inclán",
   "tipo": "prosa",
-  "url": "https://www.textos.info/carmen-de-burgos/confidencias/ebook",
+  "url": "https://www.textos.info/ramon-maria-del-valle-inclan/los-cruzados-de-la-causa/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
   "fuente": {
     "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
-    "url": "https://www.textos.info/carmen-de-burgos/confidencias"
+    "url": "https://www.textos.info/ramon-maria-del-valle-inclan/los-cruzados-de-la-causa"
   },
-  "catalogo_id": 389,
+  "catalogo_id": 472,
   "catalogo_campos": {
     "dominio": "Literatura",
-    "titulo": "Confidencias",
-    "autor": "Carmen de Burgos",
-    "anio": "1916",
+    "titulo": "Los Cruzados de la Causa",
+    "autor": "Ramón María del Valle-Inclán",
+    "anio": "1908",
     "pais": "España",
     "genero": "Novela",
     "tipo": "Dominio público",
@@ -25,5 +25,5 @@
     "salto_por_capitulo": true,
     "hyphenation": "es"
   },
-  "anio": 1916
+  "anio": 1908
 }

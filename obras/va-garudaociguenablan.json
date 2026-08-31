@@ -1,20 +1,20 @@
 {
-  "slug": "punal-de-claveles",
-  "titulo": "Puñal de Claveles",
-  "autor": "Carmen de Burgos",
+  "slug": "garuda-o-la-ciguena-blanca",
+  "titulo": "Garuda o la Cigüeña Blanca",
+  "autor": "Juan Valera",
   "tipo": "prosa",
-  "url": "https://www.textos.info/carmen-de-burgos/punal-de-claveles/ebook",
+  "url": "https://www.textos.info/juan-valera/garuda-o-la-ciguena-blanca/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
   "fuente": {
     "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
-    "url": "https://www.textos.info/carmen-de-burgos/punal-de-claveles"
+    "url": "https://www.textos.info/juan-valera/garuda-o-la-ciguena-blanca"
   },
-  "catalogo_id": 403,
+  "catalogo_id": 454,
   "catalogo_campos": {
     "dominio": "Literatura",
-    "titulo": "Puñal de Claveles",
-    "autor": "Carmen de Burgos",
-    "anio": "1931",
+    "titulo": "Garuda o la Cigüeña Blanca",
+    "autor": "Juan Valera",
+    "anio": "",
     "pais": "España",
     "genero": "Cuento",
     "tipo": "Dominio público",
@@ -24,6 +24,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1931
+  }
 }

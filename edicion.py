@@ -348,31 +348,42 @@ def piezas_con_titulo(partes):
     return [] if numerales > len(titulos) / 2 else titulos
 
 
-def _indice(titulos, est):
-    """Índice a dos columnas que puede ocupar varias páginas.
+def _indice(titulos, est, por_bloque=30):
+    """Índice a dos columnas, troceado en tablas que sí pueden partirse.
 
-    No se fija cuántas entradas caben por página: eso depende del largo de cada
-    título, y adivinarlo hacía fallar la composición con títulos de dos líneas.
-    Se arma una fila por par de entradas y reportlab reparte donde corresponde.
+    Una tabla de reportlab no se divide entre páginas si sus filas son altas:
+    con títulos largos la tabla supera la caja y la composición falla. Se arma
+    entonces en bloques, cada uno con su tabla.
+
+    Y si los «títulos» son en realidad sumarios de capítulo —«I. Lunes Santo.
+    —Descansamos en Albuñol.—Cosas de la Luna…»— no se hace índice: una sola
+    entrada ocuparía varias páginas y no sería un índice sino otro texto.
     """
     if not titulos:
         return []
-    mitad = (len(titulos) + 1) // 2
-    filas = []
-    for i in range(mitad):
-        izq = Paragraph(_esc(titulos[i]), est["indice"])
-        der = (Paragraph(_esc(titulos[i + mitad]), est["indice"])
-               if i + mitad < len(titulos) else "")
-        filas.append([izq, der])
-    tabla = Table(filas, colWidths=[6.1 * cm, 6.1 * cm])
-    tabla.setStyle(TableStyle([
-        ("VALIGN", (0, 0), (-1, -1), "TOP"),
-        ("LEFTPADDING", (0, 0), (-1, -1), 0),
-        ("RIGHTPADDING", (0, 0), (0, 0), 10),
-        ("TOPPADDING", (0, 0), (-1, -1), 0),
-        ("BOTTOMPADDING", (0, 0), (-1, -1), 2),
-    ]))
-    return [Paragraph("ÍNDICE", est["capitulo"]), Spacer(1, 12), tabla, PageBreak()]
+    if max(len(t) for t in titulos) > 120:
+        return []
+    fs = [Paragraph("ÍNDICE", est["capitulo"]), Spacer(1, 12)]
+    for inicio in range(0, len(titulos), por_bloque):
+        trozo = titulos[inicio:inicio + por_bloque]
+        mitad = (len(trozo) + 1) // 2
+        filas = []
+        for i in range(mitad):
+            izq = Paragraph(_esc(trozo[i]), est["indice"])
+            der = (Paragraph(_esc(trozo[i + mitad]), est["indice"])
+                   if i + mitad < len(trozo) else "")
+            filas.append([izq, der])
+        tabla = Table(filas, colWidths=[6.1 * cm, 6.1 * cm])
+        tabla.setStyle(TableStyle([
+            ("VALIGN", (0, 0), (-1, -1), "TOP"),
+            ("LEFTPADDING", (0, 0), (-1, -1), 0),
+            ("RIGHTPADDING", (0, 0), (0, 0), 10),
+            ("TOPPADDING", (0, 0), (-1, -1), 0),
+            ("BOTTOMPADDING", (0, 0), (-1, -1), 2),
+        ]))
+        fs.append(tabla)
+    fs.append(PageBreak())
+    return fs
 
 
 def generar(obra, salida, **opciones):

@@ -14,7 +14,7 @@
     "dominio": "Literatura",
     "titulo": "Alucinación",
     "autor": "Carmen de Burgos",
-    "anio": "",
+    "anio": "1905",
     "pais": "España",
     "genero": "Cuento",
     "tipo": "Dominio público",
@@ -24,5 +24,6 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  }
+  },
+  "anio": 1905
 }

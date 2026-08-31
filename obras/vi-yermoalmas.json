@@ -1,0 +1,29 @@
+{
+  "slug": "el-yermo-de-las-almas",
+  "titulo": "El Yermo de las Almas",
+  "autor": "Ramón María del Valle-Inclán",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ramon-maria-del-valle-inclan/el-yermo-de-las-almas/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ramon-maria-del-valle-inclan/el-yermo-de-las-almas"
+  },
+  "catalogo_id": 489,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Yermo de las Almas",
+    "autor": "Ramón María del Valle-Inclán",
+    "anio": "1908",
+    "pais": "España",
+    "genero": "Teatro",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1908
+}

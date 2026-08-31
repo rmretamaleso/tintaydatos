@@ -1,29 +1,30 @@
 {
-  "slug": "confidencias",
-  "titulo": "Confidencias",
-  "autor": "Carmen de Burgos",
+  "slug": "la-prodiga",
+  "titulo": "La Pródiga",
+  "autor": "Pedro Antonio de Alarcón",
+  "anio": 1882,
   "tipo": "prosa",
-  "url": "https://www.textos.info/carmen-de-burgos/confidencias/ebook",
+  "url": "https://www.textos.info/pedro-antonio-de-alarcon/la-prodiga/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
   "fuente": {
     "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
-    "url": "https://www.textos.info/carmen-de-burgos/confidencias"
+    "url": "https://www.textos.info/pedro-antonio-de-alarcon/la-prodiga"
   },
-  "catalogo_id": 389,
+  "catalogo_id": 498,
   "catalogo_campos": {
     "dominio": "Literatura",
-    "titulo": "Confidencias",
-    "autor": "Carmen de Burgos",
-    "anio": "1916",
+    "titulo": "La Pródiga",
+    "autor": "Pedro Antonio de Alarcón",
+    "anio": "1882",
     "pais": "España",
     "genero": "Novela",
     "tipo": "Dominio público",
     "puede_alojarse": "si"
   },
-  "nivel_capitulo": "h2",
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1916
+  }
 }

@@ -1,0 +1,30 @@
+{
+  "slug": "martes-de-carnaval",
+  "titulo": "Martes de Carnaval",
+  "autor": "Ramón María del Valle-Inclán",
+  "anio": 1930,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ramon-maria-del-valle-inclan/martes-de-carnaval/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ramon-maria-del-valle-inclan/martes-de-carnaval"
+  },
+  "catalogo_id": 470,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Martes de Carnaval",
+    "autor": "Ramón María del Valle-Inclán",
+    "anio": "1930",
+    "pais": "España",
+    "genero": "Teatro",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

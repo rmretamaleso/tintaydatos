@@ -1,0 +1,1227 @@
+{
+ "juan-valera": {
+  "libros": [
+   [
+    "A Vuela Pluma",
+    "a-vuela-pluma",
+    30
+   ],
+   [
+    "Algo de Todo",
+    "algo-de-todo",
+    9
+   ],
+   [
+    "Asclepigenia",
+    "asclepigenia",
+    12
+   ],
+   [
+    "Cartas Americanas",
+    "cartas-americanas",
+    29
+   ],
+   [
+    "Cuentos y Chascarrillos Andaluces",
+    "cuentos-y-chascarrillos-andaluces",
+    40
+   ],
+   [
+    "Cuentos y Diálogos",
+    "cuentos-y-dialogos",
+    36
+   ],
+   [
+    "De Varios Colores",
+    "de-varios-colores",
+    75
+   ],
+   [
+    "Doña Luz",
+    "dona-luz",
+    22
+   ],
+   [
+    "El Bermejino Prehistórico",
+    "el-bermejino-prehistorico",
+    8
+   ],
+   [
+    "El Caballero de Azor",
+    "el-caballero-de-azor",
+    5
+   ],
+   [
+    "El Caballero del Azor",
+    "el-caballero-del-azor",
+    5
+   ],
+   [
+    "El Cautivo de Doña Mencía",
+    "el-cautivo-de-dona-mencia",
+    8
+   ],
+   [
+    "El Comendador Mendoza",
+    "el-comendador-mendoza",
+    32
+   ],
+   [
+    "El Doble Sacrificio",
+    "el-doble-sacrificio-2",
+    6
+   ],
+   [
+    "El Maestro Raimundico",
+    "el-maestro-raimundico",
+    4
+   ],
+   [
+    "El Pájaro Verde",
+    "el-pajaro-verde",
+    7
+   ],
+   [
+    "El Superhombre y Otras Novedades",
+    "el-superhombre-y-otras-novedades",
+    40
+   ],
+   [
+    "El Último Pecado",
+    "el-ultimo-pecado",
+    5
+   ],
+   [
+    "Estragos de Amor y Celos",
+    "estragos-de-amor-y-celos",
+    13
+   ],
+   [
+    "Garuda o la Cigüeña Blanca",
+    "garuda-o-la-ciguena-blanca",
+    12
+   ],
+   [
+    "Genio y Figura",
+    "genio-y-figura",
+    30
+   ],
+   [
+    "Juanita la Larga",
+    "juanita-la-larga",
+    46
+   ],
+   [
+    "La Buena Fama",
+    "la-buena-fama",
+    20
+   ],
+   [
+    "Leyendas del Antiguo Oriente",
+    "leyendas-del-antiguo-oriente",
+    13
+   ],
+   [
+    "Mariquita y Antonio",
+    "mariquita-y-antonio",
+    20
+   ],
+   [
+    "Morsamor",
+    "morsamor",
+    62
+   ],
+   [
+    "Nuevas Cartas Americanas",
+    "nuevas-cartas-americanas",
+    25
+   ],
+   [
+    "Pasarse de Listo",
+    "pasarse-de-listo",
+    22
+   ]
+  ],
+  "piezas": [
+   [
+    "A Quién Debe Darse Crédito",
+    "a-quien-debe-darse-credito",
+    0
+   ],
+   [
+    "Bagajes",
+    "bagajes",
+    0
+   ],
+   [
+    "Bondad de la Plegaria",
+    "bondad-de-la-plegaria",
+    0
+   ],
+   [
+    "Charadas",
+    "charadas",
+    0
+   ],
+   [
+    "Conversión de un Heterodoxo",
+    "conversion-de-un-heterodoxo",
+    0
+   ],
+   [
+    "Cuento Soñado",
+    "cuento-sonado",
+    0
+   ],
+   [
+    "De los Escarmentados Nacen los Avisados",
+    "de-los-escarmentados-nacen-los-avisados",
+    0
+   ],
+   [
+    "Doña Bishodie",
+    "dona-bishodie",
+    0
+   ],
+   [
+    "El Animal Prodigioso",
+    "el-animal-prodigioso",
+    0
+   ],
+   [
+    "El Canto Gangoso",
+    "el-canto-gangoso",
+    0
+   ],
+   [
+    "El Cocinero del Arzobispo",
+    "el-cocinero-del-arzobispo",
+    0
+   ],
+   [
+    "El Cocinero del Arzobispo",
+    "el-cocinero-del-arzobispo-2",
+    0
+   ],
+   [
+    "El Doble Sacrificio",
+    "el-doble-sacrificio",
+    0
+   ],
+   [
+    "El Duende-Beso",
+    "el-duende-beso",
+    3
+   ],
+   [
+    "El Espejo de Matsuyama",
+    "el-espejo-de-matsuyama",
+    0
+   ],
+   [
+    "El Famoso Cantor Madureira",
+    "el-famoso-cantor-madureira",
+    0
+   ],
+   [
+    "El Gitano Teólogo",
+    "el-gitano-teologo",
+    0
+   ],
+   [
+    "El Gloria Patri",
+    "el-gloria-patri",
+    0
+   ],
+   [
+    "El Hechicero",
+    "el-hechicero",
+    0
+   ],
+   [
+    "El Padre Postas",
+    "el-padre-postas",
+    0
+   ],
+   [
+    "El Pescadorcito Urashima",
+    "el-pescadorcito-urashima",
+    0
+   ],
+   [
+    "El Portugués Filólogo",
+    "el-portugues-filologo",
+    0
+   ],
+   [
+    "El Portugués que Llegó a Cádiz",
+    "el-portugues-que-llego-a-cadiz",
+    0
+   ],
+   [
+    "El San Vicente Ferrer de Talla",
+    "el-san-vicente-ferrer-de-talla",
+    0
+   ],
+   [
+    "El Sr. Nichtverstehen",
+    "el-sr-nichtverstehen",
+    0
+   ],
+   [
+    "Elocuencia Vizcaína",
+    "elocuencia-vizcaina",
+    0
+   ],
+   [
+    "Extraña Manutención Militar",
+    "extrana-manutencion-militar",
+    0
+   ],
+   [
+    "Fecundidad de la Memoria",
+    "fecundidad-de-la-memoria",
+    0
+   ],
+   [
+    "Gopa",
+    "gopa",
+    3
+   ],
+   [
+    "Interpretación de un Texto Latino",
+    "interpretacion-de-un-texto-latino",
+    0
+   ],
+   [
+    "La Col y la Caldera",
+    "la-col-y-la-caldera",
+    0
+   ],
+   [
+    "La Confesión Reiterada",
+    "la-confesion-reiterada",
+    0
+   ],
+   [
+    "La Cordobesa",
+    "la-cordobesa",
+    0
+   ],
+   [
+    "La Karaba",
+    "la-karaba",
+    0
+   ],
+   [
+    "La Muñequita",
+    "la-munequita",
+    0
+   ],
+   [
+    "La Reina Madre",
+    "la-reina-madre",
+    3
+   ],
+   [
+    "La Virgen y el Niño Jesús",
+    "la-virgen-y-el-nino-jesus",
+    0
+   ],
+   [
+    "Las Castañas",
+    "las-castanas",
+    0
+   ],
+   [
+    "Las Gafas",
+    "las-gafas",
+    0
+   ],
+   [
+    "Los Cordobeses en Creta",
+    "los-cordobeses-en-creta",
+    0
+   ],
+   [
+    "Los Emigrantes",
+    "los-emigrantes",
+    0
+   ],
+   [
+    "Los Santos de Francia",
+    "los-santos-de-francia",
+    0
+   ],
+   [
+    "Los Telefonemas de Manolita",
+    "los-telefonemas-de-manolita",
+    2
+   ],
+   [
+    "Manifestaciones de Duelo del Rey de Portugal",
+    "manifestaciones-de-duelo-del-rey-de-portugal",
+    0
+   ],
+   [
+    "Milagro de la Dialéctica",
+    "milagro-de-la-dialectica",
+    0
+   ],
+   [
+    "Parsondes",
+    "parsondes",
+    0
+   ],
+   [
+    "Pepita Jiménez",
+    "pepita-jimenez",
+    3
+   ],
+   [
+    "Por No Perder el Respeto",
+    "por-no-perder-el-respeto",
+    0
+   ],
+   [
+    "Quien No te Conozca que te Compre",
+    "quien-no-te-conozca-que-te-compre",
+    0
+   ],
+   [
+    "Santa",
+    "santa",
+    0
+   ],
+   [
+    "Un Poco de Crematística",
+    "un-poco-de-crematistica",
+    3
+   ],
+   [
+    "Un Refrán Mal Aplicado",
+    "un-refran-mal-aplicado",
+    0
+   ]
+  ],
+  "duplicados": [
+   [
+    "El Bermejino Prehistórico",
+    "el-bermejino-prehistorico"
+   ],
+   [
+    "El Caballero del Azor",
+    "el-caballero-del-azor"
+   ],
+   [
+    "El Cautivo de Doña Mencía",
+    "el-cautivo-de-dona-mencia"
+   ],
+   [
+    "El Doble Sacrificio",
+    "el-doble-sacrificio-2"
+   ],
+   [
+    "El Maestro Raimundico",
+    "el-maestro-raimundico"
+   ],
+   [
+    "El Pájaro Verde",
+    "el-pajaro-verde"
+   ],
+   [
+    "El Último Pecado",
+    "el-ultimo-pecado"
+   ]
+  ],
+  "huerfanos": [
+   [
+    "Cuento Soñado",
+    "cuento-sonado"
+   ],
+   [
+    "El Hechicero",
+    "el-hechicero"
+   ],
+   [
+    "La Cordobesa",
+    "la-cordobesa"
+   ],
+   [
+    "La Muñequita",
+    "la-munequita"
+   ],
+   [
+    "Pepita Jiménez",
+    "pepita-jimenez"
+   ],
+   [
+    "Un Poco de Crematística",
+    "un-poco-de-crematistica"
+   ]
+  ]
+ },
+ "ramon-maria-del-valle-inclan": {
+  "libros": [
+   [
+    "Adega",
+    "adega",
+    5
+   ],
+   [
+    "Águila de Blasón",
+    "aguila-de-blason",
+    38
+   ],
+   [
+    "Augusta",
+    "augusta",
+    8
+   ],
+   [
+    "Baza de Espadas",
+    "baza-de-espadas",
+    101
+   ],
+   [
+    "Beatriz",
+    "beatriz",
+    6
+   ],
+   [
+    "Cara de Plata",
+    "cara-de-plata",
+    21
+   ],
+   [
+    "Comedias Bárbaras",
+    "comedias-barbaras",
+    84
+   ],
+   [
+    "Corte de Amor",
+    "corte-de-amor",
+    40
+   ],
+   [
+    "Divinas Palabras",
+    "divinas-palabras",
+    23
+   ],
+   [
+    "El Marqués de Bradomín",
+    "el-marques-de-bradomin",
+    4
+   ],
+   [
+    "El Resplandor de la Hoguera",
+    "el-resplandor-de-la-hoguera",
+    24
+   ],
+   [
+    "El Trueno Dorado",
+    "el-trueno-dorado",
+    21
+   ],
+   [
+    "El Yermo de las Almas",
+    "el-yermo-de-las-almas",
+    5
+   ],
+   [
+    "Epitalamio",
+    "epitalamio",
+    8
+   ],
+   [
+    "Eulalia",
+    "eulalia",
+    5
+   ],
+   [
+    "Femeninas",
+    "femeninas",
+    16
+   ],
+   [
+    "Fin de un Revolucionario",
+    "fin-de-un-revolucionario",
+    67
+   ],
+   [
+    "Flor de Almendro",
+    "flor-de-almendro",
+    38
+   ],
+   [
+    "Flor de Santidad",
+    "flor-de-santidad",
+    31
+   ],
+   [
+    "Gerifaltes de Antaño",
+    "gerifaltes-de-antano",
+    33
+   ],
+   [
+    "Jardín Umbrío",
+    "jardin-umbrio",
+    55
+   ],
+   [
+    "La Cara de Dios",
+    "la-cara-de-dios",
+    47
+   ],
+   [
+    "La Condesa de Cela",
+    "la-condesa-de-cela",
+    8
+   ],
+   [
+    "La Corte de los Milagros",
+    "la-corte-de-los-milagros",
+    165
+   ],
+   [
+    "La Generala",
+    "la-generala",
+    4
+   ],
+   [
+    "La Lámpara Maravillosa",
+    "la-lampara-maravillosa",
+    49
+   ],
+   [
+    "La Media Noche",
+    "la-media-noche",
+    41
+   ],
+   [
+    "La Pipa de Kif",
+    "la-pipa-de-kif",
+    21
+   ],
+   [
+    "Los Cruzados de la Causa",
+    "los-cruzados-de-la-causa",
+    32
+   ],
+   [
+    "Luces de Bohemia",
+    "luces-de-bohemia",
+    16
+   ],
+   [
+    "Martes de Carnaval",
+    "martes-de-carnaval",
+    34
+   ],
+   [
+    "Mi Hermana Antonia",
+    "mi-hermana-antonia",
+    23
+   ],
+   [
+    "Retablo de la Avaricia, la Lujuria y la Muerte",
+    "retablo-de-la-avaricia-la-lujuria-y-la-muerte",
+    17
+   ],
+   [
+    "Romance de Lobos",
+    "romance-de-lobos",
+    22
+   ],
+   [
+    "Rosita",
+    "rosita",
+    6
+   ],
+   [
+    "Tablado de Marionetas para Educación de Príncipes",
+    "tablado-de-marionetas-para-educacion-de-principes",
+    18
+   ],
+   [
+    "Teatrillo de Enredo",
+    "teatrillo-de-enredo",
+    16
+   ],
+   [
+    "Tirano Banderas",
+    "tirano-banderas",
+    182
+   ],
+   [
+    "Un Bastardo de Narizotas",
+    "un-bastardo-de-narizotas",
+    16
+   ],
+   [
+    "Una Tertulia de Antaño",
+    "una-tertulia-de-antano",
+    16
+   ],
+   [
+    "Viva mi Dueño",
+    "viva-mi-dueno",
+    199
+   ]
+  ],
+  "piezas": [
+   [
+    "A Medianoche",
+    "a-medianoche",
+    0
+   ],
+   [
+    "Babel",
+    "babel",
+    0
+   ],
+   [
+    "Comedia de Ensueño",
+    "comedia-de-ensueno",
+    0
+   ],
+   [
+    "Cuento de Abril",
+    "cuento-de-abril",
+    0
+   ],
+   [
+    "Del Misterio",
+    "del-misterio",
+    0
+   ],
+   [
+    "Égloga",
+    "egloga",
+    0
+   ],
+   [
+    "El Miedo",
+    "el-miedo",
+    0
+   ],
+   [
+    "El Rey de la Máscara",
+    "el-rey-de-la-mascara",
+    0
+   ],
+   [
+    "Fue Satanás",
+    "fue-satanas",
+    0
+   ],
+   [
+    "Geórgicas",
+    "georgicas",
+    0
+   ],
+   [
+    "Hierbas Olorosas",
+    "hierbas-olorosas",
+    0
+   ],
+   [
+    "Juan Quinto",
+    "juan-quinto",
+    0
+   ],
+   [
+    "La Adoración de los Reyes",
+    "la-adoracion-de-los-reyes",
+    0
+   ],
+   [
+    "La Hueste",
+    "la-hueste",
+    0
+   ],
+   [
+    "La Misa de San Electus",
+    "la-misa-de-san-electus",
+    0
+   ],
+   [
+    "La Niña Chole",
+    "la-nina-chole",
+    0
+   ],
+   [
+    "¡Malpocado!",
+    "malpocado",
+    0
+   ],
+   [
+    "Mi Bisabuelo",
+    "mi-bisabuelo",
+    0
+   ],
+   [
+    "Milón de la Arnoya",
+    "milon-de-la-arnoya",
+    0
+   ],
+   [
+    "Nochebuena",
+    "nochebuena",
+    0
+   ],
+   [
+    "Octavia Santino",
+    "octavia-santino",
+    0
+   ],
+   [
+    "Rosarito",
+    "rosarito",
+    0
+   ],
+   [
+    "Santa Baya de Cristamilde",
+    "santa-baya-de-cristamilde",
+    3
+   ],
+   [
+    "Sonata de Estío",
+    "sonata-de-estio",
+    0
+   ],
+   [
+    "Sonata de Invierno",
+    "sonata-de-invierno",
+    0
+   ],
+   [
+    "Sonata de Otoño",
+    "sonata-de-otono",
+    0
+   ],
+   [
+    "Sonata de Primavera",
+    "sonata-de-primavera",
+    3
+   ],
+   [
+    "Tragedia de Ensueño",
+    "tragedia-de-ensueno",
+    0
+   ],
+   [
+    "Tula Varona",
+    "tula-varona",
+    0
+   ],
+   [
+    "Un Cabecilla",
+    "un-cabecilla",
+    0
+   ],
+   [
+    "Un Ejemplo",
+    "un-ejemplo",
+    0
+   ],
+   [
+    "Una Desconocida",
+    "una-desconocida",
+    0
+   ]
+  ],
+  "duplicados": [
+   [
+    "Adega",
+    "adega"
+   ],
+   [
+    "Augusta",
+    "augusta"
+   ],
+   [
+    "Beatriz",
+    "beatriz"
+   ],
+   [
+    "Eulalia",
+    "eulalia"
+   ],
+   [
+    "La Condesa de Cela",
+    "la-condesa-de-cela"
+   ],
+   [
+    "La Generala",
+    "la-generala"
+   ],
+   [
+    "Rosita",
+    "rosita"
+   ]
+  ],
+  "huerfanos": [
+   [
+    "Babel",
+    "babel"
+   ],
+   [
+    "Cuento de Abril",
+    "cuento-de-abril"
+   ],
+   [
+    "Égloga",
+    "egloga"
+   ],
+   [
+    "Santa Baya de Cristamilde",
+    "santa-baya-de-cristamilde"
+   ],
+   [
+    "Sonata de Estío",
+    "sonata-de-estio"
+   ],
+   [
+    "Sonata de Invierno",
+    "sonata-de-invierno"
+   ],
+   [
+    "Sonata de Otoño",
+    "sonata-de-otono"
+   ],
+   [
+    "Sonata de Primavera",
+    "sonata-de-primavera"
+   ]
+  ]
+ },
+ "pedro-antonio-de-alarcon": {
+  "libros": [
+   [
+    "¡Buena Pesca!",
+    "buena-pesca",
+    4
+   ],
+   [
+    "Cuentos Amatorios",
+    "cuentos-amatorios",
+    81
+   ],
+   [
+    "Descubrimiento y Paso del Cabo de Buena Esperanza",
+    "descubrimiento-y-paso-del-cabo-de-buena-esperanza",
+    8
+   ],
+   [
+    "Dos Retratos",
+    "dos-retratos",
+    4
+   ],
+   [
+    "El Amigo de la Muerte",
+    "el-amigo-de-la-muerte",
+    17
+   ],
+   [
+    "El Ángel de la Guarda",
+    "el-angel-de-la-guarda",
+    5
+   ],
+   [
+    "El Año en Spitzberg",
+    "el-ano-en-spitzberg",
+    21
+   ],
+   [
+    "El Capitán Veneno",
+    "el-capitan-veneno",
+    31
+   ],
+   [
+    "El Carbonero-Alcalde",
+    "el-carbonero-alcalde",
+    6
+   ],
+   [
+    "El Clavo",
+    "el-clavo",
+    21
+   ],
+   [
+    "El Coro de Ángeles",
+    "el-coro-de-angeles",
+    7
+   ],
+   [
+    "El Escándalo",
+    "el-escandalo",
+    55
+   ],
+   [
+    "El Final de Norma",
+    "el-final-de-norma",
+    57
+   ],
+   [
+    "El Niño de la Bola",
+    "el-nino-de-la-bola",
+    31
+   ],
+   [
+    "El Sombrero de Tres Picos",
+    "el-sombrero-de-tres-picos",
+    38
+   ],
+   [
+    "Episodios de Nochebuena",
+    "episodios-de-nochebuena",
+    7
+   ],
+   [
+    "Fin de una Novela",
+    "fin-de-una-novela",
+    7
+   ],
+   [
+    "Historietas Nacionales",
+    "historietas-nacionales",
+    96
+   ],
+   [
+    "La Alpujarra",
+    "la-alpujarra",
+    53
+   ],
+   [
+    "La Belleza Ideal",
+    "la-belleza-ideal",
+    5
+   ],
+   [
+    "La Comendadora",
+    "la-comendadora",
+    6
+   ],
+   [
+    "La Corneta de Llaves",
+    "la-corneta-de-llaves",
+    9
+   ],
+   [
+    "La Mujer Alta",
+    "la-mujer-alta",
+    6
+   ],
+   [
+    "La Pródiga",
+    "la-prodiga",
+    50
+   ],
+   [
+    "La Última Calaverada",
+    "la-ultima-calaverada",
+    8
+   ],
+   [
+    "Los Ojos Negros",
+    "los-ojos-negros",
+    10
+   ],
+   [
+    "Los Seis Velos",
+    "los-seis-velos",
+    23
+   ],
+   [
+    "Mañanas de Abril y Mayo",
+    "mananas-de-abril-y-mayo",
+    6
+   ],
+   [
+    "Mayo",
+    "mayo",
+    5
+   ],
+   [
+    "Moros y Cristianos",
+    "moros-y-cristianos",
+    15
+   ],
+   [
+    "Narraciones Inverosímiles",
+    "narraciones-inverosimiles",
+    83
+   ],
+   [
+    "Novelas Cortas",
+    "novelas-cortas",
+    71
+   ],
+   [
+    "Sin un Cuarto",
+    "sin-un-cuarto",
+    10
+   ],
+   [
+    "Soy, Tengo y Quiero",
+    "soy-tengo-y-quiero",
+    4
+   ],
+   [
+    "Tic... Tac...",
+    "tic-tac",
+    4
+   ],
+   [
+    "Viajes por España",
+    "viajes-por-espana",
+    40
+   ],
+   [
+    "¡Viva el Papa!",
+    "viva-el-papa",
+    5
+   ]
+  ],
+  "piezas": [
+   [
+    "El Abrazo de Vergara",
+    "el-abrazo-de-vergara",
+    3
+   ],
+   [
+    "El Afrancesado",
+    "el-afrancesado",
+    3
+   ],
+   [
+    "El Año Campesino",
+    "el-ano-campesino",
+    2
+   ],
+   [
+    "El Asistente",
+    "el-asistente",
+    0
+   ],
+   [
+    "El Extranjero",
+    "el-extranjero",
+    3
+   ],
+   [
+    "El Libro Talonario",
+    "el-libro-talonario",
+    3
+   ],
+   [
+    "El Rey se Divierte",
+    "el-rey-se-divierte",
+    0
+   ],
+   [
+    "La Buenaventura",
+    "la-buenaventura",
+    3
+   ],
+   [
+    "Las Dos Glorias",
+    "las-dos-glorias",
+    0
+   ],
+   [
+    "Lo que se Oye Desde una Silla del Prado",
+    "lo-que-se-oye-desde-una-silla-del-prado",
+    0
+   ],
+   [
+    "Novela Natural",
+    "novela-natural",
+    3
+   ],
+   [
+    "¿Por Qué Era Rubia?",
+    "por-que-era-rubia",
+    2
+   ],
+   [
+    "Una Conversación en la Alhambra",
+    "una-conversacion-en-la-alhambra",
+    3
+   ]
+  ],
+  "duplicados": [
+   [
+    "¡Buena Pesca!",
+    "buena-pesca"
+   ],
+   [
+    "Descubrimiento y Paso del Cabo de Buena Esperanza",
+    "descubrimiento-y-paso-del-cabo-de-buena-esperanza"
+   ],
+   [
+    "Dos Retratos",
+    "dos-retratos"
+   ],
+   [
+    "El Ángel de la Guarda",
+    "el-angel-de-la-guarda"
+   ],
+   [
+    "El Carbonero-Alcalde",
+    "el-carbonero-alcalde"
+   ],
+   [
+    "El Coro de Ángeles",
+    "el-coro-de-angeles"
+   ],
+   [
+    "Episodios de Nochebuena",
+    "episodios-de-nochebuena"
+   ],
+   [
+    "Fin de una Novela",
+    "fin-de-una-novela"
+   ],
+   [
+    "La Belleza Ideal",
+    "la-belleza-ideal"
+   ],
+   [
+    "La Comendadora",
+    "la-comendadora"
+   ],
+   [
+    "La Corneta de Llaves",
+    "la-corneta-de-llaves"
+   ],
+   [
+    "La Última Calaverada",
+    "la-ultima-calaverada"
+   ],
+   [
+    "Mayo",
+    "mayo"
+   ],
+   [
+    "Sin un Cuarto",
+    "sin-un-cuarto"
+   ],
+   [
+    "Tic... Tac...",
+    "tic-tac"
+   ],
+   [
+    "¡Viva el Papa!",
+    "viva-el-papa"
+   ]
+  ],
+  "huerfanos": [
+   [
+    "Lo que se Oye Desde una Silla del Prado",
+    "lo-que-se-oye-desde-una-silla-del-prado"
+   ]
+  ]
+ }
+}

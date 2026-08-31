@@ -1,0 +1,30 @@
+{
+  "slug": "cartas-americanas",
+  "titulo": "Cartas Americanas",
+  "autor": "Juan Valera",
+  "anio": 1889,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/juan-valera/cartas-americanas/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/juan-valera/cartas-americanas"
+  },
+  "catalogo_id": 445,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cartas Americanas",
+    "autor": "Juan Valera",
+    "anio": "1889",
+    "pais": "España",
+    "genero": "Memoria/Crónica",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

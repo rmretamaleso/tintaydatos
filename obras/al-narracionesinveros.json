@@ -1,0 +1,31 @@
+{
+  "slug": "narraciones-inverosimiles",
+  "titulo": "Narraciones Inverosímiles",
+  "autor": "Pedro Antonio de Alarcón",
+  "anio": 1882,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/pedro-antonio-de-alarcon/narraciones-inverosimiles/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/pedro-antonio-de-alarcon/narraciones-inverosimiles"
+  },
+  "catalogo_id": 492,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Narraciones Inverosímiles",
+    "autor": "Pedro Antonio de Alarcón",
+    "anio": "1882",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "preliminares": "Dedicatoria",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

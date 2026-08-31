@@ -1,0 +1,30 @@
+{
+  "slug": "cara-de-plata",
+  "titulo": "Cara de Plata",
+  "autor": "Ramón María del Valle-Inclán",
+  "anio": 1922,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ramon-maria-del-valle-inclan/cara-de-plata/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ramon-maria-del-valle-inclan/cara-de-plata"
+  },
+  "catalogo_id": 478,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cara de Plata",
+    "autor": "Ramón María del Valle-Inclán",
+    "anio": "1922",
+    "pais": "España",
+    "genero": "Teatro",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "leyendas-del-antiguo-oriente",
+  "titulo": "Leyendas del Antiguo Oriente",
+  "autor": "Juan Valera",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/juan-valera/leyendas-del-antiguo-oriente/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/juan-valera/leyendas-del-antiguo-oriente"
+  },
+  "catalogo_id": 452,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Leyendas del Antiguo Oriente",
+    "autor": "Juan Valera",
+    "anio": "",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "preliminares": "Prólogo",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

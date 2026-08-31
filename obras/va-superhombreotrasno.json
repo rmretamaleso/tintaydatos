@@ -1,0 +1,29 @@
+{
+  "slug": "el-superhombre-y-otras-novedades",
+  "titulo": "El Superhombre y Otras Novedades",
+  "autor": "Juan Valera",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/juan-valera/el-superhombre-y-otras-novedades/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/juan-valera/el-superhombre-y-otras-novedades"
+  },
+  "catalogo_id": 440,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Superhombre y Otras Novedades",
+    "autor": "Juan Valera",
+    "anio": "",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

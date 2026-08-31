@@ -1,0 +1,30 @@
+{
+  "slug": "aguila-de-blason",
+  "titulo": "Águila de Blasón",
+  "autor": "Ramón María del Valle-Inclán",
+  "anio": 1907,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ramon-maria-del-valle-inclan/aguila-de-blason/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ramon-maria-del-valle-inclan/aguila-de-blason"
+  },
+  "catalogo_id": 468,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Águila de Blasón",
+    "autor": "Ramón María del Valle-Inclán",
+    "anio": "1907",
+    "pais": "España",
+    "genero": "Teatro",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

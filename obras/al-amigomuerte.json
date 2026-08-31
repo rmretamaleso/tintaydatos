@@ -1,22 +1,22 @@
 {
-  "slug": "punal-de-claveles",
-  "titulo": "Puñal de Claveles",
-  "autor": "Carmen de Burgos",
+  "slug": "el-amigo-de-la-muerte",
+  "titulo": "El Amigo de la Muerte",
+  "autor": "Pedro Antonio de Alarcón",
   "tipo": "prosa",
-  "url": "https://www.textos.info/carmen-de-burgos/punal-de-claveles/ebook",
+  "url": "https://www.textos.info/pedro-antonio-de-alarcon/el-amigo-de-la-muerte/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
   "fuente": {
     "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
-    "url": "https://www.textos.info/carmen-de-burgos/punal-de-claveles"
+    "url": "https://www.textos.info/pedro-antonio-de-alarcon/el-amigo-de-la-muerte"
   },
-  "catalogo_id": 403,
+  "catalogo_id": 505,
   "catalogo_campos": {
     "dominio": "Literatura",
-    "titulo": "Puñal de Claveles",
-    "autor": "Carmen de Burgos",
-    "anio": "1931",
+    "titulo": "El Amigo de la Muerte",
+    "autor": "Pedro Antonio de Alarcón",
+    "anio": "1852",
     "pais": "España",
-    "genero": "Cuento",
+    "genero": "Novela",
     "tipo": "Dominio público",
     "puede_alojarse": "si"
   },
@@ -25,5 +25,5 @@
     "salto_por_capitulo": true,
     "hyphenation": "es"
   },
-  "anio": 1931
+  "anio": 1852
 }

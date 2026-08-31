@@ -1,0 +1,30 @@
+{
+  "slug": "cuentos-y-chascarrillos-andaluces",
+  "titulo": "Cuentos y Chascarrillos Andaluces",
+  "autor": "Juan Valera",
+  "anio": 1896,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/juan-valera/cuentos-y-chascarrillos-andaluces/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/juan-valera/cuentos-y-chascarrillos-andaluces"
+  },
+  "catalogo_id": 439,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos y Chascarrillos Andaluces",
+    "autor": "Juan Valera",
+    "anio": "1896",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

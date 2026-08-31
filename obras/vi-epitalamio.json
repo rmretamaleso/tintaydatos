@@ -1,29 +1,29 @@
 {
-  "slug": "punal-de-claveles",
-  "titulo": "Puñal de Claveles",
-  "autor": "Carmen de Burgos",
+  "slug": "epitalamio",
+  "titulo": "Epitalamio",
+  "autor": "Ramón María del Valle-Inclán",
   "tipo": "prosa",
-  "url": "https://www.textos.info/carmen-de-burgos/punal-de-claveles/ebook",
+  "url": "https://www.textos.info/ramon-maria-del-valle-inclan/epitalamio/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
   "fuente": {
     "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
-    "url": "https://www.textos.info/carmen-de-burgos/punal-de-claveles"
+    "url": "https://www.textos.info/ramon-maria-del-valle-inclan/epitalamio"
   },
-  "catalogo_id": 403,
+  "catalogo_id": 488,
   "catalogo_campos": {
     "dominio": "Literatura",
-    "titulo": "Puñal de Claveles",
-    "autor": "Carmen de Burgos",
-    "anio": "1931",
+    "titulo": "Epitalamio",
+    "autor": "Ramón María del Valle-Inclán",
+    "anio": "",
     "pais": "España",
     "genero": "Cuento",
     "tipo": "Dominio público",
     "puede_alojarse": "si"
   },
   "nivel_capitulo": "h2",
+  "preliminares": "Dedicatoria",
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1931
+  }
 }

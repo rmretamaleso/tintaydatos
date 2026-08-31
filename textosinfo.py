@@ -291,7 +291,15 @@ def parsear(doc, cfg):
             sec = None
             continue
 
-        if etiqueta in niveles_sec and cap is not None:
+        if etiqueta in niveles_sec:
+            if cap is None:
+                # Una sección puede aparecer antes de que se abra un capítulo:
+                # en «La Corte de los Milagros» cada libro empieza con un
+                # numeral suelto. Sin esto se descartaría con su texto.
+                if not partes:
+                    nueva_parte(None)
+                cap = {"numero": None, "titulo": None, "secciones": []}
+                partes[-1]["capitulos"].append(cap)
             m = re.match(cfg.get("patron_seccion", r"^\s*(\S+)"), texto)
             nueva_seccion(m.group(1) if m else texto)
             continue

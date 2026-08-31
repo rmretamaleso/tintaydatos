@@ -1,22 +1,22 @@
 {
-  "slug": "punal-de-claveles",
-  "titulo": "Puñal de Claveles",
-  "autor": "Carmen de Burgos",
+  "slug": "pasarse-de-listo",
+  "titulo": "Pasarse de Listo",
+  "autor": "Juan Valera",
   "tipo": "prosa",
-  "url": "https://www.textos.info/carmen-de-burgos/punal-de-claveles/ebook",
+  "url": "https://www.textos.info/juan-valera/pasarse-de-listo/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
   "fuente": {
     "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
-    "url": "https://www.textos.info/carmen-de-burgos/punal-de-claveles"
+    "url": "https://www.textos.info/juan-valera/pasarse-de-listo"
   },
-  "catalogo_id": 403,
+  "catalogo_id": 448,
   "catalogo_campos": {
     "dominio": "Literatura",
-    "titulo": "Puñal de Claveles",
-    "autor": "Carmen de Burgos",
-    "anio": "1931",
+    "titulo": "Pasarse de Listo",
+    "autor": "Juan Valera",
+    "anio": "1878",
     "pais": "España",
-    "genero": "Cuento",
+    "genero": "Novela",
     "tipo": "Dominio público",
     "puede_alojarse": "si"
   },
@@ -25,5 +25,5 @@
     "salto_por_capitulo": true,
     "hyphenation": "es"
   },
-  "anio": 1931
+  "anio": 1878
 }

@@ -1,0 +1,29 @@
+{
+  "slug": "el-marques-de-bradomin",
+  "titulo": "El Marqués de Bradomín",
+  "autor": "Ramón María del Valle-Inclán",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ramon-maria-del-valle-inclan/el-marques-de-bradomin/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ramon-maria-del-valle-inclan/el-marques-de-bradomin"
+  },
+  "catalogo_id": 490,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Marqués de Bradomín",
+    "autor": "Ramón María del Valle-Inclán",
+    "anio": "1907",
+    "pais": "España",
+    "genero": "Teatro",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1907
+}

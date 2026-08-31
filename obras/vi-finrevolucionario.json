@@ -1,0 +1,30 @@
+{
+  "slug": "fin-de-un-revolucionario",
+  "titulo": "Fin de un Revolucionario",
+  "autor": "Ramón María del Valle-Inclán",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ramon-maria-del-valle-inclan/fin-de-un-revolucionario/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ramon-maria-del-valle-inclan/fin-de-un-revolucionario"
+  },
+  "catalogo_id": 462,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Fin de un Revolucionario",
+    "autor": "Ramón María del Valle-Inclán",
+    "anio": "",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

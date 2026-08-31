@@ -1,0 +1,30 @@
+{
+  "slug": "flor-de-santidad",
+  "titulo": "Flor de Santidad",
+  "autor": "Ramón María del Valle-Inclán",
+  "anio": 1904,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ramon-maria-del-valle-inclan/flor-de-santidad/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ramon-maria-del-valle-inclan/flor-de-santidad"
+  },
+  "catalogo_id": 473,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Flor de Santidad",
+    "autor": "Ramón María del Valle-Inclán",
+    "anio": "1904",
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}
