@@ -1,0 +1,30 @@
+{
+  "slug": "por-donde-se-sube-al-cielo",
+  "titulo": "Por Donde se Sube al Cielo",
+  "autor": "Manuel Gutiérrez Nájera",
+  "anio": 1882,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/manuel-gutierrez-najera/por-donde-se-sube-al-cielo/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/manuel-gutierrez-najera/por-donde-se-sube-al-cielo"
+  },
+  "catalogo_id": 526,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Por Donde se Sube al Cielo",
+    "autor": "Manuel Gutiérrez Nájera",
+    "anio": "1882",
+    "pais": "México",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "preliminares": "Prólogo",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

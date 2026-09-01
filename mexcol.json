@@ -1,0 +1,268 @@
+{
+ "amado-nervo": {
+  "libros": [
+   [
+    "Amnesia",
+    "amnesia",
+    8
+   ],
+   [
+    "Crónicas",
+    "cronicas",
+    22
+   ],
+   [
+    "El Diablo Desinteresado",
+    "el-diablo-desinteresado",
+    9
+   ],
+   [
+    "El Diamante de la Inquietud",
+    "el-diamante-de-la-inquietud",
+    16
+   ],
+   [
+    "Un Sueño",
+    "un-sueno",
+    10
+   ],
+   [
+    "Una Mentira",
+    "una-mentira",
+    17
+   ]
+  ],
+  "piezas": []
+ },
+ "manuel-gutierrez-najera": {
+  "libros": [
+   [
+    "Cuentos Color de Humo",
+    "cuentos-color-de-humo",
+    13
+   ],
+   [
+    "Cuentos Frágiles",
+    "cuentos-fragiles",
+    15
+   ],
+   [
+    "Juan el Organista",
+    "juan-el-organista",
+    7
+   ],
+   [
+    "Por Donde se Sube al Cielo",
+    "por-donde-se-sube-al-cielo",
+    8
+   ]
+  ],
+  "piezas": [
+   [
+    "Al Amor de la Lumbre",
+    "al-amor-de-la-lumbre",
+    0
+   ],
+   [
+    "Cuento Triste",
+    "cuento-triste",
+    0
+   ],
+   [
+    "Dame de Coeur",
+    "dame-de-coeur",
+    0
+   ],
+   [
+    "Después de las Carreras",
+    "despues-de-las-carreras",
+    0
+   ],
+   [
+    "El Músico de la Murga",
+    "el-musico-de-la-murga",
+    0
+   ],
+   [
+    "El Vestido Blanco",
+    "el-vestido-blanco",
+    0
+   ],
+   [
+    "En el Hipódromo",
+    "en-el-hipodromo",
+    0
+   ],
+   [
+    "En la Calle",
+    "en-la-calle",
+    0
+   ],
+   [
+    "Historia de un Peso Falso",
+    "historia-de-un-peso-falso",
+    0
+   ],
+   [
+    "La Balada de Año Nuevo",
+    "la-balada-de-ano-nuevo",
+    0
+   ],
+   [
+    "La Hija del Aire",
+    "la-hija-del-aire",
+    0
+   ],
+   [
+    "La Historia de una Corista",
+    "la-historia-de-una-corista",
+    0
+   ],
+   [
+    "La Mañana de San Juan",
+    "la-manana-de-san-juan",
+    0
+   ],
+   [
+    "La Novela del Tranvía",
+    "la-novela-del-tranvia",
+    0
+   ],
+   [
+    "La Pasión de Pasionaria",
+    "la-pasion-de-pasionaria",
+    0
+   ],
+   [
+    "La Sospecha",
+    "la-sospecha",
+    0
+   ],
+   [
+    "La Venganza de Milady",
+    "la-venganza-de-milady",
+    0
+   ],
+   [
+    "La Venganza de Milord",
+    "la-venganza-de-milord",
+    0
+   ],
+   [
+    "Las Misas de Navidad",
+    "las-misas-de-navidad",
+    0
+   ],
+   [
+    "Las Tres Conquistas de Carmen",
+    "las-tres-conquistas-de-carmen",
+    0
+   ],
+   [
+    "Los Amores del Cometa",
+    "los-amores-del-cometa",
+    0
+   ],
+   [
+    "Los Matrimonios al Uso",
+    "los-matrimonios-al-uso",
+    0
+   ],
+   [
+    "Los Suicidios",
+    "los-suicidios",
+    0
+   ],
+   [
+    "Memorias de un Paraguas",
+    "memorias-de-un-paraguas",
+    0
+   ],
+   [
+    "Mister Chucker",
+    "mister-chucker",
+    0
+   ],
+   [
+    "Rip-Rip el Aparecido",
+    "rip-rip-el-aparecido",
+    0
+   ],
+   [
+    "Stora",
+    "stora",
+    0
+   ],
+   [
+    "Tragedias de Actualidad",
+    "tragedias-de-actualidad",
+    0
+   ],
+   [
+    "Un 14 de Julio",
+    "un-14-de-julio",
+    0
+   ]
+  ],
+  "huerfanos": [
+   [
+    "El Músico de la Murga",
+    "el-musico-de-la-murga"
+   ],
+   [
+    "Historia de un Peso Falso",
+    "historia-de-un-peso-falso"
+   ],
+   [
+    "La Sospecha",
+    "la-sospecha"
+   ],
+   [
+    "La Venganza de Milady",
+    "la-venganza-de-milady"
+   ],
+   [
+    "Las Tres Conquistas de Carmen",
+    "las-tres-conquistas-de-carmen"
+   ],
+   [
+    "Los Matrimonios al Uso",
+    "los-matrimonios-al-uso"
+   ],
+   [
+    "Memorias de un Paraguas",
+    "memorias-de-un-paraguas"
+   ],
+   [
+    "Mister Chucker",
+    "mister-chucker"
+   ],
+   [
+    "Rip-Rip el Aparecido",
+    "rip-rip-el-aparecido"
+   ],
+   [
+    "Stora",
+    "stora"
+   ]
+  ]
+ },
+ "federico-gamboa": {
+  "libros": [],
+  "piezas": []
+ },
+ "mariano-azuela": {
+  "libros": [],
+  "piezas": []
+ },
+ "jose-maria-vargas-vila": {
+  "libros": [],
+  "piezas": [
+   [
+    "Aura o las Violetas",
+    "aura-o-las-violetas",
+    3
+   ]
+  ]
+ }
+}

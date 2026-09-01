@@ -1,0 +1,45 @@
+{
+  "slug": "cuentos-dispersos-gn",
+  "titulo": "Cuentos Dispersos",
+  "autor": "Manuel Gutiérrez Nájera",
+  "tipo": "prosa",
+  "autor_slug": "manuel-gutierrez-najera",
+  "piezas_fuente": [
+    "el-musico-de-la-murga::El Músico de la Murga",
+    "historia-de-un-peso-falso::Historia de un Peso Falso",
+    "la-sospecha::La Sospecha",
+    "la-venganza-de-milady::La Venganza de Milady",
+    "las-tres-conquistas-de-carmen::Las Tres Conquistas de Carmen",
+    "los-matrimonios-al-uso::Los Matrimonios al Uso",
+    "memorias-de-un-paraguas::Memorias de un Paraguas",
+    "mister-chucker::Mister Chucker",
+    "rip-rip-el-aparecido::Rip-Rip el Aparecido",
+    "stora::Stora"
+  ],
+  "orden": "alfabetico",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/manuel-gutierrez-najera",
+    "nota": "Reúne los 10 relatos que la fuente publica sueltos y que no figuran en ninguno de los libros del autor disponibles allí. Recopilación de Tinta y Datos."
+  },
+  "catalogo_id": 528,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos dispersos",
+    "autor": "Manuel Gutiérrez Nájera",
+    "anio": "",
+    "pais": "México",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 10
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

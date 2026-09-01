@@ -1,0 +1,30 @@
+{
+  "slug": "cuentos-color-de-humo",
+  "titulo": "Cuentos Color de Humo",
+  "autor": "Manuel Gutiérrez Nájera",
+  "anio": 1890,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/manuel-gutierrez-najera/cuentos-color-de-humo/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/manuel-gutierrez-najera/cuentos-color-de-humo"
+  },
+  "catalogo_id": 525,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos Color de Humo",
+    "autor": "Manuel Gutiérrez Nájera",
+    "anio": "1890",
+    "pais": "México",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": "h3",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

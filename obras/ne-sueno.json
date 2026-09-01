@@ -1,0 +1,29 @@
+{
+  "slug": "un-sueno",
+  "titulo": "Un Sueño",
+  "autor": "Amado Nervo",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/amado-nervo/un-sueno/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/amado-nervo/un-sueno"
+  },
+  "catalogo_id": 522,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Un Sueño",
+    "autor": "Amado Nervo",
+    "anio": "1917",
+    "pais": "México",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1917
+}
