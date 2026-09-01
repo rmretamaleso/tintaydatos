@@ -1,0 +1,44 @@
+{
+  "slug": "cuentos-dispersos-lugones",
+  "titulo": "Cuentos Dispersos",
+  "autor": "Leopoldo Lugones",
+  "tipo": "prosa",
+  "autor_slug": "leopoldo-lugones",
+  "piezas_fuente": [
+    "abuela-julieta::Abuela Julieta",
+    "agueda::Águeda",
+    "el-descubrimiento-de-la-circunferencia::El Descubrimiento de la Circunferencia",
+    "el-espiritu-nuevo::El Espíritu Nuevo",
+    "el-hombre-muerto::El Hombre Muerto",
+    "el-secreto-de-don-juan::El Secreto de Don Juan",
+    "el-vaso-de-alabastro::El Vaso de Alabastro",
+    "francesca::Francesca",
+    "la-dicha-de-vivir::La Dicha de Vivir"
+  ],
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/leopoldo-lugones",
+    "nota": "Reúne los 9 relatos y prosas de Lugones que la fuente publica sueltos y que no figuran en ninguno de sus libros ni en «Las fuerzas extrañas». Recopilación de Tinta y Datos."
+  },
+  "catalogo_id": 518,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos Dispersos",
+    "autor": "Leopoldo Lugones",
+    "anio": "",
+    "pais": "Argentina",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 9
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "orden": "alfabetico"
+}

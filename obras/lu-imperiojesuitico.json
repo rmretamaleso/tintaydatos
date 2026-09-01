@@ -1,0 +1,29 @@
+{
+  "slug": "el-imperio-jesuitico",
+  "titulo": "El Imperio Jesuítico",
+  "autor": "Leopoldo Lugones",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/leopoldo-lugones/el-imperio-jesuitico/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/leopoldo-lugones/el-imperio-jesuitico"
+  },
+  "catalogo_id": 514,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Imperio Jesuítico",
+    "autor": "Leopoldo Lugones",
+    "anio": "1904",
+    "pais": "Argentina",
+    "genero": "Ensayo",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1904
+}

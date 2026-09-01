@@ -1,0 +1,262 @@
+{
+ "libros": [
+  [
+   "Cuentos",
+   "cuentos",
+   8
+  ],
+  [
+   "El Ángel de la Sombra",
+   "el-angel-de-la-sombra",
+   100
+  ],
+  [
+   "El Imperio Jesuítico",
+   "el-imperio-jesuitico",
+   10
+  ],
+  [
+   "El Puñal",
+   "el-punal",
+   7
+  ],
+  [
+   "La Guerra Gaucha",
+   "la-guerra-gaucha",
+   23
+  ],
+  [
+   "Los Ojos de la Reina",
+   "los-ojos-de-la-reina",
+   11
+  ]
+ ],
+ "piezas": [
+  [
+   "Abuela Julieta",
+   "abuela-julieta",
+   0
+  ],
+  [
+   "Águeda",
+   "agueda",
+   0
+  ],
+  [
+   "El Descubrimiento de la Circunferencia",
+   "el-descubrimiento-de-la-circunferencia",
+   0
+  ],
+  [
+   "El Escuerzo",
+   "el-escuerzo",
+   0
+  ],
+  [
+   "El Espíritu Nuevo",
+   "el-espiritu-nuevo",
+   0
+  ],
+  [
+   "El Hombre Muerto",
+   "el-hombre-muerto",
+   0
+  ],
+  [
+   "El Milagro de San Wilfrido",
+   "el-milagro-de-san-wilfrido",
+   0
+  ],
+  [
+   "El Origen del Diluvio",
+   "el-origen-del-diluvio",
+   0
+  ],
+  [
+   "El Psychon",
+   "el-psychon",
+   0
+  ],
+  [
+   "El Secreto de Don Juan",
+   "el-secreto-de-don-juan",
+   0
+  ],
+  [
+   "El Vaso de Alabastro",
+   "el-vaso-de-alabastro",
+   0
+  ],
+  [
+   "Flores de Durazno",
+   "flores-de-durazno",
+   0
+  ],
+  [
+   "Francesca",
+   "francesca",
+   0
+  ],
+  [
+   "La Dicha de Vivir",
+   "la-dicha-de-vivir",
+   0
+  ],
+  [
+   "La Estatua de Sal",
+   "la-estatua-de-sal",
+   0
+  ],
+  [
+   "La Fuerza Omega",
+   "la-fuerza-omega",
+   0
+  ],
+  [
+   "La Lluvia de Fuego",
+   "la-lluvia-de-fuego",
+   0
+  ],
+  [
+   "La Metamúsica",
+   "la-metamusica",
+   0
+  ],
+  [
+   "La Tortilla de Juanito",
+   "la-tortilla-de-juanito",
+   0
+  ],
+  [
+   "Las Manzanas Verdes",
+   "las-manzanas-verdes",
+   0
+  ],
+  [
+   "Los Caballos de Abdera",
+   "los-caballos-de-abdera",
+   0
+  ],
+  [
+   "Los Pastorcitos",
+   "los-pastorcitos",
+   0
+  ],
+  [
+   "Piuma al Vento",
+   "piuma-al-vento",
+   0
+  ],
+  [
+   "Un Buen Queso",
+   "un-buen-queso",
+   0
+  ],
+  [
+   "Un Fenómeno Inexplicable",
+   "un-fenomeno-inexplicable",
+   0
+  ],
+  [
+   "¿Una Mariposa?",
+   "una-mariposa",
+   0
+  ],
+  [
+   "Viola Acherontia",
+   "viola-acherontia",
+   0
+  ],
+  [
+   "Yzur",
+   "yzur",
+   0
+  ]
+ ],
+ "huerfanos": [
+  [
+   "Abuela Julieta",
+   "abuela-julieta"
+  ],
+  [
+   "Águeda",
+   "agueda"
+  ],
+  [
+   "El Descubrimiento de la Circunferencia",
+   "el-descubrimiento-de-la-circunferencia"
+  ],
+  [
+   "El Escuerzo",
+   "el-escuerzo"
+  ],
+  [
+   "El Espíritu Nuevo",
+   "el-espiritu-nuevo"
+  ],
+  [
+   "El Hombre Muerto",
+   "el-hombre-muerto"
+  ],
+  [
+   "El Milagro de San Wilfrido",
+   "el-milagro-de-san-wilfrido"
+  ],
+  [
+   "El Origen del Diluvio",
+   "el-origen-del-diluvio"
+  ],
+  [
+   "El Psychon",
+   "el-psychon"
+  ],
+  [
+   "El Secreto de Don Juan",
+   "el-secreto-de-don-juan"
+  ],
+  [
+   "El Vaso de Alabastro",
+   "el-vaso-de-alabastro"
+  ],
+  [
+   "Francesca",
+   "francesca"
+  ],
+  [
+   "La Dicha de Vivir",
+   "la-dicha-de-vivir"
+  ],
+  [
+   "La Estatua de Sal",
+   "la-estatua-de-sal"
+  ],
+  [
+   "La Fuerza Omega",
+   "la-fuerza-omega"
+  ],
+  [
+   "La Lluvia de Fuego",
+   "la-lluvia-de-fuego"
+  ],
+  [
+   "La Metamúsica",
+   "la-metamusica"
+  ],
+  [
+   "Los Caballos de Abdera",
+   "los-caballos-de-abdera"
+  ],
+  [
+   "Un Fenómeno Inexplicable",
+   "un-fenomeno-inexplicable"
+  ],
+  [
+   "Viola Acherontia",
+   "viola-acherontia"
+  ],
+  [
+   "Yzur",
+   "yzur"
+  ]
+ ]
+}

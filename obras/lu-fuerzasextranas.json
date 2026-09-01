@@ -1,0 +1,47 @@
+{
+  "slug": "las-fuerzas-extranas",
+  "titulo": "Las Fuerzas Extrañas",
+  "autor": "Leopoldo Lugones",
+  "tipo": "prosa",
+  "autor_slug": "leopoldo-lugones",
+  "piezas_fuente": [
+    "la-fuerza-omega::La Fuerza Omega",
+    "la-metamusica::La Metamúsica",
+    "el-psychon::El Psychon",
+    "un-fenomeno-inexplicable::Un Fenómeno Inexplicable",
+    "la-lluvia-de-fuego::La Lluvia de Fuego",
+    "la-estatua-de-sal::La Estatua de Sal",
+    "los-caballos-de-abdera::Los Caballos de Abdera",
+    "el-escuerzo::El Escuerzo",
+    "el-milagro-de-san-wilfrido::El Milagro de San Wilfrido",
+    "viola-acherontia::Viola Acherontia",
+    "el-origen-del-diluvio::El Origen del Diluvio",
+    "yzur::Yzur"
+  ],
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/leopoldo-lugones",
+    "nota": "La fuente publica estos doce relatos por separado, sin reunirlos en volumen. Esta edición reconstruye el libro que Lugones publicó en 1906, en el orden en que lo compuso."
+  },
+  "catalogo_id": 517,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Las Fuerzas Extrañas",
+    "autor": "Leopoldo Lugones",
+    "anio": "1906",
+    "pais": "Argentina",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 12
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1906
+}
