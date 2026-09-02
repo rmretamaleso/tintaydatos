@@ -1,0 +1,28 @@
+{
+  "slug": "la-venganza-de-las-flores",
+  "titulo": "La Venganza de las Flores",
+  "autor": "Emilia Pardo Bazán",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/emilia-pardo-bazan/la-venganza-de-las-flores/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/emilia-pardo-bazan/la-venganza-de-las-flores"
+  },
+  "catalogo_id": 682,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Venganza de las Flores",
+    "autor": "Emilia Pardo Bazán",
+    "anio": "",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

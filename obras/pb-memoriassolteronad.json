@@ -1,0 +1,29 @@
+{
+  "slug": "memorias-de-un-solteron-adan-y-eva",
+  "titulo": "Memorias de un Solterón: Adán y Eva",
+  "autor": "Emilia Pardo Bazán",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/emilia-pardo-bazan/memorias-de-un-solteron-adan-y-eva/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/emilia-pardo-bazan/memorias-de-un-solteron-adan-y-eva"
+  },
+  "catalogo_id": 657,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Memorias de un Solterón: Adán y Eva",
+    "autor": "Emilia Pardo Bazán",
+    "anio": "1896",
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1896
+}

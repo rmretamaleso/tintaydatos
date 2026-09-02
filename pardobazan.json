@@ -1,0 +1,3051 @@
+{
+ "libros": [
+  [
+   "Bucólica",
+   "bucolica",
+   8
+  ],
+  [
+   "Cuentos",
+   "cuentos",
+   587
+  ],
+  [
+   "Cuentos Antiguos",
+   "cuentos-antiguos",
+   9
+  ],
+  [
+   "Cuentos de Amor",
+   "cuentos-de-amor",
+   43
+  ],
+  [
+   "Cuentos de la Patria",
+   "cuentos-de-la-patria",
+   10
+  ],
+  [
+   "Cuentos de la Tierra",
+   "cuentos-de-la-tierra",
+   43
+  ],
+  [
+   "Cuentos de Marineda",
+   "cuentos-de-marineda",
+   9
+  ],
+  [
+   "Cuentos de Navidad y Año Nuevo",
+   "cuentos-de-navidad-y-ano-nuevo",
+   7
+  ],
+  [
+   "Cuentos de Navidad y Reyes",
+   "cuentos-de-navidad-y-reyes",
+   18
+  ],
+  [
+   "Cuentos del Terruño",
+   "cuentos-del-terruno",
+   19
+  ],
+  [
+   "Cuentos Dramáticos",
+   "cuentos-dramaticos",
+   37
+  ],
+  [
+   "Cuentos Nuevos",
+   "cuentos-nuevos",
+   36
+  ],
+  [
+   "Cuentos Sacroprofanos",
+   "cuentos-sacroprofanos",
+   42
+  ],
+  [
+   "Cuentos Trágicos",
+   "cuentos-tragicos",
+   27
+  ],
+  [
+   "Doña Milagros",
+   "dona-milagros",
+   20
+  ],
+  [
+   "Dulce Sueño",
+   "dulce-sueno",
+   30
+  ],
+  [
+   "El Cisne de Vilamorta",
+   "el-cisne-de-vilamorta",
+   29
+  ],
+  [
+   "El Niño de Guzmán",
+   "el-nino-de-guzman",
+   13
+  ],
+  [
+   "El Saludo de las Brujas",
+   "el-saludo-de-las-brujas",
+   28
+  ],
+  [
+   "El Tesoro de Gastón",
+   "el-tesoro-de-gaston",
+   15
+  ],
+  [
+   "En las Cavernas",
+   "en-las-cavernas",
+   6
+  ],
+  [
+   "Fantasía",
+   "fantasia",
+   4
+  ],
+  [
+   "Insolación",
+   "insolacion",
+   22
+  ],
+  [
+   "Insolación y Morriña",
+   "insolacion-y-morrina",
+   48
+  ],
+  [
+   "La Comedia Piadosa",
+   "la-comedia-piadosa",
+   4
+  ],
+  [
+   "La Cuestión Palpitante",
+   "la-cuestion-palpitante",
+   25
+  ],
+  [
+   "La Dama Joven",
+   "la-dama-joven",
+   28
+  ],
+  [
+   "La Gota de Sangre",
+   "la-gota-de-sangre",
+   8
+  ],
+  [
+   "La Madre Naturaleza",
+   "la-madre-naturaleza",
+   38
+  ],
+  [
+   "La Piedra Angular",
+   "la-piedra-angular",
+   17
+  ],
+  [
+   "La Prueba",
+   "la-prueba",
+   20
+  ],
+  [
+   "La Quimera",
+   "la-quimera",
+   27
+  ],
+  [
+   "La Sirena Negra",
+   "la-sirena-negra",
+   18
+  ],
+  [
+   "La Tribuna",
+   "la-tribuna",
+   39
+  ],
+  [
+   "La Última Fada",
+   "la-ultima-fada",
+   8
+  ],
+  [
+   "La Venganza de las Flores",
+   "la-venganza-de-las-flores",
+   4
+  ],
+  [
+   "Los Pazos de Ulloa",
+   "los-pazos-de-ulloa",
+   31
+  ],
+  [
+   "Memorias de un Solterón: Adán y Eva",
+   "memorias-de-un-solteron-adan-y-eva",
+   26
+  ],
+  [
+   "Misterio",
+   "misterio",
+   55
+  ],
+  [
+   "Morriña",
+   "morrina",
+   24
+  ],
+  [
+   "Pascual López",
+   "pascual-lopez",
+   13
+  ],
+  [
+   "Un Viaje de Novios",
+   "un-viaje-de-novios",
+   15
+  ],
+  [
+   "Una Cristiana",
+   "una-cristiana",
+   22
+  ]
+ ],
+ "piezas": [
+  [
+   "A lo Vivo",
+   "a-lo-vivo",
+   0
+  ],
+  [
+   "A Secreto Agravio...",
+   "a-secreto-agravio",
+   0
+  ],
+  [
+   "Accidente",
+   "accidente",
+   0
+  ],
+  [
+   "Adriana",
+   "adriana",
+   0
+  ],
+  [
+   "Afra",
+   "afra",
+   0
+  ],
+  [
+   "Agravante",
+   "agravante",
+   0
+  ],
+  [
+   "Águeda",
+   "agueda",
+   0
+  ],
+  [
+   "Aire",
+   "aire",
+   0
+  ],
+  [
+   "Al Anochecer",
+   "al-anochecer",
+   0
+  ],
+  [
+   "Al Buen Callar...",
+   "al-buen-callar",
+   0
+  ],
+  [
+   "Anacronismo",
+   "anacronismo",
+   0
+  ],
+  [
+   "Antiguamente",
+   "antiguamente",
+   0
+  ],
+  [
+   "Apólogo",
+   "apologo",
+   0
+  ],
+  [
+   "Apostasía",
+   "apostasia",
+   0
+  ],
+  [
+   "Ardid de Guerra",
+   "ardid-de-guerra",
+   0
+  ],
+  [
+   "Arena",
+   "arena",
+   0
+  ],
+  [
+   "Argumento",
+   "argumento",
+   0
+  ],
+  [
+   "Armamento",
+   "armamento",
+   0
+  ],
+  [
+   "Así y Todo",
+   "asi-y-todo",
+   0
+  ],
+  [
+   "Atavismos",
+   "atavismos",
+   0
+  ],
+  [
+   "Aventura",
+   "aventura",
+   0
+  ],
+  [
+   "Bajo la Losa",
+   "bajo-la-losa",
+   0
+  ],
+  [
+   "Banquete de Bodas",
+   "banquete-de-bodas",
+   0
+  ],
+  [
+   "Barbastro",
+   "barbastro",
+   0
+  ],
+  [
+   "Belona",
+   "belona",
+   0
+  ],
+  [
+   "Benito de Palermo",
+   "benito-de-palermo",
+   0
+  ],
+  [
+   "Berenice",
+   "berenice",
+   0
+  ],
+  [
+   "Bohemia en Prosa",
+   "bohemia-en-prosa",
+   0
+  ],
+  [
+   "Bromita",
+   "bromita",
+   0
+  ],
+  [
+   "Carbón",
+   "carbon",
+   0
+  ],
+  [
+   "Casi Artista",
+   "casi-artista",
+   0
+  ],
+  [
+   "Caso",
+   "caso",
+   0
+  ],
+  [
+   "Casualidad",
+   "casualidad",
+   0
+  ],
+  [
+   "Cena de Navidad",
+   "cena-de-navidad",
+   0
+  ],
+  [
+   "Ceniza",
+   "ceniza",
+   0
+  ],
+  [
+   "Cenizas",
+   "cenizas",
+   0
+  ],
+  [
+   "Cháchara de Horas",
+   "chachara-de-horas",
+   0
+  ],
+  [
+   "Champagne",
+   "champagne",
+   0
+  ],
+  [
+   "Chucho",
+   "chucho",
+   0
+  ],
+  [
+   "Clave",
+   "clave",
+   0
+  ],
+  [
+   "¿Cobardía?",
+   "cobardia",
+   0
+  ],
+  [
+   "Coleccionista",
+   "coleccionista",
+   0
+  ],
+  [
+   "Comedia",
+   "comedia",
+   0
+  ],
+  [
+   "Cometaria",
+   "cometaria",
+   0
+  ],
+  [
+   "Como la Luz",
+   "como-la-luz",
+   0
+  ],
+  [
+   "Compatibles",
+   "compatibles",
+   0
+  ],
+  [
+   "Confidencia",
+   "confidencia",
+   0
+  ],
+  [
+   "Consejero",
+   "consejero",
+   0
+  ],
+  [
+   "Consuelo",
+   "consuelo",
+   0
+  ],
+  [
+   "Consuelos",
+   "consuelos",
+   0
+  ],
+  [
+   "Contra Treta...",
+   "contra-treta",
+   0
+  ],
+  [
+   "Cornada",
+   "cornada",
+   0
+  ],
+  [
+   "Corpus",
+   "corpus",
+   0
+  ],
+  [
+   "Corro de Sombras",
+   "corro-de-sombras",
+   0
+  ],
+  [
+   "Crimen Libre",
+   "crimen-libre",
+   0
+  ],
+  [
+   "Cuatro Socialistas",
+   "cuatro-socialistas",
+   0
+  ],
+  [
+   "Cuento de Mentiras",
+   "cuento-de-mentiras",
+   0
+  ],
+  [
+   "Cuento de Navidad",
+   "cuento-de-navidad",
+   0
+  ],
+  [
+   "Cuento Inmoral",
+   "cuento-inmoral",
+   0
+  ],
+  [
+   "Cuento Primitivo",
+   "cuento-primitivo",
+   0
+  ],
+  [
+   "Cuento Soñado",
+   "cuento-sonado",
+   0
+  ],
+  [
+   "Cuesta Abajo",
+   "cuesta-abajo",
+   0
+  ],
+  [
+   "Curado",
+   "curado",
+   0
+  ],
+  [
+   "Dalinda",
+   "dalinda",
+   0
+  ],
+  [
+   "De Navidad",
+   "de-navidad",
+   0
+  ],
+  [
+   "De Polizón",
+   "de-polizon",
+   0
+  ],
+  [
+   "De un Nido",
+   "de-un-nido",
+   0
+  ],
+  [
+   "De Vieja Raza",
+   "de-vieja-raza",
+   0
+  ],
+  [
+   "Deber",
+   "deber",
+   0
+  ],
+  [
+   "Delincuente Honrado",
+   "delincuente-honrado",
+   0
+  ],
+  [
+   "Desde Afuera",
+   "desde-afuera",
+   0
+  ],
+  [
+   "Desde Allí",
+   "desde-alli",
+   0
+  ],
+  [
+   "Desquite",
+   "desquite",
+   0
+  ],
+  [
+   "Diálogo",
+   "dialogo",
+   0
+  ],
+  [
+   "Diálogo Secular",
+   "dialogo-secular",
+   0
+  ],
+  [
+   "Dios Castiga",
+   "dios-castiga",
+   0
+  ],
+  [
+   "Dioses",
+   "dioses",
+   0
+  ],
+  [
+   "Díptico",
+   "diptico",
+   2
+  ],
+  [
+   "Doradores",
+   "doradores",
+   0
+  ],
+  [
+   "Dos Cenas",
+   "dos-cenas",
+   0
+  ],
+  [
+   "Drago",
+   "drago",
+   0
+  ],
+  [
+   "Dura Lex",
+   "dura-lex",
+   0
+  ],
+  [
+   "Durante el Entreacto",
+   "durante-el-entreacto",
+   0
+  ],
+  [
+   "Ejemplo",
+   "ejemplo",
+   0
+  ],
+  [
+   "El Abanico",
+   "el-abanico",
+   0
+  ],
+  [
+   "El Ahogado",
+   "el-ahogado",
+   0
+  ],
+  [
+   "El Aire Cativo",
+   "el-aire-cativo",
+   0
+  ],
+  [
+   "El Alambre",
+   "el-alambre",
+   0
+  ],
+  [
+   "El Alba del Viernes Santo",
+   "el-alba-del-viernes-santo",
+   0
+  ],
+  [
+   "El Aljófar",
+   "el-aljofar",
+   0
+  ],
+  [
+   "El Alma de Cándido",
+   "el-alma-de-candido",
+   0
+  ],
+  [
+   "El Alma de Sirena",
+   "el-alma-de-sirena",
+   0
+  ],
+  [
+   "El Amor Asesinado",
+   "el-amor-asesinado",
+   0
+  ],
+  [
+   "El Antepasado",
+   "el-antepasado",
+   0
+  ],
+  [
+   "El Árbol Rosa",
+   "el-arbol-rosa",
+   0
+  ],
+  [
+   "El Arco",
+   "el-arco",
+   0
+  ],
+  [
+   "El Aviso",
+   "el-aviso",
+   0
+  ],
+  [
+   "El Azar",
+   "el-azar",
+   0
+  ],
+  [
+   "El Baile del Querubín",
+   "el-baile-del-querubin",
+   0
+  ],
+  [
+   "El Balcón de la Princesa",
+   "el-balcon-de-la-princesa",
+   0
+  ],
+  [
+   "El Belén",
+   "el-belen",
+   0
+  ],
+  [
+   "El Brasileño",
+   "el-brasileno",
+   0
+  ],
+  [
+   "El Buen Callar",
+   "el-buen-callar",
+   0
+  ],
+  [
+   "El Cabalgador",
+   "el-cabalgador",
+   0
+  ],
+  [
+   "El Caballo Blanco",
+   "el-caballo-blanco",
+   0
+  ],
+  [
+   "El Cáliz",
+   "el-caliz",
+   0
+  ],
+  [
+   "El Camafeo",
+   "el-camafeo",
+   0
+  ],
+  [
+   "El Casamiento del Diablo",
+   "el-casamiento-del-diablo",
+   0
+  ],
+  [
+   "El Catecismo",
+   "el-catecismo",
+   0
+  ],
+  [
+   "El Cerdo-Hombre",
+   "el-cerdo-hombre",
+   0
+  ],
+  [
+   "El Ciego",
+   "el-ciego",
+   0
+  ],
+  [
+   "El Cinco de Copas",
+   "el-cinco-de-copas",
+   0
+  ],
+  [
+   "El Clavo",
+   "el-clavo",
+   0
+  ],
+  [
+   "El Comadrón",
+   "el-comadron",
+   0
+  ],
+  [
+   "El Conde Llora",
+   "el-conde-llora",
+   0
+  ],
+  [
+   "El Conde Sueña",
+   "el-conde-suena",
+   0
+  ],
+  [
+   "El Conjuro",
+   "el-conjuro",
+   0
+  ],
+  [
+   "El Contador",
+   "el-contador",
+   0
+  ],
+  [
+   "El Corazón Perdido",
+   "el-corazon-perdido",
+   0
+  ],
+  [
+   "El Crimen del Año Viejo",
+   "el-crimen-del-ano-viejo",
+   0
+  ],
+  [
+   "El Cuarto...",
+   "el-cuarto",
+   0
+  ],
+  [
+   "El Décimo",
+   "el-decimo",
+   0
+  ],
+  [
+   "El Delincuente Honrado",
+   "el-delincuente-honrado",
+   0
+  ],
+  [
+   "El Depósito",
+   "el-deposito",
+   0
+  ],
+  [
+   "El Desaparecido",
+   "el-desaparecido",
+   0
+  ],
+  [
+   "El Destino",
+   "el-destino",
+   0
+  ],
+  [
+   "El Disfraz",
+   "el-disfraz",
+   0
+  ],
+  [
+   "El Dominó Verde",
+   "el-domino-verde",
+   0
+  ],
+  [
+   "El Encaje Roto",
+   "el-encaje-roto",
+   0
+  ],
+  [
+   "El Enemigo",
+   "el-enemigo",
+   0
+  ],
+  [
+   "El Engaño",
+   "el-engano",
+   0
+  ],
+  [
+   "El Engendro",
+   "el-engendro",
+   0
+  ],
+  [
+   "El Error de las Hadas",
+   "el-error-de-las-hadas",
+   0
+  ],
+  [
+   "El Escapulario",
+   "el-escapulario",
+   0
+  ],
+  [
+   "El Escondrijo",
+   "el-escondrijo",
+   0
+  ],
+  [
+   "El Espectro",
+   "el-espectro",
+   0
+  ],
+  [
+   "El Espíritu del Conde",
+   "el-espiritu-del-conde",
+   0
+  ],
+  [
+   "El Esqueleto",
+   "el-esqueleto",
+   0
+  ],
+  [
+   "El Fantasma",
+   "el-fantasma",
+   0
+  ],
+  [
+   "El Fondo del Alma",
+   "el-fondo-del-alma",
+   0
+  ],
+  [
+   "El Frac",
+   "el-frac",
+   0
+  ],
+  [
+   "El Gemelo",
+   "el-gemelo",
+   0
+  ],
+  [
+   "El Guardapelo",
+   "el-guardapelo",
+   0
+  ],
+  [
+   "El Gusanillo",
+   "el-gusanillo",
+   0
+  ],
+  [
+   "El Hombre-cerdo",
+   "el-hombre-cerdo",
+   0
+  ],
+  [
+   "El Honor",
+   "el-honor",
+   0
+  ],
+  [
+   "El Indulto",
+   "el-indulto",
+   0
+  ],
+  [
+   "El Invento",
+   "el-invento",
+   0
+  ],
+  [
+   "El Legajo",
+   "el-legajo",
+   0
+  ],
+  [
+   "El Linaje",
+   "el-linaje",
+   0
+  ],
+  [
+   "El Llanto",
+   "el-llanto",
+   0
+  ],
+  [
+   "El Lorito Real",
+   "el-lorito-real",
+   0
+  ],
+  [
+   "El Malvís",
+   "el-malvis",
+   0
+  ],
+  [
+   "El Mandil de Cuero",
+   "el-mandil-de-cuero",
+   0
+  ],
+  [
+   "El Martirio de Sor Bibiana",
+   "el-martirio-de-sor-bibiana",
+   0
+  ],
+  [
+   "El Mascarón",
+   "el-mascaron",
+   0
+  ],
+  [
+   "El Mausoleo",
+   "el-mausoleo",
+   0
+  ],
+  [
+   "El Mechón Blanco",
+   "el-mechon-blanco",
+   0
+  ],
+  [
+   "El Milagro de la Diosa Durga",
+   "el-milagro-de-la-diosa-durga",
+   0
+  ],
+  [
+   "El Milagro del Hermanuco",
+   "el-milagro-del-hermanuco",
+   0
+  ],
+  [
+   "El Molino",
+   "el-molino",
+   0
+  ],
+  [
+   "El Montero",
+   "el-montero",
+   0
+  ],
+  [
+   "El Morito",
+   "el-morito",
+   0
+  ],
+  [
+   "El Mundo",
+   "el-mundo",
+   0
+  ],
+  [
+   "El Niño",
+   "el-nino",
+   0
+  ],
+  [
+   "El Niño de Cera",
+   "el-nino-de-cera",
+   0
+  ],
+  [
+   "El Niño de San Antonio",
+   "el-nino-de-san-antonio",
+   0
+  ],
+  [
+   "El Oficio de Difuntos",
+   "el-oficio-de-difuntos",
+   0
+  ],
+  [
+   "El Pajarraco",
+   "el-pajarraco",
+   0
+  ],
+  [
+   "El Palacio de Artasar",
+   "el-palacio-de-artasar",
+   0
+  ],
+  [
+   "El Palacio Frío",
+   "el-palacio-frio",
+   0
+  ],
+  [
+   "El Panorama de la Princesa",
+   "el-panorama-de-la-princesa",
+   0
+  ],
+  [
+   "El Panteón de los Años",
+   "el-panteon-de-los-anos",
+   0
+  ],
+  [
+   "El Pañuelo",
+   "el-panuelo",
+   0
+  ],
+  [
+   "El Paraguas",
+   "el-paraguas",
+   0
+  ],
+  [
+   "El Pecado de Yemsid",
+   "el-pecado-de-yemsid",
+   0
+  ],
+  [
+   "El Peligro del Rostro",
+   "el-peligro-del-rostro",
+   0
+  ],
+  [
+   "El Peregrino",
+   "el-peregrino",
+   0
+  ],
+  [
+   "El Pinar del Tío Ambrosio",
+   "el-pinar-del-tio-ambrosio",
+   0
+  ],
+  [
+   "El Pozo de la Vida",
+   "el-pozo-de-la-vida",
+   0
+  ],
+  [
+   "El Premio Gordo",
+   "el-premio-gordo",
+   0
+  ],
+  [
+   "El Príncipe Amado",
+   "el-principe-amado",
+   3
+  ],
+  [
+   "El Puño",
+   "el-puno",
+   0
+  ],
+  [
+   "El Quinto",
+   "el-quinto",
+   0
+  ],
+  [
+   "El Revólver",
+   "el-revolver",
+   0
+  ],
+  [
+   "El Rival",
+   "el-rival",
+   0
+  ],
+  [
+   "El Rizo del Nazareno",
+   "el-rizo-del-nazareno",
+   0
+  ],
+  [
+   "El Rompecabezas",
+   "el-rompecabezas",
+   0
+  ],
+  [
+   "El Rosario de Coral",
+   "el-rosario-de-coral",
+   0
+  ],
+  [
+   "El Ruido",
+   "el-ruido",
+   0
+  ],
+  [
+   "El Sabio",
+   "el-sabio",
+   0
+  ],
+  [
+   "El Salón",
+   "el-salon",
+   0
+  ],
+  [
+   "El Santo Grial",
+   "el-santo-grial",
+   0
+  ],
+  [
+   "El Sino",
+   "el-sino",
+   0
+  ],
+  [
+   "El Sonar del Río",
+   "el-sonar-del-rio",
+   0
+  ],
+  [
+   "El Talisman",
+   "el-talisman",
+   0
+  ],
+  [
+   "El Tapiz",
+   "el-tapiz",
+   0
+  ],
+  [
+   "El Té de las Convalecientes",
+   "el-te-de-las-convalecientes",
+   0
+  ],
+  [
+   "El Templo",
+   "el-templo",
+   0
+  ],
+  [
+   "El Tesoro",
+   "el-tesoro",
+   0
+  ],
+  [
+   "El Tesoro de los Lagidas",
+   "el-tesoro-de-los-lagidas",
+   0
+  ],
+  [
+   "El Testamento del Año",
+   "el-testamento-del-ano",
+   0
+  ],
+  [
+   "El Tetrarca en la Aldea",
+   "el-tetrarca-en-la-aldea",
+   0
+  ],
+  [
+   "El Tornado",
+   "el-tornado",
+   0
+  ],
+  [
+   "El Toro Negro",
+   "el-toro-negro",
+   0
+  ],
+  [
+   "El Torreón de la Esperanza",
+   "el-torreon-de-la-esperanza",
+   0
+  ],
+  [
+   "El Triunfo de Baltasar",
+   "el-triunfo-de-baltasar",
+   0
+  ],
+  [
+   "El Trueque",
+   "el-trueque",
+   0
+  ],
+  [
+   "El Último Baile",
+   "el-ultimo-baile",
+   0
+  ],
+  [
+   "El Vencedor",
+   "el-vencedor",
+   0
+  ],
+  [
+   "El Viaje de Don Casiano",
+   "el-viaje-de-don-casiano",
+   0
+  ],
+  [
+   "El Viajero",
+   "el-viajero",
+   0
+  ],
+  [
+   "El Vidrio Roto",
+   "el-vidrio-roto",
+   0
+  ],
+  [
+   "El Viejo de las Limas",
+   "el-viejo-de-las-limas",
+   0
+  ],
+  [
+   "El Vino del Mar",
+   "el-vino-del-mar",
+   0
+  ],
+  [
+   "El Voto",
+   "el-voto",
+   0
+  ],
+  [
+   "El Voto de Rosiña",
+   "el-voto-de-rosina",
+   0
+  ],
+  [
+   "El «Xeste»",
+   "el-xeste",
+   0
+  ],
+  [
+   "El Zapato",
+   "el-zapato",
+   0
+  ],
+  [
+   "Elección",
+   "eleccion",
+   0
+  ],
+  [
+   "En Babilonia",
+   "en-babilonia",
+   0
+  ],
+  [
+   "En Coche-cama",
+   "en-coche-cama",
+   0
+  ],
+  [
+   "En el Nombre del Padre...",
+   "en-el-nombre-del-padre",
+   0
+  ],
+  [
+   "En el Presidio",
+   "en-el-presidio",
+   0
+  ],
+  [
+   "En el Pueblo",
+   "en-el-pueblo",
+   0
+  ],
+  [
+   "En el Santo",
+   "en-el-santo",
+   0
+  ],
+  [
+   "En Semana Santa",
+   "en-semana-santa",
+   0
+  ],
+  [
+   "En Silencio",
+   "en-silencio",
+   0
+  ],
+  [
+   "En su Cama",
+   "en-su-cama",
+   0
+  ],
+  [
+   "En Tranvía",
+   "en-tranvia",
+   0
+  ],
+  [
+   "En Verso",
+   "en-verso",
+   0
+  ],
+  [
+   "Entrada de Año",
+   "entrada-de-ano",
+   0
+  ],
+  [
+   "Entre Humo",
+   "entre-humo",
+   0
+  ],
+  [
+   "Entre Razas",
+   "entre-razas",
+   0
+  ],
+  [
+   "Episodio",
+   "episodio",
+   0
+  ],
+  [
+   "Error de Diagnóstico",
+   "error-de-diagnostico",
+   0
+  ],
+  [
+   "Esperanza y Ventura",
+   "esperanza-y-ventura",
+   0
+  ],
+  [
+   "Eterna Ley",
+   "eterna-ley",
+   0
+  ],
+  [
+   "Evocación",
+   "evocacion",
+   0
+  ],
+  [
+   "Eximente",
+   "eximente",
+   0
+  ],
+  [
+   "Fantaseando",
+   "fantaseando",
+   0
+  ],
+  [
+   "Fausto y Dafrosa",
+   "fausto-y-dafrosa",
+   0
+  ],
+  [
+   "Femeninas",
+   "femeninas",
+   0
+  ],
+  [
+   "Feminista",
+   "feminista",
+   0
+  ],
+  [
+   "Filosofías",
+   "filosofias",
+   0
+  ],
+  [
+   "Fraternidad",
+   "fraternidad",
+   0
+  ],
+  [
+   "Fuego a Bordo",
+   "fuego-a-bordo",
+   0
+  ],
+  [
+   "Fumando",
+   "fumando",
+   0
+  ],
+  [
+   "Galana y Relucia",
+   "galana-y-relucia",
+   0
+  ],
+  [
+   "Geórgicas",
+   "georgicas",
+   0
+  ],
+  [
+   "Gipsy",
+   "gipsy",
+   0
+  ],
+  [
+   "Gloriosa Viudez",
+   "gloriosa-viudez",
+   0
+  ],
+  [
+   "Hacia los Ideales",
+   "hacia-los-ideales",
+   0
+  ],
+  [
+   "Hallazgo",
+   "hallazgo",
+   0
+  ],
+  [
+   "Heno",
+   "heno",
+   0
+  ],
+  [
+   "Hijo del Alma",
+   "hijo-del-alma",
+   0
+  ],
+  [
+   "Idilio",
+   "idilio",
+   0
+  ],
+  [
+   "Implacable Kronos",
+   "implacable-kronos",
+   0
+  ],
+  [
+   "Infidelidad",
+   "infidelidad",
+   0
+  ],
+  [
+   "Insolacion",
+   "insolacion-2",
+   0
+  ],
+  [
+   "Inspiración",
+   "inspiracion",
+   0
+  ],
+  [
+   "Inspiración",
+   "inspiracion-2",
+   0
+  ],
+  [
+   "Instintivo",
+   "instintivo",
+   0
+  ],
+  [
+   "Instinto",
+   "instinto",
+   0
+  ],
+  [
+   "Interrogante",
+   "interrogante",
+   0
+  ],
+  [
+   "Inútil",
+   "inutil",
+   0
+  ],
+  [
+   "Inútil",
+   "inutil-2",
+   0
+  ],
+  [
+   "Irracional",
+   "irracional",
+   0
+  ],
+  [
+   "Jactancia",
+   "jactancia",
+   0
+  ],
+  [
+   "Jesus en la Tierra",
+   "jesus-en-la-tierra",
+   0
+  ],
+  [
+   "Jesusa",
+   "jesusa",
+   0
+  ],
+  [
+   "John",
+   "john",
+   0
+  ],
+  [
+   "Juan Trigo",
+   "juan-trigo",
+   0
+  ],
+  [
+   "¿Justicia?",
+   "justicia",
+   0
+  ],
+  [
+   "Justiciero",
+   "justiciero",
+   0
+  ],
+  [
+   "La Adaptación",
+   "la-adaptacion",
+   0
+  ],
+  [
+   "La Adopción",
+   "la-adopcion",
+   0
+  ],
+  [
+   "La Advertencia",
+   "la-advertencia",
+   0
+  ],
+  [
+   "La Almohada",
+   "la-almohada",
+   0
+  ],
+  [
+   "La Amenaza",
+   "la-amenaza",
+   0
+  ],
+  [
+   "La Argolla",
+   "la-argolla",
+   0
+  ],
+  [
+   "La Armadura",
+   "la-armadura",
+   0
+  ],
+  [
+   "La Aventura",
+   "la-aventura",
+   0
+  ],
+  [
+   "La Aventura del Ángel",
+   "la-aventura-del-angel",
+   0
+  ],
+  [
+   "La Bicha",
+   "la-bicha",
+   0
+  ],
+  [
+   "La Boda",
+   "la-boda",
+   0
+  ],
+  [
+   "La Borgoñona",
+   "la-borgonona",
+   2
+  ],
+  [
+   "La Cabellera de Laura",
+   "la-cabellera-de-laura",
+   0
+  ],
+  [
+   "La Cabeza a Componer",
+   "la-cabeza-a-componer",
+   0
+  ],
+  [
+   "La Caja de Oro",
+   "la-caja-de-oro",
+   0
+  ],
+  [
+   "La Calavera",
+   "la-calavera",
+   0
+  ],
+  [
+   "La Camarona",
+   "la-camarona",
+   0
+  ],
+  [
+   "La Cana",
+   "la-cana",
+   0
+  ],
+  [
+   "La Capitana",
+   "la-capitana",
+   0
+  ],
+  [
+   "La Careta Rosa",
+   "la-careta-rosa",
+   0
+  ],
+  [
+   "La Casa del Sueño",
+   "la-casa-del-sueno",
+   0
+  ],
+  [
+   "La Cena de Cristo",
+   "la-cena-de-cristo",
+   0
+  ],
+  [
+   "La Centenaria",
+   "la-centenaria",
+   0
+  ],
+  [
+   "La Charca",
+   "la-charca",
+   0
+  ],
+  [
+   "La Chucha",
+   "la-chucha",
+   0
+  ],
+  [
+   "La Cigarrera",
+   "la-cigarrera",
+   2
+  ],
+  [
+   "La Cita",
+   "la-cita",
+   0
+  ],
+  [
+   "La Clave",
+   "la-clave",
+   0
+  ],
+  [
+   "La Cola del Pan",
+   "la-cola-del-pan",
+   0
+  ],
+  [
+   "La Cómoda",
+   "la-comoda",
+   0
+  ],
+  [
+   "La «Compaña»",
+   "la-compana",
+   0
+  ],
+  [
+   "La Confianza",
+   "la-confianza",
+   0
+  ],
+  [
+   "La Conquista de la Cena",
+   "la-conquista-de-la-cena",
+   0
+  ],
+  [
+   "La Cordonera",
+   "la-cordonera",
+   0
+  ],
+  [
+   "La Corpana",
+   "la-corpana",
+   0
+  ],
+  [
+   "La Cruz Negra",
+   "la-cruz-negra",
+   0
+  ],
+  [
+   "La Cruz Roja",
+   "la-cruz-roja",
+   0
+  ],
+  [
+   "La Cuba",
+   "la-cuba",
+   0
+  ],
+  [
+   "La Culpable",
+   "la-culpable",
+   0
+  ],
+  [
+   "La Dama Joven",
+   "la-dama-joven-2",
+   0
+  ],
+  [
+   "La Danza del Peregrino",
+   "la-danza-del-peregrino",
+   0
+  ],
+  [
+   "«La Deixada»",
+   "la-deixada",
+   0
+  ],
+  [
+   "La Dentadura",
+   "la-dentadura",
+   0
+  ],
+  [
+   "La Emparedada",
+   "la-emparedada",
+   0
+  ],
+  [
+   "La Enfermera",
+   "la-enfermera",
+   0
+  ],
+  [
+   "La Enfermera",
+   "la-enfermera-2",
+   0
+  ],
+  [
+   "La Estéril",
+   "la-esteril",
+   0
+  ],
+  [
+   "La Estrella Blanca",
+   "la-estrella-blanca",
+   0
+  ],
+  [
+   "La Exangüe",
+   "la-exangue",
+   0
+  ],
+  [
+   "La Flor de la Salud",
+   "la-flor-de-la-salud",
+   0
+  ],
+  [
+   "La Flor Seca",
+   "la-flor-seca",
+   0
+  ],
+  [
+   "La Gallega",
+   "la-gallega",
+   0
+  ],
+  [
+   "La Ganadera",
+   "la-ganadera",
+   0
+  ],
+  [
+   "La Gota de Cera",
+   "la-gota-de-cera",
+   0
+  ],
+  [
+   "La Guija",
+   "la-guija",
+   0
+  ],
+  [
+   "La Hierba Milagrosa",
+   "la-hierba-milagrosa",
+   0
+  ],
+  [
+   "La Hoz",
+   "la-hoz",
+   0
+  ],
+  [
+   "La Inspiración",
+   "la-inspiracion",
+   0
+  ],
+  [
+   "La Invisible",
+   "la-invisible",
+   0
+  ],
+  [
+   "La Ley del Hombre",
+   "la-ley-del-hombre",
+   0
+  ],
+  [
+   "La Leyenda de la Torre",
+   "la-leyenda-de-la-torre",
+   0
+  ],
+  [
+   "La Lima",
+   "la-lima",
+   0
+  ],
+  [
+   "La Lógica",
+   "la-logica",
+   0
+  ],
+  [
+   "La Madrina",
+   "la-madrina",
+   0
+  ],
+  [
+   "La Maga Primavera",
+   "la-maga-primavera",
+   0
+  ],
+  [
+   "La Manga",
+   "la-manga",
+   0
+  ],
+  [
+   "La Mariposa de Pedrería",
+   "la-mariposa-de-pedreria",
+   0
+  ],
+  [
+   "La Máscara",
+   "la-mascara",
+   0
+  ],
+  [
+   "La Mayorazga de Bouzas",
+   "la-mayorazga-de-bouzas",
+   0
+  ],
+  [
+   "La Mina",
+   "la-mina",
+   0
+  ],
+  [
+   "La Mirada",
+   "la-mirada",
+   0
+  ],
+  [
+   "La Moneda del Mundo",
+   "la-moneda-del-mundo",
+   0
+  ],
+  [
+   "La Mosca Verde",
+   "la-mosca-verde",
+   0
+  ],
+  [
+   "La Muchedumbre",
+   "la-muchedumbre",
+   0
+  ],
+  [
+   "La Muerte de la Serpentina",
+   "la-muerte-de-la-serpentina",
+   0
+  ],
+  [
+   "La Navidad de «Peludo»",
+   "la-navidad-de-peludo",
+   0
+  ],
+  [
+   "La Navidad del Pavo",
+   "la-navidad-del-pavo",
+   0
+  ],
+  [
+   "La Niebla",
+   "la-niebla",
+   0
+  ],
+  [
+   "La Niña Mártir",
+   "la-nina-martir",
+   0
+  ],
+  [
+   "La Nochebuena del Carpintero",
+   "la-nochebuena-del-carpintero",
+   0
+  ],
+  [
+   "La Nochebuena del Papa",
+   "la-nochebuena-del-papa",
+   0
+  ],
+  [
+   "La Novela de Raimundo",
+   "la-novela-de-raimundo",
+   0
+  ],
+  [
+   "La Novia Fiel",
+   "la-novia-fiel",
+   0
+  ],
+  [
+   "La Operación",
+   "la-operacion",
+   0
+  ],
+  [
+   "La Oración de Semana Santa",
+   "la-oracion-de-semana-santa",
+   0
+  ],
+  [
+   "La Oreja de Juan Soldado",
+   "la-oreja-de-juan-soldado",
+   0
+  ],
+  [
+   "La Palinodia",
+   "la-palinodia",
+   0
+  ],
+  [
+   "La Paloma",
+   "la-paloma",
+   0
+  ],
+  [
+   "La Paloma Azul",
+   "la-paloma-azul",
+   0
+  ],
+  [
+   "La Paloma Negra",
+   "la-paloma-negra",
+   0
+  ],
+  [
+   "La Pasarela",
+   "la-pasarela",
+   0
+  ],
+  [
+   "La Paz",
+   "la-paz",
+   0
+  ],
+  [
+   "La Penitencia de Dora",
+   "la-penitencia-de-dora",
+   0
+  ],
+  [
+   "La Perla Rosa",
+   "la-perla-rosa",
+   0
+  ],
+  [
+   "La Puñalada",
+   "la-punalada",
+   0
+  ],
+  [
+   "La Punta del Cigarro",
+   "la-punta-del-cigarro",
+   0
+  ],
+  [
+   "La Puntilla",
+   "la-puntilla",
+   0
+  ],
+  [
+   "La Redada",
+   "la-redada",
+   0
+  ],
+  [
+   "La Religión de Gonzalo",
+   "la-religion-de-gonzalo",
+   0
+  ],
+  [
+   "La Resucitada",
+   "la-resucitada",
+   0
+  ],
+  [
+   "La Risa",
+   "la-risa",
+   0
+  ],
+  [
+   "La Salvación de Don Carmelo",
+   "la-salvacion-de-don-carmelo",
+   0
+  ],
+  [
+   "La Santa de Karnar",
+   "la-santa-de-karnar",
+   2
+  ],
+  [
+   "La Sed de Cristo",
+   "la-sed-de-cristo",
+   0
+  ],
+  [
+   "La Señorita Aglae",
+   "la-senorita-aglae",
+   0
+  ],
+  [
+   "La Sirena",
+   "la-sirena",
+   0
+  ],
+  [
+   "La Soledad",
+   "la-soledad",
+   0
+  ],
+  [
+   "La Sombra",
+   "la-sombra",
+   0
+  ],
+  [
+   "La Sor",
+   "la-sor",
+   0
+  ],
+  [
+   "La Sordica",
+   "la-sordica",
+   0
+  ],
+  [
+   "La Tentación de Sor María",
+   "la-tentacion-de-sor-maria",
+   0
+  ],
+  [
+   "La Tigresa",
+   "la-tigresa",
+   0
+  ],
+  [
+   "La Turquesa",
+   "la-turquesa",
+   0
+  ],
+  [
+   "La Última Ilusión de Don Juan",
+   "la-ultima-ilusion-de-don-juan",
+   0
+  ],
+  [
+   "La Ventana Cerrada",
+   "la-ventana-cerrada",
+   0
+  ],
+  [
+   "La Vergüenza",
+   "la-verguenza",
+   0
+  ],
+  [
+   "La Visión de los Reyes Magos",
+   "la-vision-de-los-reyes-magos",
+   0
+  ],
+  [
+   "La Zurcidora",
+   "la-zurcidora",
+   0
+  ],
+  [
+   "Las Armas del Arcángel",
+   "las-armas-del-arcangel",
+   0
+  ],
+  [
+   "Las Caras",
+   "las-caras",
+   0
+  ],
+  [
+   "Las Cerezas",
+   "las-cerezas",
+   0
+  ],
+  [
+   "Las Cerezas Rojas",
+   "las-cerezas-rojas",
+   0
+  ],
+  [
+   "Las \"Cutres\"",
+   "las-cutres",
+   0
+  ],
+  [
+   "Las Desnudas",
+   "las-desnudas",
+   0
+  ],
+  [
+   "Las Dos Vengadoras",
+   "las-dos-vengadoras",
+   0
+  ],
+  [
+   "Las Espinas",
+   "las-espinas",
+   0
+  ],
+  [
+   "Las Medias Rojas",
+   "las-medias-rojas",
+   0
+  ],
+  [
+   "Las Setas",
+   "las-setas",
+   0
+  ],
+  [
+   "Las Siete Dudas",
+   "las-siete-dudas",
+   1
+  ],
+  [
+   "Las Tapias del Campo Santo",
+   "las-tapias-del-campo-santo",
+   1
+  ],
+  [
+   "Las Tijeras",
+   "las-tijeras",
+   0
+  ],
+  [
+   "Las Veintisiete",
+   "las-veintisiete",
+   0
+  ],
+  [
+   "Las Vistas",
+   "las-vistas",
+   0
+  ],
+  [
+   "Lección",
+   "leccion",
+   0
+  ],
+  [
+   "Leliña",
+   "lelina",
+   0
+  ],
+  [
+   "Ley Natural",
+   "ley-natural",
+   0
+  ],
+  [
+   "Linda",
+   "linda",
+   0
+  ],
+  [
+   "Lo Imposible",
+   "lo-imposible",
+   0
+  ],
+  [
+   "Lo que los Reyes Traían",
+   "lo-que-los-reyes-traian",
+   0
+  ],
+  [
+   "Los Adorantes",
+   "los-adorantes",
+   0
+  ],
+  [
+   "Los Años Rojos",
+   "los-anos-rojos",
+   0
+  ],
+  [
+   "Los Buenos Tiempos",
+   "los-buenos-tiempos",
+   0
+  ],
+  [
+   "Los Cabellos",
+   "los-cabellos",
+   0
+  ],
+  [
+   "Los Cinco Sentidos",
+   "los-cinco-sentidos",
+   0
+  ],
+  [
+   "Los Cirineos",
+   "los-cirineos",
+   0
+  ],
+  [
+   "Los de Entonces",
+   "los-de-entonces",
+   0
+  ],
+  [
+   "Los de Mañana",
+   "los-de-manana",
+   0
+  ],
+  [
+   "Los Dominós de Encaje",
+   "los-dominos-de-encaje",
+   0
+  ],
+  [
+   "Los Dulces del Año",
+   "los-dulces-del-ano",
+   0
+  ],
+  [
+   "Los Escarmentados",
+   "los-escarmentados",
+   0
+  ],
+  [
+   "Los Hilos",
+   "los-hilos",
+   0
+  ],
+  [
+   "Los Huevos Arrefalfados",
+   "los-huevos-arrefalfados",
+   0
+  ],
+  [
+   "Los Magos",
+   "los-magos",
+   0
+  ],
+  [
+   "Los Novios de Pastaflora",
+   "los-novios-de-pastaflora",
+   0
+  ],
+  [
+   "Los Padres del Santo",
+   "los-padres-del-santo",
+   0
+  ],
+  [
+   "Los Pendientes",
+   "los-pendientes",
+   0
+  ],
+  [
+   "Los Ramilletes",
+   "los-ramilletes",
+   0
+  ],
+  [
+   "Los Rizos",
+   "los-rizos",
+   0
+  ],
+  [
+   "Los Santos Reyes",
+   "los-santos-reyes",
+   0
+  ],
+  [
+   "Los Zapatos Viejos",
+   "los-zapatos-viejos",
+   0
+  ],
+  [
+   "Lumbrarada",
+   "lumbrarada",
+   0
+  ],
+  [
+   "Madre",
+   "madre",
+   0
+  ],
+  [
+   "Madre Gallega",
+   "madre-gallega",
+   0
+  ],
+  [
+   "Madrugueiro",
+   "madrugueiro",
+   0
+  ],
+  [
+   "Mal de Ojo",
+   "mal-de-ojo",
+   0
+  ],
+  [
+   "Maldición de Gitana",
+   "maldicion-de-gitana",
+   0
+  ],
+  [
+   "Maleficio",
+   "maleficio",
+   0
+  ],
+  [
+   "Mansegura",
+   "mansegura",
+   0
+  ],
+  [
+   "Martina",
+   "martina",
+   0
+  ],
+  [
+   "Más Allá",
+   "mas-alla",
+   0
+  ],
+  [
+   "Memento",
+   "memento",
+   0
+  ],
+  [
+   "Mi suicidio",
+   "mi-suicidio",
+   0
+  ],
+  [
+   "Miguel y Jorge",
+   "miguel-y-jorge",
+   0
+  ],
+  [
+   "Milagro Natural",
+   "milagro-natural",
+   0
+  ],
+  [
+   "Morrión y Boina",
+   "morrion-y-boina",
+   0
+  ],
+  [
+   "Náufragas",
+   "naufragas",
+   0
+  ],
+  [
+   "Navidad",
+   "navidad",
+   0
+  ],
+  [
+   "Navidad de Lobos",
+   "navidad-de-lobos",
+   0
+  ],
+  [
+   "Nieto del Cid",
+   "nieto-del-cid",
+   0
+  ],
+  [
+   "No lo Invento",
+   "no-lo-invento",
+   0
+  ],
+  [
+   "Nochebuena del Jugador",
+   "nochebuena-del-jugador",
+   0
+  ],
+  [
+   "Nube de Paso",
+   "nube-de-paso",
+   0
+  ],
+  [
+   "Nuestro Señor de las Barbas",
+   "nuestro-senor-de-las-barbas",
+   0
+  ],
+  [
+   "Obra de Misericordia",
+   "obra-de-misericordia",
+   0
+  ],
+  [
+   "Ocho Nueces",
+   "ocho-nueces",
+   0
+  ],
+  [
+   "Ofrecido",
+   "ofrecido",
+   0
+  ],
+  [
+   "Omnia Vincit",
+   "omnia-vincit",
+   0
+  ],
+  [
+   "Oscuramente",
+   "oscuramente",
+   0
+  ],
+  [
+   "Otro Añito",
+   "otro-anito",
+   0
+  ],
+  [
+   "Padre e Hijo",
+   "padre-e-hijo",
+   0
+  ],
+  [
+   "Página Suelta",
+   "pagina-suelta",
+   0
+  ],
+  [
+   "Palinodia",
+   "palinodia",
+   0
+  ],
+  [
+   "Paracaídas",
+   "paracaidas",
+   0
+  ],
+  [
+   "Paria",
+   "paria",
+   0
+  ],
+  [
+   "Paternidad",
+   "paternidad",
+   0
+  ],
+  [
+   "Pelegrín",
+   "pelegrin",
+   0
+  ],
+  [
+   "Pena de Muerte",
+   "pena-de-muerte",
+   0
+  ],
+  [
+   "Perlista",
+   "perlista",
+   0
+  ],
+  [
+   "Pilarito",
+   "pilarito",
+   1
+  ],
+  [
+   "Piña",
+   "pina",
+   0
+  ],
+  [
+   "Planta Montés",
+   "planta-montes",
+   0
+  ],
+  [
+   "Poema Humilde",
+   "poema-humilde",
+   0
+  ],
+  [
+   "Por Dentro",
+   "por-dentro",
+   0
+  ],
+  [
+   "Por el Arte",
+   "por-el-arte",
+   0
+  ],
+  [
+   "Por España",
+   "por-espana",
+   0
+  ],
+  [
+   "Por Gloria",
+   "por-gloria",
+   0
+  ],
+  [
+   "Por Otro",
+   "por-otro",
+   0
+  ],
+  [
+   "Porqués",
+   "porques",
+   0
+  ],
+  [
+   "Posesión",
+   "posesion",
+   0
+  ],
+  [
+   "Prejaspes",
+   "prejaspes",
+   0
+  ],
+  [
+   "Presentido",
+   "presentido",
+   0
+  ],
+  [
+   "Primaveral-moderna",
+   "primaveral-moderna",
+   0
+  ],
+  [
+   "Primer Amor",
+   "primer-amor",
+   0
+  ],
+  [
+   "Profecía para el Año de 1897",
+   "profecia-para-el-ano-de-1897",
+   0
+  ],
+  [
+   "Progreso",
+   "progreso",
+   0
+  ],
+  [
+   "Prueba al Canto",
+   "prueba-al-canto",
+   0
+  ],
+  [
+   "Puntería",
+   "punteria",
+   0
+  ],
+  [
+   "Que Vengan Aquí...",
+   "que-vengan-aqui",
+   0
+  ],
+  [
+   "Rabeno",
+   "rabeno",
+   0
+  ],
+  [
+   "Racimos",
+   "racimos",
+   0
+  ],
+  [
+   "Recompensa",
+   "recompensa",
+   0
+  ],
+  [
+   "Reconciliación",
+   "reconciliacion",
+   0
+  ],
+  [
+   "Reconciliados",
+   "reconciliados",
+   0
+  ],
+  [
+   "Reina",
+   "reina",
+   0
+  ],
+  [
+   "Remordimiento",
+   "remordimiento",
+   0
+  ],
+  [
+   "Responsable",
+   "responsable",
+   0
+  ],
+  [
+   "Restorán",
+   "restoran",
+   0
+  ],
+  [
+   "Rosquilla de Monja",
+   "rosquilla-de-monja",
+   0
+  ],
+  [
+   "Saletita",
+   "saletita",
+   0
+  ],
+  [
+   "Salvamento",
+   "salvamento",
+   0
+  ],
+  [
+   "Sangre del Brazo",
+   "sangre-del-brazo",
+   0
+  ],
+  [
+   "«Santi Boniti»",
+   "santi-boniti",
+   0
+  ],
+  [
+   "Santiago el Mudo",
+   "santiago-el-mudo",
+   0
+  ],
+  [
+   "Santos Bueno",
+   "santos-bueno",
+   0
+  ],
+  [
+   "Sara y Agar",
+   "sara-y-agar",
+   0
+  ],
+  [
+   "Sedano",
+   "sedano",
+   0
+  ],
+  [
+   "Semilla Heroica",
+   "semilla-heroica",
+   0
+  ],
+  [
+   "Sequía",
+   "sequia",
+   0
+  ],
+  [
+   "Sí, Señor",
+   "si-senor",
+   0
+  ],
+  [
+   "Sic Transit...",
+   "sic-transit",
+   0
+  ],
+  [
+   "Siglo XIII",
+   "siglo-xiii",
+   0
+  ],
+  [
+   "Siguiéndole",
+   "siguiendole",
+   0
+  ],
+  [
+   "Sin Esperanza",
+   "sin-esperanza",
+   0
+  ],
+  [
+   "Sin Pasión",
+   "sin-pasion",
+   0
+  ],
+  [
+   "Sin Querer",
+   "sin-querer",
+   0
+  ],
+  [
+   "Sin Respuesta",
+   "sin-respuesta",
+   0
+  ],
+  [
+   "Sin Tregua",
+   "sin-tregua",
+   0
+  ],
+  [
+   "Sinfonía Bélica",
+   "sinfonia-belica",
+   0
+  ],
+  [
+   "So Tierra",
+   "so-tierra",
+   0
+  ],
+  [
+   "Sobremesa",
+   "sobremesa",
+   0
+  ],
+  [
+   "Solución",
+   "solucion",
+   0
+  ],
+  [
+   "Sor Aparición",
+   "sor-aparicion",
+   0
+  ],
+  [
+   "Sud-Exprés",
+   "sud-expres",
+   0
+  ],
+  [
+   "Sueños Regios",
+   "suenos-regios",
+   0
+  ],
+  [
+   "Suerte Macabra",
+   "suerte-macabra",
+   0
+  ],
+  [
+   "Sustitución",
+   "sustitucion",
+   0
+  ],
+  [
+   "Sustitución",
+   "sustitucion-2",
+   0
+  ],
+  [
+   "Temprano y con Sol...",
+   "temprano-y-con-sol",
+   0
+  ],
+  [
+   "Teorías",
+   "teorias",
+   0
+  ],
+  [
+   "Testigo Irrecusable",
+   "testigo-irrecusable",
+   0
+  ],
+  [
+   "Tía Celesta",
+   "tia-celesta",
+   0
+  ],
+  [
+   "Tiempo de Ánimas",
+   "tiempo-de-animas",
+   0
+  ],
+  [
+   "Tío Terrones",
+   "tio-terrones",
+   0
+  ],
+  [
+   "Traspaso",
+   "traspaso",
+   0
+  ],
+  [
+   "Travesura Pontificia",
+   "travesura-pontificia",
+   0
+  ],
+  [
+   "Un Buen Tirito",
+   "un-buen-tirito",
+   0
+  ],
+  [
+   "Un Diplomático",
+   "un-diplomatico",
+   0
+  ],
+  [
+   "Un Duro Falso",
+   "un-duro-falso",
+   0
+  ],
+  [
+   "Un Matrimonio del Siglo XIX",
+   "un-matrimonio-del-siglo-xix",
+   0
+  ],
+  [
+   "Un Náufrago",
+   "un-naufrago",
+   0
+  ],
+  [
+   "Un Parecido",
+   "un-parecido",
+   0
+  ],
+  [
+   "Un Poco de Ciencia",
+   "un-poco-de-ciencia",
+   0
+  ],
+  [
+   "Un Sistema",
+   "un-sistema",
+   0
+  ],
+  [
+   "Un Solo Cabello",
+   "un-solo-cabello",
+   0
+  ],
+  [
+   "Una Pasión",
+   "una-pasion",
+   0
+  ],
+  [
+   "Una Voz",
+   "una-voz",
+   0
+  ],
+  [
+   "Vampiro",
+   "vampiro",
+   0
+  ],
+  [
+   "Vendeana",
+   "vendeana",
+   0
+  ],
+  [
+   "Vengadora",
+   "vengadora",
+   0
+  ],
+  [
+   "Vida Nueva",
+   "vida-nueva",
+   0
+  ],
+  [
+   "Vidrio de Colores",
+   "vidrio-de-colores",
+   0
+  ],
+  [
+   "Viernes Santo",
+   "viernes-santo",
+   0
+  ],
+  [
+   "Vitorio",
+   "vitorio",
+   0
+  ],
+  [
+   "Vivo Retrato",
+   "vivo-retrato",
+   0
+  ],
+  [
+   "Vocación",
+   "vocacion",
+   0
+  ],
+  [
+   "Vocación",
+   "vocacion-2",
+   0
+  ],
+  [
+   "Volunto",
+   "volunto",
+   0
+  ],
+  [
+   "Voz de la Sangre",
+   "voz-de-la-sangre",
+   0
+  ],
+  [
+   "Zenana",
+   "zenana",
+   0
+  ]
+ ],
+ "huerfanos": [
+  [
+   "Díptico",
+   "diptico"
+  ],
+  [
+   "Progreso",
+   "progreso"
+  ]
+ ]
+}

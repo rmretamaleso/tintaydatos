@@ -1,0 +1,30 @@
+{
+  "slug": "cuentos-sacroprofanos",
+  "titulo": "Cuentos Sacroprofanos",
+  "autor": "Emilia Pardo Bazán",
+  "anio": 1899,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/emilia-pardo-bazan/cuentos-sacroprofanos/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/emilia-pardo-bazan/cuentos-sacroprofanos"
+  },
+  "catalogo_id": 649,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos Sacroprofanos",
+    "autor": "Emilia Pardo Bazán",
+    "anio": "1899",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

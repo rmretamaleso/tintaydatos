@@ -1,0 +1,29 @@
+{
+  "slug": "la-cuestion-palpitante",
+  "titulo": "La Cuestión Palpitante",
+  "autor": "Emilia Pardo Bazán",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/emilia-pardo-bazan/la-cuestion-palpitante/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/emilia-pardo-bazan/la-cuestion-palpitante"
+  },
+  "catalogo_id": 658,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Cuestión Palpitante",
+    "autor": "Emilia Pardo Bazán",
+    "anio": "1883",
+    "pais": "España",
+    "genero": "Ensayo",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1883
+}

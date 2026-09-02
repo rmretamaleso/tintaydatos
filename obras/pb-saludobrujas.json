@@ -1,0 +1,33 @@
+{
+  "slug": "el-saludo-de-las-brujas",
+  "titulo": "El Saludo de las Brujas",
+  "autor": "Emilia Pardo Bazán",
+  "anio": 1898,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/emilia-pardo-bazan/el-saludo-de-las-brujas/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/emilia-pardo-bazan/el-saludo-de-las-brujas"
+  },
+  "catalogo_id": 654,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Saludo de las Brujas",
+    "autor": "Emilia Pardo Bazán",
+    "anio": "1898",
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "patron_seccion": "^(.+)$",
+  "preliminares": "Al que leyere",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

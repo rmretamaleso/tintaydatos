@@ -1,0 +1,29 @@
+{
+  "slug": "cuentos-de-marineda",
+  "titulo": "Cuentos de Marineda",
+  "autor": "Emilia Pardo Bazán",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/emilia-pardo-bazan/cuentos-de-marineda/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/emilia-pardo-bazan/cuentos-de-marineda"
+  },
+  "catalogo_id": 674,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos de Marineda",
+    "autor": "Emilia Pardo Bazán",
+    "anio": "1892",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1892
+}

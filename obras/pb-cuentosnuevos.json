@@ -1,0 +1,29 @@
+{
+  "slug": "cuentos-nuevos",
+  "titulo": "Cuentos Nuevos",
+  "autor": "Emilia Pardo Bazán",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/emilia-pardo-bazan/cuentos-nuevos/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/emilia-pardo-bazan/cuentos-nuevos"
+  },
+  "catalogo_id": 651,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos Nuevos",
+    "autor": "Emilia Pardo Bazán",
+    "anio": "1894",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1894
+}
