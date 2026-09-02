@@ -1,0 +1,31 @@
+{
+  "slug": "los-piratas-del-golfo",
+  "titulo": "Los Piratas del Golfo",
+  "autor": "Vicente Riva Palacio",
+  "anio": 1869,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/vicente-riva-palacio/los-piratas-del-golfo/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/vicente-riva-palacio/los-piratas-del-golfo"
+  },
+  "catalogo_id": 802,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Los Piratas del Golfo",
+    "autor": "Vicente Riva Palacio",
+    "anio": "1869",
+    "pais": "México",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

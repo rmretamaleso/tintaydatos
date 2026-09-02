@@ -1,0 +1,31 @@
+{
+  "slug": "los-cuentos-del-general",
+  "titulo": "Los Cuentos del General",
+  "autor": "Vicente Riva Palacio",
+  "anio": 1896,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/vicente-riva-palacio/los-cuentos-del-general/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/vicente-riva-palacio/los-cuentos-del-general"
+  },
+  "catalogo_id": 806,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Los Cuentos del General",
+    "autor": "Vicente Riva Palacio",
+    "anio": "1896",
+    "pais": "México",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

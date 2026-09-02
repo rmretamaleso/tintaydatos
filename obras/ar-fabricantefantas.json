@@ -1,0 +1,30 @@
+{
+  "slug": "el-fabricante-de-fantasmas",
+  "titulo": "El Fabricante de Fantasmas",
+  "autor": "Roberto Arlt",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/roberto-arlt/el-fabricante-de-fantasmas/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/roberto-arlt/el-fabricante-de-fantasmas"
+  },
+  "catalogo_id": 787,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Fabricante de Fantasmas",
+    "autor": "Roberto Arlt",
+    "anio": "",
+    "pais": "Argentina",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

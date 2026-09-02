@@ -1,0 +1,30 @@
+{
+  "slug": "memorias-de-un-vigilante",
+  "titulo": "Memorias de un Vigilante",
+  "autor": "José Seferino Álvarez «Fray Mocho»",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/jose-seferino-alvarez-fray-mocho/memorias-de-un-vigilante/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/jose-seferino-alvarez-fray-mocho/memorias-de-un-vigilante"
+  },
+  "catalogo_id": 792,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Memorias de un Vigilante",
+    "autor": "José Seferino Álvarez «Fray Mocho»",
+    "anio": "",
+    "pais": "Argentina",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

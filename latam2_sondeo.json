@@ -1,0 +1,1277 @@
+{
+ "roberto-arlt": {
+  "libros": [
+   [
+    "Aguafuertes Cariocas",
+    "aguafuertes-cariocas",
+    130
+   ],
+   [
+    "Aguafuertes Gallegas",
+    "aguafuertes-gallegas",
+    21
+   ],
+   [
+    "Aguafuertes Porteñas",
+    "aguafuertes-portenas",
+    45
+   ],
+   [
+    "Aguafuertes Vascas",
+    "aguafuertes-vascas",
+    7
+   ],
+   [
+    "El Amor Brujo",
+    "el-amor-brujo",
+    28
+   ],
+   [
+    "El Criador de Gorilas",
+    "el-criador-de-gorilas",
+    15
+   ],
+   [
+    "El Fabricante de Fantasmas",
+    "el-fabricante-de-fantasmas",
+    8
+   ],
+   [
+    "El Gran Guillermito",
+    "el-gran-guillermito",
+    4
+   ],
+   [
+    "El Juguete Rabioso",
+    "el-juguete-rabioso",
+    4
+   ],
+   [
+    "La Jugada",
+    "la-jugada",
+    4
+   ],
+   [
+    "Las Ciencias Ocultas en la Ciudad de Buenos Aires",
+    "las-ciencias-ocultas-en-la-ciudad-de-buenos-aires",
+    9
+   ],
+   [
+    "Los Lanzallamas",
+    "los-lanzallamas",
+    33
+   ],
+   [
+    "Los Siete Locos",
+    "los-siete-locos",
+    37
+   ],
+   [
+    "Noche Terrible",
+    "noche-terrible",
+    4
+   ],
+   [
+    "Nuevas Aguafuertes",
+    "nuevas-aguafuertes",
+    92
+   ],
+   [
+    "Nuevas Aguafuertes",
+    "nuevas-aguafuertes-2",
+    92
+   ],
+   [
+    "Prueba de Amor",
+    "prueba-de-amor",
+    5
+   ],
+   [
+    "Saverio el Cruel",
+    "saverio-el-cruel",
+    30
+   ],
+   [
+    "Todos los Cuentos",
+    "todos-los-cuentos",
+    106
+   ],
+   [
+    "Trescientos Millones",
+    "trescientos-millones",
+    35
+   ],
+   [
+    "Viaje Terrible",
+    "viaje-terrible",
+    11
+   ]
+  ],
+  "piezas": [
+   [
+    "Accidentado Paseo a Moka",
+    "accidentado-paseo-a-moka",
+    0
+   ],
+   [
+    "Acuérdate de Azerbaijan",
+    "acuerdate-de-azerbaijan",
+    0
+   ],
+   [
+    "Clase de Box",
+    "clase-de-box",
+    0
+   ],
+   [
+    "Debajo del Agua",
+    "debajo-del-agua",
+    0
+   ],
+   [
+    "Divertida Aventura de Míster Gibson",
+    "divertida-aventura-de-mister-gibson",
+    0
+   ],
+   [
+    "Ejercicio de Artillería",
+    "ejercicio-de-artilleria",
+    0
+   ],
+   [
+    "El Aprendiz de Brujo",
+    "el-aprendiz-de-brujo",
+    0
+   ],
+   [
+    "El Bastón de la Muerte",
+    "el-baston-de-la-muerte",
+    1
+   ],
+   [
+    "El Cazador de Orquídeas",
+    "el-cazador-de-orquideas",
+    0
+   ],
+   [
+    "El Crimen Casi Perfecto",
+    "el-crimen-casi-perfecto",
+    0
+   ],
+   [
+    "El Embrujo de la Gitana",
+    "el-embrujo-de-la-gitana",
+    0
+   ],
+   [
+    "El Enigma de las Tres Cartas",
+    "el-enigma-de-las-tres-cartas",
+    0
+   ],
+   [
+    "El Experimento del Doctor Gene",
+    "el-experimento-del-doctor-gene",
+    2
+   ],
+   [
+    "El Gato Cocido",
+    "el-gato-cocido",
+    0
+   ],
+   [
+    "El Hombre del Turbante Verde",
+    "el-hombre-del-turbante-verde",
+    0
+   ],
+   [
+    "El Incendiario",
+    "el-incendiario",
+    0
+   ],
+   [
+    "El Jorobadito",
+    "el-jorobadito",
+    0
+   ],
+   [
+    "El Joven Bernier Esposo de una Negra",
+    "el-joven-bernier-esposo-de-una-negra",
+    1
+   ],
+   [
+    "El Misterio de los Tres Sobretodos",
+    "el-misterio-de-los-tres-sobretodos",
+    0
+   ],
+   [
+    "El Octavo Viaje de Simbad el Marino",
+    "el-octavo-viaje-de-simbad-el-marino",
+    0
+   ],
+   [
+    "El Resorte Secreto",
+    "el-resorte-secreto",
+    0
+   ],
+   [
+    "El Traje del Fantasma",
+    "el-traje-del-fantasma",
+    3
+   ],
+   [
+    "Escritor Fracasado",
+    "escritor-fracasado",
+    0
+   ],
+   [
+    "Espionaje",
+    "espionaje",
+    0
+   ],
+   [
+    "Ester Primavera",
+    "ester-primavera",
+    0
+   ],
+   [
+    "Estoy Cargada de Muerte",
+    "estoy-cargada-de-muerte",
+    0
+   ],
+   [
+    "Eugenio Delmonte y los 1300 Novios",
+    "eugenio-delmonte-y-los-1300-novios",
+    0
+   ],
+   [
+    "Extraordinaria Historia de Dos Tuertos",
+    "extraordinaria-historia-de-dos-tuertos",
+    0
+   ],
+   [
+    "Halid Majid el Achicharrado",
+    "halid-majid-el-achicharrado",
+    0
+   ],
+   [
+    "Historia de Nazra, Yamil y Farid",
+    "historia-de-nazra-yamil-y-farid",
+    0
+   ],
+   [
+    "Historia del Señor Jefries y Nassin el Egipcio",
+    "historia-del-senor-jefries-y-nassin-el-egipcio",
+    0
+   ],
+   [
+    "Hussein el Cojo y Axuxa la Hermosa",
+    "hussein-el-cojo-y-axuxa-la-hermosa",
+    0
+   ],
+   [
+    "Jabulgot el Farsante",
+    "jabulgot-el-farsante",
+    2
+   ],
+   [
+    "Juicio del Cadí Prudente",
+    "juicio-del-cadi-prudente",
+    0
+   ],
+   [
+    "La Aventura de Baba en Dimisch Esh Sham",
+    "la-aventura-de-baba-en-dimisch-esh-sham",
+    0
+   ],
+   [
+    "La Cadena del Ancla",
+    "la-cadena-del-ancla",
+    0
+   ],
+   [
+    "La Doble Trampa Mortal",
+    "la-doble-trampa-mortal",
+    0
+   ],
+   [
+    "La Factoría de Farjalla Bill Alí",
+    "la-factoria-de-farjalla-bill-ali",
+    0
+   ],
+   [
+    "La Hostilidad",
+    "la-hostilidad",
+    0
+   ],
+   [
+    "La Isla Desierta",
+    "la-isla-desierta",
+    2
+   ],
+   [
+    "La Luna Roja",
+    "la-luna-roja",
+    0
+   ],
+   [
+    "La Muerte del Sol",
+    "la-muerte-del-sol",
+    0
+   ],
+   [
+    "La Ola de Perfume Verde",
+    "la-ola-de-perfume-verde",
+    0
+   ],
+   [
+    "La Palabra que Entiende el Elefante",
+    "la-palabra-que-entiende-el-elefante",
+    0
+   ],
+   [
+    "La Pista de los Dientes de Oro",
+    "la-pista-de-los-dientes-de-oro",
+    0
+   ],
+   [
+    "La Pista de los Dientes de Oro",
+    "la-pista-de-los-dientes-de-oro-2",
+    0
+   ],
+   [
+    "La Pluma de Ganso",
+    "la-pluma-de-ganso",
+    0
+   ],
+   [
+    "La Taberna del Expoliador",
+    "la-taberna-del-expoliador",
+    1
+   ],
+   [
+    "La Venganza de Tutankamón",
+    "la-venganza-de-tutankamon",
+    0
+   ],
+   [
+    "La Venganza del Médico",
+    "la-venganza-del-medico",
+    0
+   ],
+   [
+    "La Venganza del Mono",
+    "la-venganza-del-mono",
+    1
+   ],
+   [
+    "Las Fieras",
+    "las-fieras",
+    0
+   ],
+   [
+    "Los Bandidos de Uad-Djuari",
+    "los-bandidos-de-uad-djuari",
+    0
+   ],
+   [
+    "Los Cazadores de Marfil",
+    "los-cazadores-de-marfil",
+    0
+   ],
+   [
+    "Los Esbirros de Venecia",
+    "los-esbirros-de-venecia",
+    0
+   ],
+   [
+    "Los Hombres Fieras",
+    "los-hombres-fieras",
+    0
+   ],
+   [
+    "Odio Desde la Otra Vida",
+    "odio-desde-la-otra-vida",
+    0
+   ],
+   [
+    "Pequeños Propietarios",
+    "pequenos-propietarios",
+    0
+   ],
+   [
+    "Rahutia la Bailarina",
+    "rahutia-la-bailarina",
+    0
+   ],
+   [
+    "Regreso",
+    "regreso",
+    0
+   ],
+   [
+    "¡S.O.S.! Longitud 145° 30’, Latitud 29° 15’",
+    "s-o-s-longitud-145-30-latitud-29-15",
+    0
+   ],
+   [
+    "Silla en la Vereda",
+    "silla-en-la-vereda",
+    0
+   ],
+   [
+    "Un Argentino Entre Gángsters",
+    "un-argentino-entre-gangsters",
+    0
+   ],
+   [
+    "Un Chiste Morisco",
+    "un-chiste-morisco",
+    0
+   ],
+   [
+    "Un Error Judicial",
+    "un-error-judicial",
+    0
+   ],
+   [
+    "Una Aventura en Granada",
+    "una-aventura-en-granada",
+    0
+   ],
+   [
+    "Una Clase de Gimnasia",
+    "una-clase-de-gimnasia",
+    0
+   ],
+   [
+    "Una Historia de Fieras",
+    "una-historia-de-fieras",
+    0
+   ],
+   [
+    "Una Tarde de Domingo",
+    "una-tarde-de-domingo",
+    0
+   ],
+   [
+    "«Ven, mi Ama Zobeida Quiere Hablarte»",
+    "ven-mi-ama-zobeida-quiere-hablarte",
+    0
+   ]
+  ],
+  "duplicados": [
+   [
+    "El Criador de Gorilas",
+    "el-criador-de-gorilas"
+   ],
+   [
+    "El Gran Guillermito",
+    "el-gran-guillermito"
+   ],
+   [
+    "La Jugada",
+    "la-jugada"
+   ],
+   [
+    "Noche Terrible",
+    "noche-terrible"
+   ]
+  ],
+  "huerfanos": [
+   [
+    "La Isla Desierta",
+    "la-isla-desierta"
+   ]
+  ]
+ },
+ "jose-seferino-alvarez-fray-mocho": {
+  "libros": [
+   [
+    "Cuentos de Fray Mocho",
+    "cuentos-de-fray-mocho",
+    99
+   ],
+   [
+    "Esmeraldas",
+    "esmeraldas",
+    11
+   ],
+   [
+    "Memorias de un Vigilante",
+    "memorias-de-un-vigilante",
+    31
+   ]
+  ],
+  "piezas": [],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "rosa-guerra": {
+  "libros": [
+   [
+    "Lucía Miranda",
+    "lucia-miranda",
+    10
+   ]
+  ],
+  "piezas": [],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "juan-cortada": {
+  "libros": [
+   [
+    "Viaje a la Isla de Mallorca en el Estío de 1845",
+    "viaje-a-la-isla-de-mallorca-en-el-estio-de-1845",
+    60
+   ]
+  ],
+  "piezas": [],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "domingo-arena": {
+  "libros": [],
+  "piezas": [
+   [
+    "Vida Loca",
+    "vida-loca",
+    0
+   ]
+  ],
+  "huerfanos": [
+   [
+    "Vida Loca",
+    "vida-loca"
+   ]
+  ]
+ },
+ "teresa-wilms-montt": {
+  "libros": [
+   [
+    "Cuentos para los Hombres que son Todavía Niños",
+    "cuentos-para-los-hombres-que-son-todavia-ninos",
+    8
+   ],
+   [
+    "Inquietudes Sentimentales",
+    "inquietudes-sentimentales",
+    51
+   ]
+  ],
+  "piezas": [],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "vicente-riva-palacio": {
+  "libros": [
+   [
+    "Calvario y Tabor",
+    "calvario-y-tabor",
+    111
+   ],
+   [
+    "La Vuelta de los Muertos",
+    "la-vuelta-de-los-muertos",
+    52
+   ],
+   [
+    "Las Dos Emparedadas",
+    "las-dos-emparedadas",
+    87
+   ],
+   [
+    "Los Ceros",
+    "los-ceros",
+    25
+   ],
+   [
+    "Los Cuentos del General",
+    "los-cuentos-del-general",
+    39
+   ],
+   [
+    "Los Piratas del Golfo",
+    "los-piratas-del-golfo",
+    73
+   ],
+   [
+    "Martín Garatuza",
+    "martin-garatuza",
+    69
+   ],
+   [
+    "Memorias de un Impostor",
+    "memorias-de-un-impostor",
+    69
+   ],
+   [
+    "Monja y Casada, Virgen y Mártir",
+    "monja-y-casada-virgen-y-martir",
+    82
+   ]
+  ],
+  "piezas": [
+   [
+    "Amor Correspondido",
+    "amor-correspondido",
+    0
+   ],
+   [
+    "Ciento por Uno",
+    "ciento-por-uno",
+    0
+   ],
+   [
+    "Consultar con la Almohada",
+    "consultar-con-la-almohada",
+    0
+   ],
+   [
+    "El Abanico",
+    "el-abanico",
+    0
+   ],
+   [
+    "El Buen Ejemplo",
+    "el-buen-ejemplo",
+    0
+   ],
+   [
+    "El Divorcio",
+    "el-divorcio",
+    0
+   ],
+   [
+    "El Hermano Cirilo",
+    "el-hermano-cirilo",
+    0
+   ],
+   [
+    "El Matrimonio Desigual",
+    "el-matrimonio-desigual",
+    0
+   ],
+   [
+    "El Nido de Jilgueros",
+    "el-nido-de-jilgueros",
+    0
+   ],
+   [
+    "El Voto del Soldado",
+    "el-voto-del-soldado",
+    0
+   ],
+   [
+    "El Zapatero y su Competidor",
+    "el-zapatero-y-su-competidor",
+    0
+   ],
+   [
+    "En una Casa de Empeños",
+    "en-una-casa-de-empenos",
+    0
+   ],
+   [
+    "Isabel",
+    "isabel",
+    0
+   ],
+   [
+    "La Ausencia de Tomasito",
+    "la-ausencia-de-tomasito",
+    0
+   ],
+   [
+    "La Bendición de Abraham",
+    "la-bendicion-de-abraham",
+    0
+   ],
+   [
+    "La Bestia Humana",
+    "la-bestia-humana",
+    0
+   ],
+   [
+    "La Burra Perdida",
+    "la-burra-perdida",
+    0
+   ],
+   [
+    "La Confesión",
+    "la-confesion",
+    0
+   ],
+   [
+    "La Expiación",
+    "la-expiacion",
+    0
+   ],
+   [
+    "La Gata Coja",
+    "la-gata-coja",
+    0
+   ],
+   [
+    "La Gloria",
+    "la-gloria",
+    0
+   ],
+   [
+    "La Horma de su Zapato",
+    "la-horma-de-su-zapato",
+    0
+   ],
+   [
+    "La Leyenda de un Santo",
+    "la-leyenda-de-un-santo",
+    0
+   ],
+   [
+    "La Limosna",
+    "la-limosna",
+    0
+   ],
+   [
+    "La Máquina de Coser",
+    "la-maquina-de-coser",
+    0
+   ],
+   [
+    "La Promesa de un Genio",
+    "la-promesa-de-un-genio",
+    0
+   ],
+   [
+    "La Visita de los Marqueses",
+    "la-visita-de-los-marqueses",
+    0
+   ],
+   [
+    "Las Cuatro Esquinas",
+    "las-cuatro-esquinas",
+    0
+   ],
+   [
+    "Las Gotas de Agua",
+    "las-gotas-de-agua",
+    0
+   ],
+   [
+    "Las Honras de Carlos V",
+    "las-honras-de-carlos-v",
+    0
+   ],
+   [
+    "Las Madreselvas",
+    "las-madreselvas",
+    0
+   ],
+   [
+    "Las Mulas de Su Excelencia",
+    "las-mulas-de-su-excelencia",
+    0
+   ],
+   [
+    "Los Azotes",
+    "los-azotes",
+    0
+   ],
+   [
+    "Por Si Acaso",
+    "por-si-acaso",
+    0
+   ],
+   [
+    "Problema Irresoluble",
+    "problema-irresoluble",
+    0
+   ],
+   [
+    "Un Buen Negocio",
+    "un-buen-negocio",
+    0
+   ],
+   [
+    "Un Stradivarius",
+    "un-stradivarius",
+    0
+   ]
+  ],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "rafael-delgado": {
+  "libros": [
+   [
+    "Adolfo",
+    "adolfo",
+    4
+   ],
+   [
+    "Angelina",
+    "angelina",
+    66
+   ],
+   [
+    "Cuentos y Notas",
+    "cuentos-y-notas",
+    80
+   ],
+   [
+    "El Asesinato de Palma-Sola",
+    "el-asesinato-de-palma-sola",
+    4
+   ],
+   [
+    "El Desertor",
+    "el-desertor",
+    5
+   ],
+   [
+    "La Calandria",
+    "la-calandria",
+    47
+   ],
+   [
+    "La Chachalaca",
+    "la-chachalaca",
+    4
+   ],
+   [
+    "La Misa de Madrugada",
+    "la-misa-de-madrugada",
+    5
+   ],
+   [
+    "Los Parientes Ricos",
+    "los-parientes-ricos",
+    91
+   ],
+   [
+    "Mi Única Mentira",
+    "mi-unica-mentira",
+    4
+   ],
+   [
+    "¡¡¡To... rooo!!!",
+    "to-rooo",
+    4
+   ]
+  ],
+  "piezas": [
+   [
+    "¿A Dónde Vas?",
+    "a-donde-vas",
+    0
+   ],
+   [
+    "Amistad",
+    "amistad",
+    0
+   ],
+   [
+    "Amor de Niño",
+    "amor-de-nino",
+    0
+   ],
+   [
+    "Amparo",
+    "amparo",
+    3
+   ],
+   [
+    "¡Así!",
+    "asi",
+    0
+   ],
+   [
+    "Bajo los Sauces",
+    "bajo-los-sauces",
+    0
+   ],
+   [
+    "Crepúsculo",
+    "crepusculo",
+    0
+   ],
+   [
+    "El Caballerango",
+    "el-caballerango",
+    3
+   ],
+   [
+    "El Retrato del Nene",
+    "el-retrato-del-nene",
+    0
+   ],
+   [
+    "En el Anfiteatro",
+    "en-el-anfiteatro",
+    3
+   ],
+   [
+    "En Legítima Defensa",
+    "en-legitima-defensa",
+    0
+   ],
+   [
+    "Epílogo",
+    "epilogo",
+    0
+   ],
+   [
+    "Genesiaca",
+    "genesiaca",
+    0
+   ],
+   [
+    "Justicia Popular",
+    "justicia-popular",
+    0
+   ],
+   [
+    "La Gata",
+    "la-gata",
+    0
+   ],
+   [
+    "La Noche Triste",
+    "la-noche-triste",
+    3
+   ],
+   [
+    "Margarita",
+    "margarita",
+    0
+   ],
+   [
+    "Mi Semana Santa",
+    "mi-semana-santa",
+    3
+   ],
+   [
+    "Mi Vecina",
+    "mi-vecina",
+    0
+   ],
+   [
+    "Pancho el Tuerto",
+    "pancho-el-tuerto",
+    0
+   ],
+   [
+    "Para Testar",
+    "para-testar",
+    2
+   ],
+   [
+    "Para Toros del Jaral",
+    "para-toros-del-jaral",
+    0
+   ],
+   [
+    "Rigel",
+    "rigel",
+    0
+   ],
+   [
+    "Voto Infantil",
+    "voto-infantil",
+    2
+   ]
+  ],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "xavier-villaurrutia": {
+  "libros": [],
+  "piezas": [
+   [
+    "Cuadro",
+    "cuadro",
+    0
+   ]
+  ],
+  "huerfanos": [
+   [
+    "Cuadro",
+    "cuadro"
+   ]
+  ]
+ },
+ "francisco-javier-alegre": {
+  "libros": [
+   [
+    "Historia de la Compañía de Jesús en Nueva España",
+    "historia-de-la-compania-de-jesus-en-nueva-espana",
+    89
+   ]
+  ],
+  "piezas": [],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "pablo-palacio": {
+  "libros": [
+   [
+    "Comedia inmortal",
+    "comedia-inmortal",
+    10
+   ],
+   [
+    "Débora",
+    "debora",
+    10
+   ],
+   [
+    "Gente de Provincias",
+    "gente-de-provincias",
+    4
+   ],
+   [
+    "Rosita Elguero",
+    "rosita-elguero",
+    7
+   ],
+   [
+    "Un Hombre Muerto a Puntapiés (cuentos)",
+    "un-hombre-muerto-a-puntapies-cuentos",
+    9
+   ],
+   [
+    "Vida del Ahorcado",
+    "vida-del-ahorcado",
+    32
+   ]
+  ],
+  "piezas": [
+   [
+    "Amor y Muerte",
+    "amor-y-muerte",
+    0
+   ],
+   [
+    "Brujerías",
+    "brujerias",
+    0
+   ],
+   [
+    "El Antropófago",
+    "el-antropofago",
+    0
+   ],
+   [
+    "El Cuento",
+    "el-cuento",
+    0
+   ],
+   [
+    "El Frío",
+    "el-frio",
+    0
+   ],
+   [
+    "El Huerfanito",
+    "el-huerfanito",
+    0
+   ],
+   [
+    "La Doble y Única Mujer",
+    "la-doble-y-unica-mujer",
+    0
+   ],
+   [
+    "Las Mujeres Miran las Estrellas",
+    "las-mujeres-miran-las-estrellas",
+    0
+   ],
+   [
+    "Los Aldeanos",
+    "los-aldeanos",
+    0
+   ],
+   [
+    "Luz Lateral",
+    "luz-lateral",
+    0
+   ],
+   [
+    "Novela Guillotinada",
+    "novela-guillotinada",
+    0
+   ],
+   [
+    "Relato de la Muy Sensible Desgracia Acaecida en la Persona del Joven Z",
+    "relato-de-la-muy-sensible-desgracia-acaecida-en-la-persona-del-joven-z",
+    0
+   ],
+   [
+    "¡Señora!",
+    "senora",
+    0
+   ],
+   [
+    "Sierra",
+    "sierra",
+    0
+   ],
+   [
+    "Un Hombre Muerto a Puntapiés",
+    "un-hombre-muerto-a-puntapies",
+    0
+   ],
+   [
+    "Un Nuevo Caso de Marriage en Trois",
+    "un-nuevo-caso-de-marriage-en-trois",
+    0
+   ],
+   [
+    "Una Carta, un Hombre y Algunas Cosas Más",
+    "una-carta-un-hombre-y-algunas-cosas-mas",
+    3
+   ],
+   [
+    "Una Mujer y Luego Pollo Frito",
+    "una-mujer-y-luego-pollo-frito",
+    0
+   ]
+  ],
+  "duplicados": [],
+  "huerfanos": [
+   [
+    "Amor y Muerte",
+    "amor-y-muerte"
+   ],
+   [
+    "El Frío",
+    "el-frio"
+   ],
+   [
+    "El Huerfanito",
+    "el-huerfanito"
+   ],
+   [
+    "Los Aldeanos",
+    "los-aldeanos"
+   ],
+   [
+    "Novela Guillotinada",
+    "novela-guillotinada"
+   ],
+   [
+    "Sierra",
+    "sierra"
+   ],
+   [
+    "Un Nuevo Caso de Marriage en Trois",
+    "un-nuevo-caso-de-marriage-en-trois"
+   ],
+   [
+    "Una Carta, un Hombre y Algunas Cosas Más",
+    "una-carta-un-hombre-y-algunas-cosas-mas"
+   ],
+   [
+    "Una Mujer y Luego Pollo Frito",
+    "una-mujer-y-luego-pollo-frito"
+   ]
+  ]
+ },
+ "rufino-blanco-fombona": {
+  "libros": [
+   [
+    "Cuentos de Poeta",
+    "cuentos-de-poeta",
+    20
+   ]
+  ],
+  "piezas": [
+   [
+    "Alma Enferma",
+    "alma-enferma",
+    3
+   ],
+   [
+    "Carta de Amor",
+    "carta-de-amor",
+    0
+   ],
+   [
+    "Cuento de Italia",
+    "cuento-de-italia",
+    2
+   ],
+   [
+    "Cuento Filial",
+    "cuento-filial",
+    0
+   ],
+   [
+    "El Amor de Luzbel",
+    "el-amor-de-luzbel",
+    0
+   ],
+   [
+    "El Dolor de Pedro",
+    "el-dolor-de-pedro",
+    0
+   ],
+   [
+    "Filosofías Truncas",
+    "filosofias-truncas",
+    0
+   ],
+   [
+    "Historia de un Dolor",
+    "historia-de-un-dolor",
+    0
+   ],
+   [
+    "Juanito",
+    "juanito",
+    3
+   ],
+   [
+    "La Confesión del Tullido",
+    "la-confesion-del-tullido",
+    0
+   ],
+   [
+    "Molinos de Maíz",
+    "molinos-de-maiz",
+    0
+   ]
+  ],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "luis-bonafoux-quintero": {
+  "libros": [
+   [
+    "Gotas de Sangre: Crímenes y Criminales",
+    "gotas-de-sangre-crimenes-y-criminales",
+    68
+   ],
+   [
+    "Huellas Literarias",
+    "huellas-literarias",
+    80
+   ]
+  ],
+  "piezas": [],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "martin-del-barco-centenera": {
+  "libros": [
+   [
+    "La Argentina y la Conquista del Río de la Plata",
+    "la-argentina-y-la-conquista-del-rio-de-la-plata",
+    29
+   ]
+  ],
+  "piezas": [],
+  "duplicados": [],
+  "huerfanos": []
+ }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "vida-del-ahorcado",
+  "titulo": "Vida del Ahorcado",
+  "autor": "Pablo Palacio",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/pablo-palacio/vida-del-ahorcado/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/pablo-palacio/vida-del-ahorcado"
+  },
+  "catalogo_id": 821,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Vida del Ahorcado",
+    "autor": "Pablo Palacio",
+    "anio": "1932",
+    "pais": "Ecuador",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1932
+}

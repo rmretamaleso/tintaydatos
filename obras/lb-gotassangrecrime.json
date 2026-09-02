@@ -1,0 +1,30 @@
+{
+  "slug": "gotas-de-sangre-crimenes-y-criminales",
+  "titulo": "Gotas de Sangre: Crímenes y Criminales",
+  "autor": "Luis Bonafoux Quintero",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/luis-bonafoux-quintero/gotas-de-sangre-crimenes-y-criminales/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/luis-bonafoux-quintero/gotas-de-sangre-crimenes-y-criminales"
+  },
+  "catalogo_id": 830,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Gotas de Sangre: Crímenes y Criminales",
+    "autor": "Luis Bonafoux Quintero",
+    "anio": "",
+    "pais": "Puerto Rico",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

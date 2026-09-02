@@ -1,0 +1,31 @@
+{
+  "slug": "las-ciencias-ocultas-en-la-ciudad-de-buenos-aires",
+  "titulo": "Las Ciencias Ocultas en la Ciudad de Buenos Aires",
+  "autor": "Roberto Arlt",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/roberto-arlt/las-ciencias-ocultas-en-la-ciudad-de-buenos-aires/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/roberto-arlt/las-ciencias-ocultas-en-la-ciudad-de-buenos-aires"
+  },
+  "catalogo_id": 786,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Las Ciencias Ocultas en la Ciudad de Buenos Aires",
+    "autor": "Roberto Arlt",
+    "anio": "",
+    "pais": "Argentina",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "preliminares": true,
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

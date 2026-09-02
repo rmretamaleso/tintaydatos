@@ -1,0 +1,31 @@
+{
+  "slug": "huellas-literarias",
+  "titulo": "Huellas Literarias",
+  "autor": "Luis Bonafoux Quintero",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/luis-bonafoux-quintero/huellas-literarias/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/luis-bonafoux-quintero/huellas-literarias"
+  },
+  "catalogo_id": 829,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Huellas Literarias",
+    "autor": "Luis Bonafoux Quintero",
+    "anio": "",
+    "pais": "Puerto Rico",
+    "genero": "Memoria/Crónica",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "preliminares": true,
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

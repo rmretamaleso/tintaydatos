@@ -1,0 +1,28 @@
+{
+  "slug": "los-ceros",
+  "titulo": "Los Ceros",
+  "autor": "Vicente Riva Palacio",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/vicente-riva-palacio/los-ceros/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/vicente-riva-palacio/los-ceros"
+  },
+  "catalogo_id": 807,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Los Ceros",
+    "autor": "Vicente Riva Palacio",
+    "anio": "",
+    "pais": "México",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

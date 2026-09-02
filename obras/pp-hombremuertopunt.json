@@ -1,0 +1,32 @@
+{
+  "slug": "un-hombre-muerto-a-puntapies-cuentos",
+  "titulo": "Un Hombre Muerto a Puntapiés (cuentos)",
+  "autor": "Pablo Palacio",
+  "anio": 1927,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/pablo-palacio/un-hombre-muerto-a-puntapies-cuentos/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/pablo-palacio/un-hombre-muerto-a-puntapies-cuentos"
+  },
+  "catalogo_id": 824,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Un Hombre Muerto a Puntapiés (cuentos)",
+    "autor": "Pablo Palacio",
+    "anio": "1927",
+    "pais": "Ecuador",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "preliminares": true,
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

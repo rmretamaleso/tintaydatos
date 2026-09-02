@@ -1,0 +1,30 @@
+{
+  "slug": "nuevas-aguafuertes",
+  "titulo": "Nuevas Aguafuertes",
+  "autor": "Roberto Arlt",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/roberto-arlt/nuevas-aguafuertes/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/roberto-arlt/nuevas-aguafuertes"
+  },
+  "catalogo_id": 777,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Nuevas Aguafuertes",
+    "autor": "Roberto Arlt",
+    "anio": "",
+    "pais": "Argentina",
+    "genero": "Memoria/Crónica",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

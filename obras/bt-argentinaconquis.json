@@ -1,0 +1,28 @@
+{
+  "slug": "la-argentina-y-la-conquista-del-rio-de-la-plata",
+  "titulo": "La Argentina y la Conquista del Río de la Plata",
+  "autor": "Martín del Barco Centenera",
+  "tipo": "verso",
+  "url": "https://www.textos.info/martin-del-barco-centenera/la-argentina-y-la-conquista-del-rio-de-la-plata/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/martin-del-barco-centenera/la-argentina-y-la-conquista-del-rio-de-la-plata"
+  },
+  "catalogo_id": 831,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Argentina y la Conquista del Río de la Plata",
+    "autor": "Martín del Barco Centenera",
+    "anio": "1602",
+    "pais": "Argentina",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true
+  },
+  "anio": 1602
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "inquietudes-sentimentales",
+  "titulo": "Inquietudes Sentimentales",
+  "autor": "Teresa Wilms Montt",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/teresa-wilms-montt/inquietudes-sentimentales/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/teresa-wilms-montt/inquietudes-sentimentales"
+  },
+  "catalogo_id": 797,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Inquietudes Sentimentales",
+    "autor": "Teresa Wilms Montt",
+    "anio": "1917",
+    "pais": "Chile",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1917
+}

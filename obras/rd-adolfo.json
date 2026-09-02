@@ -1,0 +1,28 @@
+{
+  "slug": "adolfo",
+  "titulo": "Adolfo",
+  "autor": "Rafael Delgado",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/rafael-delgado/adolfo/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/rafael-delgado/adolfo"
+  },
+  "catalogo_id": 814,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Adolfo",
+    "autor": "Rafael Delgado",
+    "anio": "",
+    "pais": "México",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

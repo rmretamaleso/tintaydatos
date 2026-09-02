@@ -1,0 +1,31 @@
+{
+  "slug": "los-lanzallamas",
+  "titulo": "Los Lanzallamas",
+  "autor": "Roberto Arlt",
+  "anio": 1931,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/roberto-arlt/los-lanzallamas/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/roberto-arlt/los-lanzallamas"
+  },
+  "catalogo_id": 781,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Los Lanzallamas",
+    "autor": "Roberto Arlt",
+    "anio": "1931",
+    "pais": "Argentina",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

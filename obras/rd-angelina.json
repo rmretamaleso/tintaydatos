@@ -1,0 +1,29 @@
+{
+  "slug": "angelina",
+  "titulo": "Angelina",
+  "autor": "Rafael Delgado",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/rafael-delgado/angelina/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/rafael-delgado/angelina"
+  },
+  "catalogo_id": 810,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Angelina",
+    "autor": "Rafael Delgado",
+    "anio": "1893",
+    "pais": "México",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1893
+}

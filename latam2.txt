@@ -1,0 +1,30 @@
+# Segunda revisión del índice: autores latinoamericanos que se me pasaron.
+# Todos fallecidos antes de 1956.
+#
+# ARGENTINA
+roberto-arlt                      Roberto Arlt (1900-1942) — El juguete rabioso, Los siete locos
+jose-seferino-alvarez-fray-mocho  Fray Mocho (1858-1903)
+rosa-guerra                       Rosa Guerra (m. 1864) — autora
+juan-cortada                      Juan Cortada (1805-1865)
+domingo-arena                     Domingo Arena (1870-1939)
+#
+# CHILE  (hoy con 19 obras)
+teresa-wilms-montt                Teresa Wilms Montt (1893-1921) — autora
+#
+# MÉXICO
+vicente-riva-palacio              Vicente Riva Palacio (1832-1896)
+rafael-delgado                    Rafael Delgado (1853-1914)
+xavier-villaurrutia               Xavier Villaurrutia (1903-1950)
+francisco-javier-alegre           Francisco Javier Alegre (1729-1788)
+#
+# ECUADOR
+pablo-palacio                     Pablo Palacio (1906-1947) — vanguardia
+#
+# VENEZUELA  (hoy con 1 obra)
+rufino-blanco-fombona             Rufino Blanco Fombona (1874-1944)
+#
+# PUERTO RICO  (hoy con 2 obras)
+luis-bonafoux-quintero            Luis Bonafoux Quintero (1855-1918)
+#
+# OTROS
+martin-del-barco-centenera        Martín del Barco Centenera (1535-1605) — La Argentina

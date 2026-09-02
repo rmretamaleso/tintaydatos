@@ -1,0 +1,31 @@
+{
+  "slug": "prueba-de-amor",
+  "titulo": "Prueba de Amor",
+  "autor": "Roberto Arlt",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/roberto-arlt/prueba-de-amor/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/roberto-arlt/prueba-de-amor"
+  },
+  "catalogo_id": 789,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Prueba de Amor",
+    "autor": "Roberto Arlt",
+    "anio": "",
+    "pais": "Argentina",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "preliminares": true,
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

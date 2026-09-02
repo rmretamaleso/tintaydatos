@@ -1,0 +1,44 @@
+{
+  "slug": "dispersos-pp",
+  "titulo": "Cuentos y Prosas Dispersos",
+  "autor": "Pablo Palacio",
+  "tipo": "prosa",
+  "autor_slug": "pablo-palacio",
+  "piezas_fuente": [
+    "amor-y-muerte::Amor y Muerte",
+    "el-frio::El Frío",
+    "el-huerfanito::El Huerfanito",
+    "los-aldeanos::Los Aldeanos",
+    "novela-guillotinada::Novela Guillotinada",
+    "sierra::Sierra",
+    "un-nuevo-caso-de-marriage-en-trois::Un Nuevo Caso de Marriage en Trois",
+    "una-carta-un-hombre-y-algunas-cosas-mas::Una Carta, un Hombre y Algunas Cosas Más",
+    "una-mujer-y-luego-pollo-frito::Una Mujer y Luego Pollo Frito"
+  ],
+  "orden": "alfabetico",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/pablo-palacio",
+    "nota": "Reúne los 9 textos que la fuente publica sueltos y que no figuran en ninguno de los libros del autor disponibles allí. Recopilación de Tinta y Datos."
+  },
+  "catalogo_id": 827,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos y prosas dispersos",
+    "autor": "Pablo Palacio",
+    "anio": "",
+    "pais": "Ecuador",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 9
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

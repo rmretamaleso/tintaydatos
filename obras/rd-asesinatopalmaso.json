@@ -1,0 +1,29 @@
+{
+  "slug": "el-asesinato-de-palma-sola",
+  "titulo": "El Asesinato de Palma-Sola",
+  "autor": "Rafael Delgado",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/rafael-delgado/el-asesinato-de-palma-sola/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/rafael-delgado/el-asesinato-de-palma-sola"
+  },
+  "catalogo_id": 815,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Asesinato de Palma-Sola",
+    "autor": "Rafael Delgado",
+    "anio": "",
+    "pais": "México",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "preliminares": true,
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

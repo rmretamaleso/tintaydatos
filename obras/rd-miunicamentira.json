@@ -1,0 +1,29 @@
+{
+  "slug": "mi-unica-mentira",
+  "titulo": "Mi Única Mentira",
+  "autor": "Rafael Delgado",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/rafael-delgado/mi-unica-mentira/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/rafael-delgado/mi-unica-mentira"
+  },
+  "catalogo_id": 817,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Mi Única Mentira",
+    "autor": "Rafael Delgado",
+    "anio": "",
+    "pais": "México",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "preliminares": true,
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "comedia-inmortal",
+  "titulo": "Comedia inmortal",
+  "autor": "Pablo Palacio",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/pablo-palacio/comedia-inmortal/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/pablo-palacio/comedia-inmortal"
+  },
+  "catalogo_id": 822,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Comedia inmortal",
+    "autor": "Pablo Palacio",
+    "anio": "",
+    "pais": "Ecuador",
+    "genero": "Teatro",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "preliminares": true,
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

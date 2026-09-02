@@ -1,0 +1,28 @@
+{
+  "slug": "cuentos-para-los-hombres-que-son-todavia-ninos",
+  "titulo": "Cuentos para los Hombres que son Todavía Niños",
+  "autor": "Teresa Wilms Montt",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/teresa-wilms-montt/cuentos-para-los-hombres-que-son-todavia-ninos/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/teresa-wilms-montt/cuentos-para-los-hombres-que-son-todavia-ninos"
+  },
+  "catalogo_id": 798,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos para los Hombres que son Todavía Niños",
+    "autor": "Teresa Wilms Montt",
+    "anio": "",
+    "pais": "Chile",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}
