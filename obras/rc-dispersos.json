@@ -1,0 +1,39 @@
+{
+  "slug": "cuentos-dispersos-rc",
+  "titulo": "Cuentos y Prosas Dispersos",
+  "autor": "Rosalía de Castro",
+  "tipo": "prosa",
+  "autor_slug": "rosalia-de-castro",
+  "piezas_fuente": [
+    "el-cadiceno::El Cadiceño",
+    "el-domingo-de-ramos::El Domingo de Ramos",
+    "las-literatas::Las Literatas",
+    "ruinas::Ruinas"
+  ],
+  "orden": "alfabetico",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/rosalia-de-castro",
+    "nota": "Reúne los 4 textos que la fuente publica sueltos y que no figuran en ninguno de los libros del autor disponibles allí. Recopilación de Tinta y Datos."
+  },
+  "catalogo_id": 642,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos y prosas dispersos",
+    "autor": "Rosalía de Castro",
+    "anio": "",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 4
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

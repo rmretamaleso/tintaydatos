@@ -1,0 +1,32 @@
+{
+  "slug": "maese-perez-el-organista",
+  "titulo": "Maese Pérez el Organista",
+  "autor": "Gustavo Adolfo Bécquer",
+  "anio": 1861,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/gustavo-adolfo-becquer/maese-perez-el-organista/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/gustavo-adolfo-becquer/maese-perez-el-organista"
+  },
+  "catalogo_id": 634,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Maese Pérez el Organista",
+    "autor": "Gustavo Adolfo Bécquer",
+    "anio": "1861",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "preliminares": true,
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

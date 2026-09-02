@@ -1,0 +1,28 @@
+{
+  "slug": "el-articulo-de-fondo",
+  "titulo": "El Artículo de Fondo",
+  "autor": "Benito Pérez Galdós",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/benito-perez-galdos/el-articulo-de-fondo/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/benito-perez-galdos/el-articulo-de-fondo"
+  },
+  "catalogo_id": 621,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Artículo de Fondo",
+    "autor": "Benito Pérez Galdós",
+    "anio": "",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

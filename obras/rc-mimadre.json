@@ -1,0 +1,31 @@
+{
+  "slug": "a-mi-madre",
+  "titulo": "A Mi Madre",
+  "autor": "Rosalía de Castro",
+  "anio": 1863,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/rosalia-de-castro/a-mi-madre/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/rosalia-de-castro/a-mi-madre"
+  },
+  "catalogo_id": 639,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "A Mi Madre",
+    "autor": "Rosalía de Castro",
+    "anio": "1863",
+    "pais": "España",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

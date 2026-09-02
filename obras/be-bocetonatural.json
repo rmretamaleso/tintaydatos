@@ -1,0 +1,28 @@
+{
+  "slug": "un-boceto-del-natural",
+  "titulo": "Un Boceto del Natural",
+  "autor": "Gustavo Adolfo Bécquer",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/gustavo-adolfo-becquer/un-boceto-del-natural/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/gustavo-adolfo-becquer/un-boceto-del-natural"
+  },
+  "catalogo_id": 635,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Un Boceto del Natural",
+    "autor": "Gustavo Adolfo Bécquer",
+    "anio": "",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

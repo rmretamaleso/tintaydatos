@@ -1,0 +1,55 @@
+{
+  "slug": "cuentos-dispersos-be",
+  "titulo": "Cuentos y Prosas Dispersos",
+  "autor": "Gustavo Adolfo Bécquer",
+  "tipo": "prosa",
+  "autor_slug": "gustavo-adolfo-becquer",
+  "piezas_fuente": [
+    "apologo::Apólogo",
+    "el-beso::El Beso",
+    "el-cristo-de-la-calavera::El Cristo de la Calavera",
+    "el-miserere::El Miserere",
+    "el-rayo-de-luna::El Rayo de Luna",
+    "entre-suenos::Entre Sueños",
+    "historia-de-una-mariposa-y-una-arana::Historia de una Mariposa y una Araña",
+    "la-ajorca-de-oro::La Ajorca de Oro",
+    "la-arquitectura-arabe-en-toledo::La Arquitectura Árabe en Toledo",
+    "la-corza-blanca::La Corza Blanca",
+    "la-cruz-del-diablo::La Cruz del Diablo",
+    "la-cueva-de-la-mora::La Cueva de la Mora",
+    "la-mujer-de-piedra::La Mujer de Piedra",
+    "la-venta-de-los-gatos::La Venta de los Gatos",
+    "las-hojas-secas::Las Hojas Secas",
+    "los-ojos-verdes::Los Ojos Verdes",
+    "memorias-de-un-pavo::Memorias de un Pavo",
+    "tres-fechas::Tres Fechas",
+    "un-lance-pesado::Un Lance Pesado",
+    "un-tesoro::Un Tesoro"
+  ],
+  "orden": "alfabetico",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/gustavo-adolfo-becquer",
+    "nota": "Reúne los 20 textos que la fuente publica sueltos y que no figuran en ninguno de los libros del autor disponibles allí. Recopilación de Tinta y Datos."
+  },
+  "catalogo_id": 636,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos y prosas dispersos",
+    "autor": "Gustavo Adolfo Bécquer",
+    "anio": "",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 20
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

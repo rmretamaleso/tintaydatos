@@ -1,0 +1,31 @@
+{
+  "slug": "la-loca-de-la-casa",
+  "titulo": "La Loca de la Casa",
+  "autor": "Benito Pérez Galdós",
+  "anio": 1893,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/benito-perez-galdos/la-loca-de-la-casa/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/benito-perez-galdos/la-loca-de-la-casa"
+  },
+  "catalogo_id": 535,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Loca de la Casa",
+    "autor": "Benito Pérez Galdós",
+    "anio": "1893",
+    "pais": "España",
+    "genero": "Teatro",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "la-sombra",
+  "titulo": "La Sombra",
+  "autor": "Benito Pérez Galdós",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/benito-perez-galdos/la-sombra/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/benito-perez-galdos/la-sombra"
+  },
+  "catalogo_id": 607,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Sombra",
+    "autor": "Benito Pérez Galdós",
+    "anio": "",
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

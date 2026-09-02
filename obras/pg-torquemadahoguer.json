@@ -1,0 +1,29 @@
+{
+  "slug": "torquemada-en-la-hoguera",
+  "titulo": "Torquemada en la Hoguera",
+  "autor": "Benito Pérez Galdós",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/benito-perez-galdos/torquemada-en-la-hoguera/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/benito-perez-galdos/torquemada-en-la-hoguera"
+  },
+  "catalogo_id": 611,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Torquemada en la Hoguera",
+    "autor": "Benito Pérez Galdós",
+    "anio": "1889",
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1889
+}

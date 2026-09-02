@@ -1,0 +1,31 @@
+{
+  "slug": "la-pluma-en-el-viento",
+  "titulo": "La Pluma en el Viento",
+  "autor": "Benito Pérez Galdós",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/benito-perez-galdos/la-pluma-en-el-viento/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/benito-perez-galdos/la-pluma-en-el-viento"
+  },
+  "catalogo_id": 618,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Pluma en el Viento",
+    "autor": "Benito Pérez Galdós",
+    "anio": "",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "preliminares": true,
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

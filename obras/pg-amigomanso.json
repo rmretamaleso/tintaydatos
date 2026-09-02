@@ -1,0 +1,29 @@
+{
+  "slug": "el-amigo-manso",
+  "titulo": "El Amigo Manso",
+  "autor": "Benito Pérez Galdós",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/benito-perez-galdos/el-amigo-manso/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/benito-perez-galdos/el-amigo-manso"
+  },
+  "catalogo_id": 543,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Amigo Manso",
+    "autor": "Benito Pérez Galdós",
+    "anio": "1882",
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1882
+}

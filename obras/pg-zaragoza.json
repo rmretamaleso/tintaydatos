@@ -1,0 +1,28 @@
+{
+  "slug": "zaragoza",
+  "titulo": "Zaragoza",
+  "autor": "Benito Pérez Galdós",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/benito-perez-galdos/zaragoza/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/benito-perez-galdos/zaragoza"
+  },
+  "catalogo_id": 584,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Zaragoza",
+    "autor": "Benito Pérez Galdós",
+    "anio": "",
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

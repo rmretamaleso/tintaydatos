@@ -1,0 +1,30 @@
+{
+  "slug": "torquemada-en-la-cruz",
+  "titulo": "Torquemada en la Cruz",
+  "autor": "Benito Pérez Galdós",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/benito-perez-galdos/torquemada-en-la-cruz/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/benito-perez-galdos/torquemada-en-la-cruz"
+  },
+  "catalogo_id": 572,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Torquemada en la Cruz",
+    "autor": "Benito Pérez Galdós",
+    "anio": "",
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "una-industria-que-vive-de-la-muerte",
+  "titulo": "Una Industria que Vive de la Muerte",
+  "autor": "Benito Pérez Galdós",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/benito-perez-galdos/una-industria-que-vive-de-la-muerte/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/benito-perez-galdos/una-industria-que-vive-de-la-muerte"
+  },
+  "catalogo_id": 619,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Una Industria que Vive de la Muerte",
+    "autor": "Benito Pérez Galdós",
+    "anio": "",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "cuentos-dispersos-pg",
+  "titulo": "Cuentos y Prosas Dispersos",
+  "autor": "Benito Pérez Galdós",
+  "tipo": "prosa",
+  "autor_slug": "benito-perez-galdos",
+  "piezas_fuente": [
+    "el-don-juan::El Don Juan",
+    "la-conjuracion-de-las-palabras::La Conjuración de las Palabras",
+    "la-sociedad-presente-como-materia-novelable::La Sociedad Presente como Materia Novelable",
+    "madrid::Madrid",
+    "portugal::Portugal",
+    "rompecabezas::Rompecabezas",
+    "sonemos-alma-sonemos::Soñemos, Alma, Soñemos"
+  ],
+  "orden": "alfabetico",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/benito-perez-galdos",
+    "nota": "Reúne los 7 textos que la fuente publica sueltos y que no figuran en ninguno de los libros del autor disponibles allí. Recopilación de Tinta y Datos."
+  },
+  "catalogo_id": 623,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos y prosas dispersos",
+    "autor": "Benito Pérez Galdós",
+    "anio": "",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 7
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

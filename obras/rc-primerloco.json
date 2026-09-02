@@ -1,0 +1,29 @@
+{
+  "slug": "el-primer-loco",
+  "titulo": "El Primer Loco",
+  "autor": "Rosalía de Castro",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/rosalia-de-castro/el-primer-loco/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/rosalia-de-castro/el-primer-loco"
+  },
+  "catalogo_id": 641,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Primer Loco",
+    "autor": "Rosalía de Castro",
+    "anio": "1881",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1881
+}

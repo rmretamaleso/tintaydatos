@@ -61,9 +61,21 @@ def descargar(url, intentos=3, espera=45):
     raise RuntimeError(f"No pude descargar {url} tras {intentos} intentos ({ultimo}).")
 
 
+MAL_CODIFICADOS = {
+    # La fuente arrastra bytes de codificaciones antiguas que no corresponden a
+    # ningún carácter visible: «Fr\x9cbel» por «Fröbel». Sin esto quedan huecos
+    # en el PDF, porque ninguna fuente tipográfica los dibuja.
+    "\x9c": "ö", "\x9a": "š", "\x8a": "Š", "\x9e": "ž", "\x8e": "Ž",
+    "\x9f": "Ÿ", "\x8c": "Œ", "\x9d": "", "\x81": "", "\x8d": "", "\x8f": "",
+    "\x90": "",
+}
+
+
 def limpiar(s):
     s = re.sub(r"<[^>]+>", "", s)
     s = _html.unescape(s).replace("\u00a0", " ").replace("\u200b", "")
+    for malo, bueno in MAL_CODIFICADOS.items():
+        s = s.replace(malo, bueno)
     # La fuente deja a veces una marca de orden de bytes al inicio del archivo.
     # Es invisible, pero entra en el texto y luego no calza contra el PDF.
     s = s.replace("\ufeff", "").replace("\u200e", "").replace("\u200f", "")

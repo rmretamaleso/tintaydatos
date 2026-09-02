@@ -1,0 +1,29 @@
+{
+  "slug": "miau",
+  "titulo": "Miau",
+  "autor": "Benito Pérez Galdós",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/benito-perez-galdos/miau/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/benito-perez-galdos/miau"
+  },
+  "catalogo_id": 548,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Miau",
+    "autor": "Benito Pérez Galdós",
+    "anio": "1888",
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1888
+}

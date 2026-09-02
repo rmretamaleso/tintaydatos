@@ -1,0 +1,32 @@
+{
+  "slug": "la-rosa-de-pasion",
+  "titulo": "La Rosa de Pasión",
+  "autor": "Gustavo Adolfo Bécquer",
+  "anio": 1864,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/gustavo-adolfo-becquer/la-rosa-de-pasion/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/gustavo-adolfo-becquer/la-rosa-de-pasion"
+  },
+  "catalogo_id": 633,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Rosa de Pasión",
+    "autor": "Gustavo Adolfo Bécquer",
+    "anio": "1864",
+    "pais": "España",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "preliminares": true,
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

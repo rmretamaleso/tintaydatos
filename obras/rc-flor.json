@@ -1,0 +1,29 @@
+{
+  "slug": "la-flor",
+  "titulo": "La Flor",
+  "autor": "Rosalía de Castro",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/rosalia-de-castro/la-flor/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/rosalia-de-castro/la-flor"
+  },
+  "catalogo_id": 640,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Flor",
+    "autor": "Rosalía de Castro",
+    "anio": "1857",
+    "pais": "España",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1857
+}

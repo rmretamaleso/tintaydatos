@@ -1,0 +1,28 @@
+{
+  "slug": "el-1-de-marzo-y-el-2-de-mayo",
+  "titulo": "El 1 de marzo y el 2 de mayo",
+  "autor": "Benito Pérez Galdós",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/benito-perez-galdos/el-1-de-marzo-y-el-2-de-mayo/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/benito-perez-galdos/el-1-de-marzo-y-el-2-de-mayo"
+  },
+  "catalogo_id": 586,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El 1 de marzo y el 2 de mayo",
+    "autor": "Benito Pérez Galdós",
+    "anio": "",
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}
