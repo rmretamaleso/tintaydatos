@@ -2,7 +2,6 @@ name = "tintaydatos"
 compatibility_date = "2026-01-01"
 
 # Sirve el sitio como archivos estáticos desde la raíz del repositorio.
-# Sin esto solo se publica index.html, y sitemap.xml o robots.txt dan error.
+# Sin esto solo se publica index.html, y sitemap.xml o robots.txt dan 522.
 [assets]
 directory = "."
-not_found_handling = "single-page-application"
