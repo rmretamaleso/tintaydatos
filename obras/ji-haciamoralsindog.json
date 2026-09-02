@@ -1,0 +1,28 @@
+{
+  "slug": "hacia-una-moral-sin-dogmas",
+  "titulo": "Hacia una Moral Sin Dogmas",
+  "autor": "José Ingenieros",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/jose-ingenieros/hacia-una-moral-sin-dogmas/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/jose-ingenieros/hacia-una-moral-sin-dogmas"
+  },
+  "catalogo_id": 693,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Hacia una Moral Sin Dogmas",
+    "autor": "José Ingenieros",
+    "anio": "",
+    "pais": "Argentina",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

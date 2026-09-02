@@ -1,0 +1,29 @@
+{
+  "slug": "el-caballero-carmelo",
+  "titulo": "El Caballero Carmelo",
+  "autor": "Abraham Valdelomar",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/abraham-valdelomar/el-caballero-carmelo/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/abraham-valdelomar/el-caballero-carmelo"
+  },
+  "catalogo_id": 752,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Caballero Carmelo",
+    "autor": "Abraham Valdelomar",
+    "anio": "1918",
+    "pais": "Perú",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1918
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "gil-gomez-el-insurgente",
+  "titulo": "Gil Gómez el Insurgente",
+  "autor": "Juan Díaz Covarrubias",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/juan-diaz-covarrubias/gil-gomez-el-insurgente/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/juan-diaz-covarrubias/gil-gomez-el-insurgente"
+  },
+  "catalogo_id": 735,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Gil Gómez el Insurgente",
+    "autor": "Juan Díaz Covarrubias",
+    "anio": "",
+    "pais": "México",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

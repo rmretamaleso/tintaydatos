@@ -1,28 +1,28 @@
 {
-  "slug": "dispersos-fc",
+  "slug": "dispersos-lm",
   "titulo": "Cuentos y Prosas Dispersos",
-  "autor": "Francisco Campos Coello",
+  "autor": "Laura Méndez de Cuenca",
   "tipo": "prosa",
-  "autor_slug": "francisco-campos-coello",
+  "autor_slug": "laura-mendez-de-cuenca",
   "piezas_fuente": [
-    "historia-de-un-par-de-anteojos::Historia de un Par de Anteojos",
-    "los-gigantes-de-santa-elena::Los Gigantes de Santa Elena",
-    "viaje-alrededor-del-mundo-en-24-horas::Viaje Alrededor del Mundo en 24 Horas"
+    "estaba-escrito::Estaba escrito",
+    "rosas-muertas::Rosas muertas",
+    "un-rayo-de-luna::Un rayo de luna"
   ],
   "orden": "alfabetico",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
   "fuente": {
     "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
-    "url": "https://www.textos.info/francisco-campos-coello",
+    "url": "https://www.textos.info/laura-mendez-de-cuenca",
     "nota": "Reúne los 3 textos que la fuente publica sueltos y que no figuran en ninguno de los libros del autor disponibles allí. Recopilación de Tinta y Datos."
   },
-  "catalogo_id": 770,
+  "catalogo_id": 712,
   "catalogo_campos": {
     "dominio": "Literatura",
     "titulo": "Cuentos y prosas dispersos",
-    "autor": "Francisco Campos Coello",
+    "autor": "Laura Méndez de Cuenca",
     "anio": "",
-    "pais": "Ecuador",
+    "pais": "México",
     "genero": "Cuento",
     "tipo": "Dominio público",
     "puede_alojarse": "si"

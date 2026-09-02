@@ -1,0 +1,29 @@
+{
+  "slug": "el-periquillo-sarniento",
+  "titulo": "El Periquillo Sarniento",
+  "autor": "José Joaquín Fernández de Lizardi",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/jose-joaquin-fernandez-de-lizardi/el-periquillo-sarniento/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/jose-joaquin-fernandez-de-lizardi/el-periquillo-sarniento"
+  },
+  "catalogo_id": 710,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Periquillo Sarniento",
+    "autor": "José Joaquín Fernández de Lizardi",
+    "anio": "1816",
+    "pais": "México",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1816
+}

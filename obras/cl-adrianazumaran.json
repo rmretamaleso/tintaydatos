@@ -1,0 +1,28 @@
+{
+  "slug": "adriana-zumaran",
+  "titulo": "Adriana Zumarán",
+  "autor": "Carlos Alberto Leumann",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/carlos-alberto-leumann/adriana-zumaran/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/carlos-alberto-leumann/adriana-zumaran"
+  },
+  "catalogo_id": 697,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Adriana Zumarán",
+    "autor": "Carlos Alberto Leumann",
+    "anio": "",
+    "pais": "Argentina",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "donarramona-y-otros-relatos",
+  "titulo": "Doñarramona y Otros Relatos",
+  "autor": "José Pedro Bellán",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/jose-pedro-bellan/donarramona-y-otros-relatos/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/jose-pedro-bellan/donarramona-y-otros-relatos"
+  },
+  "catalogo_id": 706,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Doñarramona y Otros Relatos",
+    "autor": "José Pedro Bellán",
+    "anio": "",
+    "pais": "Uruguay",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "preliminares": true,
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

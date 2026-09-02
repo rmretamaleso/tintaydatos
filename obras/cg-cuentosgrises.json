@@ -1,0 +1,28 @@
+{
+  "slug": "cuentos-grises",
+  "titulo": "Cuentos Grises",
+  "autor": "Carlos Gagini",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/carlos-gagini/cuentos-grises/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/carlos-gagini/cuentos-grises"
+  },
+  "catalogo_id": 767,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos Grises",
+    "autor": "Carlos Gagini",
+    "anio": "",
+    "pais": "Costa Rica",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

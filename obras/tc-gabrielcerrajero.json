@@ -1,0 +1,28 @@
+{
+  "slug": "gabriel-el-cerrajero-o-las-hijas-de-mi-papa",
+  "titulo": "Gabriel el Cerrajero o las Hijas de mi Papá",
+  "autor": "José Tomás de Cuéllar",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/jose-tomas-de-cuellar/gabriel-el-cerrajero-o-las-hijas-de-mi-papa/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/jose-tomas-de-cuellar/gabriel-el-cerrajero-o-las-hijas-de-mi-papa"
+  },
+  "catalogo_id": 719,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Gabriel el Cerrajero o las Hijas de mi Papá",
+    "autor": "José Tomás de Cuéllar",
+    "anio": "",
+    "pais": "México",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

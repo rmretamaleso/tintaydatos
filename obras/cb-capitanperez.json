@@ -1,0 +1,28 @@
+{
+  "slug": "el-capitan-perez",
+  "titulo": "El Capitán Pérez",
+  "autor": "Carlos Octavio Bunge",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/carlos-octavio-bunge/el-capitan-perez/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/carlos-octavio-bunge/el-capitan-perez"
+  },
+  "catalogo_id": 690,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Capitán Pérez",
+    "autor": "Carlos Octavio Bunge",
+    "anio": "",
+    "pais": "Argentina",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

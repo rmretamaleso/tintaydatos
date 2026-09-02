@@ -1,0 +1,28 @@
+{
+  "slug": "isolina-la-ex-figurante",
+  "titulo": "Isolina la Ex-Figurante",
+  "autor": "José Tomás de Cuéllar",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/jose-tomas-de-cuellar/isolina-la-ex-figurante/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/jose-tomas-de-cuellar/isolina-la-ex-figurante"
+  },
+  "catalogo_id": 721,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Isolina la Ex-Figurante",
+    "autor": "José Tomás de Cuéllar",
+    "anio": "",
+    "pais": "México",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

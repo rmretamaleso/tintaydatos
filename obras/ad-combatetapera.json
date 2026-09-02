@@ -1,0 +1,28 @@
+{
+  "slug": "el-combate-de-la-tapera",
+  "titulo": "El Combate de la Tapera",
+  "autor": "Eduardo Acevedo Díaz",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/eduardo-acevedo-diaz/el-combate-de-la-tapera/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/eduardo-acevedo-diaz/el-combate-de-la-tapera"
+  },
+  "catalogo_id": 703,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Combate de la Tapera",
+    "autor": "Eduardo Acevedo Díaz",
+    "anio": "",
+    "pais": "Uruguay",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

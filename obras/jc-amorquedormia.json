@@ -1,0 +1,28 @@
+{
+  "slug": "el-amor-que-dormia",
+  "titulo": "El Amor que Dormía",
+  "autor": "José de la Cuadra",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/jose-de-la-cuadra/el-amor-que-dormia/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/jose-de-la-cuadra/el-amor-que-dormia"
+  },
+  "catalogo_id": 778,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Amor que Dormía",
+    "autor": "José de la Cuadra",
+    "anio": "",
+    "pais": "Ecuador",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "la-florida-del-inca",
+  "titulo": "La Florida del Inca",
+  "autor": "Inca Garcilaso de la Vega",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/inca-garcilaso-de-la-vega/la-florida-del-inca/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/inca-garcilaso-de-la-vega/la-florida-del-inca"
+  },
+  "catalogo_id": 765,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Florida del Inca",
+    "autor": "Inca Garcilaso de la Vega",
+    "anio": "",
+    "pais": "Perú",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "preliminares": true,
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "dispersos-aa",
+  "titulo": "Cuentos y Prosas Dispersos",
+  "autor": "Arturo Ambrogi",
+  "tipo": "prosa",
+  "autor_slug": "arturo-ambrogi",
+  "piezas_fuente": [
+    "despues-del-chaparron::Después del Chaparrón",
+    "el-paso-de-la-recua::El Paso de la Recua",
+    "la-muerte-del-copinol::La Muerte del Copinol",
+    "la-pesca-bajo-el-sol::La Pesca Bajo el Sol",
+    "la-quebrada::La Quebrada",
+    "la-siesta::La Siesta",
+    "la-siesta-de-los-zopilotes::La Siesta de los Zopilotes",
+    "mediodia::Mediodía"
+  ],
+  "orden": "alfabetico",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/arturo-ambrogi",
+    "nota": "Reúne los 8 textos que la fuente publica sueltos y que no figuran en ninguno de los libros del autor disponibles allí. Recopilación de Tinta y Datos."
+  },
+  "catalogo_id": 768,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos y prosas dispersos",
+    "autor": "Arturo Ambrogi",
+    "anio": "",
+    "pais": "El Salvador",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 8
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

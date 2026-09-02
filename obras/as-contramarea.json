@@ -1,0 +1,28 @@
+{
+  "slug": "contra-la-marea",
+  "titulo": "Contra la Marea",
+  "autor": "Alberto del Solar",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/alberto-del-solar/contra-la-marea/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/alberto-del-solar/contra-la-marea"
+  },
+  "catalogo_id": 766,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Contra la Marea",
+    "autor": "Alberto del Solar",
+    "anio": "",
+    "pais": "Chile",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "el-diablo-en-mexico",
+  "titulo": "El Diablo en México",
+  "autor": "Juan Díaz Covarrubias",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/juan-diaz-covarrubias/el-diablo-en-mexico/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/juan-diaz-covarrubias/el-diablo-en-mexico"
+  },
+  "catalogo_id": 737,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Diablo en México",
+    "autor": "Juan Díaz Covarrubias",
+    "anio": "",
+    "pais": "México",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

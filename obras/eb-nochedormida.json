@@ -1,0 +1,29 @@
+{
+  "slug": "en-la-noche-dormida",
+  "titulo": "En la Noche Dormida",
+  "autor": "Emilio Bobadilla",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/emilio-bobadilla/en-la-noche-dormida/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/emilio-bobadilla/en-la-noche-dormida"
+  },
+  "catalogo_id": 784,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "En la Noche Dormida",
+    "autor": "Emilio Bobadilla",
+    "anio": "",
+    "pais": "Cuba",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "preliminares": true,
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

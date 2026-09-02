@@ -97,8 +97,9 @@ def _cuerpo(doc):
 
 def elementos(doc):
     """Lista ordenada de ('h2'|'h3'|..|'p', texto) tal como aparecen."""
+    cuerpo = _cuerpo(doc)
     out = []
-    for m in re.finditer(r"<(h[1-6]|p)\b[^>]*>(.*?)</\1>", _cuerpo(doc), re.S | re.I):
+    for m in re.finditer(r"<(h[1-6]|p)\b[^>]*>(.*?)</\1>", cuerpo, re.S | re.I):
         etiqueta = m.group(1).lower()
         crudo = m.group(2)
         if etiqueta == "p":
@@ -116,6 +117,20 @@ def elementos(doc):
             t = limpiar(crudo)
             if t:
                 out.append((etiqueta, [t], False))
+    if out:
+        return out
+
+    # Algunas obras traen el texto suelto dentro de <article>, sin envolverlo en
+    # párrafos: los versos van separados por <br> y las estrofas por líneas en
+    # blanco. Sin esto la obra queda vacía y la guarda de unidades la detiene.
+    dentro = re.sub(r"<(h[1-6]|p)\b[^>]*>.*?</\1>", "", cuerpo, flags=re.S | re.I)
+    dentro = re.sub(r"^.*?<article[^>]*>", "", dentro, flags=re.S | re.I)
+    dentro = re.sub(r"</article>.*$", "", dentro, flags=re.S | re.I)
+    for bloque in re.split(r"(?:<br\s*/?>\s*){2,}|\n\s*\n", dentro, flags=re.I):
+        lineas = [limpiar(x) for x in re.split(r"<br\s*/?>", bloque, flags=re.I)]
+        lineas = [x for x in lineas if x]
+        if lineas:
+            out.append(("p", lineas, False))
     return out
 
 

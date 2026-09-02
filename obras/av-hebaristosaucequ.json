@@ -1,0 +1,28 @@
+{
+  "slug": "hebaristo-el-sauce-que-murio-de-amor",
+  "titulo": "Hebaristo, el Sauce que Murió de Amor",
+  "autor": "Abraham Valdelomar",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/abraham-valdelomar/hebaristo-el-sauce-que-murio-de-amor/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/abraham-valdelomar/hebaristo-el-sauce-que-murio-de-amor"
+  },
+  "catalogo_id": 754,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Hebaristo, el Sauce que Murió de Amor",
+    "autor": "Abraham Valdelomar",
+    "anio": "",
+    "pais": "Perú",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

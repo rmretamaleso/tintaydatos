@@ -1,0 +1,29 @@
+{
+  "slug": "juan-moreira",
+  "titulo": "Juan Moreira",
+  "autor": "Eduardo Gutiérrez",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/eduardo-gutierrez/juan-moreira/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/eduardo-gutierrez/juan-moreira"
+  },
+  "catalogo_id": 685,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Juan Moreira",
+    "autor": "Eduardo Gutiérrez",
+    "anio": "1879",
+    "pais": "Argentina",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1879
+}

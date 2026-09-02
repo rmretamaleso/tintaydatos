@@ -1,0 +1,28 @@
+{
+  "slug": "capirotazos",
+  "titulo": "Capirotazos",
+  "autor": "Emilio Bobadilla",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/emilio-bobadilla/capirotazos/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/emilio-bobadilla/capirotazos"
+  },
+  "catalogo_id": 782,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Capirotazos",
+    "autor": "Emilio Bobadilla",
+    "anio": "",
+    "pais": "Cuba",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

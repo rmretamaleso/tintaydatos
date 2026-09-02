@@ -1,0 +1,28 @@
+{
+  "slug": "inocentes-o-culpables",
+  "titulo": "¿Inocentes o Culpables?",
+  "autor": "Juan Antonio Argerich",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/juan-antonio-argerich/inocentes-o-culpables/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/juan-antonio-argerich/inocentes-o-culpables"
+  },
+  "catalogo_id": 696,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "¿Inocentes o Culpables?",
+    "autor": "Juan Antonio Argerich",
+    "anio": "",
+    "pais": "Argentina",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

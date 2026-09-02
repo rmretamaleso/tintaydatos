@@ -1,0 +1,28 @@
+{
+  "slug": "camila",
+  "titulo": "Camila",
+  "autor": "Estanislao del Campo",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/estanislao-del-campo/camila/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/estanislao-del-campo/camila"
+  },
+  "catalogo_id": 684,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Camila",
+    "autor": "Estanislao del Campo",
+    "anio": "",
+    "pais": "Argentina",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

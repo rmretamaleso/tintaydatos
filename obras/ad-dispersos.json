@@ -1,0 +1,43 @@
+{
+  "slug": "dispersos-ad",
+  "titulo": "Cuentos y Prosas Dispersos",
+  "autor": "Eduardo Acevedo Díaz",
+  "tipo": "prosa",
+  "autor_slug": "eduardo-acevedo-diaz",
+  "piezas_fuente": [
+    "aurora-sin-luz::Aurora Sin Luz",
+    "date-lilia::Date Lilia...",
+    "el-grito-de-asencio::El Grito de Asencio",
+    "el-molino-del-galgo::El Molino del Galgo",
+    "el-primer-suplicio::El Primer Suplicio",
+    "la-cueva-del-tigre::La Cueva del Tigre",
+    "noche-toledana::Noche Toledana",
+    "sin-lapida::Sin Lápida..."
+  ],
+  "orden": "alfabetico",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/eduardo-acevedo-diaz",
+    "nota": "Reúne los 8 textos que la fuente publica sueltos y que no figuran en ninguno de los libros del autor disponibles allí. Recopilación de Tinta y Datos."
+  },
+  "catalogo_id": 705,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos y prosas dispersos",
+    "autor": "Eduardo Acevedo Díaz",
+    "anio": "",
+    "pais": "Uruguay",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 8
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

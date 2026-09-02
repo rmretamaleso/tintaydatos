@@ -1,0 +1,29 @@
+{
+  "slug": "el-sacristan",
+  "titulo": "El Sacristán",
+  "autor": "José de la Cuadra",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/jose-de-la-cuadra/el-sacristan/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/jose-de-la-cuadra/el-sacristan"
+  },
+  "catalogo_id": 776,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Sacristán",
+    "autor": "José de la Cuadra",
+    "anio": "",
+    "pais": "Ecuador",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "preliminares": true,
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

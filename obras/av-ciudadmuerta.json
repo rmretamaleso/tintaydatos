@@ -1,0 +1,28 @@
+{
+  "slug": "la-ciudad-muerta",
+  "titulo": "La Ciudad Muerta",
+  "autor": "Abraham Valdelomar",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/abraham-valdelomar/la-ciudad-muerta/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/abraham-valdelomar/la-ciudad-muerta"
+  },
+  "catalogo_id": 748,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Ciudad Muerta",
+    "autor": "Abraham Valdelomar",
+    "anio": "",
+    "pais": "Perú",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

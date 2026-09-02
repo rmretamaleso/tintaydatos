@@ -1,0 +1,58 @@
+# Autores latinoamericanos hallados en el índice de textos.info y aún sin revisar.
+# Todos fallecidos antes de 1956, salvo donde se indica.
+#
+# ARGENTINA
+estanislao-del-campo        Estanislao del Campo (1834-1880) — Fausto
+eduardo-gutierrez           Eduardo Gutiérrez (1851-1889) — Juan Moreira
+eduardo-ladislao-holmberg   Eduardo L. Holmberg (1852-1937) — precursor del fantástico
+carlos-octavio-bunge        Carlos Octavio Bunge (1875-1918)
+jose-ingenieros             José Ingenieros (1877-1925)
+juan-bautista-alberdi       Juan Bautista Alberdi (1810-1884)
+jose-marmol                 José Mármol (1817-1871) — Amalia
+juan-antonio-argerich       Juan Antonio Argerich (1862-1924)
+carlos-alberto-leumann      Carlos Alberto Leumann (1886-1952)
+#
+# URUGUAY
+eduardo-acevedo-diaz        Eduardo Acevedo Díaz (1851-1921)
+carlos-reyles               Carlos Reyles (1868-1938)
+jose-alonso-y-trelles       José Alonso y Trelles (1857-1924)
+jose-pedro-bellan           José Pedro Bellán (1889-1930)
+#
+# MÉXICO
+jose-joaquin-fernandez-de-lizardi  Fernández de Lizardi (1776-1827) — El Periquillo Sarniento
+emilio-rabasa               Emilio Rabasa (1856-1930)
+laura-mendez-de-cuenca      Laura Méndez de Cuenca (1853-1928) — autora
+jose-maria-roa-barcena      José María Roa Bárcena (1827-1908)
+jose-tomas-de-cuellar       José Tomás de Cuéllar (1830-1894)
+juan-antonio-mateos         Juan Antonio Mateos (1831-1913)
+juan-diaz-covarrubias       Juan Díaz Covarrubias (1837-1859)
+ireneo-paz-flores           Ireneo Paz (1836-1924)
+juan-ruiz-de-alarcon        Juan Ruiz de Alarcón (1580-1639)
+#
+# PERÚ
+abraham-valdelomar          Abraham Valdelomar (1888-1919)
+clemente-palma              Clemente Palma (1872-1946)
+luis-benjamin-cisneros      Luis Benjamín Cisneros (1837-1904)
+inca-garcilaso-de-la-vega   Inca Garcilaso de la Vega (1539-1616)
+#
+# CHILE
+alberto-del-solar           Alberto del Solar (1860-1921)
+#
+# COSTA RICA  (sin representación en el catálogo)
+carlos-gagini               Carlos Gagini (1865-1925)
+manuel-gonzalez-zeledon     Manuel González Zeledón (1864-1936)
+#
+# EL SALVADOR  (sin representación)
+alfredo-espino              Alfredo Espino (1900-1928)
+arturo-ambrogi              Arturo Ambrogi (1875-1936)
+#
+# VENEZUELA  (sin representación)
+manuel-diaz-rodriguez       Manuel Díaz Rodríguez (1871-1927)
+#
+# ECUADOR
+francisco-campos-coello     Francisco Campos Coello (1841-1916)
+jose-de-la-cuadra           José de la Cuadra (1903-1941)
+#
+# CUBA / PUERTO RICO
+emilio-bobadilla            Emilio Bobadilla (1862-1921)
+manuel-a-alonso             Manuel A. Alonso (1822-1889) — Puerto Rico, sin representación

@@ -1,0 +1,28 @@
+{
+  "slug": "desde-el-tronco-de-un-ombu",
+  "titulo": "Desde el Tronco de un Ombú",
+  "autor": "Eduardo Acevedo Díaz",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/eduardo-acevedo-diaz/desde-el-tronco-de-un-ombu/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/eduardo-acevedo-diaz/desde-el-tronco-de-un-ombu"
+  },
+  "catalogo_id": 702,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Desde el Tronco de un Ombú",
+    "autor": "Eduardo Acevedo Díaz",
+    "anio": "",
+    "pais": "Uruguay",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

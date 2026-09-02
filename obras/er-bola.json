@@ -1,0 +1,29 @@
+{
+  "slug": "la-bola",
+  "titulo": "La Bola",
+  "autor": "Emilio Rabasa",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/emilio-rabasa/la-bola/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/emilio-rabasa/la-bola"
+  },
+  "catalogo_id": 711,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Bola",
+    "autor": "Emilio Rabasa",
+    "anio": "1887",
+    "pais": "México",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1887
+}

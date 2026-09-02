@@ -1,0 +1,29 @@
+{
+  "slug": "yerba-santa",
+  "titulo": "Yerba Santa",
+  "autor": "Abraham Valdelomar",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/abraham-valdelomar/yerba-santa/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/abraham-valdelomar/yerba-santa"
+  },
+  "catalogo_id": 750,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Yerba Santa",
+    "autor": "Abraham Valdelomar",
+    "anio": "",
+    "pais": "Perú",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "preliminares": true,
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

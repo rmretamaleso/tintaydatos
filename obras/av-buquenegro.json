@@ -1,0 +1,28 @@
+{
+  "slug": "el-buque-negro",
+  "titulo": "El Buque Negro",
+  "autor": "Abraham Valdelomar",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/abraham-valdelomar/el-buque-negro/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/abraham-valdelomar/el-buque-negro"
+  },
+  "catalogo_id": 757,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Buque Negro",
+    "autor": "Abraham Valdelomar",
+    "anio": "",
+    "pais": "Perú",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

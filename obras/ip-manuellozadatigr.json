@@ -1,0 +1,28 @@
+{
+  "slug": "manuel-lozada-el-tigre-de-alica",
+  "titulo": "Manuel Lozada, el Tigre de Alica",
+  "autor": "Ireneo Paz",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ireneo-paz-flores/manuel-lozada-el-tigre-de-alica/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ireneo-paz-flores/manuel-lozada-el-tigre-de-alica"
+  },
+  "catalogo_id": 738,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Manuel Lozada, el Tigre de Alica",
+    "autor": "Ireneo Paz",
+    "anio": "",
+    "pais": "México",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

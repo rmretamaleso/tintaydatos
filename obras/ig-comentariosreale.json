@@ -1,0 +1,28 @@
+{
+  "slug": "comentarios-reales-de-los-incas",
+  "titulo": "Comentarios Reales de los Incas",
+  "autor": "Inca Garcilaso de la Vega",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/inca-garcilaso-de-la-vega/comentarios-reales-de-los-incas/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/inca-garcilaso-de-la-vega/comentarios-reales-de-los-incas"
+  },
+  "catalogo_id": 764,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Comentarios Reales de los Incas",
+    "autor": "Inca Garcilaso de la Vega",
+    "anio": "",
+    "pais": "Perú",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

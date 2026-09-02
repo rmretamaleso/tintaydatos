@@ -1,0 +1,28 @@
+{
+  "slug": "nativa",
+  "titulo": "Nativa",
+  "autor": "Eduardo Acevedo Díaz",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/eduardo-acevedo-diaz/nativa/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/eduardo-acevedo-diaz/nativa"
+  },
+  "catalogo_id": 701,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Nativa",
+    "autor": "Eduardo Acevedo Díaz",
+    "anio": "",
+    "pais": "Uruguay",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

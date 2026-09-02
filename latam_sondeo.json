@@ -1,0 +1,1660 @@
+{
+ "estanislao-del-campo": {
+  "libros": [
+   [
+    "Camila",
+    "camila",
+    10
+   ],
+   [
+    "Fausto",
+    "fausto",
+    12
+   ]
+  ],
+  "piezas": [],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "eduardo-gutierrez": {
+  "libros": [
+   [
+    "Juan Moreira",
+    "juan-moreira",
+    19
+   ]
+  ],
+  "piezas": [],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "eduardo-ladislao-holmberg": {
+  "libros": [
+   [
+    "Horacio Kalibang",
+    "horacio-kalibang",
+    7
+   ],
+   [
+    "La Bolsa de Huesos",
+    "la-bolsa-de-huesos",
+    8
+   ],
+   [
+    "Viaje Maravilloso del Señor Nic-Nac",
+    "viaje-maravilloso-del-senor-nic-nac",
+    44
+   ]
+  ],
+  "piezas": [],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "carlos-octavio-bunge": {
+  "libros": [
+   [
+    "El Capitán Pérez",
+    "el-capitan-perez",
+    8
+   ],
+   [
+    "El Último Grande de España",
+    "el-ultimo-grande-de-espana",
+    4
+   ],
+   [
+    "La Madrina de Lita",
+    "la-madrina-de-lita",
+    5
+   ],
+   [
+    "Thespis",
+    "thespis",
+    38
+   ]
+  ],
+  "piezas": [
+   [
+    "Almas y Rostros",
+    "almas-y-rostros",
+    0
+   ],
+   [
+    "El Canto del Cisne",
+    "el-canto-del-cisne",
+    2
+   ],
+   [
+    "El Chucro",
+    "el-chucro",
+    2
+   ],
+   [
+    "El Justiciero",
+    "el-justiciero",
+    0
+   ],
+   [
+    "El Más Zonzo",
+    "el-mas-zonzo",
+    0
+   ],
+   [
+    "La Agonía de Cervantes",
+    "la-agonia-de-cervantes",
+    0
+   ],
+   [
+    "La Tiranía del Bridge",
+    "la-tirania-del-bridge",
+    0
+   ],
+   [
+    "Monsieur Jaccotot",
+    "monsieur-jaccotot",
+    0
+   ],
+   [
+    "Pesadilla Drolática",
+    "pesadilla-drolatica",
+    2
+   ]
+  ],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "jose-ingenieros": {
+  "libros": [
+   [
+    "Hacia una Moral Sin Dogmas",
+    "hacia-una-moral-sin-dogmas",
+    44
+   ]
+  ],
+  "piezas": [],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "juan-bautista-alberdi": {
+  "libros": [
+   [
+    "Veinte Días en Génova",
+    "veinte-dias-en-genova",
+    18
+   ]
+  ],
+  "piezas": [],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "jose-marmol": {
+  "libros": [
+   [
+    "Amalia",
+    "amalia",
+    86
+   ]
+  ],
+  "piezas": [],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "juan-antonio-argerich": {
+  "libros": [
+   [
+    "¿Inocentes o Culpables?",
+    "inocentes-o-culpables",
+    13
+   ]
+  ],
+  "piezas": [],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "carlos-alberto-leumann": {
+  "libros": [
+   [
+    "Adriana Zumarán",
+    "adriana-zumaran",
+    27
+   ]
+  ],
+  "piezas": [],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "eduardo-acevedo-diaz": {
+  "libros": [
+   [
+    "Brenda",
+    "brenda",
+    41
+   ],
+   [
+    "Desde el Tronco de un Ombú",
+    "desde-el-tronco-de-un-ombu",
+    6
+   ],
+   [
+    "El Combate de la Tapera",
+    "el-combate-de-la-tapera",
+    6
+   ],
+   [
+    "Grito de Gloria",
+    "grito-de-gloria",
+    37
+   ],
+   [
+    "Idilios Precoces",
+    "idilios-precoces",
+    4
+   ],
+   [
+    "Ismael",
+    "ismael",
+    56
+   ],
+   [
+    "Nativa",
+    "nativa",
+    24
+   ]
+  ],
+  "piezas": [
+   [
+    "Aurora Sin Luz",
+    "aurora-sin-luz",
+    0
+   ],
+   [
+    "Date Lilia...",
+    "date-lilia",
+    0
+   ],
+   [
+    "El Grito de Asencio",
+    "el-grito-de-asencio",
+    0
+   ],
+   [
+    "El Molino del Galgo",
+    "el-molino-del-galgo",
+    0
+   ],
+   [
+    "El Primer Suplicio",
+    "el-primer-suplicio",
+    0
+   ],
+   [
+    "La Cueva del Tigre",
+    "la-cueva-del-tigre",
+    0
+   ],
+   [
+    "Noche Toledana",
+    "noche-toledana",
+    0
+   ],
+   [
+    "Sin Lápida...",
+    "sin-lapida",
+    0
+   ]
+  ],
+  "duplicados": [],
+  "huerfanos": [
+   [
+    "Aurora Sin Luz",
+    "aurora-sin-luz"
+   ],
+   [
+    "Date Lilia...",
+    "date-lilia"
+   ],
+   [
+    "El Grito de Asencio",
+    "el-grito-de-asencio"
+   ],
+   [
+    "El Molino del Galgo",
+    "el-molino-del-galgo"
+   ],
+   [
+    "El Primer Suplicio",
+    "el-primer-suplicio"
+   ],
+   [
+    "La Cueva del Tigre",
+    "la-cueva-del-tigre"
+   ],
+   [
+    "Noche Toledana",
+    "noche-toledana"
+   ],
+   [
+    "Sin Lápida...",
+    "sin-lapida"
+   ]
+  ]
+ },
+ "carlos-reyles": {
+  "libros": [],
+  "piezas": [
+   [
+    "Primitivo",
+    "primitivo",
+    0
+   ]
+  ],
+  "huerfanos": [
+   [
+    "Primitivo",
+    "primitivo"
+   ]
+  ]
+ },
+ "jose-alonso-y-trelles": {
+  "libros": [],
+  "piezas": [
+   [
+    "De la lucha",
+    "de-la-lucha",
+    0
+   ]
+  ],
+  "huerfanos": [
+   [
+    "De la lucha",
+    "de-la-lucha"
+   ]
+  ]
+ },
+ "jose-pedro-bellan": {
+  "libros": [
+   [
+    "Doñarramona",
+    "donarramona",
+    16
+   ],
+   [
+    "Doñarramona y Otros Relatos",
+    "donarramona-y-otros-relatos",
+    23
+   ],
+   [
+    "El Pecado de Alejandra Leonard",
+    "el-pecado-de-alejandra-leonard",
+    4
+   ],
+   [
+    "Huerco",
+    "huerco",
+    13
+   ]
+  ],
+  "piezas": [
+   [
+    "El Momento",
+    "el-momento",
+    0
+   ],
+   [
+    "En el Prado",
+    "en-el-prado",
+    0
+   ],
+   [
+    "Humano",
+    "humano",
+    0
+   ],
+   [
+    "La Bestia",
+    "la-bestia",
+    0
+   ],
+   [
+    "La Cruz de Piedra",
+    "la-cruz-de-piedra",
+    0
+   ],
+   [
+    "La Imagen",
+    "la-imagen",
+    0
+   ],
+   [
+    "La Nota Cómica",
+    "la-nota-comica",
+    0
+   ],
+   [
+    "La Otra Faz de la Física Elemental",
+    "la-otra-faz-de-la-fisica-elemental",
+    0
+   ],
+   [
+    "La Señora del Pino",
+    "la-senora-del-pino",
+    0
+   ],
+   [
+    "Mi Ruina",
+    "mi-ruina",
+    0
+   ],
+   [
+    "No Se Sabe Cómo",
+    "no-se-sabe-como",
+    0
+   ],
+   [
+    "Perfiles de Maridos",
+    "perfiles-de-maridos",
+    0
+   ],
+   [
+    "Sine Qua Non",
+    "sine-qua-non",
+    2
+   ],
+   [
+    "Un Suicidio??...",
+    "un-suicidio",
+    0
+   ],
+   [
+    "Vía Libre",
+    "via-libre",
+    0
+   ],
+   [
+    "Yermo",
+    "yermo",
+    0
+   ]
+  ],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "jose-joaquin-fernandez-de-lizardi": {
+  "libros": [
+   [
+    "El Periquillo Sarniento",
+    "el-periquillo-sarniento",
+    69
+   ]
+  ],
+  "piezas": [],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "emilio-rabasa": {
+  "libros": [
+   [
+    "La Bola",
+    "la-bola",
+    22
+   ]
+  ],
+  "piezas": [],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "laura-mendez-de-cuenca": {
+  "libros": [],
+  "piezas": [
+   [
+    "Estaba escrito",
+    "estaba-escrito",
+    0
+   ],
+   [
+    "Rosas muertas",
+    "rosas-muertas",
+    0
+   ],
+   [
+    "Un rayo de luna",
+    "un-rayo-de-luna",
+    0
+   ]
+  ],
+  "huerfanos": [
+   [
+    "Estaba escrito",
+    "estaba-escrito"
+   ],
+   [
+    "Rosas muertas",
+    "rosas-muertas"
+   ],
+   [
+    "Un rayo de luna",
+    "un-rayo-de-luna"
+   ]
+  ]
+ },
+ "jose-maria-roa-barcena": {
+  "libros": [
+   [
+    "Buondelmonti",
+    "buondelmonti",
+    5
+   ],
+   [
+    "El Rey y el Bufón",
+    "el-rey-y-el-bufon",
+    9
+   ],
+   [
+    "Noche al Raso",
+    "noche-al-raso",
+    7
+   ]
+  ],
+  "piezas": [
+   [
+    "Combates en el Aire",
+    "combates-en-el-aire",
+    3
+   ],
+   [
+    "Lanchitas",
+    "lanchitas",
+    0
+   ]
+  ],
+  "duplicados": [],
+  "huerfanos": [
+   [
+    "Combates en el Aire",
+    "combates-en-el-aire"
+   ],
+   [
+    "Lanchitas",
+    "lanchitas"
+   ]
+  ]
+ },
+ "jose-tomas-de-cuellar": {
+  "libros": [
+   [
+    "Artículos Ligeros sobre Asuntos Trascendentales",
+    "articulos-ligeros-sobre-asuntos-trascendentales",
+    46
+   ],
+   [
+    "Artículos Ligeros sobre Asuntos Trascendentales",
+    "articulos-ligeros-sobre-asuntos-trascendentales-2",
+    43
+   ],
+   [
+    "Baile y Cochino...",
+    "baile-y-cochino",
+    9
+   ],
+   [
+    "El Comerciante en Perlas",
+    "el-comerciante-en-perlas",
+    25
+   ],
+   [
+    "Ensalada de Pollos",
+    "ensalada-de-pollos",
+    27
+   ],
+   [
+    "Estampas del Siglo XIX",
+    "estampas-del-siglo-xix",
+    14
+   ],
+   [
+    "Gabriel el Cerrajero o las Hijas de mi Papá",
+    "gabriel-el-cerrajero-o-las-hijas-de-mi-papa",
+    33
+   ],
+   [
+    "Isolina la Ex-Figurante",
+    "isolina-la-ex-figurante",
+    31
+   ],
+   [
+    "La Historia de Chucho el Ninfo",
+    "la-historia-de-chucho-el-ninfo",
+    27
+   ],
+   [
+    "La Noche Buena",
+    "la-noche-buena",
+    12
+   ],
+   [
+    "Las Gentes que Son Así",
+    "las-gentes-que-son-asi",
+    68
+   ],
+   [
+    "Las Jamonas",
+    "las-jamonas",
+    33
+   ],
+   [
+    "Las Posadas",
+    "las-posadas",
+    7
+   ],
+   [
+    "Los Fuereños",
+    "los-fuerenos",
+    19
+   ],
+   [
+    "Los Mariditos",
+    "los-mariditos",
+    13
+   ],
+   [
+    "Vistazos",
+    "vistazos",
+    24
+   ]
+  ],
+  "piezas": [
+   [
+    "El Aguador",
+    "el-aguador",
+    0
+   ]
+  ],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "juan-antonio-mateos": {
+  "libros": [
+   [
+    "El Cerro de las Campanas",
+    "el-cerro-de-las-campanas",
+    645
+   ],
+   [
+    "La Majestad Caída",
+    "la-majestad-caida",
+    56
+   ],
+   [
+    "Los Insurgentes",
+    "los-insurgentes",
+    253
+   ]
+  ],
+  "piezas": [],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "juan-diaz-covarrubias": {
+  "libros": [
+   [
+    "El Diablo en México",
+    "el-diablo-en-mexico",
+    8
+   ],
+   [
+    "Gil Gómez el Insurgente",
+    "gil-gomez-el-insurgente",
+    26
+   ],
+   [
+    "La Clase Media",
+    "la-clase-media",
+    14
+   ]
+  ],
+  "piezas": [
+   [
+    "Discurso Cívico",
+    "discurso-civico",
+    0
+   ]
+  ],
+  "duplicados": [],
+  "huerfanos": [
+   [
+    "Discurso Cívico",
+    "discurso-civico"
+   ]
+  ]
+ },
+ "ireneo-paz-flores": {
+  "libros": [
+   [
+    "Manuel Lozada, el Tigre de Alica",
+    "manuel-lozada-el-tigre-de-alica",
+    19
+   ]
+  ],
+  "piezas": [],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "juan-ruiz-de-alarcon": {
+  "libros": [
+   [
+    "La Verdad Sospechosa",
+    "la-verdad-sospechosa",
+    45
+   ],
+   [
+    "Los Favores del Mundo",
+    "los-favores-del-mundo",
+    66
+   ]
+  ],
+  "piezas": [],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "abraham-valdelomar": {
+  "libros": [
+   [
+    "Cuentos Completos",
+    "cuentos-completos",
+    133
+   ],
+   [
+    "El Beso de Evans",
+    "el-beso-de-evans",
+    12
+   ],
+   [
+    "El Buque Negro",
+    "el-buque-negro",
+    4
+   ],
+   [
+    "El Caballero Carmelo",
+    "el-caballero-carmelo",
+    6
+   ],
+   [
+    "El Caballero Carmelo y Otros Cuentos",
+    "el-caballero-carmelo-y-otros-cuentos",
+    76
+   ],
+   [
+    "El Círculo de la Muerte",
+    "el-circulo-de-la-muerte",
+    4
+   ],
+   [
+    "El Hipocampo de Oro",
+    "el-hipocampo-de-oro",
+    6
+   ],
+   [
+    "El Vuelo de los Cóndores",
+    "el-vuelo-de-los-condores",
+    7
+   ],
+   [
+    "Hebaristo, el Sauce que Murió de Amor",
+    "hebaristo-el-sauce-que-murio-de-amor",
+    6
+   ],
+   [
+    "Historia de una Vida Documentada y Trunca",
+    "historia-de-una-vida-documentada-y-trunca",
+    4
+   ],
+   [
+    "La Ciudad de los Tísicos",
+    "la-ciudad-de-los-tisicos",
+    30
+   ],
+   [
+    "La Ciudad Muerta",
+    "la-ciudad-muerta",
+    11
+   ],
+   [
+    "La Mariscala",
+    "la-mariscala",
+    15
+   ],
+   [
+    "La Paraca",
+    "la-paraca",
+    5
+   ],
+   [
+    "Los Hijos del Sol",
+    "los-hijos-del-sol",
+    15
+   ],
+   [
+    "Los Ojos de Judas",
+    "los-ojos-de-judas",
+    6
+   ],
+   [
+    "Poesía Completa",
+    "poesia-completa",
+    94
+   ],
+   [
+    "Tres Senas, Dos Ases",
+    "tres-senas-dos-ases",
+    9
+   ],
+   [
+    "Yerba Santa",
+    "yerba-santa",
+    9
+   ]
+  ],
+  "piezas": [
+   [
+    "Almas prestadas. Heliodoro, el reloj, mi nuevo amigo",
+    "almas-prestadas-heliodoro-el-reloj-mi-nuevo-amigo",
+    0
+   ],
+   [
+    "Breve Historia Veraz de un Pericote",
+    "breve-historia-veraz-de-un-pericote",
+    0
+   ],
+   [
+    "Chaymanta Huayñuy",
+    "chaymanta-huaynuy",
+    2
+   ],
+   [
+    "Chaymanta Huayñuy",
+    "chaymanta-huaynuy-2",
+    0
+   ],
+   [
+    "El Alfarero",
+    "el-alfarero",
+    0
+   ],
+   [
+    "El Alma de la Quena",
+    "el-alma-de-la-quena",
+    0
+   ],
+   [
+    "El Camino Hacia el Sol",
+    "el-camino-hacia-el-sol",
+    3
+   ],
+   [
+    "El Cantor Errante",
+    "el-cantor-errante",
+    0
+   ],
+   [
+    "El Hediondo Pozo Siniestro",
+    "el-hediondo-pozo-siniestro",
+    0
+   ],
+   [
+    "El Palacio de Hielo",
+    "el-palacio-de-hielo",
+    3
+   ],
+   [
+    "El Pastor y el Rebaño de Nieve",
+    "el-pastor-y-el-rebano-de-nieve",
+    2
+   ],
+   [
+    "El Peligro Sentimental",
+    "el-peligro-sentimental",
+    0
+   ],
+   [
+    "Finis Desolatrix Veritae",
+    "finis-desolatrix-veritae",
+    0
+   ],
+   [
+    "La Ciudad Sentimental",
+    "la-ciudad-sentimental",
+    0
+   ],
+   [
+    "La Tragedia en una Redoma",
+    "la-tragedia-en-una-redoma",
+    0
+   ],
+   [
+    "La Virgen de Cera",
+    "la-virgen-de-cera",
+    3
+   ],
+   [
+    "Las Vísceras del Superior",
+    "las-visceras-del-superior",
+    0
+   ],
+   [
+    "Los Chin-Fú-Tón",
+    "los-chin-fu-ton",
+    0
+   ],
+   [
+    "Los Hermanos Ayar",
+    "los-hermanos-ayar",
+    0
+   ],
+   [
+    "Los Ojos de los Reyes",
+    "los-ojos-de-los-reyes",
+    0
+   ],
+   [
+    "Mi Amigo Tenía Frío y Yo Tenía un Abrigo Cáscara de Nuez",
+    "mi-amigo-tenia-frio-y-yo-tenia-un-abrigo-cascara-de-nuez",
+    0
+   ],
+   [
+    "Whong-Fau-Sang",
+    "whong-fau-sang",
+    0
+   ]
+  ],
+  "duplicados": [],
+  "huerfanos": [
+   [
+    "Almas prestadas. Heliodoro, el reloj, mi nuevo amigo",
+    "almas-prestadas-heliodoro-el-reloj-mi-nuevo-amigo"
+   ]
+  ]
+ },
+ "clemente-palma": {
+  "libros": [
+   [
+    "Cuento de Marionetes",
+    "cuento-de-marionetes",
+    5
+   ],
+   [
+    "Cuentos Malévolos",
+    "cuentos-malevolos",
+    37
+   ],
+   [
+    "Idealismos",
+    "idealismos",
+    5
+   ],
+   [
+    "La Granja Blanca",
+    "la-granja-blanca",
+    10
+   ],
+   [
+    "Leyenda de Hachisch",
+    "leyenda-de-hachisch",
+    5
+   ]
+  ],
+  "piezas": [
+   [
+    "El Hijo Pródigo",
+    "el-hijo-prodigo",
+    0
+   ],
+   [
+    "El Quinto Evangelio",
+    "el-quinto-evangelio",
+    0
+   ],
+   [
+    "El Último Fauno",
+    "el-ultimo-fauno",
+    0
+   ],
+   [
+    "La Última Rubia",
+    "la-ultima-rubia",
+    0
+   ],
+   [
+    "Los Canastos",
+    "los-canastos",
+    0
+   ],
+   [
+    "Los Ojos de Lina",
+    "los-ojos-de-lina",
+    0
+   ],
+   [
+    "Parábola",
+    "parabola",
+    0
+   ],
+   [
+    "Una Historia Vulgar",
+    "una-historia-vulgar",
+    0
+   ]
+  ],
+  "duplicados": [
+   [
+    "Idealismos",
+    "idealismos"
+   ]
+  ],
+  "huerfanos": []
+ },
+ "luis-benjamin-cisneros": {
+  "libros": [],
+  "piezas": [
+   [
+    "Amor de Niño",
+    "amor-de-nino",
+    0
+   ]
+  ],
+  "huerfanos": [
+   [
+    "Amor de Niño",
+    "amor-de-nino"
+   ]
+  ]
+ },
+ "inca-garcilaso-de-la-vega": {
+  "libros": [
+   [
+    "Comentarios Reales de los Incas",
+    "comentarios-reales-de-los-incas",
+    274
+   ],
+   [
+    "La Florida del Inca",
+    "la-florida-del-inca",
+    179
+   ]
+  ],
+  "piezas": [],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "alberto-del-solar": {
+  "libros": [
+   [
+    "Contra la Marea",
+    "contra-la-marea",
+    39
+   ]
+  ],
+  "piezas": [],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "carlos-gagini": {
+  "libros": [
+   [
+    "Cuentos Grises",
+    "cuentos-grises",
+    8
+   ]
+  ],
+  "piezas": [
+   [
+    "A París",
+    "a-paris",
+    0
+   ],
+   [
+    "El Secreto de Lelia",
+    "el-secreto-de-lelia",
+    0
+   ],
+   [
+    "El Silbato de Plata",
+    "el-silbato-de-plata",
+    0
+   ],
+   [
+    "El Tesoro de Coco",
+    "el-tesoro-de-coco",
+    0
+   ],
+   [
+    "Espiritismo",
+    "espiritismo",
+    0
+   ],
+   [
+    "La Bruja de Miramar",
+    "la-bruja-de-miramar",
+    0
+   ],
+   [
+    "La Leyenda del Prestamista",
+    "la-leyenda-del-prestamista",
+    0
+   ],
+   [
+    "Marcial Hinojosa",
+    "marcial-hinojosa",
+    0
+   ]
+  ],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "manuel-gonzalez-zeledon": {
+  "libros": [],
+  "piezas": [
+   [
+    "El Clis de Sol",
+    "el-clis-de-sol",
+    0
+   ]
+  ],
+  "huerfanos": [
+   [
+    "El Clis de Sol",
+    "el-clis-de-sol"
+   ]
+  ]
+ },
+ "alfredo-espino": {
+  "libros": [],
+  "piezas": [
+   [
+    "JICARAS TRISTES",
+    "jicaras-tristes",
+    0
+   ]
+  ],
+  "huerfanos": [
+   [
+    "JICARAS TRISTES",
+    "jicaras-tristes"
+   ]
+  ]
+ },
+ "arturo-ambrogi": {
+  "libros": [],
+  "piezas": [
+   [
+    "Después del Chaparrón",
+    "despues-del-chaparron",
+    0
+   ],
+   [
+    "El Paso de la Recua",
+    "el-paso-de-la-recua",
+    0
+   ],
+   [
+    "La Muerte del Copinol",
+    "la-muerte-del-copinol",
+    0
+   ],
+   [
+    "La Pesca Bajo el Sol",
+    "la-pesca-bajo-el-sol",
+    0
+   ],
+   [
+    "La Quebrada",
+    "la-quebrada",
+    0
+   ],
+   [
+    "La Siesta",
+    "la-siesta",
+    0
+   ],
+   [
+    "La Siesta de los Zopilotes",
+    "la-siesta-de-los-zopilotes",
+    0
+   ],
+   [
+    "Mediodía",
+    "mediodia",
+    0
+   ]
+  ],
+  "huerfanos": [
+   [
+    "Después del Chaparrón",
+    "despues-del-chaparron"
+   ],
+   [
+    "El Paso de la Recua",
+    "el-paso-de-la-recua"
+   ],
+   [
+    "La Muerte del Copinol",
+    "la-muerte-del-copinol"
+   ],
+   [
+    "La Pesca Bajo el Sol",
+    "la-pesca-bajo-el-sol"
+   ],
+   [
+    "La Quebrada",
+    "la-quebrada"
+   ],
+   [
+    "La Siesta",
+    "la-siesta"
+   ],
+   [
+    "La Siesta de los Zopilotes",
+    "la-siesta-de-los-zopilotes"
+   ],
+   [
+    "Mediodía",
+    "mediodia"
+   ]
+  ]
+ },
+ "manuel-diaz-rodriguez": {
+  "libros": [],
+  "piezas": [
+   [
+    "Azul Pálido",
+    "azul-palido",
+    0
+   ],
+   [
+    "Las Ovejas y las Rosas del Padre Serafín",
+    "las-ovejas-y-las-rosas-del-padre-serafin",
+    0
+   ]
+  ],
+  "huerfanos": [
+   [
+    "Azul Pálido",
+    "azul-palido"
+   ],
+   [
+    "Las Ovejas y las Rosas del Padre Serafín",
+    "las-ovejas-y-las-rosas-del-padre-serafin"
+   ]
+  ]
+ },
+ "francisco-campos-coello": {
+  "libros": [
+   [
+    "La Semana de los 3 Jueves",
+    "la-semana-de-los-3-jueves",
+    4
+   ]
+  ],
+  "piezas": [
+   [
+    "Historia de un Par de Anteojos",
+    "historia-de-un-par-de-anteojos",
+    0
+   ],
+   [
+    "Los Gigantes de Santa Elena",
+    "los-gigantes-de-santa-elena",
+    0
+   ],
+   [
+    "Viaje Alrededor del Mundo en 24 Horas",
+    "viaje-alrededor-del-mundo-en-24-horas",
+    3
+   ]
+  ],
+  "duplicados": [],
+  "huerfanos": [
+   [
+    "Historia de un Par de Anteojos",
+    "historia-de-un-par-de-anteojos"
+   ],
+   [
+    "Los Gigantes de Santa Elena",
+    "los-gigantes-de-santa-elena"
+   ],
+   [
+    "Viaje Alrededor del Mundo en 24 Horas",
+    "viaje-alrededor-del-mundo-en-24-horas"
+   ]
+  ]
+ },
+ "jose-de-la-cuadra": {
+  "libros": [
+   [
+    "Barraquera",
+    "barraquera",
+    13
+   ],
+   [
+    "Calor de Yunca",
+    "calor-de-yunca",
+    4
+   ],
+   [
+    "El Amor que Dormía",
+    "el-amor-que-dormia",
+    5
+   ],
+   [
+    "El Derecho al Amor",
+    "el-derecho-al-amor",
+    11
+   ],
+   [
+    "El Montuvio Ecuatoriano",
+    "el-montuvio-ecuatoriano",
+    9
+   ],
+   [
+    "El Sacristán",
+    "el-sacristan",
+    7
+   ],
+   [
+    "Horno",
+    "horno",
+    28
+   ],
+   [
+    "Incomprensión",
+    "incomprension",
+    9
+   ],
+   [
+    "Los Sangurimas",
+    "los-sangurimas",
+    75
+   ],
+   [
+    "Maruja: Rosa, Fruta, Canción...",
+    "maruja-rosa-fruta-cancion",
+    6
+   ],
+   [
+    "Olga Catalina",
+    "olga-catalina",
+    4
+   ],
+   [
+    "Repisas",
+    "repisas",
+    52
+   ],
+   [
+    "Sangre Expiatoria",
+    "sangre-expiatoria",
+    4
+   ],
+   [
+    "Todos los Cuentos",
+    "todos-los-cuentos",
+    203
+   ]
+  ],
+  "piezas": [
+   [
+    "Aquella Carta",
+    "aquella-carta",
+    0
+   ],
+   [
+    "Ayoras Falsos",
+    "ayoras-falsos",
+    0
+   ],
+   [
+    "Banda de Pueblo",
+    "banda-de-pueblo",
+    0
+   ],
+   [
+    "Camino de Perfección",
+    "camino-de-perfeccion",
+    0
+   ],
+   [
+    "Candado",
+    "candado",
+    0
+   ],
+   [
+    "¿Castigo?",
+    "castigo",
+    0
+   ],
+   [
+    "Chichería",
+    "chicheria",
+    0
+   ],
+   [
+    "Chumbote",
+    "chumbote",
+    0
+   ],
+   [
+    "Cólimes Jótel",
+    "colimes-jotel",
+    0
+   ],
+   [
+    "Cubillo, Buscador de Ganado",
+    "cubillo-buscador-de-ganado",
+    0
+   ],
+   [
+    "De Cómo Entró un Rico en el Reino de los Cielos",
+    "de-como-entro-un-rico-en-el-reino-de-los-cielos",
+    0
+   ],
+   [
+    "Disciplina",
+    "disciplina",
+    0
+   ],
+   [
+    "Don Rubuerto",
+    "don-rubuerto",
+    0
+   ],
+   [
+    "El Anónimo",
+    "el-anonimo",
+    0
+   ],
+   [
+    "El Desertor",
+    "el-desertor",
+    0
+   ],
+   [
+    "El Fin de la Teresita",
+    "el-fin-de-la-teresita",
+    0
+   ],
+   [
+    "El Hombre de Quien se Burló la Muerte",
+    "el-hombre-de-quien-se-burlo-la-muerte",
+    0
+   ],
+   [
+    "El Poema Perdido",
+    "el-poema-perdido",
+    0
+   ],
+   [
+    "El Santo Nuevo",
+    "el-santo-nuevo",
+    3
+   ],
+   [
+    "Galleros",
+    "galleros",
+    0
+   ],
+   [
+    "Guásinton",
+    "guasinton",
+    3
+   ],
+   [
+    "Honorarios",
+    "honorarios",
+    0
+   ],
+   [
+    "Iconoclastia",
+    "iconoclastia",
+    0
+   ],
+   [
+    "La Caracola",
+    "la-caracola",
+    0
+   ],
+   [
+    "La Cruz en el Agua",
+    "la-cruz-en-el-agua",
+    0
+   ],
+   [
+    "La Muerte Rebelde",
+    "la-muerte-rebelde",
+    2
+   ],
+   [
+    "La Soga",
+    "la-soga",
+    0
+   ],
+   [
+    "La Tigra",
+    "la-tigra",
+    3
+   ],
+   [
+    "La Vuelta de la Locura...",
+    "la-vuelta-de-la-locura",
+    0
+   ],
+   [
+    "Loto-en-Flor",
+    "loto-en-flor",
+    0
+   ],
+   [
+    "Madrecita Falsa",
+    "madrecita-falsa",
+    3
+   ],
+   [
+    "Mal Amor",
+    "mal-amor",
+    0
+   ],
+   [
+    "Malos Recuerdos",
+    "malos-recuerdos",
+    0
+   ],
+   [
+    "Merienda de Perro",
+    "merienda-de-perro",
+    0
+   ],
+   [
+    "Miedo",
+    "miedo",
+    0
+   ],
+   [
+    "Mientras el Sol se Pone...",
+    "mientras-el-sol-se-pone",
+    0
+   ],
+   [
+    "Olor de Cacao",
+    "olor-de-cacao",
+    0
+   ],
+   [
+    "Shishi la Chiva",
+    "shishi-la-chiva",
+    0
+   ],
+   [
+    "Si el Pasado Volviera...",
+    "si-el-pasado-volviera",
+    0
+   ],
+   [
+    "Venganza",
+    "venganza",
+    0
+   ]
+  ],
+  "duplicados": [
+   [
+    "Horno",
+    "horno"
+   ],
+   [
+    "Los Sangurimas",
+    "los-sangurimas"
+   ]
+  ],
+  "huerfanos": []
+ },
+ "emilio-bobadilla": {
+  "libros": [
+   [
+    "A Fuego Lento",
+    "a-fuego-lento",
+    48
+   ],
+   [
+    "Capirotazos",
+    "capirotazos",
+    69
+   ],
+   [
+    "En la Noche Dormida",
+    "en-la-noche-dormida",
+    34
+   ],
+   [
+    "La Fuga",
+    "la-fuga",
+    4
+   ],
+   [
+    "Las Larvas",
+    "las-larvas",
+    4
+   ],
+   [
+    "Novelas en Germen",
+    "novelas-en-germen",
+    22
+   ]
+  ],
+  "piezas": [
+   [
+    "Dos Crepúsculos",
+    "dos-crepusculos",
+    0
+   ],
+   [
+    "Fiebre de Análisis",
+    "fiebre-de-analisis",
+    3
+   ],
+   [
+    "La Negra",
+    "la-negra",
+    2
+   ],
+   [
+    "Quico el Sapo",
+    "quico-el-sapo",
+    3
+   ]
+  ],
+  "duplicados": [],
+  "huerfanos": []
+ },
+ "manuel-a-alonso": {
+  "libros": [],
+  "piezas": [
+   [
+    "La Linterna Mágica",
+    "la-linterna-magica",
+    0
+   ],
+   [
+    "Perico Paciencia",
+    "perico-paciencia",
+    0
+   ]
+  ],
+  "huerfanos": [
+   [
+    "La Linterna Mágica",
+    "la-linterna-magica"
+   ],
+   [
+    "Perico Paciencia",
+    "perico-paciencia"
+   ]
+  ]
+ }
+}
