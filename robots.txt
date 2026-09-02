@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Rutas que solo prueban los escáneres automáticos
+Disallow: /config/
+Disallow: /configs/
+Disallow: /development/
+
+Sitemap: https://tintaydatos.com/sitemap.xml
