@@ -1,0 +1,28 @@
+{
+  "slug": "la-velada-del-helecho",
+  "titulo": "La Velada del Helecho",
+  "autor": "Gertrudis Gómez de Avellaneda",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/gertrudis-gomez-de-avellaneda/la-velada-del-helecho/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/gertrudis-gomez-de-avellaneda/la-velada-del-helecho"
+  },
+  "catalogo_id": 913,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Velada del Helecho",
+    "autor": "Gertrudis Gómez de Avellaneda",
+    "anio": "",
+    "pais": "Cuba",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

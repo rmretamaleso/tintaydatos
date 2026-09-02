@@ -1,0 +1,29 @@
+{
+  "slug": "rusia-en-1931",
+  "titulo": "Rusia en 1931",
+  "autor": "César Vallejo",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/cesar-vallejo/rusia-en-1931/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/cesar-vallejo/rusia-en-1931"
+  },
+  "catalogo_id": 916,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Rusia en 1931",
+    "autor": "César Vallejo",
+    "anio": "1931",
+    "pais": "Perú",
+    "genero": "Ensayo",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1931
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "el-artista-barquero",
+  "titulo": "El Artista Barquero",
+  "autor": "Gertrudis Gómez de Avellaneda",
+  "anio": 1861,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/gertrudis-gomez-de-avellaneda/el-artista-barquero/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/gertrudis-gomez-de-avellaneda/el-artista-barquero"
+  },
+  "catalogo_id": 910,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Artista Barquero",
+    "autor": "Gertrudis Gómez de Avellaneda",
+    "anio": "1861",
+    "pais": "Cuba",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

@@ -1,0 +1,463 @@
+{
+ "ricardo-palma": {
+  "libros": [
+   [
+    "Corona Patriótica",
+    "corona-patriotica",
+    17
+   ],
+   [
+    "El Fraile y la Monja del Callao",
+    "el-fraile-y-la-monja-del-callao",
+    5
+   ],
+   [
+    "El Rey del Monte",
+    "el-rey-del-monte",
+    4
+   ],
+   [
+    "La Gatita de Mari-Ramos que Halaga con la Cola y Araña con las Manos",
+    "la-gatita-de-mari-ramos-que-halaga-con-la-cola-y-arana-con-las-manos",
+    6
+   ],
+   [
+    "Las Mejores Tradiciones Peruanas",
+    "las-mejores-tradiciones-peruanas",
+    162
+   ],
+   [
+    "Nadie se Muere Hasta que Dios Quiere",
+    "nadie-se-muere-hasta-que-dios-quiere",
+    4
+   ],
+   [
+    "Rudamente, Pulidamente, Mañosamente",
+    "rudamente-pulidamente-manosamente",
+    5
+   ],
+   [
+    "Tradiciones en Salsa Verde",
+    "tradiciones-en-salsa-verde",
+    18
+   ],
+   [
+    "Tradiciones Peruanas",
+    "tradiciones-peruanas",
+    98
+   ],
+   [
+    "Tradiciones Peruanas I",
+    "tradiciones-peruanas-i",
+    56
+   ],
+   [
+    "Tradiciones Peruanas II",
+    "tradiciones-peruanas-ii",
+    192
+   ],
+   [
+    "Tradiciones Peruanas III",
+    "tradiciones-peruanas-iii",
+    115
+   ],
+   [
+    "Una Excomunión Famosa",
+    "una-excomunion-famosa",
+    4
+   ]
+  ],
+  "piezas": [
+   [
+    "¡A la Cárcel Todo Cristo!",
+    "a-la-carcel-todo-cristo",
+    2
+   ],
+   [
+    "¡A Nadar, Peces!",
+    "a-nadar-peces",
+    0
+   ],
+   [
+    "¡A Nadar, Peces!",
+    "a-nadar-peces-2",
+    0
+   ],
+   [
+    "Aceituna, Una",
+    "aceituna-una",
+    0
+   ],
+   [
+    "Aceituna, Una",
+    "aceituna-una-2",
+    0
+   ],
+   [
+    "Amor de Madre",
+    "amor-de-madre",
+    3
+   ],
+   [
+    "Conversión de un Libertino",
+    "conversion-de-un-libertino",
+    3
+   ],
+   [
+    "De Asta y Rejón",
+    "de-asta-y-rejon",
+    3
+   ],
+   [
+    "De Buena a Bueno",
+    "de-buena-a-bueno",
+    0
+   ],
+   [
+    "El Alacrán de Fray Gómez",
+    "el-alacran-de-fray-gomez",
+    2
+   ],
+   [
+    "El Alma de Fray Venancio",
+    "el-alma-de-fray-venancio",
+    0
+   ],
+   [
+    "El Carajo de Sucre",
+    "el-carajo-de-sucre",
+    0
+   ],
+   [
+    "El Clavel Disciplinado",
+    "el-clavel-disciplinado",
+    0
+   ],
+   [
+    "El Corregidor de Tinta",
+    "el-corregidor-de-tinta",
+    3
+   ],
+   [
+    "El Justicia Mayor de Laycacota",
+    "el-justicia-mayor-de-laycacota",
+    3
+   ],
+   [
+    "El Lechero del Convento",
+    "el-lechero-del-convento",
+    0
+   ],
+   [
+    "El Resucitado",
+    "el-resucitado",
+    3
+   ],
+   [
+    "Fatuidad Humana",
+    "fatuidad-humana",
+    0
+   ],
+   [
+    "La Cena del Capitán",
+    "la-cena-del-capitan",
+    0
+   ],
+   [
+    "La Consigna de Lara",
+    "la-consigna-de-lara",
+    0
+   ],
+   [
+    "La Cosa de la Mujer",
+    "la-cosa-de-la-mujer",
+    0
+   ],
+   [
+    "La Llorona del Viernes Santo",
+    "la-llorona-del-viernes-santo",
+    0
+   ],
+   [
+    "La Moza del Gobierno",
+    "la-moza-del-gobierno",
+    0
+   ],
+   [
+    "La Niña del Antojo",
+    "la-nina-del-antojo",
+    0
+   ],
+   [
+    "La Pinga del Libertador",
+    "la-pinga-del-libertador",
+    0
+   ],
+   [
+    "La Trenza de sus Cabellos",
+    "la-trenza-de-sus-cabellos",
+    3
+   ],
+   [
+    "Los Argumentos del Corregidor",
+    "los-argumentos-del-corregidor",
+    3
+   ],
+   [
+    "Los Duendes del Cuzco",
+    "los-duendes-del-cuzco",
+    3
+   ],
+   [
+    "Los Inocentones",
+    "los-inocentones",
+    0
+   ],
+   [
+    "Los Polvos de la Condesa",
+    "los-polvos-de-la-condesa",
+    3
+   ],
+   [
+    "Lucas el Sacrílego",
+    "lucas-el-sacrilego",
+    3
+   ],
+   [
+    "Matrícula de Colegio",
+    "matricula-de-colegio",
+    0
+   ],
+   [
+    "Oficiosidad No Agradecida",
+    "oficiosidad-no-agradecida",
+    0
+   ],
+   [
+    "Pato con Arroz",
+    "pato-con-arroz",
+    0
+   ],
+   [
+    "Por Beber una Copa de Oro",
+    "por-beber-una-copa-de-oro",
+    0
+   ],
+   [
+    "Por Beber una Copa de Oro",
+    "por-beber-una-copa-de-oro-2",
+    0
+   ],
+   [
+    "Racimo de Horca",
+    "racimo-de-horca",
+    3
+   ],
+   [
+    "¡Tajo o Tejo!",
+    "tajo-o-tejo",
+    0
+   ],
+   [
+    "Tres Cuestiones Históricas sobre Pizarro",
+    "tres-cuestiones-historicas-sobre-pizarro",
+    3
+   ],
+   [
+    "Un Calembourg",
+    "un-calembourg",
+    0
+   ],
+   [
+    "Un Desmemoriado",
+    "un-desmemoriado",
+    0
+   ]
+  ],
+  "huerfanos": [
+   [
+    "El Alacrán de Fray Gómez",
+    "el-alacran-de-fray-gomez"
+   ]
+  ]
+ },
+ "gertrudis-gomez-de-avellaneda": {
+  "libros": [
+   [
+    "Dolores",
+    "dolores",
+    11
+   ],
+   [
+    "Dos Mujeres",
+    "dos-mujeres",
+    38
+   ],
+   [
+    "El Artista Barquero",
+    "el-artista-barquero",
+    31
+   ],
+   [
+    "Espatolino",
+    "espatolino",
+    15
+   ],
+   [
+    "Guatimozín: Último Emperador de Méjico",
+    "guatimozin-ultimo-emperador-de-mejico",
+    58
+   ],
+   [
+    "La Velada del Helecho",
+    "la-velada-del-helecho",
+    5
+   ],
+   [
+    "Sab",
+    "sab",
+    20
+   ]
+  ],
+  "piezas": [],
+  "huerfanos": []
+ },
+ "cesar-vallejo": {
+  "libros": [
+   [
+    "Contra el Secreto Profesional",
+    "contra-el-secreto-profesional",
+    16
+   ],
+   [
+    "El Arte y la Revolución",
+    "el-arte-y-la-revolucion",
+    38
+   ],
+   [
+    "Escalas",
+    "escalas",
+    14
+   ],
+   [
+    "Fabla Salvaje",
+    "fabla-salvaje",
+    8
+   ],
+   [
+    "Hacia el Reino de los Sciris",
+    "hacia-el-reino-de-los-sciris",
+    8
+   ],
+   [
+    "Rusia en 1931",
+    "rusia-en-1931",
+    16
+   ]
+  ],
+  "piezas": [
+   [
+    "El Niño del Carrizo",
+    "el-nino-del-carrizo",
+    0
+   ],
+   [
+    "El Tungsteno",
+    "el-tungsteno",
+    3
+   ],
+   [
+    "El Vencedor",
+    "el-vencedor",
+    0
+   ],
+   [
+    "Las Dos Soras",
+    "las-dos-soras",
+    0
+   ],
+   [
+    "Paco Yunque",
+    "paco-yunque",
+    0
+   ],
+   [
+    "Sabiduría",
+    "sabiduria",
+    0
+   ],
+   [
+    "Viaje Alrededor del Porvenir",
+    "viaje-alrededor-del-porvenir",
+    0
+   ]
+  ],
+  "huerfanos": [
+   [
+    "El Niño del Carrizo",
+    "el-nino-del-carrizo"
+   ],
+   [
+    "El Tungsteno",
+    "el-tungsteno"
+   ],
+   [
+    "El Vencedor",
+    "el-vencedor"
+   ],
+   [
+    "Las Dos Soras",
+    "las-dos-soras"
+   ],
+   [
+    "Paco Yunque",
+    "paco-yunque"
+   ],
+   [
+    "Sabiduría",
+    "sabiduria"
+   ],
+   [
+    "Viaje Alrededor del Porvenir",
+    "viaje-alrededor-del-porvenir"
+   ]
+  ]
+ },
+ "domingo-faustino-sarmiento": {
+  "libros": [
+   [
+    "Estados Unidos",
+    "estados-unidos",
+    12
+   ],
+   [
+    "Facundo",
+    "facundo",
+    29
+   ],
+   [
+    "Recuerdos de Provincia",
+    "recuerdos-de-provincia",
+    30
+   ]
+  ],
+  "piezas": [],
+  "huerfanos": []
+ },
+ "clorinda-matto-de-turner": {
+  "libros": [
+   [
+    "Aves Sin Nido",
+    "aves-sin-nido",
+    61
+   ],
+   [
+    "Cuatro Conferencias sobre América del Sur",
+    "cuatro-conferencias-sobre-america-del-sur",
+    11
+   ]
+  ],
+  "piezas": [],
+  "huerfanos": []
+ }
+}

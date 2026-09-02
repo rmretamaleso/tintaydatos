@@ -1,0 +1,31 @@
+{
+  "slug": "guatimozin-ultimo-emperador-de-mejico",
+  "titulo": "Guatimozín: Último Emperador de Méjico",
+  "autor": "Gertrudis Gómez de Avellaneda",
+  "anio": 1846,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/gertrudis-gomez-de-avellaneda/guatimozin-ultimo-emperador-de-mejico/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/gertrudis-gomez-de-avellaneda/guatimozin-ultimo-emperador-de-mejico"
+  },
+  "catalogo_id": 909,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Guatimozín: Último Emperador de Méjico",
+    "autor": "Gertrudis Gómez de Avellaneda",
+    "anio": "1846",
+    "pais": "Cuba",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

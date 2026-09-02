@@ -1,0 +1,31 @@
+{
+  "slug": "las-mejores-tradiciones-peruanas",
+  "titulo": "Las Mejores Tradiciones Peruanas",
+  "autor": "Ricardo Palma",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ricardo-palma/las-mejores-tradiciones-peruanas/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ricardo-palma/las-mejores-tradiciones-peruanas",
+    "nota": "Selección de tradiciones hecha por la fuente, distinta de las series que Palma publicó entre 1872 y 1910; Tinta y Datos edita por separado las tres primeras series."
+  },
+  "catalogo_id": 900,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Las Mejores Tradiciones Peruanas",
+    "autor": "Ricardo Palma",
+    "anio": "",
+    "pais": "Perú",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "nivel_seccion": "h3",
+  "preliminares": true,
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

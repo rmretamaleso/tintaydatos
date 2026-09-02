@@ -1,0 +1,42 @@
+{
+  "slug": "dispersos-cv",
+  "titulo": "Prosas Dispersas",
+  "autor": "César Vallejo",
+  "tipo": "prosa",
+  "autor_slug": "cesar-vallejo",
+  "piezas_fuente": [
+    "el-nino-del-carrizo::El Niño del Carrizo",
+    "el-tungsteno::El Tungsteno",
+    "el-vencedor::El Vencedor",
+    "las-dos-soras::Las Dos Soras",
+    "paco-yunque::Paco Yunque",
+    "sabiduria::Sabiduría",
+    "viaje-alrededor-del-porvenir::Viaje Alrededor del Porvenir"
+  ],
+  "orden": "alfabetico",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/cesar-vallejo",
+    "nota": "Reúne los 7 textos que la fuente publica sueltos y que no figuran en ninguno de los libros del autor disponibles allí. Recopilación de Tinta y Datos."
+  },
+  "catalogo_id": 920,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Prosas dispersas",
+    "autor": "César Vallejo",
+    "anio": "",
+    "pais": "Perú",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "esperados": {
+    "capitulos": 7
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

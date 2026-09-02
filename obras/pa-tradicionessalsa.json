@@ -1,0 +1,29 @@
+{
+  "slug": "tradiciones-en-salsa-verde",
+  "titulo": "Tradiciones en Salsa Verde",
+  "autor": "Ricardo Palma",
+  "tipo": "prosa",
+  "url": "https://www.textos.info/ricardo-palma/tradiciones-en-salsa-verde/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ricardo-palma/tradiciones-en-salsa-verde"
+  },
+  "catalogo_id": 902,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Tradiciones en Salsa Verde",
+    "autor": "Ricardo Palma",
+    "anio": "1901",
+    "pais": "Perú",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio": 1901
+}

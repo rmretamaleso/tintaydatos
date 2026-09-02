@@ -1,0 +1,28 @@
+{
+  "slug": "corona-patriotica",
+  "titulo": "Corona Patriótica",
+  "autor": "Ricardo Palma",
+  "tipo": "verso",
+  "url": "https://www.textos.info/ricardo-palma/corona-patriotica/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/ricardo-palma/corona-patriotica"
+  },
+  "catalogo_id": 903,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Corona Patriótica",
+    "autor": "Ricardo Palma",
+    "anio": "1853",
+    "pais": "Perú",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true
+  },
+  "anio": 1853
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "cuatro-conferencias-sobre-america-del-sur",
+  "titulo": "Cuatro Conferencias sobre América del Sur",
+  "autor": "Clorinda Matto de Turner",
+  "anio": 1909,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/clorinda-matto-de-turner/cuatro-conferencias-sobre-america-del-sur/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/clorinda-matto-de-turner/cuatro-conferencias-sobre-america-del-sur"
+  },
+  "catalogo_id": 922,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuatro Conferencias sobre América del Sur",
+    "autor": "Clorinda Matto de Turner",
+    "anio": "1909",
+    "pais": "Perú",
+    "genero": "Ensayo",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "nivel_seccion": "h4",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}
