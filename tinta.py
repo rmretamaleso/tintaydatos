@@ -22,6 +22,7 @@ from pathlib import Path
 
 import edicion
 import publicar
+import gutenberg as G
 import textosinfo as T
 import wikisource as W
 
@@ -138,7 +139,20 @@ def _ap():
 def procesar(ruta_cfg, a):
     cfg = json.loads(Path(ruta_cfg).read_text(encoding="utf-8"))
     slug = cfg.get("slug") or Path(ruta_cfg).stem
-    if cfg.get("piezas_fuente"):
+    if cfg.get("gutenberg"):
+        # Project Gutenberg: su cabecera declara de qué edición impresa viene el
+        # texto y quién lo transcribió, así que el colofón lo cita.
+        libro = cfg["gutenberg"]
+        f = G.ficha(libro)
+        print(f"Gutenberg #{libro}: {f['titulo']}")
+        if f.get("edicion_original"):
+            print(f"  edición original: {f['edicion_original']}")
+        cfg.setdefault("fuente", {})["texto"] = G.colofon(f)
+        cfg["fuente"].setdefault(
+            "url", f"https://www.gutenberg.org/ebooks/{libro}")
+        doc = G.descargar_html(libro)
+        partes, totales = T.parsear(doc, cfg)
+    elif cfg.get("piezas_fuente"):
         # Volumen compuesto por Tinta y Datos a partir de textos que la fuente
         # publica sueltos. No es un libro del autor: el colofón lo declara.
         print(f"Recopilación de {len(cfg['piezas_fuente'])} piezas sueltas")

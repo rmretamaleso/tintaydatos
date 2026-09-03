@@ -1,0 +1,26 @@
+{
+  "slug": "colonpr",
+  "titulo": "Colón en Puerto Rico",
+  "autor": "Cayetano Coll y Toste",
+  "anio": 1893,
+  "tipo": "prosa",
+  "gutenberg": 73179,
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {},
+  "catalogo_id": 955,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Colón en Puerto Rico",
+    "autor": "Cayetano Coll y Toste",
+    "anio": "1893",
+    "pais": "Puerto Rico",
+    "genero": "Ensayo",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

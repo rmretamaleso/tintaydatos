@@ -1,0 +1,25 @@
+{
+  "slug": "nuevaspoesias",
+  "titulo": "Nuevas Poesías y Evangélicas",
+  "autor": "Almafuerte",
+  "anio": 1918,
+  "tipo": "verso",
+  "gutenberg": 63823,
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {},
+  "catalogo_id": 970,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Nuevas Poesías y Evangélicas",
+    "autor": "Almafuerte",
+    "anio": "1918",
+    "pais": "Argentina",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true
+  }
+}

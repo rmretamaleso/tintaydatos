@@ -1,0 +1,26 @@
+{
+  "slug": "ranquelesii",
+  "titulo": "Una Excursión a los Indios Ranqueles, tomo II",
+  "autor": "Lucio V. Mansilla",
+  "anio": 1870,
+  "tipo": "prosa",
+  "gutenberg": 63767,
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {},
+  "catalogo_id": 964,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Una Excursión a los Indios Ranqueles, tomo II",
+    "autor": "Lucio V. Mansilla",
+    "anio": "1870",
+    "pais": "Argentina",
+    "genero": "Memoria/Crónica",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

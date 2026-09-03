@@ -1,0 +1,26 @@
+{
+  "slug": "granaldea",
+  "titulo": "La Gran Aldea",
+  "autor": "Lucio Vicente López",
+  "anio": 1884,
+  "tipo": "prosa",
+  "gutenberg": 31724,
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {},
+  "catalogo_id": 966,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Gran Aldea",
+    "autor": "Lucio Vicente López",
+    "anio": "1884",
+    "pais": "Argentina",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "rimas",
+  "titulo": "Rimas",
+  "autor": "Bartolomé Mitre",
+  "anio": 1854,
+  "tipo": "verso",
+  "gutenberg": 35407,
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {},
+  "catalogo_id": 969,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Rimas",
+    "autor": "Bartolomé Mitre",
+    "anio": "1854",
+    "pais": "Argentina",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "opciones": {
+    "salto_por_capitulo": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "florpiel",
+  "titulo": "A Flor de Piel",
+  "autor": "Gustavo Sánchez Galarraga",
+  "anio": 1919,
+  "tipo": "verso",
+  "gutenberg": 43401,
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {},
+  "catalogo_id": 975,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "A Flor de Piel",
+    "autor": "Gustavo Sánchez Galarraga",
+    "anio": "1919",
+    "pais": "Cuba",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true
+  }
+}

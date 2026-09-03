@@ -1,0 +1,26 @@
+{
+  "slug": "poetascolor",
+  "titulo": "Poetas de Color",
+  "autor": "Francisco Calcagno",
+  "anio": 1878,
+  "tipo": "prosa",
+  "gutenberg": 45180,
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {},
+  "catalogo_id": 979,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Poetas de Color",
+    "autor": "Francisco Calcagno",
+    "anio": "1878",
+    "pais": "Cuba",
+    "genero": "Ensayo",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

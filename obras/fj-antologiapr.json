@@ -1,0 +1,26 @@
+{
+  "slug": "antologiapr",
+  "titulo": "Antología Portorriqueña",
+  "autor": "Manuel Fernández Juncos",
+  "anio": 1913,
+  "tipo": "prosa",
+  "gutenberg": 47184,
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {},
+  "catalogo_id": 971,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Antología Portorriqueña",
+    "autor": "Manuel Fernández Juncos",
+    "anio": "1913",
+    "pais": "Puerto Rico",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

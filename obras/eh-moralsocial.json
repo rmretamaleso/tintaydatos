@@ -1,0 +1,26 @@
+{
+  "slug": "moralsocial",
+  "titulo": "Moral Social",
+  "autor": "Eugenio María de Hostos",
+  "anio": 1888,
+  "tipo": "prosa",
+  "gutenberg": 73064,
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {},
+  "catalogo_id": 965,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Moral Social",
+    "autor": "Eugenio María de Hostos",
+    "anio": "1888",
+    "pais": "Puerto Rico",
+    "genero": "Ensayo",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

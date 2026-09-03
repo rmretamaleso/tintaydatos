@@ -1,0 +1,26 @@
+{
+  "slug": "conquistahabana",
+  "titulo": "Historia de la Conquista de la Habana (1762)",
+  "autor": "Pedro José Guiteras",
+  "anio": 1856,
+  "tipo": "prosa",
+  "gutenberg": 45151,
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {},
+  "catalogo_id": 978,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Historia de la Conquista de la Habana (1762)",
+    "autor": "Pedro José Guiteras",
+    "anio": "1856",
+    "pais": "Cuba",
+    "genero": "Ensayo",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

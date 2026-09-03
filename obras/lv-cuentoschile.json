@@ -1,0 +1,26 @@
+{
+  "slug": "cuentoschile",
+  "titulo": "Cuentos Populares en Chile",
+  "autor": "Ramón A. Laval",
+  "anio": 1923,
+  "tipo": "prosa",
+  "gutenberg": 63424,
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {},
+  "catalogo_id": 952,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos Populares en Chile",
+    "autor": "Ramón A. Laval",
+    "anio": "1923",
+    "pais": "Chile",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

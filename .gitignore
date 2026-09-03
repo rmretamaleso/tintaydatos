@@ -38,3 +38,6 @@ venv/
 
 # Cerrojo de publicación (se borra solo al terminar)
 .tinta-publicando
+
+# Caché de descargas de Gutenberg
+.cache-gutenberg/

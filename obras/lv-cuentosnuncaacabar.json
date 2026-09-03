@@ -1,0 +1,26 @@
+{
+  "slug": "cuentosnuncaacabar",
+  "titulo": "Cuentos Chilenos de Nunca Acabar",
+  "autor": "Ramón A. Laval",
+  "anio": 1925,
+  "tipo": "prosa",
+  "gutenberg": 69164,
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {},
+  "catalogo_id": 953,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos Chilenos de Nunca Acabar",
+    "autor": "Ramón A. Laval",
+    "anio": "1925",
+    "pais": "Chile",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "campesinopr",
+  "titulo": "El Campesino Puertorriqueño",
+  "autor": "Francisco del Valle Atiles",
+  "anio": 1887,
+  "tipo": "prosa",
+  "gutenberg": 49359,
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {},
+  "catalogo_id": 973,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El Campesino Puertorriqueño",
+    "autor": "Francisco del Valle Atiles",
+    "anio": "1887",
+    "pais": "Puerto Rico",
+    "genero": "Ensayo",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

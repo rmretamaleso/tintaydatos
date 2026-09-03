@@ -1,0 +1,26 @@
+{
+  "slug": "viajeeeuuii",
+  "titulo": "Viaje a los Estados Unidos, tomo II",
+  "autor": "Guillermo Prieto",
+  "anio": 1877,
+  "tipo": "prosa",
+  "gutenberg": 56519,
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {},
+  "catalogo_id": 957,
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Viaje a los Estados Unidos, tomo II",
+    "autor": "Guillermo Prieto",
+    "anio": "1877",
+    "pais": "México",
+    "genero": "Memoria/Crónica",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  }
+}

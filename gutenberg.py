@@ -10,15 +10,29 @@ por marcas «*** START OF ...» y «*** END OF ...». Se recortan: no son parte 
 la obra, y su licencia permite retirar esas referencias cuando la redistribución
 es gratuita. El colofón cita la edición original y a los transcriptores.
 """
+import hashlib
 import json
+import pathlib
 import re
 import time
 
 API = "https://gutendex.com/books"
 AGENTE = {"User-Agent": "TintaYDatos/1.0"}
+CACHE = pathlib.Path(".cache-gutenberg")
 
 
-def _pedir(url, intentos=4, espera=120):
+def _pedir(url, intentos=3, espera=45):
+    """Descarga con caché en disco.
+
+    Gutenberg responde lento —hasta minuto y medio por obra— y cada prueba del
+    pipeline volvía a bajarlo todo. Lo descargado se guarda en .cache-gutenberg
+    y las siguientes lecturas son instantáneas. Para forzar una descarga nueva,
+    basta borrar ese directorio.
+    """
+    CACHE.mkdir(exist_ok=True)
+    guardado = CACHE / (hashlib.sha1(url.encode()).hexdigest() + ".txt")
+    if guardado.exists():
+        return guardado.read_text(encoding="utf-8")
     try:
         import requests
     except ImportError:
@@ -37,6 +51,7 @@ def _pedir(url, intentos=4, espera=120):
             ultimo = f"HTTP {r.status_code}"
             time.sleep(3 * (n + 1))
             continue
+        guardado.write_text(r.text, encoding="utf-8")
         return r.text
     raise RuntimeError(f"No pude descargar {url} ({ultimo}).")
 
@@ -116,6 +131,21 @@ def descargar_html(libro_id):
         r"(?:libro electr[óo]nico|ebook|dominio p[úu]blico|public domain)"
         r"(?:(?!</p>).)*?</p>)*",
         "", dentro, flags=re.S | re.I)
+    # Gutenberg conserva la portadilla de la edición impresa: pie de imprenta,
+    # «Derechos reservados», rayas separadoras y marcadores de página. No es
+    # texto del autor y hacía que el parser avisara en casi todas las obras.
+    dentro = re.sub(r'<div[^>]*class="[^"]*(titlepage|halftitle|coverpage)[^"]*"'
+                    r'[^>]*>.*?</div>\s*</div>', "", dentro, flags=re.S | re.I)
+    dentro = re.sub(r'<div[^>]*class="[^"]*(titlepage|halftitle|coverpage)[^"]*"'
+                    r'[^>]*>.*?</div>', "", dentro, flags=re.S | re.I)
+    # Marcadores de número de página del original: {1}, {2}…
+    dentro = re.sub(r"<(p|span)[^>]*>\s*\{\s*\d+\s*\}\s*</\1>", "", dentro, flags=re.I)
+    # Rayas separadoras que la edición usa como adorno
+    dentro = re.sub(r"<p[^>]*>\s*[—\-–_]{2,}\s*</p>", "", dentro)
+    # Ilustraciones descritas entre corchetes por el transcriptor
+    dentro = re.sub(r"<p[^>]*>\s*\[Illustration.*?\]\s*</p>", "", dentro,
+                    flags=re.S | re.I)
+
     return f"<article>{dentro}</article>"
 
 
