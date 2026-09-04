@@ -16,7 +16,7 @@ import sys
 from pathlib import Path
 
 # Claves del objeto JS, en orden. 'tema' no se publica en el sitio.
-CLAVES = ["id", "titulo", "autor", "anio", "pais", "genero", "tipo", "fuente",
+CLAVES = ["id", "titulo", "autor", "anio", "pais", "genero", "tema", "tipo", "fuente",
           "url", "urls", "verificado", "notas", "piezas", "nota_editorial",
           "dominio", "puede_alojarse"]
 OPCIONALES = {"urls", "nota_editorial", "piezas"}   # se omiten del objeto si vienen vacías
