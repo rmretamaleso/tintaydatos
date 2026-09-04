@@ -35,6 +35,13 @@ def valor(clave, bruto):
 
 def objetos(ruta_csv):
     filas = list(csv.DictReader(open(ruta_csv, encoding="utf-8")))
+    # Aviso de columnas del CSV que no se exportan al sitio. Sin esto, añadir
+    # una columna nueva y olvidar declararla aquí hace que el sitio muestre
+    # «undefined» sin que nada falle: ya pasó con piezas, nota_editorial y tema.
+    if filas:
+        fuera = [c for c in filas[0] if c not in CLAVES]
+        if fuera:
+            print(f"  aviso: columnas del CSV que no se exportan: {', '.join(fuera)}")
     if not filas:
         sys.exit(f"{ruta_csv} está vacío.")
     faltan = [c for c in CLAVES if c not in filas[0] and c not in OPCIONALES]
