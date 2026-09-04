@@ -2,6 +2,7 @@
   "slug": "cuentos-diaz-garces",
   "titulo": "Cuentos",
   "autor": "Joaquín Díaz Garcés",
+  "anio": 1894,
   "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/joaquin-diaz-garces/cuentos/ebook",
@@ -20,7 +21,7 @@
     "genero": "Cuento",
     "tipo": "Dominio público",
     "puede_alojarse": "si",
-    "anio": "1900-1920"
+    "anio": "1894"
   },
   "nivel_capitulo": "h2",
   "nivel_seccion": "h3",
