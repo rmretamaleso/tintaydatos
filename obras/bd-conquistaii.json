@@ -2,20 +2,21 @@
   "slug": "conquistaii",
   "titulo": "Historia Verdadera de la Conquista de la Nueva España, tomo II",
   "autor": "Bernal Díaz del Castillo",
-  "anio": 1632,
+  "anio": 1568,
   "tipo": "prosa",
   "gutenberg": 64946,
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
   "fuente": {
     "texto": "Project Gutenberg (transcripción de Ramón Pajares Box and the Online Distributed Proofreading Team)",
-    "url": "https://www.gutenberg.org/ebooks/64946"
+    "url": "https://www.gutenberg.org/ebooks/64946",
+    "nota": "Crónica terminada hacia 1568 y publicada por primera vez en 1632, casi cincuenta años después de la muerte del autor."
   },
   "catalogo_id": 962,
   "catalogo_campos": {
     "dominio": "Literatura",
     "titulo": "Historia Verdadera de la Conquista de la Nueva España, tomo II",
     "autor": "Bernal Díaz del Castillo",
-    "anio": "1632",
+    "anio": "1568",
     "pais": "México",
     "genero": "Memoria/Crónica",
     "tipo": "Dominio público",
