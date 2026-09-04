@@ -13,14 +13,15 @@
   },
   "catalogo_id": 961,
   "catalogo_campos": {
-    "dominio": "Literatura",
+    "dominio": "Ciencia",
     "titulo": "Historia Verdadera de la Conquista de la Nueva España, tomo I",
     "autor": "Bernal Díaz del Castillo",
     "anio": "1568",
     "pais": "México",
-    "genero": "Memoria/Crónica",
+    "genero": "Historia",
     "tipo": "Dominio público",
-    "puede_alojarse": "si"
+    "puede_alojarse": "si",
+    "tema": "Historia"
   },
   "nivel_capitulo": "h2",
   "opciones": {

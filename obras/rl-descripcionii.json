@@ -12,14 +12,15 @@
   },
   "catalogo_id": 966,
   "catalogo_campos": {
-    "dominio": "Literatura",
+    "dominio": "Ciencia",
     "titulo": "Descripción Colonial, libro segundo",
     "autor": "Reginaldo de Lizárraga",
     "anio": "1605",
     "pais": "Perú",
-    "genero": "Memoria/Crónica",
+    "genero": "Geografía",
     "tipo": "Dominio público",
-    "puede_alojarse": "si"
+    "puede_alojarse": "si",
+    "tema": "Geografía"
   },
   "nivel_capitulo": "h2",
   "opciones": {
