@@ -15,7 +15,8 @@ import re
 import sys
 from pathlib import Path
 
-# Claves del objeto JS, en orden. 'tema' no se publica en el sitio.
+# Claves del objeto JS, en orden. Todo lo que el sitio necesita leer
+# tiene que estar aquí: lo que falte sale como «undefined».
 CLAVES = ["id", "titulo", "autor", "anio", "pais", "genero", "tema", "tipo", "fuente",
           "url", "urls", "verificado", "notas", "piezas", "nota_editorial",
           "dominio", "puede_alojarse"]
