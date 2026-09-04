@@ -1,0 +1,32 @@
+{
+  "slug": "cronicaperu",
+  "titulo": "Segunda Parte de la Crónica del Perú",
+  "autor": "Pedro Cieza de León",
+  "anio": 1553,
+  "tipo": "prosa",
+  "gutenberg": 25255,
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "nota": "Describe la organización del imperio incaico a partir de informantes indígenas, pocos años después de la conquista.",
+    "texto": "Project Gutenberg (transcripción de Produced by Julia Miller, Chuck Greif and the Online)",
+    "url": "https://www.gutenberg.org/ebooks/25255"
+  },
+  "catalogo_id": 970,
+  "catalogo_campos": {
+    "dominio": "Ciencia",
+    "titulo": "Segunda Parte de la Crónica del Perú",
+    "autor": "Pedro Cieza de León",
+    "anio": "1553",
+    "pais": "Perú",
+    "genero": "Etnografía",
+    "tema": "Etnografía",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio_edicion": 2026
+}

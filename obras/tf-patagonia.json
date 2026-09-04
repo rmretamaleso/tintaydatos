@@ -1,0 +1,32 @@
+{
+  "slug": "patagonia",
+  "titulo": "Descripción de la Patagonia y de las Partes Adyacentes",
+  "autor": "Thomas Falkner",
+  "anio": 1774,
+  "tipo": "prosa",
+  "gutenberg": 28542,
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "nota": "Escrita por un jesuita inglés tras casi cuarenta años entre los pueblos de la Patagonia; fue durante décadas la principal fuente europea sobre la región.",
+    "texto": "Project Gutenberg (transcripción de Produced by Adrian Mastronardi, Héctor Cancela and the)",
+    "url": "https://www.gutenberg.org/ebooks/28542"
+  },
+  "catalogo_id": 974,
+  "catalogo_campos": {
+    "dominio": "Ciencia",
+    "titulo": "Descripción de la Patagonia y de las Partes Adyacentes",
+    "autor": "Thomas Falkner",
+    "anio": "1774",
+    "pais": "Argentina",
+    "genero": "Geografía",
+    "tema": "Geografía",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio_edicion": 2026
+}

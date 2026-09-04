@@ -1,0 +1,32 @@
+{
+  "slug": "reglasconsejos",
+  "titulo": "Reglas y Consejos sobre Investigación Científica",
+  "autor": "Santiago Ramón y Cajal",
+  "anio": 1898,
+  "tipo": "prosa",
+  "gutenberg": 66373,
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "nota": "Lección inaugural del curso 1897-98, ampliada después en libro; sigue siendo lectura habitual en la formación de investigadores.",
+    "texto": "Project Gutenberg (transcripción de Ramón Pajares Box and the Online Distributed Proofreading Team)",
+    "url": "https://www.gutenberg.org/ebooks/66373"
+  },
+  "catalogo_id": 967,
+  "catalogo_campos": {
+    "dominio": "Ciencia",
+    "titulo": "Reglas y Consejos sobre Investigación Científica",
+    "autor": "Santiago Ramón y Cajal",
+    "anio": "1898",
+    "pais": "España",
+    "genero": "Metodología científica",
+    "tema": "Metodología científica",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio_edicion": 2026
+}

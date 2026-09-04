@@ -1,0 +1,31 @@
+{
+  "slug": "catamarca",
+  "titulo": "Exploración Arqueológica de la Provincia de Catamarca",
+  "autor": "Francisco Pascasio Moreno",
+  "anio": 1890,
+  "tipo": "prosa",
+  "gutenberg": 30052,
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "Project Gutenberg (transcripción de Produced by Adrian Mastronardi, Pilar Somoza Fernandez and)",
+    "url": "https://www.gutenberg.org/ebooks/30052"
+  },
+  "catalogo_id": 972,
+  "catalogo_campos": {
+    "dominio": "Ciencia",
+    "titulo": "Exploración Arqueológica de la Provincia de Catamarca",
+    "autor": "Francisco Pascasio Moreno",
+    "anio": "1890",
+    "pais": "Argentina",
+    "genero": "Arqueología",
+    "tema": "Arqueología",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio_edicion": 2026
+}

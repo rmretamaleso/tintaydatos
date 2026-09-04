@@ -1,0 +1,32 @@
+{
+  "slug": "recuerdosii",
+  "titulo": "Recuerdos de mi Vida, tomo II",
+  "autor": "Santiago Ramón y Cajal",
+  "anio": 1917,
+  "tipo": "prosa",
+  "gutenberg": 60675,
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "nota": "El segundo tomo relata la investigación que le valió el Nobel de Medicina en 1906, compartido con Camillo Golgi.",
+    "texto": "Project Gutenberg (transcripción de Produced by Ramon Pajares Box and the Online Distributed)",
+    "url": "https://www.gutenberg.org/ebooks/60675"
+  },
+  "catalogo_id": 969,
+  "catalogo_campos": {
+    "dominio": "Ciencia",
+    "titulo": "Recuerdos de mi Vida, tomo II",
+    "autor": "Santiago Ramón y Cajal",
+    "anio": "1917",
+    "pais": "España",
+    "genero": "Neurociencia",
+    "tema": "Neurociencia",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_capitulo": "h2",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio_edicion": 2026
+}
