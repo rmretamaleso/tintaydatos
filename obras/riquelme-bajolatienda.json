@@ -3,6 +3,7 @@
   "titulo": "Bajo la Tienda",
   "autor": "Daniel Riquelme",
   "anio": 1896,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/daniel-riquelme/bajo-la-tienda/ebook",
   "catalogo": "un catálogo de literatura en español en dominio público",
@@ -25,9 +26,7 @@
   "nivel_capitulo": "h2",
   "nivel_seccion": "h3",
   "patron_seccion": "^(.+)$",
-  "renombrar_secciones": {
-    "Lo que toleraba el general3": "Lo que toleraba el general"
-  },
+  "piezas_independientes": true,
   "esperados": {
     "capitulos": 16
   },
@@ -35,5 +34,7 @@
     "salto_por_capitulo": true,
     "hyphenation": "es"
   },
-  "piezas_independientes": true
+  "renombrar_secciones": {
+    "Lo que toleraba el general3": "Lo que toleraba el general"
+  }
 }

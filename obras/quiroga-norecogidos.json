@@ -3,6 +3,7 @@
   "titulo": "Cuentos y Prosas no Recogidos en Libro",
   "autor": "Horacio Quiroga",
   "anio": 1937,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "autor_slug": "horacio-quiroga",
   "piezas_fuente": [

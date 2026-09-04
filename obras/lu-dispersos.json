@@ -2,6 +2,7 @@
   "slug": "cuentos-dispersos-lugones",
   "titulo": "Cuentos Dispersos",
   "autor": "Leopoldo Lugones",
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "autor_slug": "leopoldo-lugones",
   "piezas_fuente": [
@@ -15,6 +16,7 @@
     "francesca::Francesca",
     "la-dicha-de-vivir::La Dicha de Vivir"
   ],
+  "orden": "alfabetico",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
   "fuente": {
     "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
@@ -39,6 +41,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "orden": "alfabetico"
+  }
 }

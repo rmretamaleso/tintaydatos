@@ -2,6 +2,8 @@
   "slug": "el-amigo-de-la-muerte",
   "titulo": "El Amigo de la Muerte",
   "autor": "Pedro Antonio de Alarcón",
+  "anio": 1852,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/pedro-antonio-de-alarcon/el-amigo-de-la-muerte/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1852
+  }
 }

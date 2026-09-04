@@ -2,6 +2,8 @@
   "slug": "cuentos-tragicos",
   "titulo": "Cuentos Trágicos",
   "autor": "Emilia Pardo Bazán",
+  "anio": 1912,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/emilia-pardo-bazan/cuentos-tragicos/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1912
+  }
 }

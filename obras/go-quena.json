@@ -2,6 +2,8 @@
   "slug": "la-quena",
   "titulo": "La Quena",
   "autor": "Juana Manuela Gorriti",
+  "anio": 1845,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/juana-manuela-gorriti/la-quena/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1845
+  }
 }

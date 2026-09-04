@@ -3,6 +3,7 @@
   "titulo": "Sub Terra",
   "autor": "Baldomero Lillo",
   "anio": 1917,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/baldomero-lillo/sub-terra/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -11,6 +12,7 @@
     "url": "https://www.textos.info/baldomero-lillo/sub-terra",
     "nota": "Corresponde a la segunda edición, de 1917, que amplía a trece los ocho cuentos de la primera de 1904. Los relatos de este libro figuran también en el volumen «Cuentos completos», que Tinta y Datos publica por separado."
   },
+  "catalogo_id": 203,
   "nivel_capitulo": "h2",
   "esperados": {
     "capitulos": 13
@@ -18,6 +20,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "catalogo_id": 203
+  }
 }

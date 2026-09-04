@@ -2,6 +2,8 @@
   "slug": "la-flor",
   "titulo": "La Flor",
   "autor": "Rosalía de Castro",
+  "anio": 1857,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/rosalia-de-castro/la-flor/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1857
+  }
 }

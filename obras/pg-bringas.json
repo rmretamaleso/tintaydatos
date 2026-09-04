@@ -2,6 +2,8 @@
   "slug": "la-de-bringas",
   "titulo": "La de Bringas",
   "autor": "Benito Pérez Galdós",
+  "anio": 1884,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/benito-perez-galdos/la-de-bringas/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1884
+  }
 }

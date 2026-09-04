@@ -2,6 +2,8 @@
   "slug": "el-periquillo-sarniento",
   "titulo": "El Periquillo Sarniento",
   "autor": "José Joaquín Fernández de Lizardi",
+  "anio": 1816,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/jose-joaquin-fernandez-de-lizardi/el-periquillo-sarniento/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1816
+  }
 }

@@ -2,6 +2,8 @@
   "slug": "el-cisne-de-vilamorta",
   "titulo": "El Cisne de Vilamorta",
   "autor": "Emilia Pardo Bazán",
+  "anio": 1885,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/emilia-pardo-bazan/el-cisne-de-vilamorta/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1885
+  }
 }

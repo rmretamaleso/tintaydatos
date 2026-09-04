@@ -2,6 +2,8 @@
   "slug": "lucia-miranda",
   "titulo": "Lucía Miranda",
   "autor": "Rosa Guerra",
+  "anio": 1860,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/rosa-guerra/lucia-miranda/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1860
+  }
 }

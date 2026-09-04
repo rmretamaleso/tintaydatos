@@ -3,6 +3,7 @@
   "titulo": "Sub Sole",
   "autor": "Baldomero Lillo",
   "anio": 1907,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/baldomero-lillo/sub-sole/ebook",
   "catalogo": "un catálogo de literatura en español en dominio público",
@@ -11,14 +12,14 @@
     "url": "https://www.textos.info/baldomero-lillo/sub-sole",
     "nota": "Se conserva la ortografía original de la edición de 1907, según la reforma de Andrés Bello vigente en Chile hasta 1927: «i» por «y», «rei», «lei», «mui», «jesto». No son erratas. Dos de estos relatos, «La barrena» y «Cañuela i Petaca», figuran también en la segunda edición de «Sub terra» (1917), que incorporó cuentos procedentes de este volumen. Los relatos de este libro figuran también en el volumen «Cuentos completos», que Tinta y Datos publica por separado."
   },
+  "catalogo_id": 246,
   "nivel_capitulo": "h2",
+  "piezas_independientes": true,
   "esperados": {
     "capitulos": 13
   },
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "catalogo_id": 246,
-  "piezas_independientes": true
+  }
 }

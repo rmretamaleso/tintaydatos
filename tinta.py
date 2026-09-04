@@ -12,6 +12,7 @@ El .json de la obra manda; este script no decide nada por su cuenta.
 """
 import argparse
 import contextlib
+import csv
 import datetime
 import json
 import os
@@ -136,6 +137,31 @@ def _ap():
     return ap.parse_args()
 
 
+_REGISTRO = None
+
+
+def fechas_de(autor, ruta="autores.csv"):
+    """«1900-1942» a partir del registro de autores, o None si no consta.
+
+    Se muestran en la portada para que el lector pueda calcular el plazo de
+    dominio público según la ley de su país, que no es la misma en todas partes.
+    """
+    global _REGISTRO
+    if _REGISTRO is None:
+        try:
+            _REGISTRO = {r["nombre"]: r
+                         for r in csv.DictReader(open(ruta, encoding="utf-8"))}
+        except OSError:
+            _REGISTRO = {}
+    r = _REGISTRO.get(autor)
+    if not r:
+        return None
+    nac, mue = r.get("nacimiento", "").strip(), r.get("muerte", "").strip()
+    if not mue:
+        return None
+    return f"{nac}-{mue}" if nac else f"m. {mue}"
+
+
 def procesar(ruta_cfg, a):
     cfg = json.loads(Path(ruta_cfg).read_text(encoding="utf-8"))
     slug = cfg.get("slug") or Path(ruta_cfg).stem
@@ -199,8 +225,17 @@ def procesar(ruta_cfg, a):
             T.inspeccionar(doc)
             return True
         partes, totales = T.parsear(doc, cfg)
+    # Año en que Tinta y Datos hace la edición. Se fija la primera vez y queda
+    # guardado: si la obra se regenera en 2027, el colofón sigue diciendo el año
+    # real en que se compuso.
+    if not cfg.get("anio_edicion") and (a.pdf or a.publicar):
+        cfg["anio_edicion"] = datetime.date.today().year
+        Path(ruta_cfg).write_text(
+            json.dumps(cfg, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
     obra = {k: cfg.get(k) for k in
-            ("titulo", "autor", "anio", "tipo", "catalogo", "fuente")}
+            ("titulo", "autor", "anio", "anio_edicion", "tipo", "catalogo", "fuente")}
+    obra["fechas_autor"] = cfg.get("fechas_autor") or fechas_de(cfg.get("autor"))
     obra["partes"] = partes
     unidad = "versos" if cfg.get("tipo") == "verso" else "párrafos"
     n_unidades = contar(obra)

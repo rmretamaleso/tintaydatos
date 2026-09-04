@@ -2,6 +2,8 @@
   "slug": "los-desterrados-y-otros-cuentos",
   "titulo": "Los Desterrados y Otros Cuentos",
   "autor": "Horacio Quiroga",
+  "anio": 1926,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/horacio-quiroga/los-desterrados-y-otros-cuentos/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1926
+  }
 }

@@ -2,6 +2,7 @@
   "slug": "vida-loca",
   "titulo": "Vida Loca",
   "autor": "Domingo Arena",
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/domingo-arena/vida-loca/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -21,9 +22,9 @@
     "puede_alojarse": "si"
   },
   "nivel_capitulo": "h2",
+  "preliminares": true,
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "preliminares": true
+  }
 }

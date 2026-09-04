@@ -2,6 +2,8 @@
   "slug": "la-guerra-gaucha",
   "titulo": "La Guerra Gaucha",
   "autor": "Leopoldo Lugones",
+  "anio": 1905,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/leopoldo-lugones/la-guerra-gaucha/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1905
+  }
 }

@@ -2,6 +2,8 @@
   "slug": "confidencias",
   "titulo": "Confidencias",
   "autor": "Carmen de Burgos",
+  "anio": 1916,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/carmen-de-burgos/confidencias/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1916
+  }
 }

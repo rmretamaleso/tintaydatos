@@ -3,6 +3,7 @@
   "titulo": "Cuentos",
   "autor": "Rafael Barrett",
   "anio": 1910,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "autor_slug": "rafael-barrett",
   "piezas_fuente": [

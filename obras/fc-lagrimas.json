@@ -2,6 +2,8 @@
   "slug": "lagrimas",
   "titulo": "Lágrimas",
   "autor": "Fernán Caballero",
+  "anio": 1839,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/fernan-caballero/lagrimas/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1839
+  }
 }

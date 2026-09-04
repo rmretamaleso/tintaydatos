@@ -2,6 +2,8 @@
   "slug": "el-caballero-carmelo",
   "titulo": "El Caballero Carmelo",
   "autor": "Abraham Valdelomar",
+  "anio": 1918,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/abraham-valdelomar/el-caballero-carmelo/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1918
+  }
 }

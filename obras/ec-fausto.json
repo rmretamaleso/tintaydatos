@@ -2,6 +2,8 @@
   "slug": "fausto",
   "titulo": "Fausto",
   "autor": "Estanislao del Campo",
+  "anio": 1866,
+  "anio_edicion": 2026,
   "tipo": "verso",
   "url": "https://www.textos.info/estanislao-del-campo/fausto/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -23,6 +25,5 @@
   "nivel_capitulo": "h2",
   "opciones": {
     "salto_por_capitulo": true
-  },
-  "anio": 1866
+  }
 }

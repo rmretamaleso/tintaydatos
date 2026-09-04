@@ -2,6 +2,8 @@
   "slug": "teresa-la-limena",
   "titulo": "Teresa la Limeña",
   "autor": "Soledad Acosta de Samper",
+  "anio": 1869,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/soledad-acosta-de-samper/teresa-la-limena/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1869
+  }
 }

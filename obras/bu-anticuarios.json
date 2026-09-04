@@ -2,6 +2,8 @@
   "slug": "los-anticuarios",
   "titulo": "Los Anticuarios",
   "autor": "Carmen de Burgos",
+  "anio": 1919,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/carmen-de-burgos/los-anticuarios/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1919
+  }
 }

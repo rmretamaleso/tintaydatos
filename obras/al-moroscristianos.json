@@ -2,6 +2,8 @@
   "slug": "moros-y-cristianos",
   "titulo": "Moros y Cristianos",
   "autor": "Pedro Antonio de Alarcón",
+  "anio": 1881,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/pedro-antonio-de-alarcon/moros-y-cristianos/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1881
+  }
 }

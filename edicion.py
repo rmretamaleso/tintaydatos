@@ -82,6 +82,9 @@ def _estilos(hyphenation=None):
             fontSize=22, leading=26, alignment=TA_CENTER, spaceAfter=14, textColor=TINTA),
         "autor": ParagraphStyle('A', parent=s['Normal'], fontName='Times-Italic',
             fontSize=14, alignment=TA_CENTER, textColor=TINTA_CLARA, spaceAfter=6),
+        "fechas_autor": ParagraphStyle('FA', parent=s['Normal'],
+            fontName='Times-Roman', fontSize=10, alignment=TA_CENTER,
+            textColor=TINTA_CLARA, spaceAfter=10),
         "anio": ParagraphStyle('Y', parent=s['Normal'], fontName='Times-Italic',
             fontSize=11, alignment=TA_CENTER, textColor=TINTA_CLARA),
         "sello": ParagraphStyle('S', parent=s['Normal'], fontName='Courier',
@@ -185,7 +188,14 @@ def _portada(obra, est, subtitulo=None):
     fs = [Spacer(1, 4 * cm), Paragraph(_esc(obra["titulo"]), est["titulo"])]
     if subtitulo:
         fs.append(Paragraph(_esc(subtitulo), est["autor"]))
-    fs.append(Paragraph(_esc(obra["autor"]), est["autor"]))
+    # Las fechas del autor van bajo su nombre: son un dato objetivo, y dejan al
+    # lector calcular el plazo de dominio público según la ley de su país, que
+    # varía —70 años en casi toda América, 80 en España para algunos autores.
+    autor = _esc(obra["autor"])
+    fechas = obra.get("fechas_autor")
+    fs.append(Paragraph(autor, est["autor"]))
+    if fechas:
+        fs.append(Paragraph(_esc(fechas), est["fechas_autor"]))
     if obra.get("anio"):
         fs.append(Paragraph(str(obra["anio"]), est["anio"]))
     fs.append(Paragraph("TINTA Y DATOS — CATÁLOGO SEMILLA", est["sello"]))
@@ -195,12 +205,18 @@ def _portada(obra, est, subtitulo=None):
 
 def _colofon(obra, est):
     f = obra.get("fuente", {})
+    # El año de la edición se guarda en el .json la primera vez que se publica,
+    # así que una obra regenerada más adelante conserva la fecha en que
+    # realmente se hizo, no la del día que se vuelve a componer.
+    hecha = obra.get("anio_edicion")
+    en_anio = f" en {hecha}" if hecha else ""
     t = (f"Esta es una edición propia de <b>Tinta y Datos</b> (tintaydatos.com), "
          f"{obra.get('catalogo', CATALOGO_POR_DEFECTO)}. El texto de esta obra está "
          f"verificado como libre de derechos de autor. "
          f"Texto cotejado contra: {f.get('texto','—')} ({f.get('url','—')}). "
-         f"Esta edición fue tipografiada de nuevo por Tinta y Datos — no es una copia "
-         f"del archivo de la fuente original, solo del texto, que es de dominio público.")
+         f"Esta edición fue tipografiada de nuevo por Tinta y Datos{en_anio} — no es "
+         f"una copia del archivo de la fuente original, solo del texto, que es de "
+         f"dominio público.")
     if f.get("nota"):
         t += " " + f["nota"]
     return [Paragraph(t, est["colofon"]), PageBreak()]

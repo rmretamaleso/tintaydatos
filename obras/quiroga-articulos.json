@@ -3,6 +3,7 @@
   "titulo": "Artículos y Crónicas",
   "autor": "Horacio Quiroga",
   "anio": 1937,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "autor_slug": "horacio-quiroga",
   "piezas_fuente": [

@@ -3,6 +3,7 @@
   "titulo": "Antaño i Hogaño",
   "autor": "José Victorino Lastarria",
   "anio": 1885,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/jose-victorino-lastarria/antano-i-hogano/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +25,13 @@
   },
   "nivel_capitulo": "h2",
   "nivel_seccion": "h3",
+  "esperados": {
+    "capitulos": 7
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
   "renombrar_capitulos": {
     "EL MENDIGO": "El mendigo",
     "EL ALFEREZ ALONSO DIAZ DE GUZMAN": "El alférez Alonso Díaz de Guzmán",
@@ -32,12 +40,5 @@
     "EL DIARIO DE UNA LOCA": "El diario de una loca",
     "MERCEDES": "Mercedes",
     "UNA HIJA": "Una hija"
-  },
-  "esperados": {
-    "capitulos": 7
-  },
-  "opciones": {
-    "salto_por_capitulo": true,
-    "hyphenation": "es"
   }
 }

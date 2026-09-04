@@ -2,6 +2,8 @@
   "slug": "la-gota-de-sangre",
   "titulo": "La Gota de Sangre",
   "autor": "Emilia Pardo Bazán",
+  "anio": 1911,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/emilia-pardo-bazan/la-gota-de-sangre/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1911
+  }
 }

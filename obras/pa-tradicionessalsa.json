@@ -2,6 +2,8 @@
   "slug": "tradiciones-en-salsa-verde",
   "titulo": "Tradiciones en Salsa Verde",
   "autor": "Ricardo Palma",
+  "anio": 1901,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/ricardo-palma/tradiciones-en-salsa-verde/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1901
+  }
 }

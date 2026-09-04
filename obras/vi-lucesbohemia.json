@@ -2,6 +2,8 @@
   "slug": "luces-de-bohemia",
   "titulo": "Luces de Bohemia",
   "autor": "Ramón María del Valle-Inclán",
+  "anio": 1920,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/ramon-maria-del-valle-inclan/luces-de-bohemia/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1920
+  }
 }

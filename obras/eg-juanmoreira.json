@@ -2,6 +2,8 @@
   "slug": "juan-moreira",
   "titulo": "Juan Moreira",
   "autor": "Eduardo Gutiérrez",
+  "anio": 1879,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/eduardo-gutierrez/juan-moreira/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1879
+  }
 }

@@ -2,6 +2,8 @@
   "slug": "cronicas",
   "titulo": "Crónicas",
   "autor": "Amado Nervo",
+  "anio": 1922,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/amado-nervo/cronicas/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1922
+  }
 }

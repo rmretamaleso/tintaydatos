@@ -2,6 +2,8 @@
   "slug": "la-verdad-sospechosa",
   "titulo": "La Verdad Sospechosa",
   "autor": "Juan Ruiz de Alarcón",
+  "anio": 1634,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/juan-ruiz-de-alarcon/la-verdad-sospechosa/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1634
+  }
 }

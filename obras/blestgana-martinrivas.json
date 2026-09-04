@@ -3,6 +3,7 @@
   "titulo": "Martín Rivas",
   "autor": "Alberto Blest Gana",
   "anio": 1862,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/alberto-blest-gana/martin-rivas/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -10,6 +11,7 @@
     "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
     "url": "https://www.textos.info/alberto-blest-gana/martin-rivas"
   },
+  "catalogo_id": 202,
   "nivel_capitulo": "h2",
   "preliminares": "Dedicatoria",
   "esperados": {
@@ -19,6 +21,5 @@
     "salto_por_capitulo": true,
     "hyphenation": "es",
     "etiqueta_capitulo": "CAPÍTULO"
-  },
-  "catalogo_id": 202
+  }
 }

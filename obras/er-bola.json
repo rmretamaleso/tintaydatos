@@ -2,6 +2,8 @@
   "slug": "la-bola",
   "titulo": "La Bola",
   "autor": "Emilio Rabasa",
+  "anio": 1887,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/emilio-rabasa/la-bola/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1887
+  }
 }

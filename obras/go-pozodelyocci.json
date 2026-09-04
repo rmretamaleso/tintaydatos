@@ -2,6 +2,8 @@
   "slug": "el-pozo-del-yocci",
   "titulo": "El Pozo del Yocci",
   "autor": "Juana Manuela Gorriti",
+  "anio": 1869,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/juana-manuela-gorriti/el-pozo-del-yocci/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1869
+  }
 }

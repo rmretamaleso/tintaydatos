@@ -2,6 +2,8 @@
   "slug": "hacia-el-reino-de-los-sciris",
   "titulo": "Hacia el Reino de los Sciris",
   "autor": "César Vallejo",
+  "anio": 1928,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/cesar-vallejo/hacia-el-reino-de-los-sciris/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -25,6 +27,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1928
+  }
 }

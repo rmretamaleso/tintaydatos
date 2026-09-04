@@ -3,6 +3,7 @@
   "titulo": "Fortunata y Jacinta",
   "autor": "Benito Pérez Galdós",
   "anio": 1887,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/benito-perez-galdos/fortunata-y-jacinta/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -10,21 +11,21 @@
     "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
     "url": "https://www.textos.info/benito-perez-galdos/fortunata-y-jacinta"
   },
-  "volumenes": "por_parte",
+  "catalogo_id": 5,
   "nivel_parte": "h2",
   "nivel_capitulo": "h3",
   "nivel_seccion": "h4",
-  "patron_capitulo": "^Cap[íi]tulo\\s+(\\d+)\\.?\\s*(.*)$",
   "esperados": {
     "partes": 4,
     "capitulos": 31,
     "secciones": 198
   },
+  "volumenes": "por_parte",
   "opciones": {
     "etiqueta_capitulo": "CAPÍTULO",
     "salto_por_capitulo": true
   },
-  "catalogo_id": 5,
+  "patron_capitulo": "^Cap[íi]tulo\\s+(\\d+)\\.?\\s*(.*)$",
   "etiquetas_volumenes": [
     "Parte 1",
     "Parte 2",

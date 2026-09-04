@@ -2,6 +2,8 @@
   "slug": "mas-alla-y-otros-cuentos",
   "titulo": "Más Allá y Otros Cuentos",
   "autor": "Horacio Quiroga",
+  "anio": 1935,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/horacio-quiroga/mas-alla-y-otros-cuentos/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1935
+  }
 }

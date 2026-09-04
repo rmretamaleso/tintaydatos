@@ -3,6 +3,7 @@
   "titulo": "Cuentos Dispersos",
   "autor": "Javier de Viana",
   "anio": 1926,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "autor_slug": "javier-de-viana",
   "piezas_fuente": [

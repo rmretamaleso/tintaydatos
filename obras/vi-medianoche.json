@@ -2,6 +2,8 @@
   "slug": "la-media-noche",
   "titulo": "La Media Noche",
   "autor": "Ramón María del Valle-Inclán",
+  "anio": 1917,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/ramon-maria-del-valle-inclan/la-media-noche/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1917
+  }
 }

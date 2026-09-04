@@ -2,6 +2,8 @@
   "slug": "tristana",
   "titulo": "Tristana",
   "autor": "Benito Pérez Galdós",
+  "anio": 1892,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/benito-perez-galdos/tristana/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1892
+  }
 }

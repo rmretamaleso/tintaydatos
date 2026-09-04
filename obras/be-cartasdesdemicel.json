@@ -2,6 +2,8 @@
   "slug": "cartas-desde-mi-celda",
   "titulo": "Cartas desde mi Celda",
   "autor": "Gustavo Adolfo Bécquer",
+  "anio": 1864,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/gustavo-adolfo-becquer/cartas-desde-mi-celda/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1864
+  }
 }

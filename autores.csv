@@ -1,84 +1,168 @@
 nombre,alias,slug,pais,nacimiento,muerte,fecha_fiable,en_fuente,estado,otra_fuente,notas
+Abraham Valdelomar,,,,1888,1919,wikidata,,,,escritor peruano
+Alberto Blest Gana,,alberto-blest-gana,Chile,1830,1920,si,si,disponible,,
+Alberto Edwards,,,Chile,1874,1932,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),
+Alberto del Solar,,,,1859,1921,verificada,,,,militar y escritor chileno
+Alfonsina Storni,,alfonsina-storni,Argentina,1892,1938,si,si,disponible,,
+Almafuerte,,,,1854,1917,wikidata,,,,"escritor, poeta, bibliotecario y periodista argentino"
 Alonso de Ercilla,,alonso-de-ercilla,España,1533,1594,si,si,disponible,,
-Miguel de Cervantes,Cervantes|Miguel de Cervantes Saavedra,miguel-de-cervantes-saavedra,España,1547,1616,si,si,disponible,Cervantes Virtual; Gutenberg,21 obras en la fuente; el slug lleva «saavedra»
-Pedro de Oña,,,Chile,1570,1643,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Primer poeta nacido en Chile
+Amado Nervo,,amado-nervo,México,1870,1919,si,si,disponible,,6 obras en la fuente
+Andrés Bello,,,Chile,1781,1865,si,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Venezolano nacionalizado chileno; su reforma ortográfica rigió hasta 1927
+Antonio Machado,,antonio-machado,España,1875,1939,si,si,disponible,,España aplica 80 años a fallecidos antes de 1987
+Arturo Ambrogi,,,,1875,1936,wikidata,,,,escritor y periodista salvadoreño
+Augusto d'Halmar,,,Chile,1882,1950,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Confirmado contra el índice completo de textos.info: no está.
+Baldomero Lillo,,baldomero-lillo,Chile,1867,1923,si,si,disponible,,
+Bartolomé Mitre,,,,1821,1906,wikidata,,,,presidente de Argentina de 1861 hasta 1868
+Benito Pérez Galdós,Pérez Galdós,benito-perez-galdos,España,1843,1920,si,si,disponible,,
+Benjamín Vicuña Mackenna,,,Chile,1831,1886,si,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Confirmado contra el índice completo de textos.info: no está.
+Carlos Alberto Leumann,,,,1886,1952,wikidata,,,,"poeta, periodista y docente argentino"
+Carlos Gagini,,,,1865,1925,wikidata,,,,Costa Rican writer (1865–1925)
+Carlos María Ocantos,,,,1860,1949,wikidata,,,,escritor y diplomático argentino
+Carlos Octavio Bunge,,,,1875,1918,wikidata,,,,sociólogo argentino
+Carlos Pezoa Véliz,,,Chile,1879,1908,si,no,disponible,"Wikisource (13 poemas sueltos, textos validados)","Sus recopilaciones póstumas tienen derechos, pero Wikisource publica los poemas por separado: permite componer una selección propia."
+Carlos Reyles,,,,1868,1938,wikidata,,,,escritor uruguayo
+Carmen de Burgos,Colombine,carmen-de-burgos,España,1867,1932,si,si,disponible,,Firmaba como Colombine; 43 obras en la fuente
+Cayetano Coll y Toste,,,,1850,1930,wikidata,,,,historiador y escritor puertorriqueño
+Charles Darwin,,,Reino Unido,1809,1882,si,no,revisar_edicion,Gutenberg,La obra es libre; las traducciones al español pueden no serlo
+Cirilo Villaverde,,,Cuba,1812,1894,si,no,disponible,Gutenberg,
+Clemente Palma,,,,1872,1946,wikidata,,,,escritor peruano
+Clorinda Matto de Turner,,clorinda-matto-de-turner,Perú,1852,1909,si,si,disponible,,2 obras en la fuente
+Concepción Arenal,,concepcion-arenal,España,1820,1893,si,si,disponible,,6 obras en la fuente
+César Vallejo,,cesar-vallejo,Perú,1892,1938,si,si,disponible,,
+Daniel Riquelme,,daniel-riquelme,Chile,1857,1912,si,si,disponible,,
+Delmira Agustini,,,Uruguay,1886,1914,si,no,disponible,Wikisource,Confirmado contra el índice completo de textos.info: no está.
+Domingo Arena,,,,1888,1917,wikidata,,,,militar mexicano
+Domingo F. Sarmiento,,,,1811,1888,wikidata,,,,escritor y político argentino; presidente de Argentina de 1868 a 1874
+Domingo Faustino Sarmiento,Domingo F. Sarmiento,domingo-faustino-sarmiento,Argentina,1811,1888,si,si,disponible,,
+Edgar Allan Poe,,,Estados Unidos,1809,1849,si,no,revisar_edicion,Gutenberg,La obra es libre; las traducciones al español pueden no serlo
+Eduardo Acevedo Díaz,,,,1851,1921,verificada,,,,novelista uruguayo
+Eduardo Gutiérrez,,,,1852,1889,wikidata,,,,escritor argentino
+Eduardo Ladislao Holmberg,,,,1852,1937,wikidata,,,,escritor y biólogo argentino (1852–1937)
+Emilia Pardo Bazán,Pardo Bazán,emilia-pardo-bazan,España,1851,1921,si,si,disponible,,607 textos en la fuente
+Emilia Serrano,,,España,1834,1922,revisar,no,disponible,,
+Emilio Bobadilla,,,,1862,1921,verificada,,,,escritor cubano
+Emilio Rabasa,,,,1856,1930,wikidata,,,,"abogado, escritor, político y académico mexicano (1856-1930)"
+Estanislao del Campo,,,,1834,1880,wikidata,,,,escritor argentino
+Esteban Echeverría,,esteban-echeverria,Argentina,1805,1851,si,si,disponible,,
+Eugenio Cambaceres,,,,1843,1889,wikidata,,,,político y escritor argentino
+Eugenio María de Hostos,,,,1839,1903,wikidata,,,,"intelectual educador, filósofo, sociólogo y escritor puertorriqueño"
+Eusebio Lillo,Eusebio Lillo Robles,,Chile,1826,1910,si,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Autor de la letra del himno nacional
+Federico Gana,,federico-gana,Chile,1867,1926,revisar,si,disponible,,
+Federico García Lorca,,,España,1898,1936,si,no,revisar_edicion,Wikisource; Cervantes Virtual,Libre en España; los herederos han litigado en otras jurisdicciones
+Fernán Caballero,Cecilia Böhl de Faber,fernan-caballero,España,1796,1877,si,si,disponible,,Seudónimo de Cecilia Böhl de Faber; 31 obras en la fuente
+Florencio Varela,,,,1808,1848,wikidata,,,,Argentine writer
+Francisco Calcagno,,,,1827,1903,wikidata,,,,
+Francisco Campos Coello,,,,1841,1916,wikidata,,,,escritor y político ecuatoriano
+Francisco Javier Alegre,,,,1729,1788,wikidata,,,,"jesuita, historiador, geógrafo, y traductor novohispano"
+Francisco del Valle Atiles,,,,1852,1928,wikidata,,,,
+Friedrich Wilhelm Ristenpart,,,Chile,1868,1913,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),"Astrónomo alemán, dirigió el Observatorio Astronómico Nacional"
+Gabriela Mistral,,,Chile,1889,1957,si,no,protegido,,Nobel 1945
+Gertrudis Gómez de Avellaneda,,gertrudis-gomez-de-avellaneda,Cuba,1814,1873,si,si,disponible,,7 obras en la fuente
+Guillermo Blest Gana,,,Chile,1829,1904,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Hermano de Alberto
+Guillermo Prieto,,,,1818,1897,wikidata,,,,Mexican writer and politician (1818–1897)
+Gustavo Adolfo Bécquer,Bécquer,gustavo-adolfo-becquer,España,1836,1870,si,si,disponible,,
+Gustavo Sánchez Galarraga,,,,1893,1934,wikidata,,,,Cuban poet
+Horacio Quiroga,,horacio-quiroga,Uruguay,1878,1937,si,si,disponible,,
+Ignacio Manuel Altamirano,,,,1834,1893,wikidata,,,,"escritor, periodista, abogado, maestro y político mexicano"
+Inca Garcilaso de la Vega,,,,1539,1616,wikidata,,,,escritor e historiador de ascendencia española e inca nacido en Nueva Castilla
+Inés Echeverría,Iris,,Chile,1868,1949,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Firmaba como Iris. Confirmado contra el índice completo de textos.info: no está.
+Ireneo Paz,,,,1836,1924,wikidata,,,,Mexican writer
+Javier de Viana,,,,1868,1926,wikidata,,,,Escritor Uruguayo
+Jenaro Prieto,,,Chile,1889,1946,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),
+Joaquín Díaz Garcés,Ángel Pino,joaquin-diaz-garces,Chile,1877,1921,revisar,si,disponible,,Firmaba como Ángel Pino
+Joaquín Edwards Bello,,,Chile,1887,1968,revisar,no,protegido,,
+Jorge Isaacs,,jorge-isaacs,Colombia,1837,1895,si,si,disponible,,
+José Alonso y Trelles,,,,1857,1924,wikidata,,,,escritor gallego-uruguayo
+José Asunción Silva,,jose-asuncion-silva,Colombia,1865,1896,si,si,disponible,,2 obras en la fuente
+José Enrique Rodó,,,,1871,1917,wikidata,,,,Uruguayan writer (1871–1917)
+José Eustasio Rivera,,,,1888,1928,wikidata,,,,"Colombian writer, politician and diplomat (1888–1928)"
+José Hernández,,jose-hernandez,Argentina,1834,1886,si,si,disponible,,
+José Ingenieros,,,,1877,1925,wikidata,,,,polímata argentino
+José Joaquín Fernández de Lizardi,,,,1776,1827,verificada,,,,novelista mexicano
+José Joaquín Vallejo,Jotabeche,,Chile,1811,1858,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Firmaba como Jotabeche
+José Martí,,,Cuba,1853,1895,si,no,disponible,Gutenberg; Wikisource,
+José María Roa Bárcena,,,,1827,1908,wikidata,,,,"lingüista, historiador y político conservador mexicano del s. XIX"
+José María Vargas Vila,,,,1860,1933,wikidata,,,,Escritor colombiano (1860-1933)
+José Mármol,,,,1817,1871,wikidata,,,,escritor y político argentino
+José Pedro Bellán,,,,1889,1930,wikidata,,,,escritor y político uruguayo
+José Seferino Álvarez «Fray Mocho»,,,,1858,1903,verificada,,,,escritor y periodista argentino
+José Tomás de Cuéllar,,,,1830,1894,wikidata,,,,"Novelista, dramaturgo, periodista y diplomático mexicano del s. XIX"
+José Toribio Medina,,,Chile,1852,1930,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Confirmado contra el índice completo de textos.info: no está.
+José Victorino Lastarria,,jose-victorino-lastarria,Chile,1817,1888,si,si,disponible,,
+José de la Cuadra,,,,1903,1941,verificada,,,,narrador ecuatoriano
+Juan Antonio Argerich,,,,1862,1924,verificada,,,,médico y novelista argentino
+Juan Antonio Mateos,,,,1831,1913,wikidata,,,,"dramaturgo, novelista, poeta, periodista, y político mexicano liberal del s.XIX"
+Juan Bautista Alberdi,,,,1810,1884,wikidata,,,,"abogado, diplomático y político argentino"
+Juan Cortada,,,,1805,1868,verificada,,,,escritor e historiador
+Juan Díaz Covarrubias,,,,1837,1859,wikidata,,,,escritor mexicano
+Juan León Mera,,,Ecuador,1832,1894,si,no,disponible,Gutenberg,
+Juan Montalvo,,juan-montalvo,Ecuador,1832,1889,si,si,disponible,,
+Juan Ramón Jiménez,,,España,1881,1958,si,no,protegido,,Nobel 1956
+Juan Ruiz de Alarcón,,,,1581,1639,wikidata,,,,escritor novohispano del Siglo de Oro
+Juan Valera,,juan-valera,España,1824,1905,si,si,disponible,,80 obras en la fuente
+Juana Manuela Gorriti,,juana-manuela-gorriti,Argentina,1818,1892,si,si,disponible,,28 obras en la fuente
+Laura Méndez de Cuenca,,,,1853,1928,wikidata,,,,Poeta y escritora mexicana
+Leopoldo Alas,"Leopoldo Alas ""Clarín""|Clarín|Leopoldo Alas Clarín",leopoldo-alas-clarin,España,1852,1901,si,si,disponible,,El slug lleva «clarin»
+"Leopoldo Alas ""Clarín""",,,,1852,1901,wikidata,,,,escritor español
+Leopoldo Lugones,,leopoldo-lugones,Argentina,1874,1938,si,si,disponible,,34 obras en la fuente
+Lucio V. Mansilla,,,,1831,1913,wikidata,,,,militar y periodista argentino
+Lucio Vicente López,,,,1848,1894,wikidata,,,,Argentinian lawyer and journalist
+Luis Benjamín Cisneros,,,,1837,1904,wikidata,,,,escritor peruano
+Luis Bonafoux Quintero,,,,1855,1918,wikidata,,,,periodista y escritor español nacido en Francia
+Luis G. Urbina,,,,1864,1934,wikidata,,,,escritor y poeta mexicano del s. XIX
+Luis Orrego Luco,,,Chile,1866,1948,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Confirmado contra el índice completo de textos.info: no está.
+Manuel A. Alonso,,,,1822,1889,wikidata,,,,escritor puertorriqueño
+Manuel Díaz Rodríguez,,,,1871,1927,verificada,,,,novelista venezolano
+Manuel Eduardo de Gorostiza,,,,1789,1851,wikidata,,,,"19th century Mexican writer, dramatist and diplomat (1789-1851)"
+Manuel Fernández Juncos,,,,1846,1928,wikidata,,,,autor español
+Manuel González Zeledón,,,,1864,1936,wikidata,,,,escritor costarricense
+Manuel Gutiérrez Nájera,,manuel-gutierrez-najera,México,1859,1895,si,si,disponible,,
+Manuel Magallanes Moure,,,Chile,1878,1924,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),
+Manuel Payno,,,,1810,1894,verificada,,,,"novelista mexicano; no confundir con su padre, Manuel Payno Bustamante"
+Manuel Rojas,,,Chile,1896,1973,si,no,protegido,,
+Mariano Latorre,,,Chile,1886,1955,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Liberado en 2026. Confirmado contra el índice completo de textos.info: no está.
+Martín García Mérou,,,,1862,1905,verificada,,,,escritor y diplomático argentino
+Martín del Barco Centenera,,,,1535,1602,wikidata,,,,poeta español
+María Luisa Bombal,,,Chile,1910,1980,si,no,protegido,,
 María de Zayas,,,España,1590,1661,revisar,no,disponible,Cervantes Virtual,
 María de Zayas y Sotomayor,María de Zayas,maria-de-zayas-y-sotomayor,España,1590,1661,revisar,si,disponible,,4 obras; el slug lleva «y-sotomayor»
-Sor Juana Inés de la Cruz,,sor-juana-ines-de-la-cruz,México,1648,1695,si,si,disponible,,
-Edgar Allan Poe,,,Estados Unidos,1809,1849,si,no,revisar_edicion,Gutenberg,La obra es libre; las traducciones al español pueden no serlo
-Esteban Echeverría,,esteban-echeverria,Argentina,1805,1851,si,si,disponible,,
-José Joaquín Vallejo,Jotabeche,,Chile,1811,1858,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Firmaba como Jotabeche
-Andrés Bello,,,Chile,1781,1865,si,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Venezolano nacionalizado chileno; su reforma ortográfica rigió hasta 1927
-Mercedes Marín del Solar,,,Chile,1804,1866,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Primera poeta chilena publicada
-Gustavo Adolfo Bécquer,Bécquer,gustavo-adolfo-becquer,España,1836,1870,si,si,disponible,,
-Gertrudis Gómez de Avellaneda,,gertrudis-gomez-de-avellaneda,Cuba,1814,1873,si,si,disponible,,7 obras en la fuente
-Fernán Caballero,Cecilia Böhl de Faber,fernan-caballero,España,1796,1877,si,si,disponible,,Seudónimo de Cecilia Böhl de Faber; 31 obras en la fuente
-Rosario Orrego,,,Chile,1834,1879,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Primera novelista chilena. Confirmado contra el índice completo de textos.info: no está.
-Charles Darwin,,,Reino Unido,1809,1882,si,no,revisar_edicion,Gutenberg,La obra es libre; las traducciones al español pueden no serlo
-Rosalía de Castro,,rosalia-de-castro,España,1837,1885,si,si,disponible,,11 obras en la fuente
-Vicente Pérez Rosales,,,Chile,1807,1886,si,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Confirmado contra el índice completo de textos.info: no está.
-Benjamín Vicuña Mackenna,,,Chile,1831,1886,si,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Confirmado contra el índice completo de textos.info: no está.
-José Hernández,,jose-hernandez,Argentina,1834,1886,si,si,disponible,,
-Domingo Faustino Sarmiento,Domingo F. Sarmiento,domingo-faustino-sarmiento,Argentina,1811,1888,si,si,disponible,,
-José Victorino Lastarria,,jose-victorino-lastarria,Chile,1817,1888,si,si,disponible,,
-Juan Montalvo,,juan-montalvo,Ecuador,1832,1889,si,si,disponible,,
-Pedro Antonio de Alarcón,,pedro-antonio-de-alarcon,España,1833,1891,si,si,disponible,,50 obras en la fuente
-Juana Manuela Gorriti,,juana-manuela-gorriti,Argentina,1818,1892,si,si,disponible,,28 obras en la fuente
-Concepción Arenal,,concepcion-arenal,España,1820,1893,si,si,disponible,,6 obras en la fuente
-Cirilo Villaverde,,,Cuba,1812,1894,si,no,disponible,Gutenberg,
-Juan León Mera,,,Ecuador,1832,1894,si,no,disponible,Gutenberg,
-Jorge Isaacs,,jorge-isaacs,Colombia,1837,1895,si,si,disponible,,
-Manuel Gutiérrez Nájera,,manuel-gutierrez-najera,México,1859,1895,si,si,disponible,,
-José Martí,,,Cuba,1853,1895,si,no,disponible,Gutenberg; Wikisource,
-José Asunción Silva,,jose-asuncion-silva,Colombia,1865,1896,si,si,disponible,,2 obras en la fuente
-Leopoldo Alas,"Leopoldo Alas ""Clarín""|Clarín|Leopoldo Alas Clarín",leopoldo-alas-clarin,España,1852,1901,si,si,disponible,,El slug lleva «clarin»
-Guillermo Blest Gana,,,Chile,1829,1904,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Hermano de Alberto
-Rodolfo Amando Philippi,,,Chile,1808,1904,si,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Naturalista alemán radicado en Chile
-Juan Valera,,juan-valera,España,1824,1905,si,si,disponible,,80 obras en la fuente
-Carlos Pezoa Véliz,,,Chile,1879,1908,si,no,disponible,"Wikisource (13 poemas sueltos, textos validados)","Sus recopilaciones póstumas tienen derechos, pero Wikisource publica los poemas por separado: permite componer una selección propia."
-Clorinda Matto de Turner,,clorinda-matto-de-turner,Perú,1852,1909,si,si,disponible,,2 obras en la fuente
 Mercedes Cabello de Carbonera,,,Perú,1842,1909,revisar,no,disponible,Biblioteca Nacional del Perú,Confirmado contra el índice completo de textos.info: no está.
-Eusebio Lillo,Eusebio Lillo Robles,,Chile,1826,1910,si,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Autor de la letra del himno nacional
-Daniel Riquelme,,daniel-riquelme,Chile,1857,1912,si,si,disponible,,
-Soledad Acosta de Samper,,soledad-acosta-de-samper,Colombia,1833,1913,si,si,disponible,,17 obras en la fuente
-Friedrich Wilhelm Ristenpart,,,Chile,1868,1913,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),"Astrónomo alemán, dirigió el Observatorio Astronómico Nacional"
-Delmira Agustini,,,Uruguay,1886,1914,si,no,disponible,Wikisource,Confirmado contra el índice completo de textos.info: no está.
-Rubén Darío,,ruben-dario,Nicaragua,1867,1916,si,si,disponible,,
-Ricardo Palma,,ricardo-palma,Perú,1833,1919,si,si,disponible,,Diez series; la fuente tiene tres
-Amado Nervo,,amado-nervo,México,1870,1919,si,si,disponible,,6 obras en la fuente
-Alberto Blest Gana,,alberto-blest-gana,Chile,1830,1920,si,si,disponible,,
-Benito Pérez Galdós,Pérez Galdós,benito-perez-galdos,España,1843,1920,si,si,disponible,,
-Emilia Pardo Bazán,Pardo Bazán,emilia-pardo-bazan,España,1851,1921,si,si,disponible,,607 textos en la fuente
-Joaquín Díaz Garcés,Ángel Pino,joaquin-diaz-garces,Chile,1877,1921,revisar,si,disponible,,Firmaba como Ángel Pino
-Emilia Serrano,,,España,1834,1922,revisar,no,disponible,,
-Baldomero Lillo,,baldomero-lillo,Chile,1867,1923,si,si,disponible,,
-Manuel Magallanes Moure,,,Chile,1878,1924,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),
-Federico Gana,,federico-gana,Chile,1867,1926,revisar,si,disponible,,
-Vicente Blasco Ibáñez,Blasco Ibáñez,vicente-blasco-ibanez,España,1867,1928,si,si,disponible,,108 textos en la fuente
-José Toribio Medina,,,Chile,1852,1930,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Confirmado contra el índice completo de textos.info: no está.
-Alberto Edwards,,,Chile,1874,1932,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),
-Carmen de Burgos,Colombine,carmen-de-burgos,España,1867,1932,si,si,disponible,,Firmaba como Colombine; 43 obras en la fuente
+Mercedes Marín del Solar,,,Chile,1804,1866,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Primera poeta chilena publicada
+Miguel Cané,,,,1851,1905,verificada,,,,"escritor argentino; no confundir con su padre, del mismo nombre"
+Miguel de Cervantes,Cervantes|Miguel de Cervantes Saavedra,miguel-de-cervantes-saavedra,España,1547,1616,si,si,disponible,Cervantes Virtual; Gutenberg,21 obras en la fuente; el slug lleva «saavedra»
+Miguel de Cervantes Saavedra,,,,1547,1616,wikidata,,,,escritor español
 Miguel de Unamuno,,miguel-de-unamuno,España,1864,1936,si,si,disponible,,142 textos en la fuente
-Federico García Lorca,,,España,1898,1936,si,no,revisar_edicion,Wikisource; Cervantes Virtual,Libre en España; los herederos han litigado en otras jurisdicciones
-Teresa de la Parra,,teresa-de-la-parra,Venezuela,1889,1936,si,si,disponible,,Solo dos piezas menores; sus novelas mayores no están
-Ramón María del Valle-Inclán,Valle-Inclán|Ramón del Valle-Inclán,ramon-maria-del-valle-inclan,España,1866,1936,si,si,disponible,,73 obras; España aplica 80 años a fallecidos antes de 1987
-Horacio Quiroga,,horacio-quiroga,Uruguay,1878,1937,si,si,disponible,,
-Alfonsina Storni,,alfonsina-storni,Argentina,1892,1938,si,si,disponible,,
-César Vallejo,,cesar-vallejo,Perú,1892,1938,si,si,disponible,,
-Leopoldo Lugones,,leopoldo-lugones,Argentina,1874,1938,si,si,disponible,,34 obras en la fuente
-Antonio Machado,,antonio-machado,España,1875,1939,si,si,disponible,,España aplica 80 años a fallecidos antes de 1987
-Jenaro Prieto,,,Chile,1889,1946,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),
-Luis Orrego Luco,,,Chile,1866,1948,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Confirmado contra el índice completo de textos.info: no está.
-Vicente Huidobro,,,Chile,1893,1948,si,no,disponible,Wikisource,"No está en textos.info. En Wikisource hay 43 páginas suyas, pero solo 5 con revisión declarada: La gruta del silencio (validado), Altazor, Canciones en la noche, Ecuatorial y Poemas árticos (corregidos). Las otras 38 no constan cotejadas contra facsímil."
-Inés Echeverría,Iris,,Chile,1868,1949,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Firmaba como Iris. Confirmado contra el índice completo de textos.info: no está.
-Augusto d'Halmar,,,Chile,1882,1950,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Confirmado contra el índice completo de textos.info: no está.
-Pedro Prado,,,Chile,1886,1952,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Confirmado contra el índice completo de textos.info: no está.
-Mariano Latorre,,,Chile,1886,1955,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Liberado en 2026. Confirmado contra el índice completo de textos.info: no está.
-Gabriela Mistral,,,Chile,1889,1957,si,no,protegido,,Nobel 1945
-Juan Ramón Jiménez,,,España,1881,1958,si,no,protegido,,Nobel 1956
-Víctor Domingo Silva,,,Chile,1882,1960,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),
-Joaquín Edwards Bello,,,Chile,1887,1968,revisar,no,protegido,,
-Manuel Rojas,,,Chile,1896,1973,si,no,protegido,,
 Pablo Neruda,,,Chile,1904,1973,si,no,protegido,,Nobel 1971
+Pablo Palacio,,,,1906,1947,wikidata,,,,escritor vanguardista ecuatoriano
+Paul Groussac,,,,1848,1929,verificada,,,,escritor franco-argentino
+Pedro Antonio de Alarcón,,pedro-antonio-de-alarcon,España,1833,1891,si,si,disponible,,50 obras en la fuente
+Pedro José Guiteras,,,,1814,1890,wikidata,,,,1814-1890
+Pedro Prado,,,Chile,1886,1952,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Confirmado contra el índice completo de textos.info: no está.
+Pedro de Oña,,,Chile,1570,1643,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Primer poeta nacido en Chile
+Rafael Barrett,,,,1876,1910,verificada,,,,narrador y ensayista español radicado en Paraguay
+Rafael Delgado,,,,1853,1914,wikidata,,,,"catedrático, escritor, novelista, poeta y académico mexicano (1853-1914)"
+Ramón A. Laval,,,,1862,1929,wikidata,,,,escritor y bibliógrafo chileno
+Ramón María del Valle-Inclán,Valle-Inclán|Ramón del Valle-Inclán,ramon-maria-del-valle-inclan,España,1866,1936,si,si,disponible,,73 obras; España aplica 80 años a fallecidos antes de 1987
+Ricardo Güiraldes,,,,1886,1927,wikidata,,,,escritor argentino
+Ricardo Palma,,ricardo-palma,Perú,1833,1919,si,si,disponible,,Diez series; la fuente tiene tres
+Roberto Arlt,,,,1900,1942,wikidata,,,,escritor y periodista argentino
+Roberto Payró,,,,1867,1928,wikidata,,,,escritor argentino
+Rodolfo Amando Philippi,,,Chile,1808,1904,si,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Naturalista alemán radicado en Chile
+Rosa Guerra,,,,1834,1864,wikidata,,,,escritora y periodista argentina
+Rosalía de Castro,,rosalia-de-castro,España,1837,1885,si,si,disponible,,11 obras en la fuente
+Rosario Orrego,,,Chile,1834,1879,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Primera novelista chilena. Confirmado contra el índice completo de textos.info: no está.
+Rubén Darío,,ruben-dario,Nicaragua,1867,1916,si,si,disponible,,
+Rufino Blanco Fombona,,,,1874,1944,wikidata,,,,escritor venezolano
+Salvador Brau,,,,1842,1912,wikidata,,,,escritor e historiador puertorriqueño
+Soledad Acosta de Samper,,soledad-acosta-de-samper,Colombia,1833,1913,si,si,disponible,,17 obras en la fuente
+Sor Juana Inés de la Cruz,,sor-juana-ines-de-la-cruz,México,1648,1695,si,si,disponible,,
+Teresa Wilms Montt,,,,1893,1921,wikidata,,,,escritora chilena
+Teresa de la Parra,,teresa-de-la-parra,Venezuela,1889,1936,si,si,disponible,,Solo dos piezas menores; sus novelas mayores no están
+Tomás Carrasquilla,,,,1858,1940,wikidata,,,,escritor colombiano
+Vicente Blasco Ibáñez,Blasco Ibáñez,vicente-blasco-ibanez,España,1867,1928,si,si,disponible,,108 textos en la fuente
+Vicente Huidobro,,,Chile,1893,1948,si,no,disponible,Wikisource,"No está en textos.info. En Wikisource hay 43 páginas suyas, pero solo 5 con revisión declarada: La gruta del silencio (validado), Altazor, Canciones en la noche, Ecuatorial y Poemas árticos (corregidos). Las otras 38 no constan cotejadas contra facsímil."
+Vicente Pérez Rosales,,,Chile,1807,1886,si,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),Confirmado contra el índice completo de textos.info: no está.
+Vicente Riva Palacio,,,,1832,1896,wikidata,,,,"político, militar, jurista y escritor mexicano del s. XIX"
 Victoria Ocampo,,,Argentina,1890,1979,si,no,protegido,,
-María Luisa Bombal,,,Chile,1910,1980,si,no,protegido,,
+Víctor Domingo Silva,,,Chile,1882,1960,revisar,no,disponible,Memoria Chilena (solo facsímil con OCR sin corregir: no sirve para edición propia),
+Xavier Villaurrutia,,,,1903,1950,wikidata,,,,Mexican writer (1903–1950)

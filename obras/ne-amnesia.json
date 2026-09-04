@@ -2,6 +2,8 @@
   "slug": "amnesia",
   "titulo": "Amnesia",
   "autor": "Amado Nervo",
+  "anio": 1918,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/amado-nervo/amnesia/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1918
+  }
 }

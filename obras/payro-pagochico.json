@@ -3,6 +3,7 @@
   "titulo": "Pago Chico",
   "autor": "Roberto Payró",
   "anio": 1908,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/roberto-payro/pago-chico/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +25,7 @@
   "nivel_capitulo": "h2",
   "nivel_seccion": "h3",
   "patron_seccion": "^(.+)$",
+  "piezas_independientes": true,
   "esperados": {
     "capitulos": 22,
     "unidades": 1392
@@ -31,6 +33,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "piezas_independientes": true
+  }
 }

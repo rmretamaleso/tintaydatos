@@ -2,6 +2,8 @@
   "slug": "una-cristiana",
   "titulo": "Una Cristiana",
   "autor": "Emilia Pardo Bazán",
+  "anio": 1890,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/emilia-pardo-bazan/una-cristiana/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1890
+  }
 }

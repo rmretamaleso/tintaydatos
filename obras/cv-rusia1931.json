@@ -2,6 +2,8 @@
   "slug": "rusia-en-1931",
   "titulo": "Rusia en 1931",
   "autor": "César Vallejo",
+  "anio": 1931,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/cesar-vallejo/rusia-en-1931/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1931
+  }
 }

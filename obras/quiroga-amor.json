@@ -3,6 +3,7 @@
   "titulo": "Cuentos de Amor de Locura y de Muerte",
   "autor": "Horacio Quiroga",
   "anio": 1917,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/horacio-quiroga/cuentos-de-amor-de-locura-y-de-muerte/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -11,8 +12,16 @@
     "url": "https://www.textos.info/horacio-quiroga/cuentos-de-amor-de-locura-y-de-muerte",
     "nota": "Corresponde a la primera edición, que conserva los tres relatos que Quiroga excluyó más tarde: «Los ojos sombríos», «El infierno artificial» y «El perro rabioso». Los títulos de los cuentos figuran en la fuente en versalitas sin acentuar, según la convención de la composición tipográfica en plomo de la época; esta edición les restituye la acentuación, siguiendo la forma en que la obra se cita habitualmente. El texto de los relatos no fue alterado."
   },
+  "catalogo_id": 10,
   "nivel_capitulo": "h2",
   "nivel_seccion": "h3",
+  "esperados": {
+    "capitulos": 18
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
   "renombrar_capitulos": {
     "UNA ESTACION DE AMOR": "Una estación de amor",
     "LOS OJOS SOMBRIOS": "Los ojos sombríos",
@@ -32,13 +41,5 @@
     "LA MIEL SILVESTRE": "La miel silvestre",
     "NUESTRO PRIMER CIGARRO": "Nuestro primer cigarro",
     "LA MENINGITIS Y SU SOMBRA": "La meningitis y su sombra"
-  },
-  "esperados": {
-    "capitulos": 18
-  },
-  "opciones": {
-    "salto_por_capitulo": true,
-    "hyphenation": "es"
-  },
-  "catalogo_id": 10
+  }
 }

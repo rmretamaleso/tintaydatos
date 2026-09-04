@@ -2,6 +2,8 @@
   "slug": "el-angel-de-la-sombra",
   "titulo": "El Ángel de la Sombra",
   "autor": "Leopoldo Lugones",
+  "anio": 1926,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/leopoldo-lugones/el-angel-de-la-sombra/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1926
+  }
 }

@@ -2,6 +2,8 @@
   "slug": "las-fuerzas-extranas",
   "titulo": "Las Fuerzas Extrañas",
   "autor": "Leopoldo Lugones",
+  "anio": 1906,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "autor_slug": "leopoldo-lugones",
   "piezas_fuente": [
@@ -42,6 +44,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1906
+  }
 }

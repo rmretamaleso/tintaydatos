@@ -2,6 +2,8 @@
   "slug": "los-cruzados-de-la-causa",
   "titulo": "Los Cruzados de la Causa",
   "autor": "Ramón María del Valle-Inclán",
+  "anio": 1908,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/ramon-maria-del-valle-inclan/los-cruzados-de-la-causa/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1908
+  }
 }

@@ -2,6 +2,8 @@
   "slug": "juanita-la-larga",
   "titulo": "Juanita la Larga",
   "autor": "Juan Valera",
+  "anio": 1895,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/juan-valera/juanita-la-larga/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1895
+  }
 }

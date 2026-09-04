@@ -2,6 +2,8 @@
   "slug": "un-servilon-y-un-liberalito",
   "titulo": "Un Servilón y un Liberalito",
   "autor": "Fernán Caballero",
+  "anio": 1857,
+  "anio_edicion": 2026,
   "tipo": "prosa",
   "url": "https://www.textos.info/fernan-caballero/un-servilon-y-un-liberalito/ebook",
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
@@ -24,6 +26,5 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  },
-  "anio": 1857
+  }
 }
