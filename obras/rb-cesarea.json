@@ -1,0 +1,29 @@
+{
+  "slug": "cesarea",
+  "titulo": "Modo de Hacer la Operación Cesárea",
+  "autor": "Josef Ribes y Manuel Bonafós",
+  "anio": 1805,
+  "tipo": "prosa",
+  "wikisource": "Modo de hacer la operación cesárea",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "nota": "Instrucción publicada en 1805; sus autores figuran en la propia edición. Wikisource marca esta transcripción como «validado» dentro de su escala de revisión: corregido significa cotejado contra el facsímil por una persona; validado, verificado además por una segunda."
+  },
+  "catalogo_id": 977,
+  "catalogo_campos": {
+    "dominio": "Ciencia",
+    "titulo": "Modo de Hacer la Operación Cesárea",
+    "autor": "Josef Ribes y Manuel Bonafós",
+    "anio": "1805",
+    "pais": "España",
+    "genero": "Medicina",
+    "tema": "Medicina",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio_edicion": 2026
+}

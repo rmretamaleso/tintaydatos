@@ -1,0 +1,29 @@
+{
+  "slug": "vacuna",
+  "titulo": "Origen y Descubrimiento de la Vacuna",
+  "autor": "François Chaussier",
+  "anio": 1804,
+  "tipo": "prosa",
+  "wikisource": "Origen y descubrimiento de la vacuna",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "nota": "Traducción al castellano de Pedro Hernández, publicada en 1804, pocos años después de que Jenner diera a conocer la vacunación. Wikisource marca esta transcripción como «corregido» dentro de su escala de revisión: corregido significa cotejado contra el facsímil por una persona; validado, verificado además por una segunda."
+  },
+  "catalogo_id": 978,
+  "catalogo_campos": {
+    "dominio": "Ciencia",
+    "titulo": "Origen y Descubrimiento de la Vacuna",
+    "autor": "François Chaussier",
+    "anio": "1804",
+    "pais": "Francia",
+    "genero": "Medicina",
+    "tema": "Medicina",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio_edicion": 2026
+}
