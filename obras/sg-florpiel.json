@@ -3,12 +3,14 @@
   "titulo": "A Flor de Piel",
   "autor": "Gustavo Sánchez Galarraga",
   "anio": 1919,
-  "anio_edicion": 2026,
   "tipo": "verso",
   "gutenberg": 43401,
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
-  "fuente": {},
-  "catalogo_id": 975,
+  "fuente": {
+    "texto": "Project Gutenberg (transcripción de Produced by Carlos Colon, University of Toronto and the)",
+    "url": "https://www.gutenberg.org/ebooks/43401"
+  },
+  "catalogo_id": 993,
   "catalogo_campos": {
     "dominio": "Literatura",
     "titulo": "A Flor de Piel",
@@ -22,5 +24,6 @@
   "nivel_capitulo": "h2",
   "opciones": {
     "salto_por_capitulo": true
-  }
+  },
+  "anio_edicion": 2026
 }

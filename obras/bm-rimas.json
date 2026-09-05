@@ -3,12 +3,14 @@
   "titulo": "Rimas",
   "autor": "Bartolomé Mitre",
   "anio": 1854,
-  "anio_edicion": 2026,
   "tipo": "verso",
   "gutenberg": 35407,
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
-  "fuente": {},
-  "catalogo_id": 969,
+  "fuente": {
+    "texto": "Project Gutenberg (transcripción de Produced by Chuck Greif and the Online Distributed)",
+    "url": "https://www.gutenberg.org/ebooks/35407"
+  },
+  "catalogo_id": 988,
   "catalogo_campos": {
     "dominio": "Literatura",
     "titulo": "Rimas",
@@ -23,5 +25,6 @@
   "nivel_capitulo": "h3",
   "opciones": {
     "salto_por_capitulo": true
-  }
+  },
+  "anio_edicion": 2026
 }

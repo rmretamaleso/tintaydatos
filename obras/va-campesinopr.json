@@ -3,12 +3,14 @@
   "titulo": "El Campesino Puertorriqueño",
   "autor": "Francisco del Valle Atiles",
   "anio": 1887,
-  "anio_edicion": 2026,
   "tipo": "prosa",
   "gutenberg": 49359,
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
-  "fuente": {},
-  "catalogo_id": 973,
+  "fuente": {
+    "texto": "Project Gutenberg (transcripción de Produced by Carlos Colón, Library of Congress and the)",
+    "url": "https://www.gutenberg.org/ebooks/49359"
+  },
+  "catalogo_id": 991,
   "catalogo_campos": {
     "dominio": "Literatura",
     "titulo": "El Campesino Puertorriqueño",
@@ -23,5 +25,6 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  }
+  },
+  "anio_edicion": 2026
 }

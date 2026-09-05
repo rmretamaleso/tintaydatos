@@ -3,12 +3,14 @@
   "titulo": "Estudios Americanos",
   "autor": "Martín García Mérou",
   "anio": 1900,
-  "anio_edicion": 2026,
   "tipo": "prosa",
   "gutenberg": 70064,
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
-  "fuente": {},
-  "catalogo_id": 974,
+  "fuente": {
+    "texto": "Project Gutenberg (transcripción de Adrian Mastronardi and the Online Distributed Proofreading Team, a partir de la edición de Argentina: La Cultura Argentina, 1916)",
+    "url": "https://www.gutenberg.org/ebooks/70064"
+  },
+  "catalogo_id": 992,
   "catalogo_campos": {
     "dominio": "Literatura",
     "titulo": "Estudios Americanos",
@@ -23,5 +25,6 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  }
+  },
+  "anio_edicion": 2026
 }

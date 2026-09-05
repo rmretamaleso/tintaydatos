@@ -3,12 +3,14 @@
   "titulo": "Estampas de Viaje",
   "autor": "Luis G. Urbina",
   "anio": 1920,
-  "anio_edicion": 2026,
   "tipo": "prosa",
   "gutenberg": 63587,
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
-  "fuente": {},
-  "catalogo_id": 968,
+  "fuente": {
+    "texto": "Project Gutenberg (transcripción de Chuck Greif and the Online Distributed Proofreading Team)",
+    "url": "https://www.gutenberg.org/ebooks/63587"
+  },
+  "catalogo_id": 987,
   "catalogo_campos": {
     "dominio": "Literatura",
     "titulo": "Estampas de Viaje",
@@ -23,5 +25,6 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  }
+  },
+  "anio_edicion": 2026
 }

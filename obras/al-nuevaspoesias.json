@@ -3,12 +3,14 @@
   "titulo": "Nuevas Poesías y Evangélicas",
   "autor": "Almafuerte",
   "anio": 1918,
-  "anio_edicion": 2026,
   "tipo": "verso",
   "gutenberg": 63823,
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
-  "fuente": {},
-  "catalogo_id": 970,
+  "fuente": {
+    "texto": "Project Gutenberg (transcripción de Produced by Andrés V. Galia, Santiago and the Online)",
+    "url": "https://www.gutenberg.org/ebooks/63823"
+  },
+  "catalogo_id": 989,
   "catalogo_campos": {
     "dominio": "Literatura",
     "titulo": "Nuevas Poesías y Evangélicas",
@@ -22,5 +24,6 @@
   "nivel_capitulo": "h2",
   "opciones": {
     "salto_por_capitulo": true
-  }
+  },
+  "anio_edicion": 2026
 }

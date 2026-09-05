@@ -3,12 +3,14 @@
   "titulo": "Juvenilia",
   "autor": "Miguel Cané",
   "anio": 1884,
-  "anio_edicion": 2026,
   "tipo": "prosa",
   "gutenberg": 41575,
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
-  "fuente": {},
-  "catalogo_id": 961,
+  "fuente": {
+    "texto": "Project Gutenberg (transcripción de Produced by Adrian Mastronardi, Carlos Colon and the Online)",
+    "url": "https://www.gutenberg.org/ebooks/41575"
+  },
+  "catalogo_id": 980,
   "catalogo_campos": {
     "dominio": "Literatura",
     "titulo": "Juvenilia",
@@ -23,5 +25,6 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  }
+  },
+  "anio_edicion": 2026
 }

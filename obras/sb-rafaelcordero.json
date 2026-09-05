@@ -3,12 +3,14 @@
   "titulo": "Rafael Cordero: Elogio Póstumo",
   "autor": "Salvador Brau",
   "anio": 1891,
-  "anio_edicion": 2026,
   "tipo": "prosa",
   "gutenberg": 41853,
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
-  "fuente": {},
-  "catalogo_id": 977,
+  "fuente": {
+    "texto": "Project Gutenberg (transcripción de Produced by Carlos Colon and the Online Distributed)",
+    "url": "https://www.gutenberg.org/ebooks/41853"
+  },
+  "catalogo_id": 995,
   "catalogo_campos": {
     "dominio": "Literatura",
     "titulo": "Rafael Cordero: Elogio Póstumo",
@@ -24,5 +26,6 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  }
+  },
+  "anio_edicion": 2026
 }

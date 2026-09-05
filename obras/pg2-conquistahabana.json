@@ -3,12 +3,14 @@
   "titulo": "Historia de la Conquista de la Habana (1762)",
   "autor": "Pedro José Guiteras",
   "anio": 1856,
-  "anio_edicion": 2026,
   "tipo": "prosa",
   "gutenberg": 45151,
   "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
-  "fuente": {},
-  "catalogo_id": 978,
+  "fuente": {
+    "texto": "Project Gutenberg (transcripción de Produced by Carlos Colón, New York Public Library and the)",
+    "url": "https://www.gutenberg.org/ebooks/45151"
+  },
+  "catalogo_id": 996,
   "catalogo_campos": {
     "dominio": "Literatura",
     "titulo": "Historia de la Conquista de la Habana (1762)",
@@ -23,5 +25,6 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
-  }
+  },
+  "anio_edicion": 2026
 }
