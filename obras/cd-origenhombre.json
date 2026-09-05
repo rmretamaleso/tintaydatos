@@ -1,0 +1,34 @@
+{
+  "slug": "el-origen-del-hombre",
+  "titulo": "El Origen del Hombre",
+  "autor": "Charles Darwin",
+  "anio": 1871,
+  "tipo": "prosa",
+  "url": "https://www.textos.info/charles-darwin/el-origen-del-hombre/ebook",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "texto": "textos.info — edición de Edu Robsy, marcada como dominio público",
+    "url": "https://www.textos.info/charles-darwin/el-origen-del-hombre",
+    "nota": "Traducción castellana del siglo XIX, con la ortografía de la época («impresion», «á», «Cárlos»). El prefacio es del traductor, no de Darwin. La obra original se publicó en inglés en 1871."
+  },
+  "catalogo_id": 975,
+  "catalogo_campos": {
+    "dominio": "Ciencia",
+    "titulo": "El origen del hombre",
+    "autor": "Charles Darwin",
+    "anio": "1871",
+    "pais": "Reino Unido",
+    "genero": "Biología",
+    "tema": "Biología",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "nivel_parte": "h2",
+  "nivel_capitulo": "h3",
+  "preliminares": "Prefacio del traductor",
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio_edicion": 2026
+}
