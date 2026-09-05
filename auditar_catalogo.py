@@ -128,6 +128,24 @@ def main():
         avisos.append(f"[{str(cid):>9}] {nombre}: configurada pero sin fila en el "
                       f"catálogo; falta publicarla")
 
+    # 8. autores publicados que no están en el registro
+    #
+    # Sin ficha no hay fecha de muerte, y sin ella el plazo de dominio público
+    # no se puede comprobar: la obra queda publicada sin verificar. Cada tanda
+    # nueva deja autores fuera, así que conviene que salte aquí y no en una
+    # revisión manual.
+    for r in obras:
+        propia = R2 in r.get("url", "") or R2 in r.get("urls", "")
+        if not propia:
+            continue
+        ficha = autores.get(norm(r["autor"]))
+        if not ficha:
+            graves.append(f"[{r['id']:>9}] {r['autor']}: sin ficha en autores.csv, "
+                          f"no se puede comprobar el plazo")
+        elif not ficha.get("muerte", "").strip():
+            graves.append(f"[{r['id']:>9}] {r['autor']}: sin fecha de muerte en el "
+                          f"registro")
+
     print(f"{len(obras)} obras | {sum(1 for r in obras if R2 in r.get('url','') or R2 in r.get('urls',''))} "
           f"con edición propia | {len(autores)} autores en el registro\n")
     print(f"HAY QUE RESOLVER ({len(graves)}):\n")
