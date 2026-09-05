@@ -12,6 +12,8 @@ cuyo estado no concuerda con lo que realmente se publicó.
 """
 import argparse
 import csv
+import glob
+import json
 import datetime
 import re
 import unicodedata
@@ -98,6 +100,33 @@ def main():
     for (au, ti), ids in porobra.items():
         if len(ids) > 1:
             graves.append(f"[{','.join(ids):>9}] duplicado: mismo autor y título")
+
+    # 7. configuraciones que comparten catalogo_id
+    #
+    # Dos obras con el mismo id escriben la misma fila, así que una pisa a la
+    # otra y desaparece del catálogo sin que nada falle. Pasó con dieciocho
+    # obras y solo se notó porque el conteo no cuadraba.
+    porid = defaultdict(list)
+    sin_fila = []
+    ids_catalogo = {r["id"] for r in obras}
+    for p in sorted(glob.glob("obras/*.json")):
+        try:
+            c = json.loads(Path(p).read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        cid = c.get("catalogo_id")
+        if cid is None:
+            continue
+        porid[str(cid)].append(Path(p).name)
+        if str(cid) not in ids_catalogo:
+            sin_fila.append((Path(p).name, cid))
+    for cid, cuales in sorted(porid.items()):
+        if len(cuales) > 1:
+            graves.append(f"[{cid:>9}] id compartido por {', '.join(cuales)}"
+                          f" — corre arreglar_ids.py")
+    for nombre, cid in sin_fila:
+        avisos.append(f"[{str(cid):>9}] {nombre}: configurada pero sin fila en el "
+                      f"catálogo; falta publicarla")
 
     print(f"{len(obras)} obras | {sum(1 for r in obras if R2 in r.get('url','') or R2 in r.get('urls',''))} "
           f"con edición propia | {len(autores)} autores en el registro\n")
