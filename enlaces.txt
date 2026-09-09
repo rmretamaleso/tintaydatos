@@ -1,0 +1,111 @@
+51 fichas que son solo enlace, de 747
+por dominio: {'Literatura': 22, 'Ciencia': 17, 'Libros de Colegio': 12}
+
+══ Literatura (22)
+  [   8] Cecilia Valdés                                 Cirilo Villaverde
+         https://archive.org/details/ceciliavaldesnov0000vill
+  [  11] Romancero gitano                               Federico García Lorca
+         https://www.textos.info/federico-garcia-lorca/romancero-gitano/descargar-pdf
+  [  12] Bodas de sangre                                Federico García Lorca
+         https://www.textos.info/federico-garcia-lorca/bodas-de-sangre/descargar-pdf
+  [  15] Versos sencillos                               José Martí
+         https://www.educ.ar/recursos/151773/versos-sencillos-de-jose-marti
+  [  18] Poesías                                        Delmira Agustini
+         https://archive.org/details/delmiraagustinip00agus
+  [  25] Popol Vuh                                      Anónimo (transcripción de 
+         https://archive.org/search?query=Popol+Vuh
+  [  26] Cuentos populares chilenos (recopilación)      Tradición oral / recopilad
+         https://www.memoriachilena.gob.cl/602/w3-channel.html
+  [  27] Cuentos y leyendas mapuche (recopilaciones t   Tradición oral mapuche / r
+         https://www.memoriachilena.gob.cl/602/w3-propertyvalue-124397.html
+  [ 207] Himno Nacional de Chile (letra)                Eusebio Lillo Robles (vers
+         https://es.wikisource.org/wiki/Himno_Nacional_de_Chile
+  [ 208] Recuerdos del pasado                           Vicente Pérez Rosales
+         https://www.memoriachilena.gob.cl/602/w3-article-7973.html
+  [ 209] Ifigenia                                       Teresa de la Parra
+         https://archive.org/details/ifigenia.teresadelaparra
+  [ 210] Cumandá                                        Juan León Mera
+         https://freeditorial.com/es/books/cumanda-o-un-drama-entre-salvajes
+  [ 211] Siete tratados                                 Juan Montalvo
+         https://es.wikisource.org/wiki/Autor:Juan_Montalvo
+  [ 218] Mis memorias                                   Carmen Smith de Espinosa (
+         https://www.memoriachilena.gob.cl/602/w3-article-165727.html
+  [ 227] Los heraldos negros                            César Vallejo
+         https://commons.wikimedia.org/wiki/File:Los_heraldos_negros.pdf
+  [ 228] Los Astros del Abismo                          Delmira Agustini
+         https://archive.org/details/DelmiraAgustini1924LosAstrosDelAbismo
+  [ 229] Antología                                      Delmira Agustini
+         https://archive.org/details/AgustiniDAntologia
+  [ 230] Languidez: versos                              Alfonsina Storni
+         https://archive.org/details/languidezversos00storuoft
+  [ 232] Poemas de amor                                 Alfonsina Storni
+         https://archive.org/details/stornipoemasdeamor
+  [ 237] Argentina y sus grandezas                      Vicente Blasco Ibáñez
+         https://archive.org/details/argentinaysusgra00blas
+  [ 238] El intruso                                     Vicente Blasco Ibáñez
+         https://archive.org/details/intrusonovela00blas
+  [ 240] El militarismo mejicano                        Vicente Blasco Ibáñez
+         https://archive.org/details/elmilitarismome00ibgoog
+
+══ Ciencia (17)
+  [ 100] Física universitaria, volumen 1                Samuel J. Ling, Jeff Sanny
+         https://openstax.org/details/books/f%C3%ADsica-universitaria-volumen-1
+  [ 101] Física universitaria, volumen 2                Samuel J. Ling, Jeff Sanny
+         https://openstax.org/details/books/f%C3%ADsica-universitaria-volumen-2
+  [ 102] Física universitaria, volumen 3                Samuel J. Ling, Jeff Sanny
+         https://openstax.org/details/books/f%C3%ADsica-universitaria-volumen-3
+  [ 103] Química 2ed                                    OpenStax
+         https://openstax.org/books/qu%C3%ADmica-2ed/pages/prefacio
+  [ 104] Cálculo (OpenStax)                             OpenStax
+         https://espanol.libretexts.org/Bookshelves/Matematicas/Libro%3A_Calculo_(OpenStax)
+  [ 105] Conceptos en Biología (OpenStax)               OpenStax
+         https://espanol.libretexts.org/Bookshelves/Biologia/Biologia_introductoria_y_general/Lib
+  [ 106] Química General (OpenStax, vía LibreTexts es   OpenStax
+         https://espanol.libretexts.org/Bookshelves/Quimica/Libro%3A_Qu%C3%ADmica_General_(OpenST
+  [ 107] Revista Chilena de Historia Natural            Sociedad de Biología de Ch
+         https://www.scielo.cl/scielo.php?script=sci_serial&pid=0716-078X
+  [ 108] Revista Médica de Chile                        Sociedad Médica de Santiag
+         https://www.scielo.cl/scielo.php?script=sci_serial&pid=0034-9887
+  [ 109] Repositorio ANID — acceso abierto              Agencia Nacional de Invest
+         https://repositorio.anid.cl/home
+  [ 219] Clases de astronomía: profesadas en la Unive   Friedrich Wilhelm Ristenpa
+         https://www.memoriachilena.gob.cl/602/w3-article-63964.html
+  [ 220] Peces nuevos de Chile                          Rodolfo Amando Philippi (1
+         https://www.memoriachilena.gob.cl/602/w3-article-66186.html
+  [ 221] Viage al Desierto de Atacama: hecho de orden   Rodolfo Amando Philippi (1
+         https://www.memoriachilena.gob.cl/602/w3-article-7825.html
+  [ 222] El origen de las especies por medio de la se   Charles Darwin (1809-1882)
+         https://www.memoriachilena.gob.cl/602/w3-article-8085.html
+  [ 223] Jeolojía de la América Meridional              Charles Darwin (1809-1882)
+         https://www.memoriachilena.gob.cl/602/w3-article-65201.html
+  [ 224] Viaje de un naturalista alrededor del mundo    Charles Darwin (1809-1882)
+         https://www.memoriachilena.gob.cl/602/w3-article-8401.html
+  [ 225] Revista Colombiana de Química                  Universidad Nacional de Co
+         http://www.revistas.unal.edu.co/index.php/rcolquim
+
+══ Libros de Colegio (12)
+  [ 200] Leo Primero                                    Ministerio de Educación de
+         https://www.curriculumnacional.cl/textos_escolares
+  [ 201] Sumo Primero                                   Ministerio de Educación de
+         https://www.curriculumnacional.cl/textos_escolares
+  [ 212] English First                                  Ministerio de Educación de
+         https://www.curriculumnacional.cl/textos_escolares
+  [ 213] Juego Primero                                  Ministerio de Educación de
+         https://www.curriculumnacional.cl/textos_escolares
+  [ 214] Narraciones Extraordinarias                    Edgar Allan Poe
+         https://www.curriculumnacional.cl/portal/Secciones/Biblioteca-de-Descarga-Liberada-BDL/2
+  [ 215] Malena                                         Antonella Reveco Spalloni
+         https://www.curriculumnacional.cl/portal/Secciones/Biblioteca-de-Descarga-Liberada-BDL/2
+  [ 216] Historia de la aviación en Chile               Enrique Flores Álvarez
+         https://www.curriculumnacional.cl/portal/Secciones/Biblioteca-de-Descarga-Liberada-BDL/3
+  [ 217] Ensayo de una bibliografía dramática chilena   Nicolás Anrique R. (1864-1
+         https://www.curriculumnacional.cl/portal/Secciones/Biblioteca-de-Descarga-Liberada-BDL/3
+  [ 242] Cartografía de México y el mundo               Secretaría de Educación Pú
+         https://libros.conaliteg.gob.mx/2025/P0CMA.htm
+  [ 243] Historia del pueblo mexicano                   Secretaría de Educación Pú
+         https://libros.conaliteg.gob.mx/secundaria.html
+  [ 244] Colección Ximhai: Saberes y pensamiento cien   Secretaría de Educación Pú
+         https://libros.conaliteg.gob.mx/secundaria.html
+  [ 245] Gramática de la lengua castellana destinada    Andrés Bello
+         https://es.wikisource.org/wiki/Gram%C3%A1tica_de_la_lengua_castellana_destinada_al_uso_d
+

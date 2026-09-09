@@ -76,7 +76,7 @@ def _decorativo(estrofa):
 
 
 def _bloques(doc):
-    """Devuelve (tipo, bloques). Verso si la pieza trae marcas de poema."""
+    """Devuelve (tipo, bloques, descartadas). Verso si trae marcas de poema."""
     estrofas, descartadas = [], 0
     for est in re.findall(r'<div class="[^"]*ws-poema-estrofa[^"]*".*?>(.*?)</div>',
                           doc, re.S):
@@ -90,6 +90,19 @@ def _bloques(doc):
             descartadas += len(versos)
             continue
         estrofas.append(versos)
+
+    # Otras páginas usan <div class="poem"> con los versos separados por <br>,
+    # sin las clases ws-poema. Así vienen los cantos mapuche de «Comentarios del
+    # Pueblo Araucano», que sin esto se perdían: dos tercios del texto.
+    for est in re.findall(r'<div class="[^"]*\bpoem\b[^"]*"[^>]*>(.*?)</div>',
+                          doc, re.S):
+        versos = [_texto(v) for v in re.split(r"<br\s*/?>", est, flags=re.I)]
+        versos = [v for v in versos if v]
+        if not versos or _decorativo(versos):
+            descartadas += len(versos)
+            continue
+        estrofas.append(versos)
+
     if estrofas:
         return "verso", estrofas, descartadas
 
@@ -98,6 +111,19 @@ def _bloques(doc):
         t = _texto(p)
         if t:
             parrafos.append(t)
+
+    # Los textos bilingües se presentan en tablas de dos columnas: la lengua
+    # original a un lado y el castellano al otro. Se recogen ambas, una tras
+    # otra, porque la lengua original es parte de la obra y no un accesorio.
+    if not parrafos or len(re.findall(r"<td[ >]", doc)) > 50:
+        for fila in re.findall(r"<tr[^>]*>(.*?)</tr>", doc, re.S):
+            for celda in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", fila, re.S):
+                t = _texto(celda)
+                # solo se evita la repetición inmediata: en una tabla real cada
+                # celda es distinta, y filtrar de más pierde texto
+                if t and (not parrafos or t != parrafos[-1]):
+                    parrafos.append(t)
+
     return "prosa", parrafos, descartadas
 
 
@@ -188,6 +214,10 @@ def arbol_por_subpaginas(pagina, lang="es"):
         tipo, bloques, descartadas = _bloques(cuerpo)
         sueltas += descartadas
         if not bloques:
+            # Sin esto la subpágina se saltaba en silencio: «Lecturas Araucanas»
+            # perdió tres capítulos enteros sin que nada avisara.
+            print(f"  AVISO: «{sub}» no dio texto y se está omitiendo "
+                  f"({len(cuerpo)} bytes de HTML)")
             continue
         if tipo == "verso":
             versos += sum(len(e) for e in bloques)
@@ -233,6 +263,10 @@ def arbol(pagina, lang="es"):
         tipo, bloques, descartadas = _bloques(cuerpo)
         sueltas += descartadas
         if not bloques:
+            # Sin esto la subpágina se saltaba en silencio: «Lecturas Araucanas»
+            # perdió tres capítulos enteros sin que nada avisara.
+            print(f"  AVISO: «{sub}» no dio texto y se está omitiendo "
+                  f"({len(cuerpo)} bytes de HTML)")
             continue
         if tipo == "verso":
             versos += sum(len(e) for e in bloques)
