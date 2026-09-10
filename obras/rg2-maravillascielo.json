@@ -1,0 +1,29 @@
+{
+  "slug": "maravillas-del-cielo",
+  "titulo": "Las Maravillas del Cielo",
+  "autor": "Roque Gálvez y Encinar",
+  "anio": 1876,
+  "tipo": "prosa",
+  "wikisource": "Las Maravillas Del Cielo",
+  "catalogo": "un catálogo de literatura latinoamericana y española en dominio público",
+  "fuente": {
+    "nota": "Obra de divulgación astronómica publicada en Madrid en 1876. Wikisource marca esta transcripción como «validado» dentro de su escala de revisión: corregido significa cotejado contra el facsímil por una persona; validado, verificado además por una segunda."
+  },
+  "catalogo_id": 1000,
+  "catalogo_campos": {
+    "dominio": "Ciencia",
+    "titulo": "Las maravillas del cielo",
+    "autor": "Roque Gálvez y Encinar",
+    "anio": "1876",
+    "pais": "España",
+    "genero": "Astronomía",
+    "tema": "Astronomía",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  },
+  "opciones": {
+    "salto_por_capitulo": true,
+    "hyphenation": "es"
+  },
+  "anio_edicion": 2026
+}

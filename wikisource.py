@@ -263,9 +263,7 @@ def arbol(pagina, lang="es"):
         tipo, bloques, descartadas = _bloques(cuerpo)
         sueltas += descartadas
         if not bloques:
-            # Sin esto la subpágina se saltaba en silencio: «Lecturas Araucanas»
-            # perdió tres capítulos enteros sin que nada avisara.
-            print(f"  AVISO: «{sub}» no dio texto y se está omitiendo "
+            print(f"  AVISO: «{n}» no dio texto y se está omitiendo "
                   f"({len(cuerpo)} bytes de HTML)")
             continue
         if tipo == "verso":
@@ -279,6 +277,22 @@ def arbol(pagina, lang="es"):
               f"compuestas letra por letra")
     if not capitulos:
         raise RuntimeError(f"No reconocí contenido en el ePub de «{pagina}».")
+
+    # A veces el exportador entrega solo la página índice, sin seguir los
+    # enlaces: «Las Maravillas del Cielo» daba once párrafos y sus ocho
+    # capítulos estaban en subpáginas. Si hay bastantes más subpáginas que
+    # capítulos recogidos, se rehace la obra desde ellas.
+    try:
+        r = _api(action="parse", page=pagina, prop="links")
+        subs = [l["title"] for l in r["parse"]["links"]
+                if l.get("exists") and l["title"].startswith(pagina + "/")]
+    except Exception:
+        subs = []
+    if len(subs) > max(2, len(capitulos) * 2):
+        print(f"  el ePub trajo {len(capitulos)} capítulo(s) y la obra tiene "
+              f"{len(subs)} subpáginas; la rehago desde ellas")
+        return arbol_por_subpaginas(pagina, lang)
+
     return [{"nombre": None, "capitulos": capitulos}], ("verso" if versos > prosa
                                                         else "prosa")
 
