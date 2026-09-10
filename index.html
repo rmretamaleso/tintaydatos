@@ -337,17 +337,22 @@
     text-underline-offset: 3px; }
 
   a.leer{
+    /* Como texto subrayado pasaba desapercibido: es la puerta de entrada a la
+       ficha, donde está la procedencia y la descarga. */
+    display:inline-block;
     font-family:'IBM Plex Mono', monospace;
-    font-size: 11px;
+    font-size: 12.5px;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: var(--ink);
+    color: #fff;
+    background: var(--morado);
     text-decoration: none;
-    border-bottom: 1px solid var(--verdigris);
-    padding-bottom: 1px;
+    padding: 7px 14px;
+    border-radius: 4px;
     white-space:nowrap;
   }
-  a.leer:hover{ color: var(--cochinilla); border-color: var(--cochinilla); }
+  a.leer:hover{ background: #573d70; }
 
   .empty{
     text-align:center;
@@ -13035,9 +13040,7 @@ function render(){
       <div class="aloja-tag">${ALOJAR_LABEL[o.puede_alojarse] || ALOJAR_LABEL.revisar}</div>
       <div class="footer-row">
         <span class="fuente-tag">${o.fuente}${o.verificado ? '' : ' <span class="warn">⚠ enlace por verificar</span>'}</span>
-        <span class="enlaces">${enlaces(o).map(e =>
-          `<a class="leer" href="${e.url}" target="_blank" rel="noopener">${e.etiqueta}</a>`
-        ).join('')}</span>
+        <span class="enlaces"><a class="leer" href="${urlFicha(o)}">Ver ficha →</a></span>
       </div>
     `;
     grid.appendChild(card);
