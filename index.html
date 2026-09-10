@@ -332,6 +332,10 @@
     justify-content: flex-end;
     margin-left: auto;
   }
+  .card h3 a.a-ficha{ color: inherit; text-decoration: none; }
+  .card h3 a.a-ficha:hover{ text-decoration: underline; text-decoration-thickness: 1px;
+    text-underline-offset: 3px; }
+
   a.leer{
     font-family:'IBM Plex Mono', monospace;
     font-size: 11px;
@@ -12839,7 +12843,7 @@ const DIMENSION_SECUNDARIA = {
   'Literatura': 'pais',
   'Ciencia': 'tema',
   'Libros de Colegio': 'tema',
-  'Revistas y repositorios': 'tema',
+  'Revistas y repositorios': 'pais',
 };
 let temaActivo = ''; // filtro de tema, paralelo a filtroPais pero sin <select> propio
 let autorActivo = ''; // filtro de autor, tercer nivel (dominio -> país/tema -> autor)
@@ -12964,6 +12968,15 @@ function actualizarFiltroGenero(){
   if (generos.includes(actual)) filtroGenero.value = actual;
 }
 
+// Cada obra tiene su propia página, que es lo que Google puede indexar: el
+// catálogo se dibuja con JavaScript y sin estos enlaces solo veía la portada.
+function urlFicha(o){
+  const limpia = t => String(t).normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-zA-Z0-9]+/g, '-').replace(/^-|-$/g, '').toLowerCase() || 'obra';
+  return `./obras-web/${limpia(o.titulo)}-${limpia(o.autor).slice(0, 24)}.html`;
+}
+
 function normalizar(s){
   return String(s)
     .normalize('NFD')
@@ -13014,7 +13027,7 @@ function render(){
     card.innerHTML = `
       <span class="stamp">${o.dominio}</span>
       <div class="meta-top">${o.genero} · ${o.pais} · ${o.anio}</div>
-      <h3>${o.titulo}</h3>
+      <h3><a class="a-ficha" href="${urlFicha(o)}">${o.titulo}</a></h3>
       <div class="autor">${o.autor}</div>
       ${o.notas ? `<div class="notas">${o.notas}</div>` : ''}
       ${o.piezas ? `<details class="piezas"><summary>${o.piezas.split(' | ').length} textos en este volumen</summary><ol>${o.piezas.split(' | ').map(t => `<li>${t}</li>`).join('')}</ol></details>` : ''}
