@@ -69,6 +69,8 @@
   .bloques{
     margin-top: 32px;
     display:grid;
+    /* Tres por fila mientras quepan; con cuatro bloques pasan a dos filas de
+       dos, que se ve mejor que dejar uno suelto ocupando un tercio. */
     grid-template-columns: repeat(3, 1fr);
     gap: 12px;
   }
@@ -84,6 +86,7 @@
     transition: border-color 0.15s ease, transform 0.1s ease;
   }
   .bloque[data-dominio="Ciencia"]{ background: var(--morado); }
+  .bloque[data-dominio="Revistas y repositorios"]{ background: #8a5a3c; }
   .bloque[data-dominio="Libros de Colegio"]{ background: var(--verdigris); }
   .bloque:hover{ border-color: var(--morado); transform: translateY(-1px); }
   .bloque.activo{ border-color: var(--ink); border-width: 3px; padding: 16px 14px; filter: brightness(0.65) saturate(1.3); }
@@ -157,6 +160,9 @@
   #autorespills[data-dominio="Literatura"] .autor-pill{ color: #2a6f8e; border-color: #2a6f8e55; }
   #autorespills[data-dominio="Literatura"] .autor-pill.activo{ background: #2a6f8e; color: #fff; border-color: #2a6f8e; }
 
+  #subbloques[data-dominio="Revistas y repositorios"] .pais-pill{ background: #eddfd4; border-color: #8a5a3c66; color: #6b4529; }
+  #subbloques[data-dominio="Revistas y repositorios"] .pais-pill:hover{ border-color: #8a5a3c; }
+  #subbloques[data-dominio="Revistas y repositorios"] .pais-pill.activo{ background: #8a5a3c; color: #fff; border-color: #8a5a3c; }
   #subbloques[data-dominio="Ciencia"] .pais-pill{ background: #e2d7ec; border-color: #6B4C8C66; color: #573d70; }
   #subbloques[data-dominio="Ciencia"] .pais-pill:hover{ border-color: #6B4C8C; }
   #subbloques[data-dominio="Ciencia"] .pais-pill.activo{ background: #6B4C8C; color: #fff; border-color: #6B4C8C; }
@@ -452,6 +458,11 @@
   }
   #paginacion button[disabled]{ opacity:.35; cursor:default; }
   #paginacion .pag-info{ color: var(--ink-soft); padding:0 6px; }
+
+  /* Con cuatro bloques, dos filas de dos */
+  .bloques:has(.bloque:nth-child(4)){ grid-template-columns: repeat(2, 1fr); }
+  /* Con cinco o más, vuelve a tres por fila */
+  .bloques:has(.bloque:nth-child(5)){ grid-template-columns: repeat(3, 1fr); }
 
   @media (max-width: 640px){
     .bloques{ grid-template-columns: 1fr; }
@@ -983,7 +994,7 @@ const CATALOGO = [
     "url": "https://www.scielo.cl/scielo.php?script=sci_serial&pid=0716-078X",
     "verificado": false,
     "notas": "SciELO exige CC-BY para revistas indexadas después de 2015; revistas o números más antiguos pueden tener otra licencia. Verificar artículo por artículo.",
-    "dominio": "Ciencia",
+    "dominio": "Revistas y repositorios",
     "puede_alojarse": "revisar_por_articulo"
   },
   {
@@ -999,7 +1010,7 @@ const CATALOGO = [
     "url": "https://www.scielo.cl/scielo.php?script=sci_serial&pid=0034-9887",
     "verificado": false,
     "notas": "Misma salvedad que la anterior: confirmar licencia CC-BY por artículo/número.",
-    "dominio": "Ciencia",
+    "dominio": "Revistas y repositorios",
     "puede_alojarse": "revisar_por_articulo"
   },
   {
@@ -1015,7 +1026,7 @@ const CATALOGO = [
     "url": "https://repositorio.anid.cl/home",
     "verificado": false,
     "notas": "Corrección: las restricciones de acceso a cada ítem las define el propio autor al depositar (según FAQ oficial de ANID) — no todo lo que está en el repositorio es automáticamente redistribuible, aunque la política general sea de acceso abierto. Sigue siendo portal, no ítems concretos: seleccionar papers/tesis específicos requiere navegar el repositorio directamente (no lo pude hacer con las herramientas de búsqueda disponibles).",
-    "dominio": "Ciencia",
+    "dominio": "Revistas y repositorios",
     "puede_alojarse": "revisar_por_item"
   },
   {
@@ -1385,7 +1396,7 @@ const CATALOGO = [
     "url": "http://www.revistas.unal.edu.co/index.php/rcolquim",
     "verificado": true,
     "notas": "Licencia confirmada explícitamente: Creative Commons Atribución 3.0 Unported — sin ambigüedad, a diferencia de otras revistas SciELO donde hay que revisar caso a caso. Publica investigación en química analítica, orgánica, inorgánica, bioquímica y fisicoquímica. Indexada en SciELO, Latindex y Scopus.",
-    "dominio": "Ciencia",
+    "dominio": "Revistas y repositorios",
     "puede_alojarse": "si"
   },
   {
@@ -12769,6 +12780,7 @@ const BLOQUES = [
   { dominio: 'Literatura', nombre: 'Literatura' },
   { dominio: 'Ciencia', nombre: 'Ciencia' },
   { dominio: 'Libros de Colegio', nombre: 'Libros de Colegio' },
+  { dominio: 'Revistas y repositorios', nombre: 'Revistas y repositorios' },
 ];
 
 function poblarBloques(){
@@ -12810,6 +12822,7 @@ const DIMENSION_SECUNDARIA = {
   'Literatura': 'pais',
   'Ciencia': 'tema',
   'Libros de Colegio': 'tema',
+  'Revistas y repositorios': 'tema',
 };
 let temaActivo = ''; // filtro de tema, paralelo a filtroPais pero sin <select> propio
 let autorActivo = ''; // filtro de autor, tercer nivel (dominio -> país/tema -> autor)
