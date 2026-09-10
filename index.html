@@ -500,7 +500,7 @@
 
   <footer>
     <strong>Estado del catálogo:</strong> <span id="pieObras">—</span> fichas curadas manualmente, de las cuales <span id="piePropias">—</span> son ediciones propias de Tinta y Datos: tipografiadas de nuevo a partir del texto verificado, con su procedencia declarada en el colofón. Cada volumen lleva su índice, y sus textos —cuentos, poemas, crónicas o capítulos titulados— se buscan uno a uno: <span id="piePiezas">—</span> piezas localizables en total. Los enlaces marcados <span style="color:#c96b64">⚠ por verificar</span> apuntan a la fuente pero no han sido confirmados uno a uno.<br/>
-    <strong>Criterio de inclusión:</strong> dominio público confirmado según el plazo real de cada país (70 años en la mayoría — Argentina, Chile, Uruguay, Perú — 80 en España para autores fallecidos antes de 1987, 100 en México), u obras anónimas y de tradición oral. Cuando el texto es libre pero la edición no —traducciones o antologías con derechos propios—, la ficha solo enlaza y no aloja copia.<br/>
+    <strong>Criterio de inclusión:</strong> dominio público confirmado según el plazo real de cada país (70 años en la mayoría — Argentina, Chile, Uruguay, Perú — 80 en España para autores fallecidos antes de 1987, 100 en México), u obras anónimas y de tradición oral. Cuando el texto es libre pero la edición no —traducciones o antologías con derechos propios—, la ficha solo enlaza y no aloja copia. El dominio <em>Libros de Colegio</em> es una excepción declarada: reúne material escolar que sus organismos editores —el Mineduc de Chile, la Conaliteg de México— distribuyen gratuitamente, aunque no sea de dominio público. Esas fichas siempre enlazan a la fuente oficial y nunca alojan copia.<br/>
     <strong>Fuentes:</strong> textos.info, Wikisource, Internet Archive y repositorios institucionales. De Wikisource se indica además su nivel de revisión: corregido significa cotejado contra el facsímil por una persona; validado, verificado por una segunda.
   </footer>
 </div>
@@ -1032,7 +1032,7 @@ const CATALOGO = [
     "verificado": false,
     "notas": "Colección de elaboración interna del MINEDUC (no de editorial privada), descrita como 'de descarga liberada para la ciudadanía'. Enlace al portal general, falta confirmar la ficha específica y los términos exactos de redistribución antes de copiar el archivo.",
     "dominio": "Libros de Colegio",
-    "puede_alojarse": "revisar"
+    "puede_alojarse": "no"
   },
   {
     "id": 201,
@@ -1048,7 +1048,7 @@ const CATALOGO = [
     "verificado": false,
     "notas": "Mismo caso que Leo Primero: colección propia del MINEDUC, no de editorial privada. Verificar ficha específica y licencia exacta antes de alojar copia.",
     "dominio": "Libros de Colegio",
-    "puede_alojarse": "revisar"
+    "puede_alojarse": "no"
   },
   {
     "id": 202,
@@ -1178,7 +1178,7 @@ const CATALOGO = [
     "verificado": false,
     "notas": "Colección propia del MINEDUC (no editorial privada) para enseñanza inicial de inglés mediante juegos y canciones. Portal confirma 'descarga liberada para la ciudadanía'; falta ficha específica.",
     "dominio": "Libros de Colegio",
-    "puede_alojarse": "revisar"
+    "puede_alojarse": "no"
   },
   {
     "id": 213,
@@ -1194,7 +1194,7 @@ const CATALOGO = [
     "verificado": false,
     "notas": "Recursos educativos de exploración y manipulación de materiales concretos, colección propia del MINEDUC. Falta ficha específica.",
     "dominio": "Libros de Colegio",
-    "puede_alojarse": "revisar"
+    "puede_alojarse": "no"
   },
   {
     "id": 214,
@@ -1226,7 +1226,7 @@ const CATALOGO = [
     "verificado": true,
     "notas": "Recomendado para Educación Parvularia a 6° básico. Autoría chilena contemporánea; verificar licencia específica antes de alojar copia.",
     "dominio": "Libros de Colegio",
-    "puede_alojarse": "revisar_por_item"
+    "puede_alojarse": "no"
   },
   {
     "id": 216,
@@ -1242,7 +1242,7 @@ const CATALOGO = [
     "verificado": true,
     "notas": "Viene de la colección de libros de Memoria Chilena — aplica la misma cautela de siempre con esa fuente (revisar 'Patrimonio Cultural Común' vs. protegido).",
     "dominio": "Libros de Colegio",
-    "puede_alojarse": "revisar_por_item"
+    "puede_alojarse": "no"
   },
   {
     "id": 217,
@@ -1258,7 +1258,7 @@ const CATALOGO = [
     "verificado": true,
     "notas": "Autor fallecido 1904, dominio público seguro por antigüedad. Vía Memoria Chilena, misma cautela habitual.",
     "dominio": "Libros de Colegio",
-    "puede_alojarse": "revisar_por_item"
+    "puede_alojarse": "no"
   },
   {
     "id": 218,
@@ -1629,7 +1629,7 @@ const CATALOGO = [
     "verificado": true,
     "notas": "Fuente oficial verificada (libros.conaliteg.gob.mx, dominio gob.mx real, no uno de los muchos sitios espejo no oficiales que existen). CONALITEG distribuye estos libros gratis a más de 14 millones de estudiantes cada año en todo México. No encontré una declaración explícita de licencia de reproducción en la página del libro (es un visor JS) — falta confirmar antes de alojar copia propia.",
     "dominio": "Libros de Colegio",
-    "puede_alojarse": "revisar"
+    "puede_alojarse": "no"
   },
   {
     "id": 243,
@@ -1641,15 +1641,15 @@ const CATALOGO = [
     "tema": "Historia",
     "tipo": "Distribución gratuita nacional",
     "fuente": "CONALITEG (gob.mx)",
-    "url": "https://libros.conaliteg.gob.mx/secundaria.html",
+    "url": "https://libros.conaliteg.gob.mx/2025/S1HPA.htm",
     "verificado": false,
-    "notas": "Fuente oficial verificada. Falta ubicar la ficha específica del libro (por ahora enlaza al catálogo general de secundaria) y confirmar licencia de reproducción.",
+    "notas": "Libro de texto gratuito de primer grado de secundaria, editado por la Comisión Nacional de Libros de Texto Gratuitos (CONALITEG). Distribución gratuita, no dominio público.",
     "dominio": "Libros de Colegio",
-    "puede_alojarse": "revisar"
+    "puede_alojarse": "no"
   },
   {
     "id": 244,
-    "titulo": "Colección Ximhai: Saberes y pensamiento científico",
+    "titulo": "Colección Ximhai. Saberes y pensamiento científico",
     "autor": "Secretaría de Educación Pública (SEP) / CONALITEG",
     "anio": 2025,
     "pais": "México",
@@ -1657,11 +1657,11 @@ const CATALOGO = [
     "tema": "Ciencias",
     "tipo": "Distribución gratuita nacional",
     "fuente": "CONALITEG (gob.mx)",
-    "url": "https://libros.conaliteg.gob.mx/secundaria.html",
+    "url": "https://libros.conaliteg.gob.mx/2025/S1SAA.htm",
     "verificado": false,
-    "notas": "Fuente oficial verificada. Falta ubicar la ficha específica del libro y confirmar licencia de reproducción.",
+    "notas": "Libro de texto gratuito de primer grado de secundaria, editado por la Comisión Nacional de Libros de Texto Gratuitos (CONALITEG). Distribución gratuita, no dominio público.",
     "dominio": "Libros de Colegio",
-    "puede_alojarse": "revisar"
+    "puede_alojarse": "no"
   },
   {
     "id": 245,
