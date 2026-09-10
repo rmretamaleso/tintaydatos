@@ -32,7 +32,7 @@ for r in csv.DictReader(open("catalogo.csv", encoding="utf-8")):
     if nombre in vistos:
         nombre = f"{nombre}-{r['id']}"
     vistos.add(nombre)
-    urls.append((f"{SITIO}/{SALIDA}/{nombre}.html", "0.8"))
+    urls.append((f"{SITIO}/{SALIDA}/{nombre}", "0.8"))
 
 with open("sitemap.xml", "w", encoding="utf-8") as f:
     f.write('<?xml version="1.0" encoding="UTF-8"?>\n')

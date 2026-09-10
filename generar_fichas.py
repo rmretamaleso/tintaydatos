@@ -122,7 +122,7 @@ def ficha(r, fechas_autor):
     enlaces = ([p.split("::")[-1].strip() for p in r["urls"].split("|")]
                if r.get("urls", "").strip() else [r["url"]])
     nombre = slug(r["titulo"]) + "-" + slug(r["autor"])[:24]
-    url_ficha = f"{SITIO}/{SALIDA}/{nombre}.html"
+    url_ficha = f"{SITIO}/{SALIDA}/{nombre}"
 
     partes = [x for x in (r.get("genero"), r.get("pais"), r.get("anio")) if x]
     meta = " · ".join(partes)
@@ -210,7 +210,7 @@ if __name__ == "__main__":
             repetidos += 1
             nombre = f"{nombre}-{r['id']}"
             nombre, contenido = nombre, contenido.replace(
-                f"/{SALIDA}/{nombre}.html", f"/{SALIDA}/{nombre}-{r['id']}.html")
+                f"/{SALIDA}/{nombre}", f"/{SALIDA}/{nombre}-{r['id']}.html")
         nombres.add(nombre)
         if a.escribir:
             (destino / f"{nombre}.html").write_text(contenido, encoding="utf-8")

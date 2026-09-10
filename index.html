@@ -12974,7 +12974,7 @@ function urlFicha(o){
   const limpia = t => String(t).normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
     .replace(/[^a-zA-Z0-9]+/g, '-').replace(/^-|-$/g, '').toLowerCase() || 'obra';
-  return `./obras-web/${limpia(o.titulo)}-${limpia(o.autor).slice(0, 24)}.html`;
+  return `./obras-web/${limpia(o.titulo)}-${limpia(o.autor).slice(0, 24)}`;
 }
 
 function normalizar(s){
