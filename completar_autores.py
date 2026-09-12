@@ -115,17 +115,29 @@ if a.solo:
     faltan = [n for n in faltan if a.solo.lower() in n.lower()]
 
 print(f"{len(faltan)} autor(es) sin ficha\n")
-nuevos, dudosos, sin_datos = [], [], []
+nuevos, dudosos, sin_datos, sospechosos = [], [], [], []
 for i, nombre in enumerate(faltan, 1):
     r = buscar(nombre)
     if not r:
         sin_datos.append(nombre)
         print(f"  {i:>3}/{len(faltan)}  {nombre:<36} sin fechas en Wikidata")
         continue
-    marca = "  <- dos personas con ese nombre" if r["ambiguo"] else ""
+    if r["muerte"] > 1955:
+        marca = "  <- posterior a 1955, NO se escribe"
+    elif r["ambiguo"]:
+        marca = "  <- dos personas con ese nombre"
+    else:
+        marca = ""
     print(f"  {i:>3}/{len(faltan)}  {nombre:<36} {r['nacimiento']}-{r['muerte']}"
           f"  ({r['descripcion'][:30]}){marca}")
-    (dudosos if r["ambiguo"] else nuevos).append((nombre, r))
+    # Una muerte posterior a 1955 significa que la obra NO está en dominio
+    # público en la mayoría de los países. Casi siempre es un dato equivocado
+    # —Wikidata devolvió «1900-2000» para un autor de 1876— y escribirlo sin
+    # mirar deja el registro afirmando lo contrario de lo que sabemos.
+    if r["muerte"] > 1955:
+        sospechosos.append((nombre, r))
+    else:
+        (dudosos if r["ambiguo"] else nuevos).append((nombre, r))
 
 if a.escribir and nuevos:
     for nombre, r in nuevos:
@@ -144,7 +156,12 @@ if a.escribir and nuevos:
     print(f"\n{len(nuevos)} fichas anadidas a autores.csv")
 
 print(f"\n{len(nuevos)} con fecha clara | {len(dudosos)} ambiguos | "
-      f"{len(sin_datos)} sin datos")
+      f"{len(sospechosos)} con fecha posterior a 1955 | {len(sin_datos)} sin datos")
+if sospechosos:
+    print("\nFecha de muerte posterior a 1955: no se escriben, porque implicarían "
+          "que la obra no está en dominio público. Revísalos a mano:")
+    for n, r in sospechosos:
+        print(f"  {n:<34} {r['nacimiento']}-{r['muerte']}  {r['descripcion'][:34]}")
 if dudosos:
     print("\nDos personas con el mismo nombre (revisalos a mano):")
     for n, r in dudosos:
