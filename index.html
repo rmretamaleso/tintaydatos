@@ -13248,11 +13248,32 @@ function actualizarFiltroGenero(){
 // Cada obra tiene su propia página, que es lo que Google puede indexar: el
 // catálogo se dibuja con JavaScript y sin estos enlaces solo veía la portada.
 function urlFicha(o){
+  // Debe dar el mismo nombre que nombre_ficha() en generar_fichas.py: si las
+  // dos difieren, las tarjetas enlazan a páginas que no existen.
   const limpia = t => String(t).normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
     .replace(/[^a-zA-Z0-9]+/g, '-').replace(/^-|-$/g, '').toLowerCase() || 'obra';
-  return `./obras-web/${limpia(o.titulo)}-${limpia(o.autor).slice(0, 24)}`;
+  const GENERICAS = new Set(['de','la','el','los','las','y','del','e','da','dos',
+    'asociacion','ministerio','universidad','consejo','nacional','nacionales',
+    'biblioteca','bibliotecas','instituto','sociedad','programa','red','agencia',
+    'comision']);
+  const LIMITE = 45;
+  const ROMANOS = new Set(['i','ii','iii','iv','v','vi','vii','viii','ix','x','2','3','4']);
+  let t = limpia(o.titulo);
+  if (t.length > LIMITE) {
+    // el número de tomo distingue un volumen de otro: se conserva
+    const cola = t.split('-').slice(-2).filter(x => ROMANOS.has(x) ||
+      (/^\d{1,2}$/.test(x))).join('-');
+    t = t.slice(0, LIMITE).replace(/-[^-]*$/, '') || t.slice(0, LIMITE);
+    if (cola && !t.endsWith(cola)) t = `${t}-${cola}`;
+  }
+  const partes = limpia(o.autor).split('-').filter(p => p && !GENERICAS.has(p));
+  let a = partes.slice(-2).join('-');
+  if (t.length + a.length + 1 > LIMITE + 20) a = partes.slice(-1).join('-');
+  const nombre = (a ? `${t}-${a}` : t).replace(/^-|-$/g, '');
+  return `./obras-web/${nombre}`;
 }
+
 
 function normalizar(s){
   return String(s)

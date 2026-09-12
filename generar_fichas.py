@@ -113,6 +113,42 @@ def slug(texto):
     return t or "obra"
 
 
+def nombre_ficha(titulo, autor, limite=45):
+    """Nombre de archivo corto y legible para la ficha.
+
+    Con entidades largas salían cosas como
+    «biblioteca-digital-del-patrimonio-iberoamericano-asociacion-de-biblioteca»:
+    se recorta el título por palabras completas y del autor se toma solo lo
+    más distintivo, que suele ser el apellido o las primeras palabras.
+    """
+    t = slug(titulo)
+    if len(t) > limite:
+        # El número de tomo suele ir al final y es lo que distingue un volumen
+        # de otro: «...de la Nueva España, tomo I» y «tomo II» quedarían con el
+        # mismo nombre si se recortara sin más.
+        cola = t.rsplit("-", 2)[-2:]
+        sufijo = "-".join(x for x in cola
+                          if x in ("i", "ii", "iii", "iv", "v", "vi", "vii",
+                                   "viii", "ix", "x", "2", "3", "4")
+                          or (x.isdigit() and len(x) <= 2))
+        t = t[:limite].rsplit("-", 1)[0] or t[:limite]
+        if sufijo and not t.endswith(sufijo):
+            t = f"{t}-{sufijo}"
+    # De entidades largas —«Asociación de Bibliotecas Nacionales de
+    # Iberoamérica»— sobra casi todo: se quitan las palabras genéricas y se
+    # conserva lo que identifica. En personas eso deja nombre y apellido.
+    partes = [p for p in slug(autor).split("-") if p not in
+              ("de", "la", "el", "los", "las", "y", "del", "e", "da", "dos",
+               "asociacion", "ministerio", "universidad", "consejo", "nacional",
+               "nacionales", "biblioteca", "bibliotecas", "instituto",
+               "sociedad", "programa", "red", "agencia", "comision")]
+    a = "-".join(partes[-2:]) if partes else ""
+    # El nombre completo solo si el resultado sigue siendo manejable
+    if len(t) + len(a) + 1 > limite + 20:
+        a = partes[-1] if partes else ""
+    return f"{t}-{a}".strip("-") if a else t
+
+
 def e(t):
     return html.escape(str(t or ""), quote=True)
 
@@ -121,8 +157,8 @@ def ficha(r, fechas_autor):
     propia = R2 in r.get("url", "") or R2 in r.get("urls", "")
     enlaces = ([p.split("::")[-1].strip() for p in r["urls"].split("|")]
                if r.get("urls", "").strip() else [r["url"]])
-    nombre = slug(r["titulo"]) + "-" + slug(r["autor"])[:24]
-    url_ficha = f"{SITIO}/{SALIDA}/{nombre}"
+    nombre = nombre_ficha(r["titulo"], r["autor"])
+    url_ficha = f"{SITIO}/{SALIDA}/{nombre}.html"
 
     partes = [x for x in (r.get("genero"), r.get("pais"), r.get("anio")) if x]
     meta = " · ".join(partes)
@@ -210,7 +246,7 @@ if __name__ == "__main__":
             repetidos += 1
             nombre = f"{nombre}-{r['id']}"
             nombre, contenido = nombre, contenido.replace(
-                f"/{SALIDA}/{nombre}", f"/{SALIDA}/{nombre}-{r['id']}.html")
+                f"/{SALIDA}/{nombre}.html", f"/{SALIDA}/{nombre}-{r['id']}.html")
         nombres.add(nombre)
         if a.escribir:
             (destino / f"{nombre}.html").write_text(contenido, encoding="utf-8")
