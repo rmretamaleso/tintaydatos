@@ -44,6 +44,8 @@ def main():
     ap.add_argument("--catalogo", default="catalogo.csv")
     ap.add_argument("--autores", default="autores.csv")
     ap.add_argument("--duros", action="store_true")
+    ap.add_argument("--todos", action="store_true",
+                    help="incluye los avisos ya revisados")
     a = ap.parse_args()
 
     obras = list(csv.DictReader(open(a.catalogo, encoding="utf-8")))
@@ -55,12 +57,21 @@ def main():
             for al in (f.get("alias") or "").split("|"):
                 if al.strip():
                     autores[norm(al)] = f
+    # Avisos ya mirados: se omiten para que solo salten los nuevos. Sin esto,
+    # en unos meses la lista tendría veinte entradas y no se sabría cuáles ya
+    # se revisaron.
+    revisados = set()
+    if not a.todos and Path("revisados.csv").exists():
+        revisados = {r["id"] for r in
+                     csv.DictReader(open("revisados.csv", encoding="utf-8"))}
     hoy = datetime.date.today().year
     graves, avisos = [], []
 
     for r in obras:
         propia = R2 in r.get("url", "") or R2 in r.get("urls", "")
         aut = autores.get(norm(r["autor"]))
+        if r["id"] in revisados:
+            continue
         etq = f"[{r['id']:>4}] {r['titulo'][:34]:<36}"
 
         # 1. autor todavía protegido
@@ -89,9 +100,12 @@ def main():
         if propia and r.get("verificado","").strip().lower() not in ("true","1","si"):
             graves.append(f"{etq} tiene edición propia pero verificado="
                           f"«{r['verificado']}»")
-        # 5. dice ser edición propia y la fuente no lo refleja
-        if propia and "textos.info" not in r.get("fuente","").lower():
-            avisos.append(f"{etq} edición propia con fuente «{r['fuente'][:34]}»")
+        # 5. edición propia sin fuente declarada
+        #
+        # Antes se exigía que la fuente fuera textos.info, pero ya son tres:
+        # lo que importa es que la procedencia conste, no cuál sea.
+        if propia and not r.get("fuente","").strip():
+            avisos.append(f"{etq} edición propia sin fuente declarada")
 
     # 6. duplicados
     porobra = defaultdict(list)
