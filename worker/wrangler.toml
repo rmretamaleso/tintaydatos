@@ -1,0 +1,15 @@
+name = "tintaydatos-geobloqueo"
+main = "geobloqueo.js"
+compatibility_date = "2026-09-01"
+
+# Ruta: tiene precedencia sobre el dominio personalizado de R2 en el mismo
+# hostname, así que intercepta antes de que la petición llegue al bucket.
+routes = [
+  { pattern = "archivos.tintaydatos.com/*", zone_name = "tintaydatos.com" }
+]
+
+# Binding al bucket: se sirve el objeto directamente, sin fetch() al dominio
+# personalizado (eso provocaría un bucle).
+[[r2_buckets]]
+binding = "ARCHIVOS"
+bucket_name = "tinta-y-datos"
