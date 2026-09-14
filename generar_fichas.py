@@ -101,6 +101,9 @@ PLANTILLA = """<!DOCTYPE html>
   <p class="pie">Ficha del catálogo <a href="{sitio}/">Tinta y Datos</a>,
      un índice de literatura y ciencia latinoamericana y española
      en dominio público.</p>
+  <p class="pie"><a href="{sitio}/impressum.html">Impressum · Aviso legal</a> ·
+     <a href="{sitio}/datenschutz.html">Datenschutz · Privacidad</a> ·
+     <a href="mailto:contacto@tintaydatos.com">contacto@tintaydatos.com</a></p>
 </div>
 </body>
 </html>

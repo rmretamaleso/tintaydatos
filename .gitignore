@@ -41,3 +41,9 @@ venv/
 
 # Caché de descargas de Gutenberg
 .cache-gutenberg/
+
+# Copias de seguridad de los scripts
+*.bak
+
+# Salida regenerable del análisis de dominio público
+salida/
