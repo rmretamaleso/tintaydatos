@@ -81,7 +81,7 @@ def obras_de(doc, slug):
     return out
 
 
-INDICE = "autores_textosinfo.tsv"
+INDICE = "datos/autores_textosinfo.tsv"
 
 
 def indice(refrescar=False):

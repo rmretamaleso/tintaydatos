@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 fusionar_autores.py — lleva los años de muerte verificados de
-autores_dominio.csv al registro principal autores.csv.
+legal/autores_dominio.csv al registro principal autores.csv.
 
 No inventa ni sobrescribe a ciegas: solo toca las filas cuyo año fue
 verificado a mano, informa de cada discrepancia y deja intacto todo lo demás
@@ -16,7 +16,7 @@ import shutil
 import sys
 
 PRINCIPAL = "autores.csv"
-DOMINIO = "autores_dominio.csv"
+DOMINIO = "legal/autores_dominio.csv"
 
 
 def main():
