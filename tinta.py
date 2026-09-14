@@ -259,10 +259,13 @@ def procesar(ruta_cfg, a):
         return True
 
     op = cfg.get("opciones", {})
+    # Los PDF viven en pdf/, no en la raíz. publicar.py usa solo el nombre del
+    # archivo para armar la URL de R2, así que la ruta local no le afecta.
+    Path("pdf").mkdir(exist_ok=True)
     if cfg.get("volumenes") == "por_parte":
-        salidas = edicion.generar_por_parte(obra, f"{slug}-parte-{{n}}-tinta-y-datos.pdf", **op)
+        salidas = edicion.generar_por_parte(obra, f"pdf/{slug}-parte-{{n}}-tinta-y-datos.pdf", **op)
     else:
-        salidas = [edicion.generar(obra, f"{slug}-tinta-y-datos.pdf", **op)]
+        salidas = [edicion.generar(obra, f"pdf/{slug}-tinta-y-datos.pdf", **op)]
 
     if a.verificar or a.publicar:
         grupos = ([[p] for p in obra["partes"]] if cfg.get("volumenes") == "por_parte"

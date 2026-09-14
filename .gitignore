@@ -1,5 +1,6 @@
 # PDF generados: viven en Cloudflare R2, no en el repo
 *.pdf
+pdf/
 
 # Credenciales: NUNCA versionar
 data_account.txt
