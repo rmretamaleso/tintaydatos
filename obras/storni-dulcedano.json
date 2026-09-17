@@ -21,5 +21,15 @@
   },
   "opciones": {
     "salto_por_capitulo": true
+  },
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "El dulce daño",
+    "autor": "Alfonsina Storni",
+    "anio": "1918",
+    "pais": "Argentina",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
   }
 }

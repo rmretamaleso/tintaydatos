@@ -48,3 +48,6 @@ venv/
 
 # Salida regenerable del análisis de dominio público
 salida/
+
+# EPUB generados: viven en R2, no en el repo
+epub/

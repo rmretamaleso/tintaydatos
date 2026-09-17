@@ -20,5 +20,15 @@
   "opciones": {
     "etiqueta_capitulo": "RIMA",
     "salto_por_capitulo": false
+  },
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Rimas",
+    "autor": "Gustavo Adolfo Bécquer",
+    "anio": "1871",
+    "pais": "España",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
   }
 }

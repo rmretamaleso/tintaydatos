@@ -18,5 +18,15 @@
   },
   "opciones": {
     "salto_por_capitulo": true
+  },
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Soledades",
+    "autor": "Antonio Machado",
+    "anio": "1903",
+    "pais": "España",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
   }
 }

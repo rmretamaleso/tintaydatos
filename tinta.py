@@ -14,6 +14,7 @@ import argparse
 import contextlib
 import csv
 import datetime
+import generar_epub
 import json
 import os
 import re
@@ -276,11 +277,15 @@ def procesar(ruta_cfg, a):
             print("  Verificación fallida: no publico.", file=sys.stderr)
             return False
 
+    epub = generar_epub.generar(obra, f"epub/{slug}-tinta-y-datos.epub",
+                                dominio=cfg.get("catalogo_campos", {}).get("dominio"))
+
     if not a.publicar:
         return True
 
     if not publicar.subir(salidas, dry_run=a.dry_run):
         return False
+        
     if a.dry_run:
         print("  [dry-run] No toco el catálogo.")
         return True

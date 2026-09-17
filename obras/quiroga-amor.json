@@ -41,5 +41,15 @@
     "LA MIEL SILVESTRE": "La miel silvestre",
     "NUESTRO PRIMER CIGARRO": "Nuestro primer cigarro",
     "LA MENINGITIS Y SU SOMBRA": "La meningitis y su sombra"
+  },
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos de amor de locura y de muerte",
+    "autor": "Horacio Quiroga",
+    "anio": "1917",
+    "pais": "Uruguay",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
   }
 }

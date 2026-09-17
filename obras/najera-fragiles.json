@@ -19,5 +19,15 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
+  },
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos frágiles",
+    "autor": "Manuel Gutiérrez Nájera",
+    "anio": "1883",
+    "pais": "México",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
   }
 }

@@ -21,5 +21,15 @@
     "salto_por_capitulo": true,
     "hyphenation": "es",
     "etiqueta_capitulo": "CAPÍTULO"
+  },
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "La Regenta",
+    "autor": "Leopoldo Alas \"Clarín\"",
+    "anio": "1884",
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
   }
 }

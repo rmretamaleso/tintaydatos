@@ -24,5 +24,15 @@
     "salto_por_capitulo": true,
     "hyphenation": "es",
     "etiqueta_capitulo": "CAPÍTULO"
+  },
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Los pazos de Ulloa",
+    "autor": "Emilia Pardo Bazán",
+    "anio": "1886",
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
   }
 }

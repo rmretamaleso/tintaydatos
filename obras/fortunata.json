@@ -31,5 +31,15 @@
     "Parte 2",
     "Parte 3",
     "Parte 4"
-  ]
+  ],
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Fortunata y Jacinta",
+    "autor": "Benito Pérez Galdós",
+    "anio": "1887",
+    "pais": "España",
+    "genero": "Novela",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  }
 }

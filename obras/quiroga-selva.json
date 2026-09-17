@@ -30,5 +30,15 @@
     "Historia de dos cachorros de coatí y de dos cachorros de hombre",
     "El paso del Yabebirí",
     "La abeja haragana"
-  ]
+  ],
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Cuentos de la selva",
+    "autor": "Horacio Quiroga",
+    "anio": "1918",
+    "pais": "Uruguay",
+    "genero": "Cuento",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
+  }
 }

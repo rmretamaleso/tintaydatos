@@ -20,5 +20,15 @@
   },
   "opciones": {
     "salto_por_capitulo": true
+  },
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Poesía completa (selección en Wikisource)",
+    "autor": "Sor Juana Inés de la Cruz",
+    "anio": "1689",
+    "pais": "México",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
   }
 }

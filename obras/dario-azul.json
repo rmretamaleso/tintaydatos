@@ -23,5 +23,15 @@
   "opciones": {
     "salto_por_capitulo": true,
     "hyphenation": "es"
+  },
+  "catalogo_campos": {
+    "dominio": "Literatura",
+    "titulo": "Azul...",
+    "autor": "Rubén Darío",
+    "anio": "1888",
+    "pais": "Nicaragua",
+    "genero": "Poesía",
+    "tipo": "Dominio público",
+    "puede_alojarse": "si"
   }
 }
