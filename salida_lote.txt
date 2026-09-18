@@ -1,0 +1,16 @@
+Obras en obras/ : 698
+  con EPUB ya hecho: 695
+  pendientes       : 3
+[1/3] huidobro-articos.json
+    FALLA: ABORTADA: Esperaba 779 versos y encontré 867. Aborto para no generar una edición incompleta.
+[2/3] huidobro-canciones.json
+    FALLA: ABORTADA: capitulos: esperaba 27, encontré 28. Aborto para no generar una edición incompleta.
+[3/3] huidobro-gruta.json
+    FALLA: ABORTADA: capitulos: esperaba 27, encontré 28. Aborto para no generar una edición incompleta.
+
+Generados: 0    Fallidos: 3
+
+Fallaron (quedan pendientes, relanza el lote para reintentarlas):
+  huidobro-articos.json                ABORTADA: Esperaba 779 versos y encontré 867. Aborto para no generar una edición incompleta.
+  huidobro-canciones.json              ABORTADA: capitulos: esperaba 27, encontré 28. Aborto para no generar una edición incompleta.
+  huidobro-gruta.json                  ABORTADA: capitulos: esperaba 27, encontré 28. Aborto para no generar una edición incompleta.

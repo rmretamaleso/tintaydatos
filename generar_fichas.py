@@ -74,6 +74,9 @@ PLANTILLA = """<!DOCTYPE html>
               border-radius:4px; font-family:'IBM Plex Mono',monospace;
               font-size:13px; }}
   .descarga:hover{{ background:#573d70; }}
+  .descarga.secundaria{{ background:transparent; color:#6B4C8C;
+    border:1.5px solid #6B4C8C; margin-left:10px; }}
+  .descarga.secundaria:hover{{ background:#e2d7ec; color:#573d70; }}
   h2{{ font-size:13px; font-family:'IBM Plex Mono',monospace;
        text-transform:uppercase; letter-spacing:.06em;
        color:var(--tinta-clara); margin:26px 0 8px; font-weight:600; }}
@@ -181,6 +184,12 @@ def ficha(r, fechas_autor):
         botones = f'<a class="descarga" href="{e(enlaces[0])}">Descargar el PDF</a>'
     else:
         botones = f'<a class="descarga" href="{e(enlaces[0])}">Ver en la fuente</a>'
+
+    # El EPUB se ofrece aparte: es un solo archivo aunque el PDF vaya en varios
+    # volúmenes, y es el formato que funciona en móvil y con lector de pantalla.
+    if propia and (r.get("url_epub") or "").strip():
+        botones += (f'\n  <a class="descarga secundaria" href="{e(r["url_epub"])}">'
+                    f'Descargar el EPUB</a>')
 
     proc = ""
     if r.get("fuente"):

@@ -47,7 +47,7 @@ def _fila_nueva(campos, cid):
 
 
 def actualizar_catalogo(cfg, pdfs, ruta_csv="catalogo.csv", notas=None,
-                        piezas=None):
+                        piezas=None, epub=None):
     """Escribe url/urls/fuente/verificado/notas en la fila indicada por catalogo_id."""
     cid = cfg.get("catalogo_id")
     if cid is None:
@@ -73,6 +73,11 @@ def actualizar_catalogo(cfg, pdfs, ruta_csv="catalogo.csv", notas=None,
             f"Parte {i}" for i in range(1, len(enlaces) + 1)]
         destino["url"] = enlaces[0]
         destino["urls"] = "|".join(f"{e}::{u}" for e, u in zip(etiquetas, enlaces))
+
+    # El EPUB va en su propia columna: una obra en varios volúmenes tiene
+    # varios PDF pero un solo EPUB, así que no caben en el mismo campo.
+    if "url_epub" in campos:
+        destino["url_epub"] = f"{R2_BASE}/{Path(epub).name}" if epub else ""
 
     fuente = cfg.get("fuente", {}).get("texto", "")
     if " — " in fuente:                      # "sitio — detalle"  ->  "sitio (detalle)"

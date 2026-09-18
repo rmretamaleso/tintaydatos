@@ -413,12 +413,23 @@ def generar(obra, salida, **opciones):
                             topMargin=2.2 * cm, bottomMargin=2.2 * cm,
                             leftMargin=2.2 * cm, rightMargin=2 * cm,
                             title=obra["titulo"], author=obra["autor"])
+    # Accesibilidad: sin /Lang, un lector de pantalla pronuncia el castellano
+    # con las reglas del idioma del sistema. Y DisplayDocTitle hace que el
+    # visor anuncie el título de la obra en vez del nombre del archivo.
+    # ReportLab no puede etiquetar el PDF; esto es lo que sí permite.
+    # SimpleDocTemplate no expone el documento hasta que corre build, así que
+    # se marca desde el callback de la primera página, cuando el canvas existe.
+    def _marcar_accesibilidad(canvas, _doc):
+        from reportlab.pdfbase.pdfdoc import PDFDictionary, PDFName, PDFString
+        canvas._doc.Catalog.Lang = PDFString("es-ES")
+        canvas._doc.Catalog.ViewerPreferences = PDFDictionary(
+            {"DisplayDocTitle": PDFName("true")})
     story = _portada(obra, est, opciones.get("subtitulo"))
     story += _colofon(obra, est)
     if opciones.get("indice", True):
         story += _indice(piezas_con_titulo(obra["partes"]), est)
     story += _cuerpo(obra["partes"], obra, est, opciones)
-    doc.build(story)
+    doc.build(story, onFirstPage=_marcar_accesibilidad)
     print(f"Generado: {salida}")
     return salida
 

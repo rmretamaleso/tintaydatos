@@ -62,6 +62,28 @@ def _titulo(doc):
     return _texto(m.group(1)) if m else None
 
 
+def _nombre_legible(sub, obra=None):
+    """Título de respaldo a partir del nombre de la subpágina.
+
+    Algunas obras de Wikisource proceden de un EPUB importado y sus subpáginas
+    conservan el nombre del archivo original: «OPS/c19_Triangulo_Armonico.xhtml».
+    Sin limpiarlo, esa ruta acaba impresa como título del capítulo.
+    """
+    t = sub.split("/")[-1]
+    t = re.sub(r"\.(xhtml|html|xml)$", "", t, flags=re.I)
+    t = re.sub(r"^c\d+[_-]", "", t)          # prefijo de orden del exportador
+    t = t.replace("_", " ").strip(" _-")
+    t = re.sub(r"\s{2,}", " ", t)
+    # El exportador antepone el título de la obra al de cada capítulo:
+    # «Historia general de la medicina en Chile Capitulo I». Sin recortarlo,
+    # el índice repite el nombre del libro en cada entrada.
+    if obra:
+        base = re.sub(r"\s{2,}", " ", str(obra).replace("_", " ")).strip()
+        if t.lower().startswith(base.lower()) and len(t) > len(base):
+            t = t[len(base):].strip(" _-:.")
+    return t or sub.split("/")[-1]
+
+
 def _decorativo(estrofa):
     """¿Es una portadilla del facsímil compuesta letra por letra?
 
@@ -223,7 +245,7 @@ def arbol_por_subpaginas(pagina, lang="es"):
             versos += sum(len(e) for e in bloques)
         else:
             prosa += len(bloques)
-        titulo = _titulo(cuerpo) or sub.split("/")[-1]
+        titulo = _titulo(cuerpo) or _nombre_legible(sub, pagina)
         capitulos.append({"numero": titulo, "titulo": None,
                           "secciones": [{"numero": None, "bloques": bloques}]})
         print(f"  {i:>3}/{len(subs)}  {titulo[:48]:<50} {len(bloques)} bloque(s)",
@@ -270,7 +292,7 @@ def arbol(pagina, lang="es"):
             versos += sum(len(e) for e in bloques)
         else:
             prosa += len(bloques)
-        capitulos.append({"numero": _titulo(cuerpo) or n, "titulo": None,
+        capitulos.append({"numero": _titulo(cuerpo) or _nombre_legible(n, pagina), "titulo": None,
                           "secciones": [{"numero": None, "bloques": bloques}]})
     if sueltas:
         print(f"  se descartaron {sueltas} líneas de portadillas del facsímil "

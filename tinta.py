@@ -133,6 +133,8 @@ def _ap():
     ap.add_argument("--verificar", action="store_true")
     ap.add_argument("--publicar", action="store_true",
                     help="genera, verifica, sube a R2 y actualiza el catálogo")
+    ap.add_argument("--solo-epub", action="store_true",
+                    help="genera solo el EPUB, sin maquetar PDF ni publicar")
     ap.add_argument("--catalogo", default="catalogo.csv")
     ap.add_argument("--dry-run", action="store_true")
     return ap.parse_args()
@@ -256,6 +258,14 @@ def procesar(ruta_cfg, a):
     if a.txt:
         volcar_txt(obra, f"{slug}.txt")
 
+    # Para las obras que ya tienen PDF publicado: se aprovecha la descarga y
+    # el parseo, y se produce solo el EPUB. Así el lote no vuelve a maquetar
+    # 706 PDF ni arriesga diferencias de composición con los que ya están.
+    if a.solo_epub:
+        generar_epub.generar(obra, f"epub/{slug}-tinta-y-datos.epub",
+                             dominio=cfg.get("catalogo_campos", {}).get("dominio"))
+        return True
+
     if not (a.pdf or a.publicar):
         return True
 
@@ -283,7 +293,7 @@ def procesar(ruta_cfg, a):
     if not a.publicar:
         return True
 
-    if not publicar.subir(salidas, dry_run=a.dry_run):
+    if not publicar.subir(salidas + [epub], dry_run=a.dry_run):
         return False
         
     if a.dry_run:
@@ -297,7 +307,8 @@ def procesar(ruta_cfg, a):
         f"{contar(obra)} {unidad}.")
     publicar.actualizar_catalogo(cfg, salidas, a.catalogo, notas,
                                  edicion.piezas_independientes(
-                                     obra["partes"], cfg.get("piezas_independientes")))
+                                     obra["partes"], cfg.get("piezas_independientes")),
+                                 epub=epub)
     return True
 
 
