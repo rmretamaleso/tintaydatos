@@ -51,3 +51,7 @@ salida/
 
 # EPUB generados: viven en R2, no en el repo
 epub/
+
+# Registros de las tandas de generación y subida
+*.log
+salida_lote.txt
