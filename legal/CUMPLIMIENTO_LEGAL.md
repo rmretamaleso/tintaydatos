@@ -7,7 +7,16 @@ El DPA de Cloudflare forma parte automáticamente del acuerdo de suscripción,
 incluido el plan gratuito. No requiere aceptación separada en el panel.
 
 - Documento: https://www.cloudflare.com/cloudflare-customer-dpa/
-- Versión vigente al 14/09/2026: [ANOTAR la versión que aparezca en la página]
+- Versión vigente: **6.4, en vigor desde el 3 de abril de 2026**
+  (comprobado el 18/09/2026; la anterior era de 20/06/2025)
+- El DPA sustituye cualquier término anterior desde la fecha en que se aceptó,
+  por eso se registra la versión y no solo el enlace
+- Responsable de protección de datos de Cloudflare: Emily Hancock,
+  legal@cloudflare.com
+- Transferencias a EE. UU.: Data Privacy Framework y, en su defecto, cláusulas
+  contractuales tipo de la UE. Cloudflare está certificada en los sistemas
+  Global CBPR y Global PRP
+- Lista de subencargados: https://www.cloudflare.com/gdpr/subprocessors/
 - Transferencias a EE. UU.: EU-US Data Privacy Framework y cláusulas
   contractuales tipo (SCC)
 - Lista pública de subencargados mantenida por Cloudflare
