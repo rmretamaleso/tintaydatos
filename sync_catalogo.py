@@ -20,6 +20,9 @@ from pathlib import Path
 CLAVES = ["id", "titulo", "autor", "anio", "pais", "genero", "tema", "tipo", "fuente",
           "url", "urls", "url_epub", "licencia", "licencia_url", "verificado", "notas", "piezas", "nota_editorial",
           "dominio", "puede_alojarse"]
+# Nunca se exporta: es el campo de anotaciones de trabajo.
+NO_PUBLICAR = {"notas_internas"}
+
 OPCIONALES = {"urls", "url_epub", "licencia", "licencia_url", "nota_editorial", "piezas"}   # se omiten del objeto si vienen vacías
 BOOLEANAS = {"verificado"}
 NUMERICAS = {"id", "anio"}
