@@ -18,9 +18,9 @@ from pathlib import Path
 # Claves del objeto JS, en orden. Todo lo que el sitio necesita leer
 # tiene que estar aquí: lo que falte sale como «undefined».
 CLAVES = ["id", "titulo", "autor", "anio", "pais", "genero", "tema", "tipo", "fuente",
-          "url", "urls", "url_epub", "verificado", "notas", "piezas", "nota_editorial",
+          "url", "urls", "url_epub", "licencia", "licencia_url", "verificado", "notas", "piezas", "nota_editorial",
           "dominio", "puede_alojarse"]
-OPCIONALES = {"urls", "url_epub", "nota_editorial", "piezas"}   # se omiten del objeto si vienen vacías
+OPCIONALES = {"urls", "url_epub", "licencia", "licencia_url", "nota_editorial", "piezas"}   # se omiten del objeto si vienen vacías
 BOOLEANAS = {"verificado"}
 NUMERICAS = {"id", "anio"}
 

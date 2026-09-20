@@ -191,12 +191,24 @@ def ficha(r, fechas_autor):
         botones += (f'\n  <a class="descarga secundaria" href="{e(r["url_epub"])}">'
                     f'Descargar el EPUB</a>')
 
+    # Atribución de las obras con licencia. Creative Commons exige cuatro
+    # elementos: título, autoría, fuente y licencia enlazada. Los tres primeros
+    # ya salen arriba en la ficha; este bloque aporta el cuarto.
+    licencia = ""
+    if (r.get("licencia") or "").strip():
+        enlace = (f'<a href="{e(r["licencia_url"])}" rel="license">'
+                  f'{e(r["licencia"])}</a>') if (r.get("licencia_url") or "").strip() \
+                 else e(r["licencia"])
+        licencia = (f'<p class="fuente">Obra publicada bajo licencia {enlace}. '
+                    f'Tinta y Datos la enlaza sin modificarla.</p>')
+
     proc = ""
     if r.get("fuente"):
         proc = (f'<h2>Procedencia</h2><p class="fuente">Texto cotejado contra '
                 f'{e(r["fuente"])}.</p>')
     if r.get("notas", "").strip():
         proc += f'<p class="fuente">{e(r["notas"])}</p>'
+    proc += licencia
 
     nota_ed = ""
     if r.get("nota_editorial", "").strip():
