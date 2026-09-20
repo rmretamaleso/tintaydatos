@@ -202,16 +202,25 @@ def procesar(ruta_cfg, a):
         # a partir de las páginas transcritas contra el facsímil.
         pagina = cfg["wikisource"]
         est = W.estado_revision(pagina)
-        print(f"Wikisource: «{pagina}»  ->  {est or 'estado desconocido'}")
-        if est in ("sin corregir", "sin marca", None):
-            print("  ATENCIÓN: la transcripción no consta como cotejada contra el "
-                  "facsímil. Puede ser OCR sin revisar.")
-        cfg.setdefault("fuente", {})["nota"] = (
-            (cfg.get("fuente", {}).get("nota", "").rstrip() + " ").lstrip()
-            + f"Wikisource marca esta transcripción como «{est}» dentro de su "
-              f"escala de revisión: corregido significa cotejado contra el "
-              f"facsímil por una persona; validado, verificado además por una "
-              f"segunda.").strip()
+        # None no significa «sin cotejar», significa que la consulta falló.
+        # Colapsar ambos casos produce falsos avisos de OCR sin revisar y, peor,
+        # deja la nota de procedencia diciendo «marca esta transcripción como
+        # None», que acaba impresa en el colofón y en la ficha.
+        if est is None:
+            print(f"Wikisource: «{pagina}»  ->  no pude comprobar el estado")
+            print("  AVISO: fallo al consultar la escala de revisión. El texto "
+                  "puede estar perfectamente cotejado; vuelve a intentarlo.")
+        else:
+            print(f"Wikisource: «{pagina}»  ->  {est}")
+            if est in ("sin corregir", "sin marca"):
+                print("  ATENCIÓN: la transcripción no consta como cotejada contra "
+                      "el facsímil. Puede ser OCR sin revisar.")
+            cfg.setdefault("fuente", {})["nota"] = (
+                (cfg.get("fuente", {}).get("nota", "").rstrip() + " ").lstrip()
+                + f"Wikisource marca esta transcripción como «{est}» dentro de su "
+                  f"escala de revisión: corregido significa cotejado contra el "
+                  f"facsímil por una persona; validado, verificado además por una "
+                  f"segunda.").strip()
         partes, tipo = W.arbol(pagina)
         cfg.setdefault("tipo", tipo)
         totales = {"partes": 0, "capitulos": len(partes[0]["capitulos"]),
