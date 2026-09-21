@@ -25,7 +25,7 @@ def credenciales_listas():
             if not os.environ.get(n)]
 
 
-def subir(pdfs, script="subir_a_r2.py", prefix="ediciones/", dry_run=False):
+def subir(pdfs, script="R2_upload/subir_a_r2.py", prefix="ediciones/", dry_run=False):
     """Sube los PDF a R2. Devuelve True si todos salieron bien."""
     ok = True
     for pdf in pdfs:
