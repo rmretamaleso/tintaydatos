@@ -68,7 +68,7 @@ def main():
         json.dump(salida, f, ensure_ascii=False, indent=0, sort_keys=True)
 
     tam = len(json.dumps(salida))
-    print(f"manifiesto_bloqueo.json: {len(manifiesto)} rutas con restricción, "
+    print(f"worker/manifiesto_bloqueo.json: {len(manifiesto)} rutas con restricción, "
           f"{libres} sin restricción ({tam/1024:.1f} KB)")
     if sin_decidir:
         print(f"  {len(sin_decidir)} fichas sin datos suficientes: bloqueadas por precaución "
