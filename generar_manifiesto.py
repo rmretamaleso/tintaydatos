@@ -64,7 +64,7 @@ def main():
         "generado": date.today().isoformat(),
         "bloqueos": manifiesto,
     }
-    with open("manifiesto_bloqueo.json", "w", encoding="utf-8") as f:
+    with open("worker/manifiesto_bloqueo.json", "w", encoding="utf-8") as f:
         json.dump(salida, f, ensure_ascii=False, indent=0, sort_keys=True)
 
     tam = len(json.dumps(salida))

@@ -7,7 +7,7 @@ protegida en México. Este script calcula el estado por país, marca lo que no s
 puede decidir con los datos disponibles y genera las reglas de geobloqueo.
 
 Uso:
-    python3 dominio_publico.py catalogo.csv --init-autores   # crea autores_dominio.csv
+    python3 dominio_publico.py catalogo.csv --init-autores   # crea legal/autores_dominio.csv
     python3 dominio_publico.py catalogo.csv                  # calcula
 
 ADVERTENCIA: los plazos de la tabla PAISES son un punto de partida documentado,
@@ -31,6 +31,29 @@ ANIO_ACTUAL = date.today().year
 #   transitoria_80   : España — 80 años p.m.a. para autores fallecidos antes
 #                      del 7/12/1987 (disp. trans. 4ª LPI)
 # --------------------------------------------------------------------------
+# Por qué esta tabla no cubre el mundo entero
+# ------------------------------------------------------------------
+# Lo que no está aquí no se evalúa, no entra en el manifiesto y el Worker lo
+# sirve. Eso descansa en el art. 7.8 del Convenio de Berna: salvo que la
+# legislación nacional disponga otra cosa, la protección en el país donde se
+# reclama no excede del plazo del país de origen. Como todas las obras del
+# catálogo están en dominio público en su país de origen, en cualquier país
+# que aplique ese cotejo también lo están, y no hay derecho que infringir.
+#
+# Solo necesitan evaluación los países que rompen esa regla:
+#   - los que renuncian expresamente al cotejo  -> México (corto=False)
+#   - los que usan otro sistema de cómputo      -> EE. UU. y Puerto Rico,
+#     que cuentan desde la publicación y restauraron derechos extranjeros
+#     mediante la URAA (plazo=None)
+#
+# Añadir aquí un país con corto=True no cambia ningún veredicto: min(local,
+# origen) acaba siendo el plazo de origen, que es el que ya hace libre la
+# obra. Por eso la tabla crece solo con países de origen del catálogo y con
+# cualquier jurisdicción de la que se descubra que no aplica el cotejo.
+#
+# Revisados y descartados por aplicar el cotejo: Costa de Marfil (99 años) y
+# Jamaica (95). Pendiente de confirmar: Guatemala y Guinea Ecuatorial.
+
 PAISES = {
     # confianza: alta = norma verificada; media = recordada, contrastar;
     #            baja  = valor de partida, verificar SÍ o SÍ antes de publicar.
@@ -76,6 +99,13 @@ PAISES = {
            "confianza": "alta",  "fuente": "verificado con la calculadora del Cerlalc (2026)"},
     "FR": {"nombre": "Francia",       "plazo": 70,  "corto": True,  "trans80": False,
            "confianza": "alta",  "fuente": "verificado con la calculadora del Cerlalc (2026)"},
+
+    # corto=True no es una comodidad: el art. 7.8 de Berna establece el cotejo
+    # de plazos como regla por defecto y solo decae si la legislación nacional
+    # dispone otra cosa. Sin constancia de que Guatemala se haya apartado, se
+    # aplica. PENDIENTE de pasar por la calculadora del Cerlalc.
+    "GT": {"nombre": "Guatemala",     "plazo": 75,  "corto": True,  "trans80": False,
+           "confianza": "media", "fuente": "Decreto 33-98, Ley de Derecho de Autor y Derechos Conexos, art. 43: 75 años post mortem. Falta confirmar con la calculadora del Cerlalc y comprobar si aplica el cotejo de plazos"},
 }
 
 # Espacio Económico Europeo: entre miembros rige el trato nacional (art. 163.1
@@ -88,6 +118,7 @@ PAIS_A_ISO = {
     "Uruguay": "UY", "Cuba": "CU", "Alemania": "DE", "Estados Unidos": "US",
     "Nicaragua": "NI", "Puerto Rico": "US", "Bolivia": "BO", "Costa Rica": "CR",
     "Guatemala": "GT", "Paraguay": "PY", "Reino Unido": "GB", "Francia": "FR",
+    "El Salvador": "SV",
 }
 
 # Años de muerte precargados. Verificar uno por uno: son de memoria, no de fuente.
@@ -161,7 +192,14 @@ def estado_en_pais(iso, anio_muerte, nac_autor, anio_pub):
     if p["corto"] and nac_autor and nac_autor != iso and not (iso in EEE and nac_autor in EEE):
         origen = PAISES.get(nac_autor)
         if origen and origen["plazo"]:
-            plazo = min(plazo, origen["plazo"])
+            # El plazo del país de origen también puede estar ampliado por una
+            # transitoria. Un autor español fallecido antes de 1988 tiene 80
+            # años en España: leer 70 daría min(80,70)=70 en Colombia, que
+            # tiene 80 y aplica el cotejo, y la dejaría libre diez años antes.
+            plazo_origen = origen["plazo"]
+            if origen["trans80"] and anio_muerte < 1988:
+                plazo_origen = 80
+            plazo = min(plazo, plazo_origen)
 
     hasta = libre_hasta(anio_muerte, plazo)
     return ("LIBRE" if ANIO_ACTUAL > hasta else "PROTEGIDO"), hasta
@@ -293,7 +331,7 @@ def calibrar(ruta):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("catalogo")
-    ap.add_argument("--autores", default="autores_dominio.csv")
+    ap.add_argument("--autores", default="legal/autores_dominio.csv")
     ap.add_argument("--out", default="salida")
     ap.add_argument("--establecimiento", default="DE",
                     help="país desde el que se produce y sube la edición (donde ocurre la "
