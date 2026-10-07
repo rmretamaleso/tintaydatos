@@ -105,7 +105,7 @@ PAISES = {
     # dispone otra cosa. Sin constancia de que Guatemala se haya apartado, se
     # aplica. PENDIENTE de pasar por la calculadora del Cerlalc.
     "GT": {"nombre": "Guatemala",     "plazo": 75,  "corto": True,  "trans80": False,
-           "confianza": "media", "fuente": "Decreto 33-98, Ley de Derecho de Autor y Derechos Conexos, art. 43: 75 años post mortem. Falta confirmar con la calculadora del Cerlalc y comprobar si aplica el cotejo de plazos"},
+           "confianza": "alta",  "fuente": "Decreto 33-98, Ley de Derecho de Autor y Derechos Conexos, art. 43: 75 años post mortem, verificado con la calculadora del Cerlalc (2026). Aplica el cotejo de plazos: con origen Alemania la calculadora recorta de 75 a 70"},
 }
 
 # Espacio Económico Europeo: entre miembros rige el trato nacional (art. 163.1
